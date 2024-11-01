@@ -1,29 +1,29 @@
-# 🧩 Integrações
+# 🧩 Integraciones
 
 {% hint style="danger" %}
-<mark style="color:red;">A URL da API ArqSIGN será alterada!</mark>
+<mark style="color:red;">¡La URL de la API ArqSIGN será cambiada!</mark>
 
-<mark style="color:red;">A URL</mark> [<mark style="color:red;">**https://api.arqsign.com/**</mark>](https://api.arqsign.com/) <mark style="color:red;">**estará disponível somente até 31/10/2024**</mark><mark style="color:red;">. Desta forma é importante todos que usam a API ArqSign alterarem as chamadas para a nova rota:</mark>  [<mark style="color:red;">**https://api-rest.arqsign.com/**</mark>](https://api-rest.arqsign.com/)&#x20;
+<mark style="color:red;">La URL</mark> [<mark style="color:blue;">https://api.arqsign.com/</mark>](https://api.arqsign.com/) <mark style="color:red;">estará disponible solo hasta el 31/10/2024. Por lo tanto, es importante que todos los que utilizan la API ArqSign cambien las llamadas a la nueva ruta:</mark> [<mark style="color:blue;">https://api-rest.arqsign.com/</mark>](https://api-rest.arqsign.com/)
 
-<mark style="color:red;">**A documentação oficial da API do ArqSIGN agora está na URL:**</mark> [<mark style="color:red;">**https://developers.arqsign.com/**</mark>](https://developers.arqsign.com/)&#x20;
+<mark style="color:red;">La documentación oficial de la API de ArqSIGN ahora está en la URL:</mark> [<mark style="color:blue;">https://developers.arqsign.com/</mark>](https://developers.arqsign.com/)
 
-<mark style="color:red;">Na nova rota será necessário além da chave AppKey, enviar também a SubscriptionKey. A SubscriptionKey</mark> [<mark style="color:red;">**poderá ser gerada pelo usuário na aplicação ArqSIGN.**</mark>](https://arquivar.gitbook.io/manual-arqsign/administracao/integracoes/api#subscriptionkey)
+<mark style="color:red;">En la nueva ruta, será necesario, además de la clave AppKey, enviar también la SubscriptionKey. La SubscriptionKey podrá ser generada por el usuario en la aplicación ArqSIGN.</mark>
 {% endhint %}
 
-A ArqSign conta com sua própria API de Integração. Isso quer dizer que clientes e parceiros podem integrar as funcionalidades da Plataforma ArqSign à suas soluções. A API de Integração permite a comunicação com outros aplicativos/softwares de forma automática, ou seja, sem o conhecimento ou intervenção do usuário final.
+ArqSign cuenta con su propia API de Integración. Esto significa que clientes y socios pueden integrar las funcionalidades de la Plataforma ArqSign a sus soluciones. La API de Integración permite la comunicación con otros aplicativos/softwares de forma automática, es decir, sin el conocimiento o intervención del usuario final.
 
-## Introdução à documentação
+## IIntroducción a la documentación
 
-A [ArqSign](https://arquivar.com.br/arqsign/) é a Plataforma de assinatura eletrônica e digital da [Arquivar](https://www.arquivar.com.br/). As assinaturas produzidas através da Plataforma ArqSign sejam elas eletrônicas ou digitais atendem 100% dos requisitos legais.&#x20;
+[<mark style="color:blue;">ArqSign</mark>](https://arquivar.com.br/arqsign/) es la Plataforma de firma electrónica y digital de [<mark style="color:blue;">Arquivar</mark>](https://www.arquivar.com.br/). Las firmas producidas a través de la Plataforma ArqSign, sean electrónicas o digitales, cumplen 100% con los requisitos legales.
 
-A documentação da API de integração está dividida em:&#x20;
+La documentación de la API de integración está dividida en:
 
 1. [API](api.md)
-2. [Requisitos para uso da API ](requisitos-para-uso-da-api.md)
-3. [Limites de Requisições da API ](limites-de-requisicoes-da-api.md)
-4. [Métodos disponíveis da API](metodos-disponiveis-na-api/)&#x20;
-5. [Fluxo ideal considerando alguns métodos disponíveis ](fluxo-ideal-considerando-alguns-metodos-disponiveis.md)
-6. [URL da API ArqSign ](url-da-api-arqsign.md)
-7. [Exemplos de Requisitos de Métodos](biblioteca-para-testes-postman.md)
-8. [Histórico de alterações da API](historico-de-alteracoes-da-api.md)
+2. [Requisitos para uso de la API ](requisitos-para-uso-da-api.md)
+3. [Límites de Solicitudes de la API ](limites-de-requisicoes-da-api.md)
+4. [Métodos disponibles de la API](metodos-disponiveis-na-api/)&#x20;
+5. [Flujo ideal considerando algunos métodos disponbles ](fluxo-ideal-considerando-alguns-metodos-disponiveis.md)
+6. [URL de la API ArqSign ](url-da-api-arqsign.md)
+7. [Ejemplos de Requisitos de Métodos](biblioteca-para-testes-postman.md)
+8. [Histórial de cambios de la API](historico-de-alteracoes-da-api.md)
 

@@ -42,7 +42,7 @@
   * [🟪 Cuenta](administracao/administracao/conta.md)
   * [🟪 Usuarios](administracao/administracao/usuarios.md)
   * [🟪 Grupo de Usuarios](administracao/administracao/grupo-de-usuarios.md)
-* [🧩 Integrações](administracao/integracoes/README.md)
+* [🧩 Integraciones](administracao/integracoes/README.md)
   * [🟪 API](administracao/integracoes/api.md)
   * [🔳 Requisitos para uso da API](administracao/integracoes/requisitos-para-uso-da-api.md)
   * [🔳 Limites de Requisições da API](administracao/integracoes/limites-de-requisicoes-da-api.md)
