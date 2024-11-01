@@ -19,7 +19,7 @@ ArqSign cuenta con su propia API de Integración. Esto significa que clientes y 
 La documentación de la API de integración está dividida en:
 
 1. [API](api.md)
-2. [Requisitos para uso de la API ](requisitos-para-uso-da-api.md)
+2. [Requisitos para uso de la API ](requisitos-para-el-uso-de-la-api.md)
 3. [Límites de Solicitudes de la API ](limites-de-requisicoes-da-api.md)
 4. [Métodos disponibles de la API](metodos-disponiveis-na-api/)&#x20;
 5. [Flujo ideal considerando algunos métodos disponbles ](fluxo-ideal-considerando-alguns-metodos-disponiveis.md)
