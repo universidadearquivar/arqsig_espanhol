@@ -45,7 +45,7 @@
 * [🧩 Integraciones](administracao/integracoes/README.md)
   * [🟪 API](administracao/integracoes/api.md)
   * [🔳 Requisitos para el uso de la API](administracao/integracoes/requisitos-para-el-uso-de-la-api.md)
-  * [🔳 Limites de Requisições da API](administracao/integracoes/limites-de-requisicoes-da-api.md)
+  * [🔳 Límites de Solicitudes de la API](administracao/integracoes/limites-de-solicitudes-de-la-api.md)
   * [🔳 Métodos disponíveis na API](administracao/integracoes/metodos-disponiveis-na-api/README.md)
     * [✔️ POST/api/v2/processo/enviar-documento-para-assinar](administracao/integracoes/metodos-disponiveis-na-api/post-api-v2-processo-enviar-documento-para-assinar.md)
     * [✔️ GET/api/v2/processo/{idProcesso}](administracao/integracoes/metodos-disponiveis-na-api/get-api-v2-processo-idprocesso.md)
