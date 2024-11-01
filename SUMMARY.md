@@ -41,7 +41,7 @@
 * [⚙️ Administración](administracao/administracao/README.md)
   * [🟪 Cuenta](administracao/administracao/conta.md)
   * [🟪 Usuarios](administracao/administracao/usuarios.md)
-  * [🟪 Grupo de Usuários](administracao/administracao/grupo-de-usuarios.md)
+  * [🟪 Grupo de Usuarios](administracao/administracao/grupo-de-usuarios.md)
 * [🧩 Integrações](administracao/integracoes/README.md)
   * [🟪 API](administracao/integracoes/api.md)
   * [🔳 Requisitos para uso da API](administracao/integracoes/requisitos-para-uso-da-api.md)

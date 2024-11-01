@@ -1,35 +1,33 @@
-# 🟪 Grupo de Usuários
+# 🟪 Grupo de Usuarios
 
-A função do "Grupo de Usuários" é reunir os usuários que fazem parte de uma conta para facilitar a definição de quem pode acessar quais pastas e subpastas no menu [Diretórios > Documentos](broken-reference). As permissões de acesso para esses diretórios são definidas para grupos, e cada pessoa na conta é adicionada a um pelos administradores globais.
+La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de una cuenta para facilitar la definición de quién puede acceder a qué carpetas y subcarpetas en el menú [<mark style="color:blue;">Directorios > Documentos</mark>](../../diretorios/documentos/). Los permisos de acceso para estos directorios se definen para grupos, y cada persona en la cuenta es agregada a uno por los administradores.
 
-&#x20;Na tela principal de Grupo de Usuários é apresentado o nome do grupo e a data e hora de criação do grupo.
+En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y la fecha y hora de creación del grupo.
 
-<figure><img src="../../.gitbook/assets/usuarios15.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
-Para criar um grupo, clique no ícone “Novo”.
+Para crear un grupo, haga clic en el ícono “Nuevo”.
 
-<figure><img src="../../.gitbook/assets/usuarios16.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 
-Informe o nome do grupo. À esquerda serão exibidos todos os usuários que não fazem parte do grupo. É possível pesquisar um usuário utilizando a barra de pesquisa. Para adicionar um ou mais membros ao grupo, selecione os usuários desejados e clique no ícone “Adicionar” ou “Adicionar Todos”.
+Ingrese el nombre del grupo. A la izquierda se mostrarán todos los usuarios que no forman parte del grupo. Es posible buscar un usuario utilizando la barra de búsqueda. Para agregar uno o más miembros al grupo, seleccione los usuarios deseados y haga clic en el ícono “Agregar” o “Agregar Todos”.
 
-<figure><img src="../../.gitbook/assets/usuarios17.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-<mark style="color:orange;">**Serão listados apenas usuários com status “Ativo” e que não sejam administradores globais (já que com esse perfil o usuário não precisa estar incluído em um grupo para acessar as pastas do diretório).**</mark>
+<mark style="color:orange;">**Solo se listarán usuarios con estado “Activo” y que no sean administradores (ya que, con este perfil, el usuario no necesita estar incluido en un grupo para acceder a las carpetas del directorio).**</mark>
 {% endhint %}
 
-Os membros que fazem parte do grupo ou que foram inseridos serão exibidos no campo à direita. Para remover um membro do grupo, selecione seu nome e clique no ícone “Remover”. Para concluir a criação do grupo, clique em “Salvar”.
+Los miembros que forman parte del grupo o que han sido agregados se mostrarán en el campo a la derecha. Para eliminar un miembro del grupo, seleccione su nombre y haga clic en el ícono “Eliminar”. Para concluir la creación del grupo, haga clic en “Guardar”.
 
-<figure><img src="../../.gitbook/assets/usuarios18.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
-Para visualizar detalhes do grupo, clique sobre seu nome. Os membros do grupo serão exibidos no campo à direita “Usuários do grupo”. Para editar os membros ou o nome do grupo clique em “Editar”.
+Para visualizar los detalles del grupo, haga clic sobre su nombre. Los miembros del grupo se mostrarán en el campo a la derecha, “Usuarios del grupo”. Para editar los miembros o el nombre del grupo, haga clic en “Editar”.
 
-<figure><img src="../../.gitbook/assets/usuarios19.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
-Para excluir um ou mais grupos, selecione o grupo desejado e clique no ícone “Excluir”.
+Para eliminar uno o más grupos, seleccione el grupo deseado y haga clic en el ícono “Eliminar”.
 
-<figure><img src="../../.gitbook/assets/usuarios20.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
 
-É possível realizar a busca pelo nome do grupo utilizando-se a barra de pesquisa superior da tela.  &#x20;
-
-<figure><img src="../../.gitbook/assets/usuarios21.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+Es posible realizar la búsqueda por el nombre del grupo utilizando la barra de búsqueda superior de la pantalla. ![](<../../.gitbook/assets/image (7).png>)
