@@ -22,7 +22,7 @@ Para mais detalhes [**clique aqui.**](url-da-api-arqsign.md#nova-rota-https-api-
 
 Criada a versão dois (V2) do método:
 
-* [**PATCH api/v2/processo/reenviar-processo/{idProcesso}**](metodos-disponibles-en-la-api/patch-api-v2-processo-idprocesso-reenviar-processo.md)
+* [**PATCH api/v2/processo/reenviar-processo/{idProcesso}**](metodos-disponiveis-na-api/patch-api-v2-processo-idprocesso-reenviar-processo.md)
 
 Esta versão foi totalmente reestruturada permitindo que além do reenvio simples e direto de um processo, seja possível também editar dados como o tipo de envio e-mail ou WhatsApp se a conta ou tipo de assinatura assim permitir, alterar a forma de envio do código de segurança, nome do signatário, dados de assinaturas obrigatórios ou usados para validação ou preenchimento automático.
 
