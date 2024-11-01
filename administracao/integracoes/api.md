@@ -1,75 +1,75 @@
 # 🟪 API
 
-No menu API o cliente tem acesso as chaves necessárias para o gerenciamento e controle das requisições realizadas via API de integração.
+En el menú API, el cliente tiene acceso a las claves necesarias para la gestión y control de las solicitudes realizadas a través de la API de integración.
 
-<figure><img src="../../.gitbook/assets/image (430).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure>
 
 ### **AppKey**
 
-Para realizar a integração da plataforma a outras ferramentas via API é necessária uma Chave de Acesso,  que o usuário pode obter clicando em “Gerar Chave”. A chave gerada será apresentada no campo “API AppKey”.
+Para realizar la integración de la plataforma con otras herramientas a través de la API, se necesita una Clave de Acceso, que el usuario puede obtener haciendo clic en “Generar Clave”. La clave generada se mostrará en el campo “API AppKey”.
 
 {% hint style="danger" %}
-<mark style="color:red;">**Sempre que gerada uma nova chave de acesso, todas as integrações feitas utilizando a chave anterior serão desconfiguradas. Sugerimos cautela ao criar novas chaves de acesso.**</mark>
+<mark style="color:red;">**Siempre que se genere una nueva clave de acceso, todas las integraciones realizadas utilizando la clave anterior se desconfigurarán. Sugerimos tener precaución al crear nuevas claves de acceso.**</mark>
 {% endhint %}
 
 ### **SubscriptionKey**
 
-Trata-se de chaves de acesso, criadas para trazer mais segurança na troca de informações entre plataformas externas e a ArqSign. &#x20;
+Se trata de claves de acceso creadas para aportar más seguridad en el intercambio de información entre plataformas externas y ArqSign.
 
-**Chave 1:** Quando o cliente ainda não possui chave gerada o campo é apresentado em branco, quando o cliente já tem chave gerada é apresentada a chave 1 que foi gerada automaticamente pelo sistema.
+**Clave 1**: Cuando el cliente aún no tiene clave generada, el campo se presenta en blanco. Cuando el cliente ya tiene una clave generada, se mostrará la clave 1 que fue generada automáticamente por el sistema.
 
-**Chave 2:** Quando o cliente ainda não possui chave gerada o campo é apresentado em branco, quando o cliente já tem chave gerada é apresentada a chave 2 que foi gerada automaticamente pelo sistema.
+**Clave 2**: Igual que la clave 1, si no hay clave generada, el campo aparecerá en blanco. Si ya existe, se mostrará la clave 2 generada automáticamente.
 
-Por **padrão** o sistema vai gerar sempre um **"par"** de **chaves**, então o cliente poderá utilizar **uma ou outra** ou **poderão ser usadas de forma rotacionada**, ou seja, a cada chamada o usuário poderá usar uma, ou ainda em casos em que a integração ocorre com terceiros, **o cliente utiliza uma e o terceiro a outra**.
+Por defecto, el sistema generará siempre un "par" de claves, por lo que el cliente podrá utilizar una u otra, o usarlas de forma rotativa, es decir, en cada llamada, el usuario podrá usar una, o en casos donde la integración ocurre con terceros, el cliente utiliza una y el tercero usa la otra.Por **padrão** o sistema vai gerar sempre um **"par"** de **chaves**, então o cliente poderá utilizar **uma ou outra** ou **poderão ser usadas de forma rotacionada**, ou seja, a cada chamada o usuário poderá usar uma, ou ainda em casos em que a integração ocorre com terceiros, **o cliente utiliza uma e o terceiro a outra**.
 
-Uma vez que a chave é gerada, ela deve ser incluída no HEADER das requisições para que estas sejam autorizadas.
+Una vez que la clave es generada, debe incluirse en el HEADER de las solicitudes para que estas sean autorizadas.
 
-Ao clicar em "Gerar Par de Chaves", é exibida uma mensagem na tela de validação da ação.
+Al hacer clic en "Generar Par de Claves", se muestra un mensaje en la pantalla de validación de la acción.
 
-<figure><img src="../../.gitbook/assets/image (431).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
-<mark style="color:red;">Se após regerar as chaves, o usuário não atualizá-las nos parâmetros de pesquisa da integração já existente, as chamadas na API da ArqSign deixarão de funcionar</mark>
+<mark style="color:red;">Si después de regenerar las claves, el usuario no las actualiza en los parámetros de búsqueda de la integración ya existente, las llamadas a la API de ArqSign dejarán de funcionar.</mark>
 {% endhint %}
 
-Para **regerar o par de chaves**, utilize o botão **"Gerar Par de Chaves".** Para **regerar apenas uma das chaves, utilize o** ícone de **"Regerar Chave"** considerando a chave 1 ou a 2.
+Para **regenerar el par de claves, utilice** el botón "**Generar Par de Claves**". Para **regenerar solo una de las claves, utilice** el ícono de "**Regenerar Clave**" considerando la clave 1 o la 2.
 
-<figure><img src="../../.gitbook/assets/image (432).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (754).png" alt=""><figcaption></figcaption></figure>
 
-### Como passar a AppKey e a SubscriptionKey
+### Cómo pasar la AppKey y la SubscriptionKey
 
-Considerando a rota: [https://api-rest.arqsign.com/](https://api-rest.arqsign.com), é necessário enviar no “Headers” além da “AppKey” a “SubscriptionKey” conforme figura abaixo:
+Considerando la ruta: [https://api-rest.arqsign.com/](https://api-rest.arqsign.com/), es necesario enviar en los “Headers”, además de la “AppKey”, la “SubscriptionKey”.
 
 <figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ***
 
-### Serviços de Integração ArqSign
+### Servicios de Integración ArqSign
 
-<figure><img src="../../.gitbook/assets/image (226).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (755).png" alt=""><figcaption></figcaption></figure>
 
-Ao clicar neste link, a aplicação irá abrir a página [**api.arqsign.com**](https://api.arqsign.com/index.html) com os métodos disponíveis até o momento.
-
-***
-
-### Documentação API
-
-<figure><img src="../../.gitbook/assets/image (227).png" alt=""><figcaption></figcaption></figure>
-
-Ao clicar neste link, a aplicação irá abrir a página [**de detalhamento da API.**](./)
+Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="color:blue;">**api.arqsign.com**</mark>](https://api.arqsign.com/index.html) con los métodos disponibles hasta el momento.
 
 ***
 
-### Download lista de Id's usuários
+### Documenta**ción** API
 
-<figure><img src="../../.gitbook/assets/image (224).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (756).png" alt=""><figcaption></figcaption></figure>
 
-Ao clicar neste link a aplicação irá fazer o download de um arquivo .csv com a lista de todos os usuários ativos na conta e seu respectivo ID.
+Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="color:blue;">**de detalle de la API**</mark>](./).
 
 ***
 
-### Download lista de Id's pastas
+### D**escargar lista de IDs de usuarios**
 
-<figure><img src="../../.gitbook/assets/image (225).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
 
-Ao clicar neste link a aplicação irá fazer o download de um arquivo .csv com a lista de todas as pastas não excluídas da conta e seu respectivo ID.
+Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todos los usuarios activos en la cuenta y su respectivo ID.
+
+***
+
+### Descargar lista de IDs de carpetas
+
+<figure><img src="../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
+
+Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todas las carpetas no eliminadas de la cuenta y su respectivo ID.
