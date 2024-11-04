@@ -1,14 +1,14 @@
 ---
 description: >-
-  O objetivo do método é permitir aos clientes, via API, buscar um processo com
-  seus respectivos dados, signatários e documentos.
+  El objetivo del método es permitir a los clientes, a través de la API, buscar
+  un proceso con sus respectivos datos, firmantes y documentos.
 ---
 
 # ✔️ GET/api/v2/processo/{idProcesso}
 
-## Requisição
+## Solicitud
 
-<figure><img src="../../../.gitbook/assets/image (286).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure>
 
 ## Autenticações e Validações
 
