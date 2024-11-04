@@ -291,7 +291,7 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 &#x20;     \-> 2 = Certificado Digital – ICP Brasil.
 
-&#x20;     \-> 4 = Certificado Digital – Outros.
+&#x20;     \-> 4 = Certificado Digital – Otros.
 
 &#x20;     \-> 5 = Sin Firma.
 
@@ -416,17 +416,17 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.13.02.05:** "PosicaoY": envíe la posición en milímetros desde el borde superior de la página hasta el borde superior de la caja de firma.La figura a continuación ilustra las medidas necesarias que deben identificarse en su modelo de documento: Altura, Anchura, Posición X y Posición Y.
 
-<figure><img src="../../../../.gitbook/assets/api05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure>
 
-Para saber como tirar estas medidas, assista ao vídeo abaixo:
+Para saber cómo tomar estas medidas, mira el video a continuación:
 
 {% embed url="https://www.youtube.com/watch?v=8GPh7jtpHHY" %}
 
-**Ref. 11:** “Documento” - nesta parte do JSON deve ser enviado o arquivo a ser assinado. O arquivo deve ser no formato PDF limitado a 100 MB.
+Ref. 11: "Documento" - en esta parte del JSON se debe enviar el archivo a ser firmado. El archivo debe estar en formato PDF y limitado a 100 MB.&#x20;
 
-**Ref. 11.01:** “arquivo” - envie neste campo o arquivo em Base64.
+Ref. 11.01: "archivo" - envíe en este campo el archivo en Base64.&#x20;
 
-**Ref. 11.02:** “nomeComExtensao” - envie o nome do arquivo com sua extensão.
+Ref. 11.02: "nombreConExtensión" - envíe el nombre del archivo con su extensión.
 
 ***
 
@@ -434,35 +434,35 @@ Para saber como tirar estas medidas, assista ao vídeo abaixo:
 
 <figure><img src="../../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detalle del Retorno
 
-**Ref. 01 – Código 201:** Como retorno de sucesso, a aplicação retornará o código 201 e o GUID gerado para o processo. O Guid deve ser armazenado na aplicação do Cliente de forma a possibilitar a usar os métodos de GET​/api​/v1​/processo​/{idprocesso} e GET​/api​/v1​/processo​/{idProcesso}​/status-do-processo
+**Ref. 01 – Código 201:** Como retorno de éxito, la aplicación devolverá el código 201 y el GUID generado para el proceso. El GUID debe ser almacenado en la aplicación del Cliente de manera que se pueda utilizar los métodos GET​/api​/v1​/processo​/{idprocesso} y GET​/api​/v1​/processo​/{idProcesso}​/status-do-processo.
 
-**Ref. 02 – Código 400:** _Mensagem de item obrigatório_: Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 – Código 400:** Mensaje de ítem obligatorio: Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no hayan sido enviados en la llamada de la API.
 
-**Ref. 03 – Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 – Código 400:** Mensaje de formato incorrecto: Este mensaje se mostrará en singular o plural cuando uno o más ítems hayan sido enviados con formato incorrecto.
 
-**Ref. 04 – Código 400:** _Mensagem de Ids inexistente:_ Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 – Código 400:** Mensaje de IDs inexistente: Este mensaje se mostrará en singular o plural cuando uno o más IDs enviados no existan..
 
-**Ref. 05 – Código 400:** _Mensagem de parâmetro incorreto ou é inexistente:_ Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 05 – Código 400:** Mensaje de parámetro incorrecto o inexistente: Cuando la llamada se hace con algún parámetro escrito incorrectamente o un parámetro que no existe en el método.
 
-**Ref. 06 – Código 400:** _Mensagem de saldo insuficiente:_ Esta mensagem será exibida quando a conta não possuir saldo suficiente para o envio por E-mail ou WhatsApp ou SMS.
+**Ref. 06 – Código 400:** Mensaje de saldo insuficiente: Este mensaje se mostrará cuando la cuenta no tenga saldo suficiente para el envío por Email, WhatsApp o SMS.
 
-**Ref. 07 – Código 400:** _Mensagem de arquivo no formato inválido:_ Esta mensagem será exibida quando o usuário informar um arquivo com extensão diferente de PDF.
+**Ref. 07 – Código 400:** Mensaje de archivo en formato inválido: Este mensaje se mostrará cuando el usuario informe un archivo con una extensión diferente a PDF.
 
-**Ref. 08 – Código 400:** _Mensagem de tamanho do arquivo:_ Esta mensagem será exibida quando o usuário informar um arquivo com tamanho maior que 100MB.
+**Ref. 08 – Código 400:** Mensaje de tamaño del archivo: Este mensaje se mostrará cuando el usuario informe un archivo con un tamaño mayor a 100MB.
 
-**Ref. 09 - Código 400:** _Mensagem de conta bloqueada:_ Esta mensagem será exibida quando a conta estiver bloqueada.
+**Ref. 09 - Código 400:** Mensaje de cuenta bloqueada: Este mensaje se mostrará cuando la cuenta esté bloqueada.
 
-**Ref. 10 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 10 - Código 401:** Mensaje de usuario de la API no autorizado: AppKey inválida o no localizada.
 
 ***
 
 ## Comparativo JSON V1xV2
 
-### Forma de envio&#x20;
+### Forma de envío&#x20;
 
-Na **v1** era necessário informar no parâmetro “**idFormaEnvio**”, qual seria a forma de envio no processo. Agora na **V2** este parâmetro não existe. Portanto essa informação fica subentendida no sistema, quando se informa um e-mail ou telefone.
+En la **v1**, era necesario informar en el parámetro “**idFormaEnvio**” cuál sería la forma de envío en el proceso. Ahora, en la **v2**, este parámetro no existe. Por lo tanto, esta información queda implícita en el sistema cuando se proporciona un correo electrónico o un número de teléfono.
 
 <mark style="color:red;">**V1**</mark>
 
