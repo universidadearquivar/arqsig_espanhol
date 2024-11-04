@@ -11,7 +11,7 @@
 
 * Tener una cuenta activa en la plataforma ArqSign.
 * Tener una clave de[ <mark style="color:blue;">acceso a la API</mark>](./#api-key-chave-de-acesso) válida, llamada AppKey.
-* • Para el método [<mark style="color:blue;">**POST/api/v1/proceso/enviar-documento-para-firmar**</mark>](metodos-disponiveis-na-api/post-api-v1-processo-enviar-documento-para-assinar.md), será necesario tener a mano:
+* • Para el método [<mark style="color:blue;">**POST/api/v1/proceso/enviar-documento-para-firmar**</mark>](metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar/), será necesario tener a mano:
 
 &#x20;    _-> ID de un usuario de la cuenta con estado activo: para ser responsable de los documentos que se enviarán a través de la API._ &#x20;
 

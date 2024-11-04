@@ -1,25 +1,20 @@
----
-description: >-
-  El objetivo de este método es permitir que el usuario envíe un documento para
-  ser firmado a través de la plataforma ArqSIGN. En esta versión, todos los
-  documentos enviados para firma se agrupan en un
----
-
 # ✔️ POST/api/v1/processo/enviar-documento-para-assinar
 
+El objetivo de este método es permitir que el usuario envíe un documento para ser firmado a través de la plataforma ArqSIGN. En esta versión, todos los documentos enviados para firma se agrupan en un mismo PDF.
+
 {% hint style="danger" %}
-<mark style="color:red;">Este método possui uma versão atualizada disponível para uso.</mark>&#x20;
+<mark style="color:red;">Este método tiene una versión actualizada disponible para su uso.</mark>
 
-<mark style="color:red;">Se você vai utilizar o método pela primeira vez, o ideal é iniciar utilizando a versão mais recente, disponível em</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">**.**</mark>
+<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](../../metodos-disponiveis-na-api/post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">.</mark>
 
-<mark style="color:red;">Para aqueles que já utilizam o método na versão 1, a funcionalidade permanece a mesma, o que ocorre agora é que esta versão não contará com novas funcionalidades. Cabe ao cliente avaliar o uso e definir por manter a utilização da versão 1 ou migrar para a versão 2.</mark>
+<mark style="color:red;">Para aquellos que ya utilizan el método en la versión 1, la funcionalidad permanece igual, aunque esta versión no contará con nuevas funcionalidades. Dependerá del cliente evaluar el uso y decidir si mantiene la utilización de la versión 1 o migra a la versión 2.</mark>
 
-<mark style="color:red;">Confira</mark> [<mark style="color:red;">**aqui um comparativo de informações**</mark> ](post-api-v1-processo-enviar-documento-para-assinar.md#comparativo-json-v1xv2)<mark style="color:red;">que vão te auxiliar no processo de migração.</mark>
+<mark style="color:red;">Consulte aquí un</mark> [<mark style="color:red;">**comparativo de información**</mark>](./#comparativo-json-v1xv2) <mark style="color:red;">que le ayudará en el proceso de migración.</mark>
 {% endhint %}
 
-## Requisição
+## Requisición
 
-### Exemplo de JSON de Requisição
+### Ejemplo de JSON de Requisição
 
 ```
 {
@@ -228,11 +223,11 @@ description: >-
 }
 ```
 
-<figure><img src="../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
 
-### Detalhamento do Header e Body
+### Detallamiento del Header y Body
 
-**Geral:** Os parâmetros não obrigatórios listados abaixo devem constar no JSON, e caso não seja necessário para o documento, enviar com o valor null na frente:
+**General:** Los parámetros no obligatorios que se enumeran a continuación deben estar en el JSON, y si no son necesarios para el documento, enviarlos con el valor null al lado:
 
 &#x20;    \-> Ref. 03 “ConfiguracoesAvancadas”
 
@@ -252,97 +247,97 @@ description: >-
 
 &#x20;    \-> Ref. 10.13 “definirPosicaoAssinaturaManual”
 
-**Ref. 01:** “AppKey” é a chave de autorização para se autenticar na API. Esta chave deve ser válida e estar vinculada a uma conta ArqSIGN ativa.
+**Ref. 01:** “AppKey” es la clave de autorización para autenticar en la API. Esta clave debe ser válida y estar vinculada a una cuenta activa de ArqSIGN.a.
 
-**Ref. 03:** “ConfiguracoesAvancadas” - As configurações avançadas é um valor opcional para enviar um documento a ser assinado. Quando esta configuração não é enviada, a aplicação utiliza os valores default configurados na conta.
+**Ref. 03:** “ConfiguracoesAvancadas” - Las configuraciones avanzadas son un valor opcional para enviar un documento a ser firmado. Cuando esta configuración no se envía, la aplicación utiliza los valores predeterminados configurados en la cuenta.
 
-**Ref. 03.01:** “tempoExpiracaoDocumentoDias” - é o tempo de expiração em dias para que o documento seja assinado pelos signatários. Após este tempo, caso o documento não seja assinado, ele expira e fica indisponível para assinatura.
+**Ref. 03.01:** “tempoExpiracaoDocumentoDias” - es el tiempo de expiración en días para que el documento sea firmado por los firmantes. Después de este tiempo, si el documento no es firmado, expira y queda indisponible para firma.
 
-**Ref. 03.02:** “avisoAntesExpiracaoDocumentoDias” - é o tempo em dias que a aplicação usará como referência para começar a notificar o usuário antes da expiração do documento.
+**Ref. 03.02:** “avisoAntesExpiracaoDocumentoDias” -es el tiempo en días que la aplicación utilizará como referencia para comenzar a notificar al usuario antes de la expiración del documento.
 
-**Ref. 03.03:** “frequenciaLembreteDias” - é a frequência para envio de lembrete aos signatários para lembrá-los de assinar o documento.
+**Ref. 03.03:** “frequenciaLembreteDias” - es la frecuencia para el envío de recordatorios a los firmantes para recordarles que firmen el documento.
 
-**Ref. 04:** “idPasta” - é o ID de pasta onde o documento será armazenado dentro da aplicação ArqSIGN.
+**Ref. 04:** “idPasta” - es el ID de la carpeta donde el documento será almacenado dentro de la aplicación ArqSIGN.
 
-**Ref. 05:** “renovacaoMeses” - é o tempo em meses contados a partir da data de assinatura do documento, que o mesmo deve ser renovado, gerando lembretes de renovação para o responsável pelo documento.
+**Ref. 05:** “renovacaoMeses” - es el tiempo en meses contados a partir de la fecha de firma del documento, que el mismo debe ser renovado, generando recordatorios de renovación para el responsable del documento.
 
-**Ref. 06:** “assinarOrdemDestinatarios” – quando “true”, significa que os signatários deverão assinar o documento obedecendo uma ordem definida no campo “ordem”. Quando “false” significa que os signatários não deverão assinar obedecendo uma ordem.
+**Ref. 06:** “assinarOrdemDestinatarios” – cuando “true”, significa que los firmantes deberán firmar el documento siguiendo un orden definido en el campo “ordem”. Cuando “false” significa que los firmantes no deberán firmar siguiendo un orden.
 
-**Ref. 07:** “nome” - é o nome do processo de assinatura. Este nome é a referência de busca do documento dentro da aplicação.
+**Ref. 07:** “nome” - es el nombre del proceso de firma. Este nombre es la referencia de búsqueda del documento dentro de la aplicación.
 
-**Ref. 08:** “mensagemPadrao” - é a mensagem a ser enviada na notificação para todos os signatários que receberão o documento para ser assinado via Email e que não possuem configuração de “mensagemPersonalizada”.
+**Ref. 08:** “mensagemPadrao” - es el mensaje que se enviará en la notificación a todos los firmantes que recibirán el documento para ser firmado por correo electrónico y que no tienen configuración de “mensagemPersonalizada”.
 
-**Ref. 08. 01:** “titulo” - neste campo deve ser informado o texto que será enviado como assunto da mensagem.
+**Ref. 08. 01:** “titulo” - en este campo debe informarse el texto que será enviado como asunto del mensaje.
 
-**Ref. 08.02:** “texto” - neste campo deve ser informado o texto que será enviado como corpo da mensagem.
+**Ref. 08.02:** “texto” - en este campo debe informarse el texto que será enviado como cuerpo del mensaje.
 
-**Ref. 09:** “idResponsavel” - é o ID de um usuário ativo vinculado a conta na Plataforma ArqSIGN que será considerado como responsável pelo documento que está sendo enviado via API. Este usuário receberá notificações de conclusão, recusa de assinatura e lembrete de renovação do documento, caso exista.
+**Ref. 09:** “idResponsavel” - es el ID de un usuario activo vinculado a la cuenta en la plataforma ArqSIGN que será considerado responsable del documento que se está enviando a través de la API. Este usuario recibirá notificaciones de conclusión, rechazo de firma y recordatorios de renovación del documento, si existen.
 
-**Ref. 10:** “Destinatarios” - nesta parte do JSON devem ser definidos todos os destinatários para o documento em questão. Os destinatários podem ser pessoas que irão assinar o documento ou que receberão uma cópia ao final do processo após a assinatura de todos os signatários.
+**Ref. 10:** “Destinatarios” - en esta parte del JSON deben definirse todos los destinatarios para el documento en cuestión. Los destinatarios pueden ser personas que firmarán el documento o que recibirán una copia al final del proceso después de la firma de todos los firmantes.
 
-**Ref. 10.01:** “ordem” – neste campo deve ser enviada a ordem que o signatário irá assinar o documento. Este campo deve possuir valor, caso o campo Ref. 06 “assinarOrdemDestinatario” tenha sido enviado como true. Os destinatários configurados para receberem uma cópia (destinatários do processo que não assinarão o documento) terão a ordem desconsiderada.
+**Ref. 10.01:** “ordem” – en este campo debe enviarse el orden en que el firmante firmará el documento. Este campo debe tener valor, si el campo Ref. 06 “assinarOrdemDestinatario” ha sido enviado como true. Los destinatarios configurados para recibir una copia (destinatarios del proceso que no firmarán el documento) tendrán el orden desconsiderado.
 
-**Ref. 10.02:** “nome” – neste campo deve ser enviado o nome do destinatário.
+**Ref. 10.02:** “nome” – en este campo debe enviarse el nombre del destinatario.
 
-**Ref. 10.03:** “idTipoAção” – neste campo deve ser definido o que o destinatário deverá executar no documento.
+**Ref. 10.03:** “idTipoAção” – en este campo debe definirse lo que el destinatario deberá ejecutar en el documento.
 
-&#x20;    \-> 1 = Assinar Online.
+&#x20;    \-> 1 = Firmar en línea.
 
-&#x20;    \-> 2 = Receber uma cópia.
+&#x20;    \-> 2 = Recibir una copia.
 
-**Ref. 10.04:** “idTipoAssinatura” – neste campo deve ser definido o tipo de assinatura do destinatário. Quando o “idTipoAção” = 1 (Assinar online), enviar o código de 1 a 4. Quando o “idTipoAção” = 2 (Receber uma cópia), enviar o código 5.
+**Ref. 10.04:** “idTipoAssinatura” – en este campo debe definirse el tipo de firma del destinatario. Cuando “idTipoAção” = 1 (Firmar en línea), enviar el código de 1 a 4. Cuando “idTipoAção” = 2 (Recibir una copia), enviar el código 5.
 
-&#x20;     \-> 1 = Assinatura Eletrônica.
+&#x20;     \-> 1 = Firma Electrónica.
 
 &#x20;     \-> 2 = Certificado Digital – ICP Brasil.
 
 &#x20;     \-> 4 = Certificado Digital – Outros.
 
-&#x20;     \-> 5 = Sem Assinatura
+&#x20;     \-> 5 = Sin Firma.
 
-**Ref. 10.05:** “idFormaEnvio” – neste campo deve ser enviado como o destinatário deverá receber o documento.
+**Ref. 10.05:** “idFormaEnvio” – en este campo debe enviarse cómo el destinatario deberá recibir el documento.
 
-&#x20;    \-> 1 = Email
-
-&#x20;    \-> 2 = WhatsApp
-
-**Ref. 10.06:** “email” - caso o “idFormaEnvio” seja 1 (email), neste campo deve ser enviado o email que o destinatário receberá o documento.
-
-**Ref. 10.07:** “telefone” - caso o “idFormaEnvio” seja 2 (whatsapp), neste campo deve ser enviado o telefone que o destinatário receberá o documento.
-
-**Ref. 10.08:** “seguranca” - nesta parte do JSON pode ser enviado um código de segurança para o usuário informar no momento de assinar o documento. Veja abaixo quais informações precisam ser enviadas para que isso ocorra:
-
-**Ref. 10.08.01:** “idMeioEnvio” - neste campo deve ser informado como o código de segurança deve ser enviado para o destinatário. As opções são:
-
-&#x20;    \-> 1 = SMS (Somente para telefones do Brasil)
+&#x20;    \-> 1 = Correo Electrónico
 
 &#x20;    \-> 2 = WhatsApp
 
-&#x20;    \-> 3 = Email
+**Ref. 10.06:** “email” - si “idFormaEnvio” es 1 (correo electrónico), en este campo debe enviarse el correo electrónico al que el destinatario recibirá el documento.
 
-&#x20;    \-> 4 = Não enviar (Esta opção deve ser escolhida, quando quem está enviando o documento ao destinatário passará a informação do código de segurança de outra forma, sem usar os meios de notificações da plataforma ArqSign).
+**Ref. 10.07:** “telefone” - caso o “idFormaEnvio” seja 2 (whatsapp), en este campo debe enviarse el teléfono al que el destinatario recibirá el documento.
 
-**Ref. 10.08.02:** “codigoSeguranca” - neste campo deve ser informado o código de segurança para o destinatário em questão.
+**Ref. 10.08:** “seguranca” - en esta parte del JSON se puede enviar un código de seguridad que el usuario debe informar al momento de firmar el documento. Vea a continuación qué información debe enviarse para que esto ocurra:
 
-**Ref. 10.08.03:** “codigoSegurancaEmail” - caso tenha enviado no campo “idMeioEnvio” a opção 3 = Email, deve-se informar o email para onde a plataforma ArqSIGN enviará o código de segurança.
+**Ref. 10.08.01:** “idMeioEnvio” - en este campo debe informarse cómo debe enviarse el código de seguridad al destinatario. Las opciones son:
 
-**Ref. 10.08.04:** “codigoSegurancaTelefone” - caso tenha enviado no campo “idMeioEnvio” a opção 1 = SMS ou 2 = WhatsApp, deve-se informar o telefone para onde a plataforma ArqSIGN enviará o código de segurança.
+&#x20;    \-> 1 = SMS **(Sólo para teléfonos de Brasil)**
 
-**Ref. 10.08.05:** “reenviarCodigo” - caso tenha enviado no campo “idMeioEnvio” a opção 1 = SMS ou 2 = WhatsApp, deve-se informar neste campo se o destinatário ao receber o documento para assinar poderá solicitar o reenvio do código. Este reenvio será computado nos créditos de SMS e WhatsApp da conta. Para permitir o reenvio do código, envie a informação 1 = True, para não permitir o reenvio, envie a informação 0 = False.
+&#x20;    \-> 2 = WhatsApp
 
-**Ref. 10.09:** “mensagemPersonalizada” - nesta parte do JSON pode se enviar uma mensagem personalizada para o signatário em questão, caso ele receba o documento para assinar por e-mail.
+&#x20;    \-> 3 = Correo Electrónico
 
-**Ref. 10.09.01:** “titulo” - neste campo deve ser informado o texto que será enviado como assunto da mensagem.
+&#x20;    \-> 4 = No enviar (Esta opción debe elegirse cuando quien está enviando el documento al destinatario informará el código de seguridad de otra forma, sin usar los medios de notificación de la plataforma ArqSIGN).
 
-**Ref. 10.09.02:** “texto” - neste campo deve ser informado o texto que será enviado como corpo da mensagem.
+**Ref. 10.08.02:** “codigoSeguranca” - en este campo debe informarse el código de seguridad para el destinatario en cuestión.
 
-**Ref. 10.10:** “destinatariosEntradaDto” - nesta parte do JSON devem ser enviadas as configurações de dados que serão solicitados ao signatário no momento da assinatura.
+**Ref. 10.08.03:** “codigoSegurancaEmail” - si se ha enviado en el campo “idMeioEnvio” la opción 3 = Email, se debe informar el email al cual la plataforma ArqSIGN enviará el código de seguridad.
 
-**Ref. 10.10.01:** “infComplNomeSignatarioObrigatorio” - envie 1 = true para obrigar o signatário a informar o nome completo, envie 0 = false para não obrigar o signatário a informar o nome completo.
+**Ref. 10.08.04:** “codigoSegurancaTelefone” - si se ha enviado en el campo “idMeioEnvio” la opción 1 = SMS o 2 = WhatsApp, se debe informar el teléfono al cual la plataforma ArqSIGN enviará el código de seguridad.
 
-**Ref. 10.10.02:** “infComplDocumentoSignatarioObrigatorio” - envie 1 = true para obrigar o signatário a informar um documento de identificação de PF, envie 0 = false para não obrigar o signatário a informar um documento de identificação de PF.
+**Ref. 10.08.05:** “reenviarCodigo” - si se ha enviado en el campo “idMeioEnvio” la opción 1 = SMS o 2 = WhatsApp, se debe informar en este campo si el destinatario, al recibir el documento para firmar, podrá solicitar el reenvío del código. Este reenvío se computará en los créditos de SMS y WhatsApp de la cuenta. Para permitir el reenvío del código, envíe la información 1 = True, para no permitir el reenvío, envíe la información 0 = False.
 
-**Ref. 10.10.03:** “infComplRazaoSocialObrigatorio” - envie 1 = true para obrigar o signatário a informar o nome da empresa, envie 0 = false para não obrigar o signatário a informar o nome da empresa.
+**Ref. 10.09:** “mensagemPersonalizada” - en esta parte del JSON se puede enviar un mensaje personalizado para el firmante en cuestión, si recibe el documento para firmar por correo electrónico.
+
+**Ref. 10.09.01:** “titulo” - en este campo debe informarse el texto que será enviado como asunto del mensaje.
+
+**Ref. 10.09.02:** “texto” - en este campo debe informarse el texto que será enviado como cuerpo del mensaje.
+
+**Ref. 10.10:** “destinatariosEntradaDto” - en esta parte del JSON se deben enviar las configuraciones de datos que serán solicitados al firmante en el momento de la firma.
+
+**Ref. 10.10.01:** “infComplNomeSignatarioObrigatorio” - envíe 1 = true para obligar al firmante a informar su nombre completo, envíe 0 = false para no obligar al firmante a informar su nombre completo.
+
+**Ref. 10.10.02:** “infComplDocumentoSignatarioObrigatorio” - envíe 1 = true para obligar al firmante a informar un documento de identificación de PF, envíe 0 = false para no obligar al firmante a informar un documento de identificación de PF.
+
+**Ref. 10.10.03:** “infComplRazaoSocialObrigatorio” - envíe 1 = true para obligar al firmante a informar el nombre de la empresa, envíe 0 = false para no obligar al firmante a informar el nombre de la empresa.
 
 **Ref. 10.10.04:** “infComplIdentificadorObrigatorio” - envie 1 = true para obrigar o signatário a informar um documento de identificação de PJ, envie 0 = false para não obrigar o signatário a informar um documento de identificação de PJ.
 
@@ -421,7 +416,7 @@ description: >-
 
 **Ref. 10.13.02.05:** “PosicaoY” - envie a posição em milímetros da borda superior da página até a borda superior da caixa da assinatura. Na figura abaixo está a representação visual das medidas que precisam ser identificadas no seu modelo de documento (Altura, Largura, PosicaoX e PosicaoY).&#x20;
 
-<figure><img src="../../../.gitbook/assets/api05.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api05.png" alt=""><figcaption></figcaption></figure>
 
 Para saber como tirar estas medidas, assista ao vídeo abaixo:
 
@@ -437,7 +432,7 @@ Para saber como tirar estas medidas, assista ao vídeo abaixo:
 
 ## Retorno <a href="#toc112750306" id="toc112750306"></a>
 
-<figure><img src="../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detalhamento do Retorno
 
@@ -473,7 +468,7 @@ Na **v1** era necessário informar no parâmetro “**idFormaEnvio**”, qual se
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -481,7 +476,7 @@ Na **v1** era necessário informar no parâmetro “**idFormaEnvio**”, qual se
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -495,7 +490,7 @@ o nome do parâmetro mudou.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -503,7 +498,7 @@ o nome do parâmetro mudou.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -515,7 +510,7 @@ Na **V2**, deve ser configurado dados de posição da assinatura manual para cad
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -523,7 +518,7 @@ Na **V2**, deve ser configurado dados de posição da assinatura manual para cad
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -537,7 +532,7 @@ Já na **V2**, este parâmetro se tornou uma propriedade independente (não fica
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -545,7 +540,7 @@ Já na **V2**, este parâmetro se tornou uma propriedade independente (não fica
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -557,7 +552,7 @@ Na **V1** os dados complementares de Pessoa Física e Jurídica eram informados 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -565,7 +560,7 @@ Na **V1** os dados complementares de Pessoa Física e Jurídica eram informados 
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -579,7 +574,7 @@ E na **V2** é possível enviar vários documentos em um único processo.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -587,7 +582,7 @@ E na **V2** é possível enviar vários documentos em um único processo.
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>
 
@@ -603,6 +598,6 @@ O retorno da requisição também mudou. Na **V2** é são retornados os dados d
 
 <div align="left">
 
-<figure><img src="../../../.gitbook/assets/image (466).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (466).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 </div>

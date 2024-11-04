@@ -20,7 +20,7 @@ La API de integración de la plataforma ArqSign está diseñada para que otros s
 
 Los métodos disponibles son:
 
-[<mark style="color:blue;">**POST**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Enviar documento para firmar</mark>](../administracao/integracoes/metodos-disponiveis-na-api/post-api-v1-processo-enviar-documento-para-assinar.md)
+[<mark style="color:blue;">**POST**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Enviar documento para firmar</mark>](../administracao/integracoes/metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar/)
 
 [<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento del estado del documento enviado para firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/get-api-v1-processo-idprocesso.md)
 
