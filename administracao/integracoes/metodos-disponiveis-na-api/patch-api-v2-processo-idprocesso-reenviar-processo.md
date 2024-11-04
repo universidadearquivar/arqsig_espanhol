@@ -274,63 +274,63 @@ Descripción: Parámetro que informa el documento de la empresa que se modificar
 
 Este error se devuelve cuando no se puede interpretar la solicitud y/o el servidor intenta procesarla, pero algún parámetro no es válido, por ejemplo, un recurso con formato incorrecto o una solicitud con datos faltantes. La información sobre la solicitud se proporciona en el cuerpo de la respuesta e incluye un código de error y un mensaje de error.
 
-**a. Item obrigatório:** Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não estiverem sido enviados na chamada da API: **O(s) item(ns) listado(s) é(são) obrigatório(s): “nome dos itens separados por vírgula”.**
+**a. Ítem obligatorio:** Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no hayan sido enviados en la llamada a la API: **El(los) ítem(s) listado(s) es(son) obligatorio(s): “nombres de los ítems separados por comas”.**
 
-&#x20;**b. Formato incorreto:** Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto: **O(s) item(ns) listado(s) está(ão) com o formato incorreto: “nome dos itens separados por vírgula”.**
+&#x20;**b. Formato incorrecto:** Este mensaje se mostrará en singular o plural cuando uno o más ítems hayan sido enviados con formato incorrecto: **El(los) ítem(s) listado(s) está(án) con formato incorrecto: “nombres de los ítems separados por comas”.**
 
-**c. Ids inexistente:** Esta mensagem será exibida no singular ou plural quando um ou mais Id enviados não existirem: **O(s) id(s) listado(s) não existe(m): “nome dos itens que são Ids de tabela, separados por vírgula”.**
+**c. Ids inexistentes:** Este mensaje se mostrará en singular o plural cuando uno o más Ids enviados no existan: **El(los) id(s) listado(s) no existe(n): “nombres de los ítems que son Ids de tabla, separados por comas”.**
 
-**d. Algum parâmetro está incorreto ou é inexistente:** Esta mensagem será exibida quando a chamada for feita com algum parâmetro escrito errado ou quando é enviado uma informação que não existe no método: **Algum parâmetro está incorreto ou é inexistente.**
+**d. Algún parámetro está incorrecto o es inexistente:** Este mensaje se mostrará cuando la llamada se realice con algún parámetro escrito incorrectamente o cuando se envíe una información que no existe en el método: **Algún parámetro está incorrecto o es inexistente.**
 
 ### Erro: 401 – Unauthorized
 
-Este erro é retornado quando:
+Este error se devuelve cuando:
 
-• A chave de autenticação da API ArqSign está incorreta ou não foi informada corretamente.
+• La clave de autenticación de la API ArqSign es incorrecta o no fue informada correctamente.
 
-• Conta está com status diferente de Ativo.
+• La cuenta tiene un estado diferente de Activo.
 
 ### Erro: 404 - Not Found
 
-Este erro é retornado quando o recurso solicitado ou o _endpoint_ não foi localizado.
+Este error se devuelve cuando el recurso solicitado o el endpoint no fue localizado.
 
 ### Erro: 422 - Unprocessable
 
-Este erro é retornado quando a requisição foi recebida com sucesso, porém contém parâmetros inválidos.
+Este error se devuelve cuando la solicitud fue recibida con éxito, pero contiene parámetros inválidos.
 
 ### Erro: 500 - Server Error
 
-Este erro é retornado quando:
+Este error se devuelve cuando:
 
-• Ocorre um erro interno no servidor.
+• Ocurre un error interno en el servidor.
 
-• Ocorre uma falha na plataforma ArqSign.
+• Ocurre una falla en la plataforma ArqSign.
 
-• Formato do parâmetro incorreto.
+• Formato del parámetro incorrecto.
 
-• Formato do JSON incorreto.
+• Formato del JSON incorrecto.
 
 ***
 
-## Retorno Sucesso
+## Retorno Éxito
 
 **Code 200** – OK
 
-Ao executar o reenvio do processo com sucesso, o sistema **retornará os dados dos participantes do processo pendentes de assinatura dos documentos.**
+Al ejecutar el reenvío del proceso con éxito, el sistema **devolverá los datos de los participantes del proceso pendientes de firma de los documentos.**
 
 {% hint style="warning" %}
-<mark style="color:orange;">**Atenção: Mesmo que o destinatário não tenha sido informado para reenvio, os dados deste também retornará se estiver pendente de assinatura.**</mark>
+<mark style="color:orange;">**Atención: Incluso si el destinatario no ha sido informado para reenvío, los datos de este también se devolverán si está pendiente de firma.**</mark>
 {% endhint %}
 
-**Por exemplo:**
+**Por ejemplo:**
 
-Em um processo que possui 3 signatários pendentes de assinatura.
+En un proceso que tiene 3 firmantes pendientes de firma.
 
-Ao reenviar o processo sem editar dados, retornará os dados dos 3 signatários pendentes de assinatura.
+Al reenviar el proceso sin editar datos, se devolverán los datos de los 3 firmantes pendientes de firma.
 
-Ao reenviar o processo editando dados de um signatário, retornará os dados dos 3 signatários pendentes de assinatura.
+Al reenviar el proceso editando los datos de un firmante, se devolverán los datos de los 3 firmantes pendientes de firma.
 
-### &#x20;Retorno - Exemplo Body Response
+### &#x20;Retorno - Ejemplo de Cuerpo de Respuesta
 
 ```
 [
@@ -359,20 +359,20 @@ Ao reenviar o processo editando dados de um signatário, retornará os dados dos
 
 **a. idProcessoDestinatario**&#x20;
 
-A API retorna o id do processo destinatário
+La API devuelve el id del proceso destinatario.
 
 **b. ordem**
 
-API retorna a ordem de assinatura do destinatário.
+La API devuelve el orden de firma del destinatario.
 
 **c. formaEnvioProcesso**
 
-&#x20;A API retorna a forma de envio do processo para o destinatário, e-mail ou telefone do destinatário, em questão.
+&#x20;La API devuelve la forma de envío del proceso para el destinatario, ya sea por e-mail o teléfono del destinatario.
 
 &#x20;**d. Nome**
 
-&#x20;A API retorna o nome do destinatário.
+&#x20;La API devuelve el nombre del destinatario.
 
 &#x20;**e. Anexo**&#x20;
 
-A API retorna as configurações de anexo do destinatário, se houver.
+La API devuelve las configuraciones de anexo del destinatario, si las hay.
