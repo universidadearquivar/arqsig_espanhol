@@ -1,14 +1,14 @@
 # ✔️ PATCH/api/v2/processo/{idProcesso}/reenviar-processo
 
-Este serviço permite aos Clientes, via API, **reenviar o processo** para os **destinatários pendentes de assinatura** na ordem de assinatura atual, permitindo **editar dados os destinatários** pendentes de assinatura.
+Este servicio permite a los Clientes, a través de API, **reenvíar el proceso** a los **destinatarios pendientes de firma** en el orden de firma actual, permitiendo editar los datos de los destinatarios pendientes de firma.
 
-## Requisição - Orientações
+## Requisición - Orientaciones
 
-Quando campo requerido estiver como “Sim” = Sempre requerido
+Cuando el campo requerido esté como “Sí” = Siempre requerido
 
-Quando campo requerido estiver como “Não” = Informação Opcional
+Cuando el campo requerido esté como “No” = Información opcional
 
-Quando campo requerido estiver como “Talvez” = Em alguns casos ele será requerido. Para saber estes casos, consultar a descrição do tópico, conforme o número de referência da linha na tabela.
+Cuando el campo requerido esté como “Tal vez” = En algunos casos será requerido. Para conocer estos casos, consulte la descripción del tema, de acuerdo con el número de referencia de la línea en la tabla.
 
 <div align="left">
 
@@ -16,16 +16,16 @@ Quando campo requerido estiver como “Talvez” = Em alguns casos ele será req
 
 </div>
 
-## Exemplo Body Request
+## Ejemplo Body Request
 
-**Exemplo Body - Sem edição**
+**Ejemplo Body - Sin edición**
 
 ```
 []
 
 ```
 
-**Exemplo Body - Com edição**
+Ejemplo Body - Con edición
 
 ```
 [
@@ -58,221 +58,221 @@ Quando campo requerido estiver como “Talvez” = Em alguns casos ele será req
 
 ```
 
-## Validações
+## Validaciones
 
-### Validações Gerais - Autenticação
+### Validaciones Generales - Autenticación
 
-Para autenticar na API da ArqSign deve-se informar a AppKey da conta que está reenviando o processo. Esta conta deve estar ativa e com a devida permissão para o uso da integração Arqsign.
+Para autenticarse en la API de ArqSign, se debe proporcionar el AppKey de la cuenta que está reenviando el proceso. Esta cuenta debe estar activa y con el debido permiso para el uso de la integración Arqsign.
 
-### Validações Gerais - Descrição dos parâmetros JSON
+### Validaciones Generales - Descripción de los parámetros JSON
 
 **01. idProcessoDestinatario**
 
-**Descrição:** Parâmetro informando o Id do destinatário que será reenviado o processo.
+**Descripción:** Parámetro que indica el Id del destinatario al que se reenviará el proceso.
 
 **Formato:** Guid
 
-**Requerido:** <mark style="color:red;">Sim, quando houver dados para edição.</mark>
+**Requerido:** <mark style="color:red;">Sí, cuando hay datos para edición.</mark>
 
-&#x20;**Validação:** O reenvio do processo é permitido somente para destinatários com ação de Assinar Online que estejam com ação de assinatura pendente nos documentos. Não é permitido o envio do processo para destinatários com ação de Receber Cópia.
+**Validación:** El reenvío del proceso solo está permitido para destinatarios con acción de Firmar Online que tengan pendiente la acción de firma en los documentos. No se permite el envío del proceso a destinatarios con acción de Recibir Copia.
 
 ***
 
 **02. IdFormaEnvioProcesso**
 
-**Descrição:** Parâmetro informando a forma de reenvio do processo
+**Descripción:** Parámetro que indica la forma de reenvío del proceso
 
-**Formato:** Bit - 1 - E-mail ou 2 - Whatsapp
+**Formato:** Bit - 1 - E-mail o 2 - Whatsapp
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 ***
 
 **03. nome**
 
-**Descrição:** Parâmetro informando o nome do destinatário.
+**Descripción:** Parámetro que indica el nombre del destinatario.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 ***
 
 **04. email**
 
-**Descrição:** Parâmetro informando o e-mail para reenviar o processo.
+**Descripción:** Parámetro que indica el correo electrónico para reenviar el proceso.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:red;">Sim, quando o parâmetro idFormaEnvio for igual a 1.</mark>
+**Requerido:** <mark style="color:red;">Sí, cuando el parámetro idFormaEnvio es igual a 1.</mark>
 
-&#x20;**Validação:** O e-mail informado deve estar em um formato válido
+&#x20;**Validación:** El correo electrónico proporcionado debe tener un formato válido.
 
 ***
 
 **05. telefone**
 
-**Descrição:** Parâmetro informando o telefone para reenviar o processo.
+**Descripción:** Parámetro que indica el teléfono para reenviar el proceso.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:red;">Sim, quando o parâmetro idFormaEnvio for igual a 2.</mark>
+**Requerido:** <mark style="color:red;">Sí, cuando el parámetro idFormaEnvio es igual a 2.</mark>
 
-&#x20;**Validação:** Somente é possível reenviar processo por WhatsApp (idFormaEnvioProcesso = 2) quando o tipo de assinatura destinatário for eletrônica.
+**Validación**: Solo es posible reenviar el proceso por WhatsApp (idFormaEnvioProcesso = 2) cuando el tipo de firma del destinatario es electrónica.
 
 ***
 
 **06. idMeioEnvioCodigoSeguranca**
 
-**Descrição:** Os dados de Código de Segurança podem ser editados somente para destinatários que possuam a configuração de código de segurança, não permitindo inserir código de segurança para destinatários que não foram configurados inicialmente para usar o código de segurança. É permitido apenas alterar a forma de entrega do código de segurança para os destinatários que possuam esta configuração no processo.                     &#x20;
+**Descripción:** Los datos del Código de Seguridad solo pueden editarse para destinatarios que tengan la configuración de código de seguridad, sin permitir la inserción de un código de seguridad para destinatarios que no fueron configurados inicialmente para utilizarlo. Solo se permite cambiar la forma de entrega del código de seguridad para los destinatarios que tengan esta configuración en el proceso.                 &#x20;
 
-**Formato:** Bit, 1- SMS (Somente Brasil), 2 – Whatsapp, 3 – Email ou 4 - Não enviar
+**Formato:** Bit, 1- SMS (Solo Brasil), 2 – Whatsapp, 3 – Email o 4 - No enviar
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 ***
 
 **07. emailSeguranca**
 
-**Descrição:** Parâmetro informando o e-mail para envio do código de segurança.
+**Descripción:** Parámetro que indica el correo electrónico para el envío del código de seguridad.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:red;">Sim, quando o parâmetro idMeioEnvioCodigoSeguranca for igual a 3.</mark>
+**Requerido:** <mark style="color:red;">Sí, cuando el parámetro idMeioEnvioCodigoSeguranca es igual a 3.</mark>
 
 ***
 
 **08.** **telefoneSeguranca**
 
-**Descrição:** Parâmetro informando o telefone para envio do código de segurança.
+**Descripción:** Parámetro que indica el teléfono para el envío del código de seguridad.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:red;">Sim, quando o parâmetro idMeioEnvioCodigoSeguranca for igual a 1 ou 2.</mark>
+**Requerido:** <mark style="color:red;">Sí, cuando el parámetro idMeioEnvioCodigoSeguranca es igual a 1 o 2.</mark>
 
 ***
 
 **09. permitirReenviarCodigo**
 
-**Descrição:** Permitir o reenvio do código de segurança
+**Descripción:** Permitir el reenvío del código de seguridad.
 
-**Formato:** Bit, 1 = true ou 0 = False
+**Formato:** Bit, 1 = true o 0 = False
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 ***
 
 **10.dadosAssinatura**
 
-Esta parte do JSON é opcional e **permite editar os dados de assinatura dos destinatários** com **idTipoAssinatura igual a 1 = eletrônica** que possuam estes dados configurados, que podem ser usados para preenchimento de campos ou validação do documento no momento que o destinatário assinar os documentos do processo como pessoa física e/ou jurídica.
+Esta parte del JSON es opcional y **permite editar los datos de firma de los destinatarios** con **idTipoAssinatura igual a 1 = electrónica** que tengan estos datos configurados, los cuales pueden ser utilizados para el llenado de campos o la validación del documento en el momento en que el destinatario firme los documentos del proceso como persona física y/o jurídica.
 
-Quando forem enviados dados de assinatura para **destinatários que não foram configurados inicialmente com estes dados,** estes serão desconsiderados.
+Cuando se envían datos de firma para **destinatarios que no fueron configurados inicialmente con estos datos**, estos serán desconsiderados.
 
-**10.1 Signatário:** Parâmetros para editar nome e documento do signatário que serão utilizados para preenchimento de campos na tela ou validação do documento do signatário.
+**10.1 Signatario:** Parámetros para editar el nombre y el documento del signatario que serán utilizados para el llenado de campos en pantalla o la validación del documento del signatario.
 
 **a. nome**
 
-**Descrição:** Parâmetro informando o nome do signatário que será alterado ao reenviar o processo.
+**Descripción:** Parámetro que indica el documento del signatario que será cambiado al reenviar el proceso.
 
 **Formato:** Varchar(250)
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 **b. numeroDocumento**
 
-**Descrição:** Parâmetro informando o documento do signatário que será alterado ao reenviar o processo.
+**Descrición:** Parámetro que indica el documento del signatario que será cambiado al reenviar el proceso.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 **c. validarDocumento**
 
-**Descrição:** Parâmetro informando se o número do documento do destinatário alterado no parâmetro **numeroDocumento** do objeto **signatario** será utilizado para validação ou não.
+**Descripción:** Parámetro que indica si el número del documento del destinatario modificado en el parámetro numeroDocumento del objeto signatario será utilizado para validación o no.
 
-**Formato:** Bit: 1 – True ou 0 - False
+**Formato:** Bit: 1 – True o 0 - False
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
-&#x20;**Os dados informados neste parâmetro serão desconsiderados quando** o parâmetro **numeroDocumento** objeto **signatario**  for nulo ou não for enviado.
+**Los datos indicados en este parámetro serán desconsiderados cuando** el parámetro **numeroDocumento** del objeto **signatario** sea nulo o no se envíe.
 
-&#x20;**Quando este parâmetro não for enviado ou for enviado** com **null** ou **com valor 0**, significa que os dados informados no parâmetro **numeroDocumento** serão utilizados somente para **preenchimento automático** no momento da assinatura como pessoa física.
+**Cuando este parámetro no se envíe o se envíe** con **null** o con **valor 0**, significa que los datos indicados en el parámetro **numeroDocumento** serán utilizados solo para el llenado automático en el momento de la firma como persona física..
 
-**Quando este parâmetro for enviado com valor 1**, significa que os dados informados no parâmetro **numeroDocumento** serão utilizados para **validação** no momento da assinatura como pessoa física.
+**Cuando este parámetro se envíe con valor 1**, significa que los datos indicados en el parámetro **numeroDocumento** serán utilizados para validación en el momento de la firma como persona física.
 
 **d. DescartarDadosAnteriores**
 
-**Descrição:** Parâmetro informando se os dados não informados no objeto signatario serão descartados.
+**Descripción:** Parámetro que indica si los datos no indicados en el objeto signatario serán descartados.
 
-**Formato:** Bit: 1 – True ou 0 - False
+**Formato:** Bit: 1 – True o 0 - False
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
-**Os dados informados neste parâmetro serão desconsiderados quando** os parâmetros **nome** e **numeroDocumento** do objeto **signatario**  forem enviados.
+**Los datos indicados en este parámetro serán desconsiderados cuando** los parámetros **nombre** y **numeroDocumento** del objeto signatario sean **enviados**.
 
-**Quando este parâmetro não for enviado** ou for enviado com **null** ou **com valor 0**, significa que nenhum parâmetro do objeto **signatario** será descartado.
+**Cuando este parámetro no se envíe o se envíe** con **null** o con **valor 0**, significa que ningún parámetro del objeto **signatario** será descartado.
 
-**Quando este parâmetro for enviado com valor 1**, significa que os dados não informados do objeto **signatario** devem ser removidos do processo.
+**Cuando este parámetro se envíe con valor 1**, significa que los datos no indicados del objeto **signatario** deben ser eliminados del proceso.
 
-**10.2 empresa:** Parâmetros para editar nome e documento da empresa que serão utilizados para preenchimento de campos na tela ou validação do documento do signatário.
+**10.2 empresa:** Parámetros para editar el nombre y el documento de la empresa que serán utilizados para el llenado de campos en pantalla o la validación del documento del signatario.
 
 {% hint style="warning" %}
-<mark style="color:orange;">**Atenção:**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">Os</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**dados de empresa**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">serão</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**desconsiderados**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">quando o signatário estiver configurado para</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**assinar somente como pessoa física.**</mark>
+**Atención**: **Los datos de empresa serán desconsiderados** cuando el signatario esté configurado para firmar únicamente como **persona física**.
 {% endhint %}
 
 **a. nome**
 
-**Descrição:** Parâmetro informando o nome da empresa que será alterado ao reenviar o processo.
+Descripción: Parámetro que informa el nombre de la empresa que se modificará al reenviar el proceso.
 
 **Formato:** Varchar(250)
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
 **b. numeroDocumento**
 
-**Descrição:** Parâmetro informando o documento da empresa será alterado ao reenviar o processo.
+Descripción: Parámetro que informa el documento de la empresa que se modificará al reenviar el proceso.
 
 **Formato:** String
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
-**Validação: Quando este parâmetro NÃO for informado ou for nulo** e o parâmetro **DescartarDadosAnteriores** for enviado **com valor 1**, a informação de documento será excluída do processo.
+**Validación: Cuando este parámetro NO sea informado o sea nulo** y el parámetro **DescartarDatosAnteriores sea enviado con valor 1**, la información del documento será eliminada del proceso.
 
 **c. validarDocumento**
 
-**Descrição:** Parâmetro informando se o número do documento da empresa alterado no parâmetro numeroDocumento do objeto empresa será utilizado para validação ou não.
+**Descripción:** Parámetro que indica si el número de documento de la empresa modificado en el parámetro numeroDocumento del objeto empresa se utilizará para validación o no.
 
-**Formato:** Bit: 1 – True ou 0 - False
+**Formato:** Bit: 1 – True o 0 - False
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
-**Os dados informados neste parâmetro devem ser desconsiderados quando o** parâmetro **numeroDocumento** objeto **empresa**  for nulo
+**Los datos informados en este parámetro deben ser desconsiderados cuando el** parámetro **numeroDocumento** del objeto empresa sea **nulo**.
 
-**Quando este parâmetro não for enviado** ou for enviado com **null** ou com **valor 0**, significa que os dados informados no parâmetro **numeroDocumento** serão utilizados somente para **preenchimento automático** no momento da assinatura como pessoa jurídica.
+**Cuando este parámetro no sea enviado, sea enviado** con valor **null** o con **valor 0**, significa que los datos informados en el parámetro **numeroDocumento** serán utilizados solo para el **llenado automático** en el momento de la firma como persona jurídica.
 
-**Quando este parâmetro for enviado com valor 1**, significa que os dados informados no parâmetro **numeroDocumento** serão utilizados para **validação** no momento da assinatura como pessoa física.
+**Cuando este parámetro sea enviado con valor 1**, significa que los datos informados en el parámetro **numeroDocumento** serán utilizados para la **validación** en el momento de la firma como persona física.
 
 **d. DescartarDadosAnteriores**
 
-**Descrição:** Parâmetro informando se os dados não informados no objeto empresa serão descartados.
+**Descripción:** Parámetro que indica si los datos no informados en el objeto empresa serán descartados.
 
-**Formato:** Bit: 1 – True ou 0 - False
+**Formato:** Bit: 1 – True o 0 - False
 
-**Requerido:** <mark style="color:blue;">Não</mark>
+**Requerido:** <mark style="color:blue;">No</mark>
 
-**Os dados informados neste parâmetro serão desconsiderados quando os** parâmetros **nome** e **numeroDocumento** do objeto **empresa**  forem enviados.
+**Los datos informados en este parámetro serán desconsiderados cuando los** parámetros nombre y **numeroDocumento** del objeto **empresa** sean enviados.
 
-**Quando este parâmetro não for enviado** ou for enviado com **null** ou **com valor 0**, significa que nenhum parâmetro do objeto **empresa** será descartado.
+**Cuando este parámetro no sea enviado**, sea enviado con valor **null** o con **valor 0**, significa que ningún parámetro del objeto **empresa** será descartado.
 
-**Quando este parâmetro for enviado com valor 1**, significa que os dados não informados do objeto **empresa** serão removidos do processo.
+**Cuando este parámetro sea enviado con valor 1**, significa que los datos no informados del objeto **empresa** serán eliminados del proceso.
 
 ***
 
-## Retorno Validações
+## Retorno de Validaciones
 
-### Erro: 400 - Bad Request
+### Error: 400 - Bad Request
 
-Este erro é retornado quando não for possível interpretar a requisição e/ou o servidor tenta processar a solicitação, mas algum parâmetro da solicitação não é válido, por exemplo, um recurso formatado incorretamente ou uma tentativa de requisição com dados faltantes. As informações sobre a solicitação são fornecidas no corpo da resposta e incluem um código de erro e uma mensagem de erro.&#x20;
+Este error se devuelve cuando no se puede interpretar la solicitud y/o el servidor intenta procesarla, pero algún parámetro no es válido, por ejemplo, un recurso con formato incorrecto o una solicitud con datos faltantes. La información sobre la solicitud se proporciona en el cuerpo de la respuesta e incluye un código de error y un mensaje de error.
 
 **a. Item obrigatório:** Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não estiverem sido enviados na chamada da API: **O(s) item(ns) listado(s) é(são) obrigatório(s): “nome dos itens separados por vírgula”.**
 
