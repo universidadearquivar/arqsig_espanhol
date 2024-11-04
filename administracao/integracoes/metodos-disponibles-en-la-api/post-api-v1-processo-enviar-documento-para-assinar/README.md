@@ -339,9 +339,9 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.10.03:** “infComplRazaoSocialObrigatorio” - envíe 1 = true para obligar al firmante a informar el nombre de la empresa, envíe 0 = false para no obligar al firmante a informar el nombre de la empresa.
 
-**Ref. 10.10.04:** “infComplIdentificadorObrigatorio” - envie 1 = true para obrigar o signatário a informar um documento de identificação de PJ, envie 0 = false para não obrigar o signatário a informar um documento de identificação de PJ.
+**Ref. 10.10.04:** “infComplIdentificadorObrigatorio”: envíe 1 = true para obligar al firmante a proporcionar un documento de identificación de persona jurídica (PJ), o envíe 0 = false para no exigir que el firmante proporcione un documento de identificación de PJ.
 
-**Ref. 10.10.05:** “idInfComplTipoDocumentoSignatarioPF” - neste campo deve ser informado o tipo de documento a ser informado como PF, as opções são:
+**Ref. 10.10.05:** “idInfComplTipoDocumentoFirmantePF” - en este campo se debe informar el tipo de documento que debe proporcionar como PF. Las opciones son:
 
 &#x20;    \-> 1 = CPF
 
@@ -349,72 +349,72 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 &#x20;    \-> 3 = RG
 
-&#x20;    \-> 4 = Outro
+&#x20;    \-> 4 = Otro
 
-**Ref.10.10.06:** “infComplDocumentoNomePF” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPF” estiver com o valor 4 = Outro, é necessário enviar neste campo um nome que irá identificar esta opção “Outro” para o signatário no momento da assinatura.
+**Ref.10.10.06:** “infComplDocumentoNombrePF” - si el campo “idInfComplTipoDocumentoFirmantePF” está en el valor 4 = Otro, es necesario enviar en este campo un nombre que identificará esta opción “Otro” para el firmante en el momento de la firma.
 
-**Ref.10.10.07:** “idInfComplTipoDadosIndentificadorPF” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPF” estiver com o valor 4 = Outro, é necessário enviar neste campo a informação se o documento de PF deve ser do tipo 1 = Texto ou 2 = Numérico.
+**Ref.10.10.07:** “idInfComplTipoDatosIdentificadorPF” - cuando el campo “idInfComplTipoDocumentoFirmantePF” está en el valor 4 = Otro, es necesario enviar en este campo si el documento de PF debe ser del tipo 1 = Texto o 2 = Numérico.
 
-**Ref.10.10.08:** “infComplQtdeCaracteresPF” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPF” estiver com o valor 4 = Outro, é necessário enviar neste campo a quantidade de caracteres para a aplicação validar o documento de PF.
+**Ref.10.10.08:** “infComplCantCaracteresPF” - cuando el campo “idInfComplTipoDocumentoFirmantePF” está en el valor 4 = Otro, es necesario enviar en este campo la cantidad de caracteres para que la aplicación valide el documento de PF.
 
-**Ref. 10.10.09:** “idInfComplTipoDocumentoSignatarioPJ” - neste campo deve ser informado o tipo de documento a ser informado como PJ, as opções são:
+**Ref. 10.10.09:** idInfComplTipoDocumentoFirmantePJ” - en este campo se debe informar el tipo de documento que se proporcionará como PJ. Las opciones son:
 
-&#x20;    \-> 4 = Outro
+&#x20;    \-> 4 = Otro
 
 &#x20;    \-> 5 = CNPJ
 
-**Ref.10.10.10:** “infComplDocumentoNomePJ” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPJ” estiver com o valor 4 = Outro, é necessário enviar neste campo um nome que irá identificar esta opção “Outro” para o signatário no momento da assinatura.
+**Ref.10.10.10:** “infComplDocumentoNombrePJ” - cuando el campo “idInfComplTipoDocumentoFirmantePJ” está en el valor 4 = Otro, es necesario enviar en este campo un nombre que identificará esta opción “Otro” para el firmante en el momento de la firma.
 
-**Ref.10.10.11:** “idInfComplTipoDadosIndentificadorPJ” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPJ” estiver com o valor 4 = Outro, é necessário enviar neste campo a informação se o documento de PJ deve ser do tipo 1 = Texto ou 2 = Numérico.
+**Ref.10.10.11:** “idInfComplTipoDatosIdentificadorPJ” - cuando el campo “idInfComplTipoDocumentoFirmantePJ” está en el valor 4 = Otro, es necesario enviar en este campo si el documento de PJ debe ser del tipo 1 = Texto o 2 = Numérico.
 
-**Ref.10.10.12:** “infComplQtdeCaracteresPJ” - quando no JSON, o campo “idInfComplTipoDocumentoSignatarioPJ” estiver com o valor 4 = Outro, é necessário enviar neste campo a quantidade de caracteres para a aplicação validar o documento de PJ.
+**Ref.10.10.12:** “infComplCantCaracteresPJ” - cuando el campo “idInfComplTipoDocumentoFirmantePJ” está en el valor 4 = Otro, es necesario enviar en este campo la cantidad de caracteres para que la aplicación valide el documento de PJ.
 
-**Ref. 10.11:** “Anexos” - nesta parte do JSON devem ser enviadas as configurações de arquivos a serem solicitados aos signatários no momento da assinatura.
+**Ref. 10.11:** “Anexos” - en esta parte del JSON se deben enviar las configuraciones de archivos que se solicitarán a los firmantes en el momento de la firma.
 
-**Ref. 10.11.01:** “anexoDocumentoNome” – envie neste campo o nome do arquivo que deseja que o signatário faça o upload. Exemplo: Frente da Identidade, Selfie etc.
+**Ref. 10.11.01:** “anexoDocumentoNombre” – en este campo se debe enviar el nombre del archivo que desea que el firmante suba. Ejemplo: Frente del Documento de Identidad, Selfie, etc.
 
-**Ref. 10.11.02:** “anexoObrigatorio” - envie 1 = true para obrigar o signatário a fazer o upload deste anexo, ou 0 = false para não obrigar.
+**Ref. 10.11.02:** “anexoObligatorio” - envíe 1 = true para obligar al firmante a subir este anexo o 0 = false para no obligarlo.
 
-**Ref. 10.11.03:** “anexoExibirTodosDestinatarios” - envie 1 = true para após a conclusão do processo de assinatura, este anexo estar disponível para todos os signatários ou envie 0 = false para este anexo estar disponível somente para você que enviou o documento para ser assinado e para quem fez o upload do anexo.
+**Ref. 10.11.03:** “anexoMostrarTodosDestinatarios” - envíe 1 = true para que, después de completar el proceso de firma, este anexo esté disponible para todos los firmantes o envíe 0 = false para que esté disponible solo para quien envió el documento para ser firmado y para quien subió el anexo.
 
-**Ref. 10.12:** “definirPosicaoAssinaturaAutomatica” - neste campo deve ser enviada a informação se a plataforma deverá ou não definir de forma automática o posicionamento da assinatura para o signatário.
+**Ref. 10.12:** “definirPosicionFirmaAutomatica” - en este campo se debe enviar la información si la plataforma debe o no definir automáticamente la posición de la firma para el firmante.
 
 {% hint style="warning" %}
-<mark style="color:orange;">**No JSON, todos os destinatários com a ação de “Assinar Online” precisam ter o posicionamento da representação visual de forma automática ou manual. Para inserir o posicionamento automático da assinatura, a aplicação irá inserir uma página em branco ao final do arquivo com os locais onde todos os signatários assinarão. Desta forma, ao enviar um documento a ser assinado via API, deve-se deixar a aplicação definir o posicionamento da assinatura para todos os signatários ou para nenhum. Não é possível uma opção híbrida, um signatário se envia o posicionamento da assinatura e outro a aplicação escolhe automaticamente.**</mark>
+<mark style="color:orange;">**En el JSON, todos los destinatarios que tienen la acción de "Firmar Online" deben contar con una configuración de posicionamiento de la representación visual de la firma, ya sea de forma automática o manual. Para establecer el posicionamiento automático, la aplicación añadirá una página en blanco al final del archivo, con los espacios definidos donde firmarán todos los destinatarios. Por lo tanto, al enviar un documento para firma mediante la API, debe permitirse que la aplicación defina la posición de la firma para todos los destinatarios o para ninguno; no es posible una opción mixta (un destinatario con posicionamiento manual y otro automático).**</mark>
 
-<mark style="color:orange;">**Então neste campo teremos as seguintes opções:**</mark>
+<mark style="color:orange;">**Así, en este campo, existen las siguientes opciones:**</mark>
 
-* <mark style="color:orange;">**Null: ao enviar este parâmetro como null, significa que a aplicação não irá definir o posicionamento da assinatura para os signatários de forma automática, ou seja, será necessário enviar os dados de posicionamento no JSON (definirPosicaoAssinaturaManual).**</mark>
-* <mark style="color:orange;">**1 = PF: ao enviar este parâmetro com valor 1, significa que a aplicação ArqSign irá incluir uma página no final do arquivo com a definição automática da posição da assinatura do tipo Pessoa Física (PF).**</mark>
-* <mark style="color:orange;">**2 = PJ: ao enviar este parâmetro com valor 2, significa que a aplicação ArqSign irá incluir uma página no final do arquivo com a definição automática da posição da assinatura do tipo Pessoa Jurídica (PJ).**</mark>
-* <mark style="color:orange;">**3 = PF e PJ: ao enviar este parâmetro com valor 3, significa que a aplicação ArqSign irá incluir uma página no final do arquivo com a definição automática da posição para duas assinaturas, uma do tipo Pessoa Física (PF) e uma do tipo Pessoa Jurídica (PJ).**</mark>
+* <mark style="color:orange;">**Null: enviar este parámetro como null significa que la aplicación no establecerá automáticamente el posicionamiento de la firma para los destinatarios. Será necesario, entonces, incluir los datos de posicionamiento en el JSON (definirPosicaoAssinaturaManual).**</mark>
+* <mark style="color:orange;">**1 = PF: al enviar este parámetro con el valor 1, significa que la aplicación ArqSign incluirá una página al final del archivo con la definición automática de la posición de la firma del tipo Persona Física (PF).**</mark>
+* <mark style="color:orange;">**2 = PJ: al enviar este parámetro con el valor 2, significa que la aplicación ArqSign incluirá una página al final del archivo con la definición automática de la posición de la firma del tipo Persona Jurídica (PJ).**</mark>
+* <mark style="color:orange;">**3 = PF y PJ: al enviar este parámetro con el valor 3, significa que la aplicación ArqSign incluirá una página al final del archivo con la definición automática de la posición para dos firmas, una del tipo Persona Física (PF) y otra del tipo Persona Jurídica (PJ).**</mark>
 {% endhint %}
 
-**Ref. 10.13:** “definirPosicaoAssinaturaManual” - nesta parte do JSON devem ser enviados os dados de posicionamento da assinatura no documento. Esta parte deve ser enviada obrigatoriamente se no campo “definirPosicaoAssinaturaAutomatica”, tiver sido enviada a informação “Null”.
+**Ref. 10.13:** “definirPosicaoAssinaturaManual” - Esta sección del JSON debe incluir los datos de posicionamiento de la firma en el documento, siendo obligatoria si el campo definirPosicaoAssinaturaAutomatica fue enviado como “Null”.
 
-**Ref. 10.13.01:** “pessoaFisica” - se este signatário for assinar como pessoa física, envie nesta parte o posicionamento da assinatura em questão.
+**Ref. 10.13.01:** "pessoaFisica": si el firmante es una persona física, incluya aquí el posicionamiento de la firma.
 
-**Ref. 10.13.01.01:** “pagina” - envie o número da página onde a assinatura deve ser posicionada.
+**Ref. 10.13.01.01:** "pagina": envíe el número de la página donde debe ubicarse la firma.
 
 **Ref. 10.13.01.02:** “Altura” - envie a altura em milímetros do tamanho da caixa onde a assinatura será aplicada.
 
-**Ref. 10.13.01.03:** “Largura” - envie a largura em milímetros do tamanho da caixa onde a assinatura será aplicada.
+**Ref. 10.13.01.03:** "Largura": envíe la anchura en milímetros de la caja de la firma.
 
-**Ref. 10.13.01.04:** “PosicaoX” - envie a posição em milímetros da borda esquerda da página até a borda esquerda da caixa da assinatura.
+**Ref. 10.13.01.04:** "PosicaoX": envíe la posición en milímetros desde el borde izquierdo de la página hasta el borde izquierdo de la caja de firma.
 
-**Ref. 10.13.01.05:** “PosicaoY” - envie a posição em milímetros da borda superior da página até a borda superior da caixa da assinatura.
+**Ref. 10.13.01.05:** "PosicaoY": envíe la posición en milímetros desde el borde superior de la página hasta el borde superior de la caja de firma.
 
-**Ref. 10.13.02:** “pessoaJuridica” - se este signatário for assinar como pessoa jurídica, envie nesta parte o posicionamento da assinatura em questão.
+**Ref. 10.13.02:** "pessoaJuridica": si el firmante es una persona jurídica, incluya aquí el posicionamiento de la firma.
 
-**Ref. 10.13.02.01:** “pagina” - envie o número da página onde a assinatura deve ser posicionada.
+**Ref. 10.13.02.01:** "pagina": envíe el número de la página donde debe ubicarse la firma.
 
-**Ref. 10.13.02.02:** “Altura” - envie a altura em milímetros do tamanho da caixa onde a assinatura será aplicada.
+**Ref. 10.13.02.02:** "Altura": envíe la altura en milímetros de la caja de la firma.
 
-**Ref. 10.13.02.03:** “Largura” - envie a largura em milímetros do tamanho da caixa onde a assinatura será aplicada.
+**Ref. 10.13.02.03:** "Largura": envíe la anchura en milímetros de la caja de la firma.
 
-**Ref. 10.13.02.04:** “PosicaoX” - envie a posição em milímetros da borda esquerda da página até a borda esquerda da caixa da assinatura.
+**Ref. 10.13.02.04:** "PosicaoX": envíe la posición en milímetros desde el borde izquierdo de la página hasta el borde izquierdo de la caja de firma.
 
-**Ref. 10.13.02.05:** “PosicaoY” - envie a posição em milímetros da borda superior da página até a borda superior da caixa da assinatura. Na figura abaixo está a representação visual das medidas que precisam ser identificadas no seu modelo de documento (Altura, Largura, PosicaoX e PosicaoY).&#x20;
+**Ref. 10.13.02.05:** "PosicaoY": envíe la posición en milímetros desde el borde superior de la página hasta el borde superior de la caja de firma.La figura a continuación ilustra las medidas necesarias que deben identificarse en su modelo de documento: Altura, Anchura, Posición X y Posición Y.
 
 <figure><img src="../../../../.gitbook/assets/api05.png" alt=""><figcaption></figcaption></figure>
 
