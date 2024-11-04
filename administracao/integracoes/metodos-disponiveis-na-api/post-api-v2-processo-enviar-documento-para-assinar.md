@@ -507,179 +507,178 @@ Cuando el parámetro **assinarComo = 1 (PF)**, estos datos serán desconsiderado
 
     **a**. Esta información no puede ser cero ni nula.
 4.  **posicaoX**\
-    Posição em milímetros da borda esquerda da página até a borda esquerda da caixa de assinatura. É **obrigatória** quando **usarPosicaoAssinaturaAutomatica = false** e **assinarComo = 2 (PJ) ou 3 (PF e PJ).**
+    Posición en milímetros de la orilla izquierda de la página hasta la orilla izquierda de la caja de firma. Es **obligatoria** cuando **usarPosicaoAssinaturaAutomatica = false y assinarComo = 2 (PJ) o 3 (PF y PJ).**
 
-    É permitido informar valor decimal.
+    Es permitido informar valor decimal.
 
-    **a**. Esta informação não pode ser zero nem nula.
+    **a**. Esta información no puede ser cero ni nula.
 5.  **posicaoY**\
-    **Descrição:** Posição em milímetros da borda superior da página até a borda superior da caixa de assinatura. . É obrigatória quando **usarPosicaoAssinaturaAutomatica = false** e **assinarComo = 2 (PJ) ou 3 (PF e PJ).**
+    Descripción: Posición en milímetros de la orilla superior de la página hasta la orilla superior de la caja de firma. Es obligatoria cuando **usarPosicaoAssinaturaAutomatica = false y assinarComo = 2 (PJ) o 3 (PF y PJ).**
 
-    É permitido informar valor decimal.
+    Es permitido informar valor decimal.
 
-    **a.** Esta informação não pode ser zero nem nula.
+    **a.** Esta información no puede ser cero ni nula.
 
 #### idTipoAssinatura
 
-Definição do tipo de assinatura que será exigida ao signatário que pode ser: **1 = Assinatura Eletrônica, 3 = Certificado Digital ICP Brasil** ou **4 = Certificado Digital Outros.**\
-**a.** Esta informação é obrigatória para todos os signatários com parâmetro idTipoAcao = 1 (Assinar Online).\
-**b.** A aplicação permite somente os valores 1,3 ou 4.
+Definición del tipo de firma que será exigida al signatario que puede ser: **1 = Assinatura Electrónica, 3 = Certificado Digital ICP Brasil o 4 = Certificado Digital Otros.**\
+**a.** Esta información es obligatoria para todos los signatarios con parámetro idTipoAcao = 1 (Firmar en Línea).\
+**b.** La aplicación permite solamente los valores 1, 3 o 4.
 
 #### assinaturaEletronica
 
-Esta parte do JSON somente é **obrigatória** para os signatários com **idTipoAssinatura = 1** (Assinatura Eletrônica).
+Esta parte del JSON solo es **obligatoria** para los firmantes con **idTipoAssinatura** = 1 (Firma Electrónica).
 
 *   **obrigarSignatarioInformarNome**\
-    Informação para a aplicação obrigar o signatário em questão informar seu nome.
+    Información para la aplicación que obliga al firmante en cuestión a informar su nombre.
 
-    É permitido informar 1 = True ou 0 = False.
+    Se permite informar 1 = True o 0 = False.
 
-    **a.** Esta informação é obrigatória para todos os signatários com idTipoAssinatura = 1 (Assinatura Eletrônica).
+    **a.** Esta información es obligatoria para todos los firmantes con idTipoAssinatura = 1 (Firma Electrónica).
 *   **obrigarSignatarioInformarNumeroDocumento**\
-    Informação para a aplicação obrigar o signatário em questão informar o número de seu documento.
+    Información para la aplicación que obliga al firmante en cuestión a informar el número de su documento.
 
-    É permitido informar 1 = True ou 0 = False.
+    Se permite informar 1 = True o 0 = False.
 
-    **a.** Esta informação é obrigatória para todos os signatários com idTipoAssinatura = 1 (Assinatura Eletrônica).
+    **a.** Esta información es obligatoria para todos los firmantes con idTipoAssinatura = 1 (Firma Electrónica).
 *   **tipoDocumentoAInformar**\
-    Tipo de documento que o signatário deverá informar no momento da assinatura, permitindo os valores: **1 = CPF**, **2 = CNH**, **3 = RH** ou **4 = Outro**.
+    Tipo de documento que el firmante deberá informar en el momento de la firma, permitiendo los valores: **1 = CPF, 2 = CNH, 3 = RH o 4 = Otro.**
 
-    **a.** Esta informação é obrigatória para todos os signatários com idTipoAssinatura = 1 (Assinatura Eletrônica).
+    **a.** Esta información es obligatoria para todos los firmantes con idTipoAssinatura = 1 (Firma Electrónica).
 
-    **b.** Quando informado, o sistema valida o parâmetro **tipoDocumentoAInformar** permitindo somente os valores:  1 = CPF, 2 = CNH, 3 = RH ou 4 = Outro.
+    **b.** Cuando se informa, el sistema valida el parámetro **tipoDocumentoAInformar** permitiendo solo los valores: 1 = CPF, 2 = CNH, 3 = RH o 4 = Otro.
 * **configuracaoDocumentoOutro**\
-  Esta parte do JSON somente **é obrigatória** quando o **tipoDocumentoAInformar** for igual a **4 = Outro**. Nesta parte é possível definir os parâmetros do documento que será solicitado ao signatário a informação, no ato da assinatura.
+  Esta parte del JSON solo **es obligatoria** cuando el **tipoDocumentoAInformar** sea igual a **4 = Otro.** En esta parte se pueden definir los parámetros del documento que se solicitará al firmante en el momento de la firma.
   1.  **nomeDocumento**\
-      Nome do documento que será exibido ao signatário no momento da assinatura dos documentos.
+      Nombre del documento que se mostrará al firmante en el momento de la firma de los documentos.
 
-      É permitido informar valores com até 50 caracteres
+      Se permite informar valores de hasta 50 caracteres.
   2. **formatoDadosDocumento**\
-     Formato de dados que será exigido no campo de documento, permitindo o valor 1 = Texto ou 2 = Numérico.
+     Formato de datos que se exigirá en el campo de documento, permitiendo el valor 1 = Texto o 2 = Numérico.
   3. **qtdeCaracteresDocumento**\
-     Quantidade de caracteres que serão exigidos no campo documento.
+     Cantidad de caracteres que se exigirán en el campo documento..
 *   **obrigarSignatarioInformarNomeEmpresa**\
-    Informação para a aplicação obrigar o signatário em questão informar o nome da empresa (pessoa jurídica).
+    Información para la aplicación que obliga al firmante en cuestión a informar el nombre de la empresa (persona jurídica).
 
-    É permitido informar 1 = True ou 0 = False.
+    Se permite informar 1 = True o 0 = False.
 
-    **a.** Esta informação é obrigatória para os signatários quando parâmetros idTipoAssinatura  = 1 (Assinatura Eletrônica) e assinarComo seja igual a 2 = Pessoa Jurídica ou 3 = Pessoa Física e Jurídica.
+    **a.** Esta información es obligatoria para los firmantes cuando los parámetros idTipoAssinatura = 1 (Firma Electrónica) y assinarComo sea igual a 2 = Persona Jurídica o 3 = Persona Física y Jurídica.
 *   **obrigarSignatarioInformarNumeroDocumentoEmpresa**\
-    Informação para a aplicação obrigar o signatário em questão informar o documento da empresa (pessoa jurídica).
+    Información para la aplicación que obliga al firmante en cuestión a informar el documento de la empresa (persona jurídica).
 
-    É permitido informar 1 = True ou 0 = False.
+    Se permite informar 1 = True o 0 = False.
 
-    **a.** Esta informação é obrigatória para os signatários quando parâmetros idTipoAssinatura  = 1 (Assinatura Eletrônica) e assinarComo seja igual a 2 = Pessoa Jurídica ou 3 = Pessoa Física e Jurídica.
+    **a.** Esta información es obligatoria para los firmantes cuando los parámetros idTipoAssinatura = 1 (Firma Electrónica) y assinarComo sea igual a 2 = Persona Jurídica o 3 = Persona Física y Jurídica.
 *   **tipoDocumentoEmpresaAInformar**\
-    Tipo de documento que o signatário deverá informar para a empresa.
+    Tipo de documento que el firmante deberá informar para la empresa.
 
-    É permitido informar 4 = Outro ou 5 = CNPJ.
+    Se permite informar 4 = Otro o 5 = CNPJ.
 
-    **a.** Esta informação é obrigatória para os signatários quando parâmetros idTipoAssinatura  = 1 (Assinatura Eletrônica) e assinarComo seja igual a 2 = Pessoa Jurídica ou 3 = Pessoa Física e Jurídica.
+    **a.** . Esta información es obligatoria para los firmantes cuando los parámetros idTipoAssinatura = 1 (Firma Electrónica) y assinarComo sea igual a 2 = Persona Jurídica o 3 = Persona Física y Jurídica.
 
-    **b.** Quando informado, o sistema validr o parâmetro **tipoDocumentoEmpresaAInformar** permitindo somente os valores:  4 = Outro ou 5 = CNPJ.
+    **b.** Cuando se informa, el sistema valida el parámetro **tipoDocumentoEmpresaAInformar** permitiendo solo los valores: 4 = Otro o 5 = CNPJ.
 *   **configuracaoDocumentoEmpresaOutro**\
-    Esta parte do JSON somente é **obrigatória quando** o **tipoDocumentoEmpresaAInformar** **for igual a 4 = Outro.**
+    Esta parte del JSON solo es **obligatoria cuando** el **tipoDocumentoEmpresaAInformar sea igual a 4 = Otro.**
 
-    Nesta parte é possível definir os parâmetros do documento que será solicitado ao signatário a informação, no ato da assinatura.
+    En esta parte se pueden definir los parámetros del documento que se solicitará al firmante en el momento de la firma.
 
     1.  **nomeDocumento**\
-        Nome do documento que será exibido ao signatário como documento da empresa, permitindo informar até 50 caracteres.
+        Nombre del documento que se mostrará al firmante como documento de la empresa, permitiendo informar hasta 50 caracteres.
 
-        **a.** Esta informação é obrigatória para todos os signatários com tipoDocumentoEmpresaAInformar = 4 (Outro).
+        **a.** Esta información es obligatoria para todos los firmantes con tipoDocumentoEmpresaAInformar = 4 (Otro).
     2.  **formatoDadosDocumento**\
-        Formato de dados que será exigido no campo de documento da empresa, permitindo informar 1 = Texto ou 2 = Numérico
+        Formato de datos que se exigirá en el campo de documento de la empresa, permitiendo informar 1 = Texto o 2 = Numérico.
 
-        a. Esta informação é obrigatória para todos os signatários com tipoDocumentoEmpresaAInformar = 4 (Outro).
+        a. Esta información es obligatoria para todos los firmantes con tipoDocumentoEmpresaAInformar = 4 (Otro).
     3.  **qtdeCaracteresDocumento**\
-        Quantidade de caracteres que serão exigidos no campo documento.
+        Cantidad de caracteres que se exigirán en el campo documento.
 
-        a. Esta informação é obrigatória para todos os signatários com tipoDocumentoEmpresaAInformar = 4 (Outro). &#x20;
+        a. Esta información es obligatoria para todos los firmantes con tipoDocumentoEmpresaAInformar = 4 (Otro).
 
 ### documentos
 
-**a.** Esta parte do JSON é **obrigatória, sendo necessário enviar pelo menos um arquivo.**
+**a.** . Esta parte del JSON es **obligatoria, siendo necesario enviar al menos un archivo.**
 
-**b.** É permitido enviar até 25 arquivos por processo.
+**b.** Se permite enviar hasta 25 archivos por proceso.
 
-**c.** A soma do tamanho destes arquivos não pode ultrapassar a **100MB**.
+**c.** La suma del tamaño de estos archivos no puede superar los **100 MB**.
 
-**d.** Somente é permitido arquivo do tipo PDF.
+**d.** Solo se permite archivo del tipo PDF.
 
 #### ordemDocumento
 
-Quando estiver sendo enviado mais de um arquivo no processo, será necessário definir a ordem com que estes arquivos serão listados na tela para o signatário assinar. Esta ordem também será usada para relacionar o posicionamento da assinatura do signatário no arquivo em questão. Ver parâmetro **documentoDeOrdem.**\
-**a.** Para processo com mais de um arquivo o parâmetro **ordemDocumento** é obrigatório em cada documento.\
-**b.** Não é permitido arquivos com mesma ordem.\
-**c.** Quando estiver sendo enviado mais de um arquivo, eles serão considerados como uma coleção de arquivos para o processo em questão, **não serão mergeados,** ou seja, agrupados em um único arquivo.\
-Não é possível agrupar arquivos pelo serviço de envio de processo de documentos para assinar.
+Cuando se envía más de un archivo en el proceso, será necesario definir el orden con el que estos archivos serán listados en la pantalla para que el firmante los firme. Este orden también se usará para relacionar la posición de la firma del firmante en el archivo en cuestión. Ver parámetro **documentoDeOrdem**.\
+**a.** Para el proceso con más de un archivo, el parámetro **ordemDocumento** es obligatorio en cada documento.\
+**b.** No se permiten archivos con la misma orden.\
+**c.** Cuando se envían más de un archivo, se considerarán como una colección de archivos para el proceso en cuestión, no se agruparán, es decir, **no se fusionarán**. No es posible agrupar archivos mediante el servicio de envío de procesos de documentos para firmar.
 
 #### nomeComExtensao
 
-Parâmetro **obrigatório** para informar o Nome do arquivo com sua extensão, permitindo até 150 caracteres.\
-**a.** A aplicação **não permite** arquivos com nomes iguais em um mesmo processo.
+Parámetro **obligatorio** para informar el nombre del archivo con su extensión, permitiendo hasta 150 caracteres.\
+**a.** La aplicación **no permite** archivos con nombres iguales en un mismo proceso.
 
 #### arquivo
 
-Parâmetro **obrigatório** para informar o arquivo PDF no formato base64.\
-**a.** É obrigatório enviar pelo menos um arquivo. Ele precisa ser enviado no formato PDF.
+Parámetro **obligatorio** para informar el archivo PDF en formato base64.\
+**a.** Es obligatorio enviar al menos un archivo. Debe enviarse en formato PDF.
 
 
 
-## Retorno Validações
+## Retorno Validaciones
 
-### Erro: 400 - Bad Request
+### Error: 400 - Bad Request
 
-Este erro é retornado quando não for possível interpretar a requisição e/ou o servidor tenta processar a solicitação, mas algum parâmetro da solicitação não é válido, por exemplo, um recurso formatado incorretamente ou uma tentativa de requisição com dados faltantes. As informações sobre a solicitação são fornecidas no corpo da resposta e incluem um código de erro e uma mensagem de erro.
+Este error se devuelve cuando no es posible interpretar la solicitud y/o el servidor intenta procesar la solicitud, pero algún parámetro de la solicitud no es válido, por ejemplo, un recurso formateado incorrectamente o un intento de solicitud con datos faltantes. Las informaciones sobre la solicitud se proporcionan en el cuerpo de la respuesta e incluyen un código de error y un mensaje de error.
 
-**a.** **Item obrigatório**: Esta mensagem é exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**a.** **Ítem obligatorio:** Este mensaje se muestra en singular o plural cuando uno o más ítems obligatorios no se han enviado en la llamada de la API.
 
-**O(s) item(ns) listado(s) é(são) obrigatório(s): “nome dos itens separados por vírgula”.**
+**Los ítems listados son obligatorios: "nombre de los ítems separados por comas".**
 
-**b. Formato incorreto:** Esta mensagem é exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**b. Formato incorrecto:** Este mensaje se muestra en singular o plural cuando uno o más ítems se han enviado con un formato incorrecto.
 
-&#x20;**O(s) item(ns) listado(s) está(ão) com o formato incorreto: “nome dos itens separados por vírgula”.**
+&#x20;**Los ítems listados están con el formato incorrecto: "nombre de los ítems separados por comas".**
 
-**c. Ids inexistente:** Esta mensagem é exibida no singular ou plural quando um ou mais Id enviado não existir.
+**c. Ids inexistentes:** Este mensaje se muestra en singular o plural cuando uno o más Id enviados no existen.
 
-&#x20;**O(s) id(s) listado(s) não existe(m): “nome dos itens que são Ids de tabela, separados por vírgula”.**
+&#x20;**Los id(s) listados no existen: "nombre de los ítems que son Ids de tabla, separados por comas".**
 
-**d. Algum parâmetro está incorreto ou é inexistente:** Esta mensagem é exibida quando a chamada é feita com algum parâmetro escrito errado ou quando é enviado uma informação que não existe no método.
+**d. Algún parámetro está incorrecto o es inexistente:** Este mensaje se muestra cuando la llamada se realiza con algún parámetro escrito incorrectamente o cuando se envía una información que no existe en el método.
 
-**Algum parâmetro está incorreto ou é inexistente.**
+**Algún parámetro está incorrecto o es inexistente.**
 
 ### Erro:  401 - Unauthorized
 
-Este erro é retornado quando
+Este error se devuelve cuando
 
-* A chave de autenticação da API ArqSign está incorreta ou não foi informada corretamente.
-* Conta está com status diferente de Ativo.
+* La clave de autenticación de la API ArqSign es incorrecta o no se ha informado correctamente.
+* La cuenta tiene un estado diferente de Activo.
 
 ### Erro: 404 - Not Found
 
-Este erro é retornado quando o recurso solicitado ou o _endpoint_ não foi localizado.
+Este error se devuelve cuando el recurso solicitado o el _endpoint_ no ha sido localizado.
 
 ### Erro: 422 - Unprocessable
 
-Este erro é retornado quando a requisição foi recebida com sucesso, porém contém parâmetros inválidos.
+Este error se devuelve cuando la solicitud fue recibida con éxito, pero contiene parámetros inválidos.
 
 ### Erro: 500 - Server Error
 
-Este erro é retornado quando:
+Este error se devuelve cuando:
 
-* Ocorre um erro interno no servidor.
-* Ocorre uma falha na plataforma ArqSign.
-* Formato do parâmetro incorreto.        &#x20;
-* Formato do JSON incorreto.
+* Ocurre un error interno en el servidor.
+* Ocurre una falla en la plataforma ArqSign.
+* Formato del parámetro incorrecto.       &#x20;
+* Formato del JSON incorrecto.
 
 
 
-## Retorno Sucesso
+## Retorno Éxito
 
-Ao executar o envio do processo com sucesso, o sistema retorna o id do processo e o(s) id(s) do(s) documento(s) do processo.
+Al ejecutar el envío del proceso con éxito, el sistema devuelve el id del proceso y el(los) id(s) del(os) documento(s) del proceso.
 
-Code 200 – OK
+Código 200 – OK
 
-### Retorno - Exemplo Body Response
+### Retorno - Ejemplo Body Response
 
 ```
 {
@@ -700,17 +699,17 @@ Code 200 – OK
 
 #### idProcesso
 
-O sistema retorna o id do processo criado.
+El sistema devuelve el id del proceso creado.
 
 #### documentos
 
-Neste objeto o sistema retorna os  id’s e o nomes dos documentos do processo.\
-Um processo por ter uma ou mais documentos.
+En este objeto, el sistema devuelve los id’s y los nombres de los documentos del proceso.\
+Un proceso puede tener uno o más documentos.
 
 #### idDocumento
 
-O sistema retorna o id do documento do processo.
+El sistema devuelve el id del documento del proceso.
 
 #### nomeDocumento
 
-O sistema retorna o nome do documento do processo criado.
+El sistema devuelve el nombre del documento del proceso creado.
