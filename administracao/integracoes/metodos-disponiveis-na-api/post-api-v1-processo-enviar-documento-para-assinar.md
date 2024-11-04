@@ -1,8 +1,8 @@
 ---
 description: >-
-  O objetivo deste método é permitir que o usuário envie um documento para ser
-  assinado via plataforma ArqSIGN. Nesta versão, todos os documentos enviados
-  para assinatura são agrupados em um mesmo PDF.
+  El objetivo de este método es permitir que el usuario envíe un documento para
+  ser firmado a través de la plataforma ArqSIGN. En esta versión, todos los
+  documentos enviados para firma se agrupan en un
 ---
 
 # ✔️ POST/api/v1/processo/enviar-documento-para-assinar
