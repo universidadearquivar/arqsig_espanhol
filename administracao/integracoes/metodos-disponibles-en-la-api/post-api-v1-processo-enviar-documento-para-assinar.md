@@ -5,11 +5,11 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 {% hint style="danger" %}
 <mark style="color:red;">Este método tiene una versión actualizada disponible para su uso.</mark>
 
-<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](../../metodos-disponiveis-na-api/post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">.</mark>
+<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](../metodos-disponiveis-na-api/post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">.</mark>
 
 <mark style="color:red;">Para aquellos que ya utilizan el método en la versión 1, la funcionalidad permanece igual, aunque esta versión no contará con nuevas funcionalidades. Dependerá del cliente evaluar el uso y decidir si mantiene la utilización de la versión 1 o migra a la versión 2.</mark>
 
-<mark style="color:red;">Consulte aquí un</mark> [<mark style="color:red;">**comparativo de información**</mark>](./#comparativo-json-v1xv2) <mark style="color:red;">que le ayudará en el proceso de migración.</mark>
+<mark style="color:red;">Consulte aquí un</mark> [<mark style="color:red;">**comparativo de información**</mark>](post-api-v1-processo-enviar-documento-para-assinar.md#comparativo-json-v1xv2) <mark style="color:red;">que le ayudará en el proceso de migración.</mark>
 {% endhint %}
 
 ## Requisición
@@ -223,7 +223,7 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 }
 ```
 
-<figure><img src="../../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
 
 ### Detallamiento del Header y Body
 
@@ -416,7 +416,7 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.13.02.05:** "PosicaoY": envíe la posición en milímetros desde el borde superior de la página hasta el borde superior de la caja de firma.La figura a continuación ilustra las medidas necesarias que deben identificarse en su modelo de documento: Altura, Anchura, Posición X y Posición Y.
 
-<figure><img src="../../../../.gitbook/assets/image (764).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 Para saber cómo tomar estas medidas, mira el video a continuación:
 
@@ -432,7 +432,7 @@ Ref. 11.02: "nombreConExtensión" - envíe el nombre del archivo con su extensi�
 
 ## Retorno <a href="#toc112750306" id="toc112750306"></a>
 
-<figure><img src="../../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detalle del Retorno
 
@@ -468,7 +468,7 @@ En la **v1**, era necesario informar en el parámetro “**idFormaEnvio**” cu�
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -476,7 +476,7 @@ En la **v1**, era necesario informar en el parámetro “**idFormaEnvio**” cu�
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -484,13 +484,13 @@ En la **v1**, era necesario informar en el parámetro “**idFormaEnvio**” cu�
 
 ### Usar página automática&#x20;
 
-o nome do parâmetro mudou.
+el nombre del parámetro cambió.
 
 <mark style="color:red;">**V1**</mark>&#x20;
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -498,19 +498,19 @@ o nome do parâmetro mudou.
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
-### Definição da posição de assinatura manual
+### Definición de la posición de firma manual
 
-Na **V2**, deve ser configurado dados de posição da assinatura manual para cada documento do processo. Portanto foi adicionado o parâmetro “**documentoDeOrdem**” dentro do objeto “**definirPosicaoAssinaturaManual**”.
+En la **V2**, se deben configurar los datos de posición de la firma manual para cada documento del proceso. Por lo tanto, se añadió el parámetro “**documentoDeOrdem**” dentro del objeto “**definirPosicaoAssinaturaManual**”.
 
 <mark style="color:red;">**V1**</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -518,21 +518,21 @@ Na **V2**, deve ser configurado dados de posição da assinatura manual para cad
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
-### Tipo de Assinatura
+### Tipo de Firma
 
-Na **V1** o Tipo de Assinatura, é informado através do parâmetro “**idTipoAssinatura**” dentro do objeto de signatário.
+En la **V1**, el Tipo de Firma se informa a través del parámetro “**idTipoAssinatura**” dentro del objeto del firmante.
 
-Já na **V2**, este parâmetro se tornou uma propriedade independente (não fica dentro de nenhum objeto).
+En la **V2**, este parámetro se convierte en una propiedad independiente (no está dentro de ningún objeto).
 
 <mark style="color:red;">**V1**</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -540,19 +540,19 @@ Já na **V2**, este parâmetro se tornou uma propriedade independente (não fica
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
-### Dados complementares&#x20;
+### Datos complementarios&#x20;
 
-Na **V1** os dados complementares de Pessoa Física e Jurídica eram informados dentro do objeto de Signatário por meio do parâmetro “**destinatariosEntradaDto**”. E na **V2** esses dados também se tornaram independentes e são informados no objeto "**assinaturaEletronica**".
+En la **V1**, los datos complementarios de Persona Física y Jurídica se informaban dentro del objeto del Firmante mediante el parámetro “**destinatariosEntradaDto**”. En la **V2**, estos datos también se volvieron independientes y se informan en el objeto "**assinaturaEletronica**".
 
 <mark style="color:red;">**V1**</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -560,21 +560,21 @@ Na **V1** os dados complementares de Pessoa Física e Jurídica eram informados 
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
-### Documento por processo
+### Documento por proceso
 
-Na **V1** é possível enviar apenas 1 documento por processo.
+En la **V1** es posible enviar solo un documento por proceso.
 
-E na **V2** é possível enviar vários documentos em um único processo.
+En la **V2** es posible enviar varios documentos en un único proceso.
 
 <mark style="color:red;">**V1**</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
@@ -582,22 +582,22 @@ E na **V2** é possível enviar vários documentos em um único processo.
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
 
 </div>
 
-### Retorno da requisição
+### Retorno de la solicitud
 
-O retorno da requisição também mudou. Na **V2** é são retornados os dados de Id do processo, Id’s dos documentos e seus respectivos nomes.
+El retorno de la solicitud también cambió. En la **V2** se devuelven los datos del Id del proceso, los Id de los documentos y sus respectivos nombres.
 
 <mark style="color:red;">**V1**</mark>
 
-É retornado apenas o ID do Processo.
+Se devuelve solo el ID del Proceso.
 
 <mark style="color:green;">**V2**</mark>
 
 <div align="left">
 
-<figure><img src="../../../../.gitbook/assets/image (466).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
 
 </div>
