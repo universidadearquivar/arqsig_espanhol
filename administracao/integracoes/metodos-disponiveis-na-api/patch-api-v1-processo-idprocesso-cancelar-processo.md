@@ -1,10 +1,10 @@
 # ✔️ PATCH/api/v1/processo/{idProcesso}/cancelar-processo
 
-O objetivo deste método é permitir que o usuário cancele o processo de assinatura que esteja em andamento.
+El objetivo de este método es permitir que el usuario cancele el proceso de firma que esté en curso.
 
-Neste método o usuário irá nos enviar o ID do Processo, e nós cancelaremos o processo informado.
+En este método, el usuario nos enviará el ID del Proceso, y nosotros cancelaremos el proceso informado.
 
-## Requisição
+## Requisición
 
 <figure><img src="../../../.gitbook/assets/api15.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
@@ -14,20 +14,20 @@ Neste método o usuário irá nos enviar o ID do Processo, e nós cancelaremos o
 
 <figure><img src="../../../.gitbook/assets/api16.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detallamiento del Retorno
 
-**Ref. 01 - Código 200:** Como retorno de sucesso, a aplicação retornará o código 200 juntamente com a mensagem de documento cancelado com sucesso.
+**Ref. 01 - Código 200:** Como retorno de éxito, la aplicación devolverá el código 200 junto con el mensaje de documento cancelado con éxito.
 
-**Ref. 02 - Código 400:** _Mensagem de item obrigatório:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no hayan sido enviados en la llamada a la API.
 
-**Ref. 03 - Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 - Código 400:** _Mensaje de formato incorrecto:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems hayan sido enviados con formato incorrecto.
 
-**Ref. 04 - Código 400:** _Mensagem de Ids inexistente:_ Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 - Código 400:** _Mensaje de Ids inexistentes:_ Este mensaje se mostrará en singular o plural cuando uno o más Id enviados no existan.
 
-**Ref. 05 - Código 400:** _Mensagem de documento excluído:_ Esta mensagem será exibida quando o processo em questão tiver sido excluído logicamente.
+**Ref. 05 - Código 400:** _Mensaje de documento excluido:_ Este mensaje se mostrará cuando el proceso en cuestión haya sido excluido lógicamente.
 
-**Ref. 06 - Código 400:** _Mensagem de parâmetro está incorreto ou é inexistente_: Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 06 - Código 400:** _Mensaje de parámetro incorrecto o inexistente:_ Cuando la llamada se realiza con algún parámetro escrito incorrectamente o un parámetro que no existe en el método.
 
-**Ref. 07 - Código 422:** _Mensagem validações:_ Estas mensagens serão exibidas quando o usuário informar um  com status diferente de Aguardando ou Em processo.
+**Ref. 07 - Código 422:** _Mensaje de validaciones:_ Estos mensajes se mostrarán cuando el usuario informe un estado diferente de Aguardando o Em proceso.
 
-**Ref. 08 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 08 - Código 401:** _Mensaje de usuario de la API no autorizado:_ AppKey inválida o no localizada.
