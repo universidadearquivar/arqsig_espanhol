@@ -1,20 +1,20 @@
 # ✔️ GET/api/v1/processo/{idprocesso}/dados-signatarios
 
-O objetivo deste método é permitir que o usuário busque os dados dos signatários que possuem ação de assinar eletronicamente em um processo de assinatura.
+El objetivo de este método es permitir que el usuario busque los datos de los firmantes que tienen acción de firmar electrónicamente en un proceso de firma.
 
-Neste método o usuário irá nos enviar o ID do Processo, e nós retornaremos um JSON completo com as informações do processo e dos signatários.
+En este método, el usuario nos enviará el ID del Proceso, y nosotros devolveremos un JSON completo con la información del proceso y de los firmantes.
 
-## Requisição
+## Requisición
 
 <figure><img src="../../../.gitbook/assets/api11.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Header e Parameters
+### Detallamiento del Header y Parameters
 
-**Ref. 01:** “AppKey” é a chave de autorização para se autenticar na API. Esta chave deve ser válida e estar vinculada a uma conta ArqSign ativa.
+**Ref. 01:** “AppKey” es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSign activa.
 
-**Ref. 02:** “idProcesso” - Para se obter o status do processo deve ser enviado como parâmetro o ID do processo de assinatura na plataforma ArqSign. Este ID a API devolve como retorno de sucesso, após a chamada do método: [<mark style="background-color:green;">**POST**</mark>**​/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md).
+**Ref. 02:** “idProcesso” - Para obtener el estado del proceso, debe enviarse como parámetro el ID del proceso de firma en la plataforma ArqSign. Este ID la API devuelve como respuesta de éxito, tras la llamada al método: [<mark style="color:blue;">**POST​/api​/v1​/processo​/enviar-documento-para-assinar**</mark>](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md).
 
-Outra forma de obter o ID do processo e por meio da plataforma ArqSign, na opção “Histórico” do documento disponível nas caixas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) e [Excluídos](../../../caixa-postal/excluidos.md).&#x20;
+Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) y [Excluidos](../../../caixa-postal/excluidos.md).
 
 ***
 
@@ -22,25 +22,25 @@ Outra forma de obter o ID do processo e por meio da plataforma ArqSign, na opç�
 
 <figure><img src="../../../.gitbook/assets/api12.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detallamiento del Retorno
 
-**Ref. 01 - Código 200:** Como retorno de sucesso, a aplicação retornará o código 200 juntamente com os dados dos signatários do processo no formato JSON.&#x20;
+**Ref. 01 - Código 200:** Como retorno de éxito, la aplicación devolverá el código 200 junto con los datos de los firmantes del proceso en formato JSON.
 
-**Ref. 02 - Código 400:** _Mensagem de item obrigatório:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no hayan sido enviados en la llamada a la API.
 
-**Ref. 03 - Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 - Código 400:** _Mensaje de formato incorrecto:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems hayan sido enviados con un formato incorrecto.
 
-**Ref. 04 - Código 400:** _Mensagem de Ids inexistentes:_ Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 - Código 400:** _Mensaje de IDs inexistentes:_ Este mensaje se mostrará en singular o plural cuando uno o más IDs enviados no existan.
 
-**Ref. 05 - Código 400:** _Mensagem de documento excluído:_ Esta mensagem será exibida quando o processo em questão tiver sido excluído logicamente.
+**Ref. 05 - Código 400:** _Mensaje de documento excluido:_ Este mensaje se mostrará cuando el proceso en cuestión haya sido lógicamente excluido.
 
-**Ref. 06 - Código 400:** _Mensagem de parâmetro está incorreto ou é inexistente:_ Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 06 - Código 400:** _Mensaje de parámetro incorrecto o inexistente:_ Cuando la llamada se realice con algún parámetro escrito incorrectamente o parámetro que no existe en el método.
 
-**Ref. 07 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 07 - Código 401:** Mensaje de usuario de la API no autorizado: AppKey inválida o no localizada.
 
-### Exemplo de JSON de Retorno
+### Ejemplo de JSON de Retorno
 
-**Exemplo Body**
+**Ejemplo Body**
 
 ```
 {
