@@ -1,57 +1,57 @@
 # ✔️ GET/api/v1/processo/{idProcesso}/status-do-processo
 
-O objetivo deste método é permitir que o usuário busque o status de um processo de assinatura, para que evite buscar o processo como um todo pelo método “GET/api/v1/processo/{idprocesso}” antes que este esteja com status “Concluído”.
+El objetivo de este método es permitir que el usuario consulte el estado de un proceso de firma, para evitar buscar el proceso en su totalidad mediante el método “GET/api/v1/processo/{idprocesso}” antes de que esté con el estado “Concluído”.
 
-Neste método o usuário irá nos enviar o ID do Processo, e nós retornaremos um JSON com o nome e status atual do mesmo.
+En este método, el usuario nos enviará el ID del Proceso, y nosotros devolveremos un JSON con el nombre y estado actual del mismo.
 
-## Requisição
+## Solicitud
 
 <figure><img src="../../../.gitbook/assets/api09.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Header e Parameters
+### Detalles del Header y Parámetros
 
-**Ref. 01:** “AppKey” é a chave de autorização para se autenticar na API. Esta chave deve ser válida e estar vinculada a uma conta ArqSign ativa.
+**Ref. 01:** “AppKey” es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSign activa.
 
-**Ref. 02:** “idProcesso” - Para se obter o status do processo, deve ser enviado como parâmetro o Id do Processo de assinatura na plataforma ArqSign. Este ID a API devolve como retorno de sucesso, após a chamada do método: [<mark style="background-color:green;">**POST**</mark>**​/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md)**.**
+**Ref. 02:** “idProcesso” - Para obtener el estado del proceso, debe enviarse como parámetro el Id del Proceso de firma en la plataforma ArqSign. Este ID lo devuelve la API como respuesta exitosa, después de llamar al método: [<mark style="color:blue;">**POST​/api​/v1​/processo​/enviar-documento-para-assinar**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
 ***
 
 ## Retorno
 
-<figure><img src="../../../.gitbook/assets/api10.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api10.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detallamiento del Retorno
 
-**Ref. 01 - Código 201:** Como retorno de sucesso, a aplicação retornará o código 201 juntamente com o nome e o status do processo.
+**Ref. 01 - Código 201:** Como retorno exitoso, la aplicación retornará el código 201 junto con el nombre y el estado del proceso.
 
-Status do processo:&#x20;
+Estado del proceso:
 
-1. Criado
-2. Aguardando
-3. Em processo
+1. Creado
+2. Esperando
+3. En proceso
 4. Concluído
 5. Cancelado
 
 {% hint style="success" %}
-O serviço "**/api/v1/processo/{idprocesso}"** retorna os dados do processo e no objeto **"signatarios.dadosAssinatura"** há informações da assinatura de cada signatário.
+El servicio "**/api/v1/processo/{idprocesso}**" devuelve los datos del proceso y en el objeto "**signatarios.dadosAssinatura**" hay información sobre la firma de cada firmante.
 
-Caso esteja "**null"** significa que o signatário **não assinou** ainda.&#x20;
+Si está "**null**", significa que el firmante aún **no ha firmado**.&#x20;
 
-Então <mark style="color:red;">**null = Pendente**</mark>
+Entoces <mark style="color:red;">**null = Pendiente**</mark>
 
-Se tiver dados da assinatura, significa que o signatário assinou.&#x20;
+Si hay datos de la firma, significa que el firmante ha firmado.
 
-Então **presença de dados = Assinad**<mark style="color:green;">**o**</mark>
+Entonces, **la presencia de datos = Firmado**
 {% endhint %}
 
-**Ref. 02 - Código 400:** _Mensagem de Item obrigatório:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio**:**_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no se hayan enviado en la llamada a la API.
 
-**Ref. 03 - Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 - Código 400:** _Mensaje de formato incorrecto:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems se hayan enviado con formato incorrecto.
 
-**Ref. 04 - Código 400:** _Mensagem de Ids inexistente:_ Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 - Código 400:** _Mensaje de Ids inexistentes:_ Este mensaje se mostrará en singular o plural cuando uno o más Id enviados no existan.
 
-**Ref. 05 - Código 400:** _Mensagem de Documento excluído:_ Esta mensagem será exibida quando o processo em questão tiver sido excluído logicamente.
+**Ref. 05 - Código 400:** _Mensaje de documento excluido:_ Este mensaje se mostrará cuando el proceso en cuestión haya sido excluido lógicamente.
 
-**Ref. 06 - Código 400:** _Mensagem de parâmetro incorreto ou inexistente:_ Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 06 - Código 400:** _Mensaje de parámetro incorrecto o inexistente:_ Cuando la llamada se hace con algún parámetro mal escrito o un parámetro que no existe en el método.
 
-**Ref. 07 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 07 - Código 401:** _Mensaje de usuario de la API no autorizado:_ AppKey inválida o no localizada.
