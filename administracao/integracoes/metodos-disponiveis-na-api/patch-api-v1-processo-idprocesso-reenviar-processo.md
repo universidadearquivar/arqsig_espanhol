@@ -1,50 +1,50 @@
 # ✔️ PATCH/api/v1/processo/{idProcesso}/reenviar-processo
 
-O objetivo deste método é permitir que o usuário reenvie o processo para os destinatários pendentes de assinaturas na ordem atual.&#x20;
+El objetivo de este método es permitir que el usuario reenvíe el proceso a los destinatarios pendientes de firmas en el orden actual.
 
-O usuário poderá informar para qual destinatário pendente de assinatura deseja reenviar o documento. Caso não informe os destinatários, o serviço reenvia o processo para todos os destinatários participantes do processo com ação de assinar eletronicamente e que estejam pendentes de assinaturas na ordem atual.
+El usuario podrá informar a qué destinatario pendiente de firma desea reenviar el documento. Si no informa a los destinatarios, el servicio reenvía el proceso a todos los destinatarios participantes del proceso con acción de firmar electrónicamente y que estén pendientes de firmas en el orden actual.
 
-Além disso, o usuário poderá editar os destinatários pendentes de assinatura para os quais deseja reenviar o processo.
+Además, el usuario podrá editar los destinatarios pendientes de firma a quienes desea reenviar el proceso.
 
-Neste método o usuário irá nos enviar o ID do Processo, e nós reenviaremos para os destinatários pendentes de assinatura na ordem de assinatura atual, conforme dados informados no JSON.
+En este método, el usuario nos enviará el ID del Proceso, y nosotros reenviamos a los destinatarios pendientes de firma en el orden de firma actual, conforme a los datos informados en el JSON.
 
-## Requisição
+## Requisición
 
-<figure><img src="../../../.gitbook/assets/api13.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api13.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
 
-**Geral:** Os parâmetros não obrigatórios listados abaixo devem constar no JSON, e caso não seja necessário para o documento, enviar com o valor null na frente:
+**General**: Los parámetros no obligatorios que se enumeran a continuación deben estar presentes en el JSON, y si no son necesarios para el documento, se deben enviar con el valor null delante:
 
-&#x20;    \-> Ref. 03: “Destinatarios” - Caso não informe os destinatários, o serviço reenvia o processo para todos os destinatários participantes do processo com ação de assinar online e que estejam pendentes de assinaturas na ordem atual.
+&#x20;    \-> Ref. 03: “Destinatarios” - Si no se informan los destinatarios, el servicio reenvía el proceso a todos los destinatarios participantes del proceso con acción de firmar en línea y que estén pendientes de firmas en el orden actual.
 
-&#x20;    \-> Ref. 03.02 “idFormaEnvioProcesso” - é  possível alterar a forma de entrega do documento, mas não é obrigatório.
+&#x20;    \-> Ref. 03.02 “idFormaEnvioProcesso” - se puede cambiar la forma de entrega del documento, pero no es obligatorio.
 
 &#x20;    \-> Ref. 03.03 “nome”
 
-&#x20;    \-> Ref. 03.06 “idMeioEnvioCodigoSeguranca” - é  possível alterar a forma de entrega tanto do código de segurança, mas não é obrigatório.
+&#x20;    \-> Ref. 03.06 “idMeioEnvioCodigoSeguranca” - se puede cambiar la forma de entrega tanto del código de seguridad, pero no es obligatorio.
 
 {% hint style="danger" %}
-<mark style="color:red;">**Não é permitido inserir código de  segurança para destinatários que não possuem essa configuração. É permitido apenas alterar a forma de entrega do código de segurança para os destinatários que já possuem essa configuração.**</mark>
+<mark style="color:red;">**No se permite insertar un código de seguridad para destinatarios que no tienen esta configuración. Solo se permite cambiar la forma de entrega del código de seguridad para los destinatarios que ya tienen esta configuración.**</mark>
 {% endhint %}
 
 &#x20;    \-> Ref. 03.09 “permitirReenviarCodigo”
 
-### Detalhamento do Header, Parameters e Body
+### Detallamiento del Header, Parameters y Body
 
-**Ref. 01:** “AppKey” é a chave de autorização para se autenticar na API. Esta chave deve ser válida e estar vinculada a uma conta ArqSign ativa.
+**Ref. 01:** “AppKey” es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSign activa.
 
-**Ref. 02:** “idProcesso” - Para reenviar o processo, deve ser enviado como parâmetro o Id do Processo de assinatura na plataforma ArqSign. Este ID a API devolve como retorno de sucesso, após a chamada do método: [<mark style="background-color:green;">**POST​**</mark>**/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md). Outra forma de obter o ID do processo e por meio da plataforma ArqSign, na opção “Histórico” do documento disponível nas caixas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) e [Excluídos](../../../caixa-postal/excluidos.md).&#x20;
+**Ref. 02:** “idProcesso” - Para reenviar el proceso, debe enviarse como parámetro el Id del Proceso de firma en la plataforma ArqSign. Este ID lo devuelve la API como retorno de éxito, tras la llamada al método: [POST​/api​/v1​/processo​/enviar-documento-para-assinar](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md). Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) y [Excluidos](../../../caixa-postal/excluidos.md).
 
-**Ref. 03:** “Destinatarios” - nesta parte do JSON devem ser definidos os destinatários, os quais serão reenviado o documento, podendo ser alterados ou não.
+**Ref. 03:** “Destinatarios” - en esta parte del JSON deben definirse los destinatarios a quienes se reenviará el documento, pudiendo ser modificados o no.
 
-**Ref. 03.01:** “idProcessoDestinatario” - neste campo deve ser enviado o Id do destinatário que será reenviado o documento.
+**Ref. 03.01:** “idProcessoDestinatario” - en este campo debe enviarse el Id del destinatario al que se reenviará el documento.
 
-**Ref. 03.04:** “email” - quando no JSON, o campo “idFormaEnvio” estiver com o valor 1 = E-mail, é necessário enviar neste campo a informação do email que o destinatário recebeu o documento ou o novo email será reenviado o documento .
+**Ref. 03.04:** “email” - cuando en el JSON, el campo “idFormaEnvio” tenga el valor 1 = E-mail, es necesario enviar en este campo la información del correo electrónico que el destinatario recibió del documento o el nuevo correo será reenviado con el documento.
 
-**Ref. 03.05:** “telefone” - quando no JSON, o campo “idFormaEnvio” estiver com o valor 2 = WhatsApp, é necessário enviar neste campo a informação do telefone que o destinatário recebeu o documento ou o novo telefone será reenviado o documento .
+**Ref. 03.05:** “telefone” - cuando en el JSON, el campo “idFormaEnvio” tenga el valor 2 = WhatsApp, es necesario enviar en este campo la información del teléfono que el destinatario recibió del documento o el nuevo teléfono será reenviado con el documento.
 
-**Ref. 03.07:** “emailSeguranca” - quando no JSON, o campo “idMeioEnvioCodigoSeguranca” estiver com o valor 3 = Email, é necessário enviar neste campo a informação do e-mail que o destinatário recebeu o documento ou o novo e-mail será reenviado o documento .
+**Ref. 03.07:** “emailSeguranca” - cuando en el JSON, el campo “idMeioEnvioCodigoSeguranca” tenga el valor 3 = Email, es necesario enviar en este campo la información del correo electrónico que el destinatario recibió del documento o el nuevo correo será reenviado con el documento.
 
-**Ref. 03.08:** “telefoneSeguranca” quando no JSON, o campo “idMeioEnvioCodigoSeguranca” estiver com o valor 1 = SMS  ou 2 = WhatsApp, é necessário enviar neste campo a informação do telefone que o destinatário recebeu o documento ou o novo telefone será reenviado o documento.
+**Ref. 03.08:** “telefoneSeguranca” cuando en el JSON, el campo “idMeioEnvioCodigoSeguranca” tenga el valor 1 = SMS o 2 = WhatsApp, es necesario enviar en este campo la información del teléfono que el destinatario recibió del documento o el nuevo teléfono será reenviado con el documento.
 
 ***
 
@@ -52,16 +52,16 @@ Neste método o usuário irá nos enviar o ID do Processo, e nós reenviaremos p
 
 <figure><img src="../../../.gitbook/assets/api14.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detallamiento del Retorno
 
-**Ref. 01 - Código 200:** Como retorno de sucesso, a aplicação retornará o código 200 juntamente com a mensagem de documento reenviado com sucesso.
+**Ref. 01 - Código 200:** Como retorno de éxito, la aplicación devolverá el código 200 junto con el mensaje de documento reenviado con éxito.
 
-**Ref. 02 - Código 400:** _Mensagem de item obrigatório:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no hayan sido enviados en la llamada a la API.
 
-**Ref. 03 - Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 - Código 400:** _Mensaje de formato incorrecto:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems hayan sido enviados con formato incorrecto.
 
-**Ref. 04 - Código 400:** _Mensagem de Ids inexistentes_: Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 - Código 400:** _Mensaje de Ids inexistentes:_ Este mensaje se mostrará en singular o plural cuando uno o más Id enviados no existan.
 
-**Ref. 05 - Código 400:** _Mensagem de parâmetro está incorreto ou é inexistente:_ Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 05 - Código 400:** _Mensaje de parámetro incorrecto o inexistente:_ Cuando la llamada se realiza con algún parámetro escrito incorrectamente o un parámetro que no existe en el método.
 
-**Ref. 07 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 07 - Código 401:** _Mensaje de usuario de la API no autorizado:_ AppKey inválida o no localizada.
