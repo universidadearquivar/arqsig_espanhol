@@ -1,37 +1,37 @@
 ---
 description: >-
-  O objetivo deste método é permitir que o usuário busque os dados completos de
-  um processo, incluindo o documento e o registro de assinatura, caso já exista
-  alguma assinatura no documento.
+  El objetivo de este método es permitir que el usuario busque los datos
+  completos de un proceso, incluyendo el documento y el registro de firma, en
+  caso de que ya exista alguna firma en el documento.
 ---
 
 # ✔️ GET/api/v1/processo/{idprocesso}
 
 {% hint style="danger" %}
-<mark style="color:red;">Este método possui uma versão atualizada disponível para uso.</mark>&#x20;
+<mark style="color:red;">Este método tiene una versión actualizada disponible para uso.</mark>
 
-<mark style="color:red;">Se você vai utilizar o método pela primeira vez, o ideal é iniciar utilizando a versão mais recente, disponível em</mark> [<mark style="color:red;">**GET/api/v2/processo/{idProcesso}**</mark>](get-api-v2-processo-idprocesso.md)<mark style="color:red;">**.**</mark>
+<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**GET/api/v2/processo/{idProcesso}**</mark>](get-api-v2-processo-idprocesso.md)<mark style="color:red;">.</mark>
 
-<mark style="color:red;">Para aqueles que já utilizam o método na versão 1, a funcionalidade permanece a mesma, o que ocorre agora é que esta versão não contará com novas funcionalidades. Cabe ao cliente avaliar o uso e definir por manter a utilização da versão 1 ou migrar para a versão 2.</mark>
+<mark style="color:red;">Para aquellos que ya utilizan el método en la versión 1, la funcionalidad permanece igual; lo que ocurre ahora es que esta versión no contará con nuevas funcionalidades. Cabe al cliente evaluar el uso y decidir si mantener la utilización de la versión 1 o migrar a la versión 2.</mark>
 {% endhint %}
 
-Para evitar que o método retorne documentos ainda não assinados ou em processo de assinatura, utilize o método de buscar o status do processo para checar se o processo em questão se encontra com o status “Concluído”.
+Para evitar que el método devuelva documentos aún no firmados o en proceso de firma, utilice el método de buscar el estado del proceso para verificar si el proceso en cuestión se encuentra con el estado "Concluido".
 
-Neste método o usuário irá nos enviar o ID do Processo, e nós retornaremos um JSON completo com as informações do processo.
+En este método, el usuario nos enviará el ID del Proceso, y nosotros devolveremos un JSON completo con la información del proceso.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Importante ressaltar que esta versão do serviço não busca processos com mais de um documento</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**sem agrupamento**</mark><mark style="color:orange;">. Para buscar processos com mais de um documento sem agrupamento, é preciso utilizar a</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**versão 2**</mark> <mark style="color:orange;"></mark><mark style="color:orange;">do serviço:</mark> <mark style="color:orange;"></mark> [<mark style="color:orange;">**GET/api/v2/processo/{idProcesso}**</mark>](get-api-v2-processo-idprocesso.md)
+<mark style="color:orange;">Es importante destacar que esta versión del servicio no busca procesos con más de un documento sin agrupamiento. Para buscar procesos con más de un documento sin agrupamiento, es necesario utilizar la versión 2 del servicio:</mark> [<mark style="color:orange;">**GET/api/v2/processo/{idProcesso}**</mark>](get-api-v2-processo-idprocesso.md)<mark style="color:orange;">.</mark>
 {% endhint %}
 
-## Requisição
+## Requisición
 
-<figure><img src="../../../.gitbook/assets/api07.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/api07.png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Header e Parameters
+### Detallamiento del Header y Parámetros
 
-**Ref. 01:** “AppKey” é a chave de autorização para se autenticar na API. Esta chave deve ser válida e estar vinculada a uma conta ArqSIGN ativa.
+**Ref. 01:** "AppKey" es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSIGN activa.
 
-**Ref. 02:** “idProcesso” - Para se obter os dados do processo, deve ser enviado como parâmetro o Id do Processo de assinatura na plataforma ArqSIGN. Este ID a API devolve como retorno de sucesso, após a chamada do método: [<mark style="background-color:green;">**POST**</mark>**​/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md)**.**
+Ref. 02: “idProcesso” - Para obtener los datos del proceso, debe enviarse como parámetro el ID del Proceso de firma en la plataforma ArqSIGN. Este ID es devuelto por la API como respuesta de éxito, después de la llamada al método: [**POST​/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md).
 
 ***
 
@@ -39,25 +39,25 @@ Neste método o usuário irá nos enviar o ID do Processo, e nós retornaremos u
 
 <figure><img src="../../../.gitbook/assets/api08.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-### Detalhamento do Retorno
+### Detallamiento de la Respuesta
 
-**Ref. 01 - Código 201:** Como retorno de sucesso, a aplicação retornará o código 201 juntamente com os dados completos do processo no formato JSON.
+**Ref. 01 - Código 201:** Como respuesta de éxito, la aplicación devolverá el código 201 junto con los datos completos del proceso en formato JSON.
 
-**Ref. 02 - Código 400:** _Mensagem de item obrigatório:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens obrigatórios não tiver sido enviado na chamada da API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no se hayan enviado en la llamada a la API.
 
-**Ref. 03 - Código 400:** _Mensagem de formato incorreto:_ Esta mensagem será exibida no singular ou plural quando um ou mais itens estiverem sido enviados com formato incorreto.
+**Ref. 03 - Código 400:** _Mensaje de formato incorrecto_: Este mensaje se mostrará en singular o plural cuando uno o más ítems se hayan enviado con un formato incorrecto.
 
-**Ref. 04 - Código 400:** _Mensagem de Ids inexistente:_ Esta mensagem será exibida no singular ou plural quando um ou mais Id enviado não existir.
+**Ref. 04 - Código 400:** _Mensaje de IDs inexistentes:_ Este mensaje se mostrará en singular o plural cuando uno o más IDs enviados no existan.
 
-**Ref. 05 - Código 400:** _Mensagem de documento excluído:_ Esta mensagem será exibida quando o processo em questão tiver sido excluído logicamente.
+**Ref. 05 - Código 400:** _Mensaje de documento excluido:_ Este mensaje se mostrará cuando el proceso en cuestión haya sido excluido lógicamente.
 
-**Ref. 06 - Código 400:** _Mensagem de parâmetro está incorreto ou é inexistente:_ Quando a chamada é feita com algum parâmetro escrito errado ou parâmetro que não existe no método.
+**Ref. 06 - Código 400:** _Mensaje de parámetro incorrecto o inexistente_: Cuando la llamada se realice con algún parámetro escrito incorrectamente o un parámetro que no existe en el método.
 
-**Ref. 07 - Código 401:** _Mensagem de usuário da API não autorizado:_ AppKey inválida ou não localizada.
+**Ref. 07 - Código 401:** _Mensaje de usuario de la API no autorizado:_ AppKey inválida o no localizada.
 
-### Exemplo de JSON de Retorno <a href="#toc112750310" id="toc112750310"></a>
+### Ejemplo de JSON de Respuesta <a href="#toc112750310" id="toc112750310"></a>
 
-**Exemplo Body**
+**Ejemplo de Body**
 
 ```
 {  
