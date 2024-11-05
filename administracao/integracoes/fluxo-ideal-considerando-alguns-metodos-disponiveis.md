@@ -1,13 +1,13 @@
 # 🔳 Fluxo ideal considerando alguns métodos disponíveis
 
-As funções fundamentais de uma API compreendem a obtenção, o envio, a alteração e a exclusão de informações. Isso ocorre quando um aplicativo de cliente ou parceiro envia uma solicitação ao aplicativo ArqSign, que por sua vez gera uma resposta.
+Las funciones fundamentales de una API comprenden la obtención, el envío, la modificación y la eliminación de información. Esto ocurre cuando una aplicación cliente o un socio envía una solicitud a la aplicación ArqSign, que a su vez genera una respuesta.
 
-Abaixo mostramos um fluxo ideal para implementação de três métodos dos disponíveis:
+A continuación, mostramos un flujo ideal para la implementación de tres métodos de los disponibles:
 
 <figure><img src="../../.gitbook/assets/api03.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
-**FASE 01:** A aplicação do cliente chama o método [<mark style="background-color:green;">**POST**</mark>**/api/v1/processo/enviar-documento-para-assinar**](metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md) para enviar um documento a ser assinado. Com a resposta de sucesso, a API retornará o ID do processo gerado e você deve guardá-lo para usar este ID como parâmetro nos outros métodos.
+**FASE 01:** La aplicación del cliente llama al método [<mark style="color:blue;">**POST/api/v1/processo/enviar-documento-para-assinar**</mark>](metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md) para enviar un documento a ser firmado. Con la respuesta de éxito, la API devolverá el ID del proceso generado y debes guardarlo para usar este ID como parámetro en otros métodos.
 
-**FASE 02:** A aplicação do cliente chama o método [<mark style="background-color:blue;">**GET**</mark>**/api/v1/processo/{idProcesso}/status-do-processo**](metodos-disponiveis-na-api/get-api-v1-processo-idprocesso-status-do-processo.md) para monitorar o status do processo gerado na Fase 01. Aconselhamos chamar este método no máximo 1x ao dia, não é necessário chamá-lo o tempo todo, uma vez que o status de um processo somente será concluído após a assinatura do documento por todos os signatários.
+**FASE 02:**La aplicación del cliente llama al método [**GET/api/v1/processo/{idProcesso}/status-do-processo**](metodos-disponiveis-na-api/get-api-v1-processo-idprocesso-status-do-processo.md) para monitorear el estado del proceso generado en la Fase 01. Aconsejamos llamar a este método un máximo de una vez al día, no es necesario llamarlo todo el tiempo, ya que el estado de un proceso solo se considerará concluido después de la firma del documento por todos los firmantes.um processo somente será concluído após a assinatura do documento por todos os signatários.
 
-**FASE 03:** Assim que o processo estiver com o status “Concluído”, você pode passar para a fase 03, quando chamará o método [<mark style="background-color:blue;">**GET**</mark>**/api/v1/processo/{idprocesso}**](metodos-disponiveis-na-api/get-api-v1-processo-idprocesso.md) para obter os dados completos do processo e o arquivo assinado.
+**FASE 03:**Una vez que el proceso tenga el estado “Concluido”, puedes pasar a la fase 03, cuando llamarás al método [**GET/api/v1/processo/{idprocesso}**](metodos-disponiveis-na-api/get-api-v1-processo-idprocesso.md) para obtener los datos completos del proceso y el archivo firmado.
