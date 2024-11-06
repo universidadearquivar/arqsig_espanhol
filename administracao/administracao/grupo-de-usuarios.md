@@ -1,6 +1,6 @@
 # 🟪 Grupo de Usuarios
 
-La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de una cuenta para facilitar la definición de quién puede acceder a qué carpetas y subcarpetas en el menú [<mark style="color:blue;">Directorios > Documentos</mark>](../../diretorios/documentos/). Los permisos de acceso para estos directorios se definen para grupos, y cada persona en la cuenta es agregada a uno por los administradores.
+La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de una cuenta para facilitar la definición de quién puede acceder a qué carpetas y subcarpetas en el menú [<mark style="color:blue;">Directorios > Documentos</mark>](../../directorios/documentos/). Los permisos de acceso para estos directorios se definen para grupos, y cada persona en la cuenta es agregada a uno por los administradores.
 
 En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y la fecha y hora de creación del grupo.
 

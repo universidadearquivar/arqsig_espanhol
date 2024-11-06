@@ -63,7 +63,7 @@ Si el usuario invitado tiene únicamente el perfil de Remitente de Documentos, t
 <figure><img src="../../.gitbook/assets/image (745).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-<mark style="color:orange;">**La asignación de grupo no se solicita para los usuarios creados con el perfil de Administrador, ya que estos usuarios tienen acceso a todas las carpetas de**</mark> [<mark style="color:blue;">**Documentos del Directorio**</mark>](../../diretorios/documentos/)<mark style="color:orange;">**, por lo que no es necesario aplicar esta restricción.**</mark>
+<mark style="color:orange;">**La asignación de grupo no se solicita para los usuarios creados con el perfil de Administrador, ya que estos usuarios tienen acceso a todas las carpetas de**</mark> [<mark style="color:blue;">**Documentos del Directorio**</mark>](../../directorios/documentos/)<mark style="color:orange;">**, por lo que no es necesario aplicar esta restricción.**</mark>
 {% endhint %}
 
 **Activar:** Solo se pueden activar usuarios con estado “Bloqueado” o “Inactivo”. Al activar a los usuarios bloqueados o inactivos, tendrán acceso nuevamente a la cuenta.

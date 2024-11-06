@@ -30,11 +30,11 @@
 * [🗑️ Excluídos](caixa-postal/excluidos.md)
 * [🗓️ Renovaciones](caixa-postal/renovacoes.md)
 
-## DIRETÓRIOS
+## DIRECTORIOS
 
-* [📁 Documentos](diretorios/documentos/README.md)
-  * [🟪 Configuración de directorios para clientes que aún no han firmado documentos](diretorios/documentos/configuracion-de-directorios-para-clientes-que-aun-no-han-firmado-documentos.md)
-  * [🟪 Configuración de directorios para clientes que ya han firmado documentos](diretorios/documentos/configuracion-de-directorios-para-clientes-que-ya-han-firmado-documentos.md)
+* [📁 Documentos](directorios/documentos/README.md)
+  * [🟪 Configuración de directorios para clientes que aún no han firmado documentos](directorios/documentos/configuracion-de-directorios-para-clientes-que-aun-no-han-firmado-documentos.md)
+  * [🟪 Configuración de directorios para clientes que ya han firmado documentos](directorios/documentos/configuracion-de-directorios-para-clientes-que-ya-han-firmado-documentos.md)
 
 ## ADMINISTRAÇÃO
 
