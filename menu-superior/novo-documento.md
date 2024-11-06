@@ -66,7 +66,7 @@ Las configuraciones avanzadas son ajustes relativos al documento. Se pueden ajus
 
 Al pasar el mouse sobre la opción de "Configuraciones avanzadas", se presenta un Tooltip con una vista previa de las configuraciones realizadas.
 
-<figure><img src="../.gitbook/assets/image (119).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (776).png" alt=""><figcaption></figcaption></figure>
 
 Para editar puntualmente las configuraciones de un archivo determinado, haga clic en **Ajustes Avanzadas**, como se muestra en la imagen a continuación.
 
@@ -90,7 +90,7 @@ Es posible agregar un destinatario guardado a partir de la lista de contactos, h
 
 Al hacer clic en este botón, se muestra la lista. Para agregar los destinatarios deseados, seleccione los que desee marcando la casilla junto al nombre y haga clic en “Agregar Destinatarios”.
 
-<figure><img src="../.gitbook/assets/image (132).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (132).png" alt="" width="365"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Al marcar la casilla **“Firmar en el orden a continuación”**, el documento será enviado a los destinatarios en el orden definido en el campo **“Orden”**, que aparecerá en la parte superior de **“Datos del Destinatario”**. Al establecer esta opción, un usuario solo recibirá el documento cuando el anterior complete su acción de firma.
 
@@ -98,7 +98,7 @@ Al marcar la casilla **“Firmar en el orden a continuación”**, el documento 
 <mark style="color:orange;">**Si el usuario anterior solo tuvo una acción de visualización, el siguiente firmante recibirá el documento cuando el último firmante anterior a él complete la firma.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (134).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 **Nombre del Destinatario:** Indique el nombre del destinatario.
 
@@ -114,15 +114,15 @@ Dependiendo de la opción elegida anteriormente, indique el correo electrónico 
 
 **Este destinatario irá:** Indique si el destinatario firmará el documento en línea como Persona Física, Jurídica o ambas, o si solo recibirá una copia del documento al final del proceso de firmas.
 
-<figure><img src="../.gitbook/assets/image (137).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (137).png" alt="" width="375"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Si se ha determinado que el destinatario firmará como persona física o jurídica, es necesario definir su rol de firmante en el proceso. Seleccione entre uno o más roles listados o agregue un “Rol del Firmante” personalizado haciendo clic en “Agregar rol”.
 
-<figure><img src="../.gitbook/assets/image (138).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (138).png" alt="" width="306"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Los roles del firmante presentados aquí se crean previamente en el menú [<mark style="color:blue;">Administración > Cuenta > Pestaña Configuraciones > Rol del Firmante</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/)**.** De manera predeterminada, la plataforma muestra los roles de “Contratada”, “Contratante”, “Fiador” y “Arrendatario”, pero es posible editar o eliminar estos roles, además de crear otros si es necesario.
 
-<figure><img src="../.gitbook/assets/image (139).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (139).png" alt="" width="338"><figcaption></figcaption></figure>
 
 **Tipo de Firma:** Seleccione si el destinatario deberá utilizar firma electrónica o un certificado digital para firmar el documento.
 
@@ -144,19 +144,19 @@ Los roles del firmante presentados aquí se crean previamente en el menú [<mark
 
 **Representación Visual Firma**: Seleccione cuál debe ser la representación visual utilizada por el destinatario en el momento de la firma. Al optar por la primera opción (Estándar, Dibujo o Imagen), podrá utilizar cualquiera de las representaciones; en el caso de las demás opciones, la utilización quedará restringida a la representación seleccionada en este momento.
 
-<figure><img src="../.gitbook/assets/image (141).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (141).png" alt="" width="375"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Al marcar la opción **“Guardar este destinatario en mi lista de contactos”**, los datos proporcionados del destinatario se guardarán automáticamente en la lista de contactos del usuario.
 
-<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (142).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 **Ícono “Código de Seguridad”**: Al hacer clic en este ícono, se creará un código numérico que se enviará al destinatario para que pueda acceder al documento. El código puede ser generado automáticamente por el sistema o informado manualmente por el usuario.
 
-<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (143).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Después de generar el código, elija si se enviará por correo electrónico, WhatsApp o SMS e informe el correo electrónico o número de teléfono para el envío. También es posible no enviar el código, dejando a cargo del usuario informarlo al destinatario de la forma que prefiera. Para eliminar el código creado, simplemente haga clic en “Eliminar Código de Seguridad”.
 
-<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (144).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Si se selecciona la opción de envío por WhatsApp, es posible permitir que el destinatario solicite el reenvío del código, marcando la casilla de verificación **“Permitir que este destinatario pueda solicitar el reenvío del código de seguridad”**.
 
@@ -164,19 +164,19 @@ Si se selecciona la opción de envío por WhatsApp, es posible permitir que el d
 <mark style="color:orange;">**Cada reenvío del código de seguridad solicitado por el destinatario consumirá un crédito de WhatsApp de la cuenta del usuario que está enviando el documento.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (146).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 **Ícono Mensaje Privado**: Al hacer clic en este ícono, será posible insertar un mensaje que se enviará al destinatario junto con el documento. Para ello, complete los campos “Asunto” y “Mensaje”. Si desea eliminar el mensaje, haga clic en **“Eliminar Mensaje Privado”**.
 
-<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (147).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Los elementos **Código de Seguridad** y **Mensaje Privado** son expandibles y, cuando están recogidos, cuentan con el ícono de edición, señalizando al usuario que pueden ser modificados.
 
-<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (148).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Para insertar otros destinatarios, haga clic en el botón “Agregar Nuevo Destinatario”. Si desea incluirse a sí mismo como destinatario, haga clic en **“Añadirme como destinatario”**. Los campos de nombre y correo electrónico se completarán automáticamente con la información registrada en su perfil de usuario, y el campo “Enviar por” se llenará con la opción “Correo electrónico”.
 
-<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### C. Mensaje Predeterminado
 
@@ -186,11 +186,11 @@ En el campo “Mensaje Predeterminado”, se puede mantener el mensaje predeterm
 <mark style="color:orange;">**En el caso de destinatarios que tengan los campos de Mensaje Personalizado completados, se enviará el mensaje informado en sustitución del mensaje predeterminado.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (150).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 Después de concluir estas configuraciones, haga clic en “Siguiente” para continuar a la próxima etapa, “Concluir Más Tarde” para guardar el flujo como borrador o “Descartar” para cancelar el registro.
 
-<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (151).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ***
 
@@ -202,7 +202,7 @@ En la siguiente etapa se mostrarán los documentos que se han insertado en la et
 
 Cuando el proceso tiene uno o más documentos agrupados, el sistema muestra el nombre del proceso.
 
-<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 **Proceso con más de un documento no agrupado**
 
@@ -213,7 +213,7 @@ Cuando el proceso tiene uno o más documentos no agrupados, el sistema muestra:
 * En la parte superior de la pantalla, el **nombre del documento** que se está exhibiendo;
 * En la esquina izquierda de la pantalla, **la lista de documentos del proceso** ordenados según la configuración de orden definida en la [<mark style="color:blue;">Etapa 01</mark>](novo-documento.md#etapa-1-adicionar-documentos-e-destinatarios), indicando si el documento está siendo visualizado o no. Al hacer clic en el documento, el sistema lo mostrará en la pantalla.
 
-<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (153).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### C**ampos de Firma**
 
@@ -242,7 +242,7 @@ Cuando el proceso tiene **más de un documento**, el sistema muestra un **"carru
 
 <figure><img src="../.gitbook/assets/image (486).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (488).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (488).png" alt="" width="283"><figcaption></figcaption></figure>
 
 Al concluir la configuración de la firma de todos los firmantes en el documento, el sistema señala el documento como configuración de la representación concluida, marcando el ícono de verificación en verde en la esquina izquierda de la pantalla.
 
@@ -258,7 +258,7 @@ En la esquina superior derecha de la pantalla, se muestra el campo "**Configurac
 
 Si no hay un orden de firmas configurado en la Etapa 1, el ítem "Configuraciones para" muestra la lista de los firmantes ordenados alfabéticamente. Si ya hay un orden de firmas configurado, la lista de los firmantes estará agrupada por orden de firmas y ordenada alfabéticamente.
 
-<figure><img src="../.gitbook/assets/image (491).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (491).png" alt="" width="286"><figcaption></figcaption></figure>
 
 ### **Envío Simplificado**
 
@@ -295,18 +295,18 @@ El campo "**Configuraciones para**" muestra el nombre de los destinatarios selec
 {% hint style="info" %}
 <mark style="color:blue;">• Si</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**no hay**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">un orden de firmas configurado, la plataforma lista a los firmantes ordenados alfabéticamente.</mark>
 
-<mark style="color:blue;">•</mark> Si **hay** un orden de firmas configurado, la plataforma lista a los firmantes agrupados por orden de firmas y alfabéticamente.
+<mark style="color:blue;">• Si</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**hay**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">un orden de firmas configurado, la plataforma lista a los firmantes agrupados por orden de firmas y alfabéticamente.</mark>
 {% endhint %}
 
 Dependiendo del tipo de firma definido para el destinatario en la [<mark style="color:blue;">Etapa 1</mark>](novo-documento.md#b.-destinatarios), se mostrarán los campos **“Información Complementaria de Firma”**. Estos campos solo se mostrarán si en la[ <mark style="color:blue;">Etapa 1, en el campo “Tipo de Firma”</mark>](novo-documento.md#b.-destinatarios), se ha elegido la opción “Firma Electrónica”.
 
 Si la firma es como Persona Física, es posible exigir al destinatario datos como nombre y documento, marcando la opción “Nombre de la Persona Física” como llenado obligatorio y seleccionando uno de los documentos de la lista “Documento de la Persona Física”.
 
-<figure><img src="../.gitbook/assets/image (498).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (498).png" alt="" width="225"><figcaption></figcaption></figure>
 
 Para exigir un documento, seleccione la opción deseada entre CPF, CNH, C.I. u otros.
 
-<figure><img src="../.gitbook/assets/image (499).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (499).png" alt="" width="256"><figcaption></figcaption></figure>
 
 ADespués de seleccionar el tipo de documento que se exigirá al destinatario en la firma, informe el número del documento. En el momento de la firma, el destinatario deberá informar exactamente el número definido en este momento si se seleccionó la opción **"Llenado Obligatorio"**. Al seleccionar la opción **"Usar el valor informado en el campo para validar el CPF completado por el firmante durante la firma"**, automáticamente el campo será de llenado obligatorio y será validado por la plataforma para continuar con la firma.
 
@@ -340,7 +340,7 @@ En el momento de la firma, si el destinatario utiliza un número diferente al in
 
 Para exigir un documento, seleccione la opción deseada entre CNPJ u otros. Si se selecciona la opción "otros", será necesario informar el nombre del documento, si es del tipo texto o numérico, y la cantidad de caracteres.
 
-<figure><img src="../.gitbook/assets/image (504).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (504).png" alt="" width="282"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### Anexos
 
@@ -354,4 +354,4 @@ Es posible solicitar más de un anexo haciendo clic en el ícono **“Añadir”
 
 Al hacer clic en “Descartar”, el flujo será excluido. Al hacer clic en “Concluir Más Tarde”, el flujo se guardará en la carpeta de Borradores. Para editar el documento o los destinatarios, haga clic en “Volver a la Etapa Anterior”. Finalizada la configuración de la Etapa 2, haga clic en “Enviar” para enviar el documento para la firma de los destinatarios.
 
-<figure><img src="../.gitbook/assets/image (506).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (506).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
