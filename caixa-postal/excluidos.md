@@ -3,7 +3,7 @@
 En el menú Eliminados se muestran todos los documentos eliminados por el usuario. Pueden ser documentos ya concluidos, cancelados o solo creados.
 
 {% hint style="warning" %}
-<mark style="color:orange;">**No es posible visualizar el documento en la pantalla Eliminados. Para ver el archivo, es necesario restaurar el documento y acceder a él en su buzón de origen, que puede ser la**</mark> [<mark style="color:blue;">**Caja de Entrada**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/) <mark style="color:orange;">**o la**</mark> [<mark style="color:blue;">**caja Enviados**</mark>](enviados.md)<mark style="color:orange;">**.**</mark>
+<mark style="color:orange;">**No es posible visualizar el documento en la pantalla Eliminados. Para ver el archivo, es necesario restaurar el documento y acceder a él en su buzón de origen, que puede ser la**</mark> [<mark style="color:blue;">**Caja de Entrada**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/) <mark style="color:orange;">**o la**</mark>[ <mark style="color:blue;">**caja Expedidos**</mark>](enviados.md)<mark style="color:orange;">**.**</mark>
 {% endhint %}
 
 ***
