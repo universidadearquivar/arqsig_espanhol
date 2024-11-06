@@ -35,7 +35,7 @@ c) Comercial – Otras funciones con función de lectura (Perfil de Directorios 
 
 4\. Crea o edita usuarios y ajusta permisos de acceso según la tabla a continuación. Haz clic en la imagen para ampliar.&#x20;
 
-![](<../.gitbook/assets/image (156).png>)
+![](<../.gitbook/assets/image (775).png>)
 
 **Permisos para Directorios:**
 

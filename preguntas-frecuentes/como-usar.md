@@ -135,7 +135,7 @@ En esta pestaña puede mantener una lista con los contactos más utilizados en l
 
 2\. Pase por las tres opciones disponibles. Después de finalizar, haga clic en “Guardar”.
 
-![](<../.gitbook/assets/image (175).png>)
+![](<../.gitbook/assets/image (774).png>)
 
 **Pestaña “Certificado Digital”**
 
