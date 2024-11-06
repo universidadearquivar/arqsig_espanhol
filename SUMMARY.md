@@ -56,8 +56,8 @@
     * [✔️ GET/api/v1/processo/{idprocesso}/dados-signatarios](administracao/integracoes/metodos-disponiveis-na-api/get-api-v1-processo-idprocesso-dados-signatarios.md)
     * [✔️ PATCH/api/v1/processo/{idProcesso}/reenviar-processo](administracao/integracoes/metodos-disponiveis-na-api/patch-api-v1-processo-idprocesso-reenviar-processo.md)
     * [✔️ PATCH/api/v1/processo/{idProcesso}/cancelar-processo](administracao/integracoes/metodos-disponiveis-na-api/patch-api-v1-processo-idprocesso-cancelar-processo.md)
-  * [🔳 Fluxo ideal considerando alguns métodos disponíveis](administracao/integracoes/fluxo-ideal-considerando-alguns-metodos-disponiveis.md)
-  * [🔳 URL da API ArqSign](administracao/integracoes/url-da-api-arqsign.md)
+  * [🔳 Flujo ideal considerando algunos métodos disponibles](administracao/integracoes/flujo-ideal-considerando-algunos-metodos-disponibles.md)
+  * [🔳 URL de la API ArqSign](administracao/integracoes/url-de-la-api-arqsign.md)
   * [🔳 Biblioteca para testes Postman](administracao/integracoes/biblioteca-para-testes-postman.md)
   * [🔳 Histórico de alterações da API](administracao/integracoes/historico-de-alteracoes-da-api.md)
 

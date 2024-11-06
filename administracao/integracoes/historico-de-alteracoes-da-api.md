@@ -12,7 +12,7 @@ A rota [https://api.arqsign.com/](https://api.arqsign.com/) será descontinuada 
 
 **A documentação oficial da API do ArqSIGN agora está na URL:** [**https://developers.arqsign.com/**](https://developers.arqsign.com/)&#x20;
 
-Para mais detalhes [**clique aqui.**](url-da-api-arqsign.md#nova-rota-https-api-rest.arqsign.com)
+Para mais detalhes [**clique aqui.**](url-de-la-api-arqsign.md#nova-rota-https-api-rest.arqsign.com)
 
 </details>
 
