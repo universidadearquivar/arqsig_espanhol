@@ -1,4 +1,4 @@
-# 🔳 Webhook
+# 🟪 Webhook
 
 {% hint style="success" %}
 <mark style="color:green;">Es una tecnología que permite la comunicación entre aplicaciones, enviando datos automáticamente entre ellas a través de HTTP. Los webhooks se activan por eventos específicos (disparadores).</mark>

@@ -59,7 +59,7 @@
   * [🔳 Flujo ideal considerando algunos métodos disponibles](administracao/integracoes/flujo-ideal-considerando-algunos-metodos-disponibles.md)
   * [🔳 URL de la API ArqSign](administracao/integracoes/url-de-la-api-arqsign.md)
   * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/biblioteca-para-pruebas-en-postman.md)
-  * [🔳 Webhook](administracao/integracoes/webhook.md)
+  * [🟪 Webhook](administracao/integracoes/webhook.md)
   * [🔳 Histórico de alterações da API](administracao/integracoes/historico-de-alteracoes-da-api.md)
 
 ## NOVIDADES DO ARQSIGN
