@@ -1,4 +1,4 @@
-# 💻 Visión General de la Plataforma 2.2.7
+# 💻 Visión General de la Plataforma 2.3.0
 
 ## Características de la plataforma
 
@@ -65,11 +65,7 @@ El contacto con el equipo de atención podrá hacerse a través de WhatsApp, cha
 
 Después de autenticado, el usuario también podrá contar con el menú de soporte en la plataforma, ubicado en la esquina inferior derecha de la pantalla.
 
-<div data-full-width="false">
-
-<figure><img src=".gitbook/assets/image (469).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<figure><img src=".gitbook/assets/image (772).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -80,9 +76,9 @@ Después de autenticado, el usuario también podrá contar con el menú de sopor
 La cuenta de prueba gratuita de la Plataforma ArqSign ofrece al usuario casi todas las funcionalidades y recursos de la cuenta paga, incluyendo el envío de documentos para firma con o sin certificado digital, creación de carpetas dedicadas para la gestión de documentos, importación de certificado digital ICP-Brasil A1 e integración con otros sistemas. Durante un período de 15 días, el usuario podrá realizar cinco envíos de documentos para firma de forma gratuita.
 
 {% hint style="warning" %}
-En la cuenta de prueba gratuita no está permitida la inclusión de otros usuarios, es decir, solo el propietario puede acceder y gestionar los documentos enviados y recibidos para firma.
+<mark style="color:orange;">**En la cuenta de prueba gratuita no está permitida la inclusión de otros usuarios, es decir, solo el propietario puede acceder y gestionar los documentos enviados y recibidos para firma.**</mark>
 
-La creación de una cuenta de prueba gratuita está permitida para cualquier usuario que no tenga un correo electrónico registrado en otras pruebas gratuitas de la plataforma ArqSign.
+<mark style="color:orange;">**La creación de una cuenta de prueba gratuita está permitida para cualquier usuario que no tenga un correo electrónico registrado en otras pruebas gratuitas de la plataforma ArqSign.**</mark>
 {% endhint %}
 
 #### Creación de Cuenta de Prueba Gratuita
@@ -122,7 +118,7 @@ La creación de una cuenta de prueba gratuita está permitida para cualquier usu
 <figure><img src=".gitbook/assets/image (188).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
-Al término del período de 30 días de prueba o después de consumir los diez envíos gratuitos, el usuario podrá seguir accediendo a la plataforma normalmente, pero para realizar nuevos envíos deberá adquirir un plan pago (para realizar nuevos envíos por correo electrónico) o comprar créditos extras (para envíos vía WhatsApp y SMS).
+<mark style="color:orange;">**Al término del período de 30 días de prueba o después de consumir los diez envíos gratuitos, el usuario podrá seguir accediendo a la plataforma normalmente, pero para realizar nuevos envíos deberá adquirir un plan pago (para realizar nuevos envíos por correo electrónico) o comprar créditos extras (para envíos vía WhatsApp y SMS).**</mark>
 {% endhint %}
 
 ***
@@ -177,7 +173,7 @@ Se le ofrecerá al usuario la [<mark style="color:blue;">creación de una cuenta
 
 Si el usuario olvida su contraseña, simplemente debe hacer clic en “Olvidé mi contraseña”.
 
-<figure><img src=".gitbook/assets/image (472).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (472).png" alt="" width="375"><figcaption></figcaption></figure>
 
 En la pantalla de recuperación de contraseña, el usuario deberá proporcionar el mismo correo electrónico utilizado para acceder a la plataforma y hacer clic en “Recuperar”.
 
@@ -223,6 +219,6 @@ A la izquierda de la pantalla se encuentran todos los menús disponibles, organi
 
 En la esquina inferior derecha de la pantalla, el usuario encontrará el menú de **Apoyo**, donde podrá acceder al tutorial demostrativo de cómo enviar y firmar un documento, acceder a las **Preguntas Frecuentes** sobre el uso de la plataforma, aprender a verificar la validez jurídica de un documento y acceder a los contenidos sobre las novedades de la Plataforma.
 
-<figure><img src=".gitbook/assets/image (477).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/image (773).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src=".gitbook/assets/image (479).png" alt=""><figcaption></figcaption></figure>
