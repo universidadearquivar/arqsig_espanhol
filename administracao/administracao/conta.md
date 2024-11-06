@@ -2,7 +2,7 @@
 
 En el menú Cuenta se encuentran las informaciones sobre la cuenta del usuario.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -12,7 +12,7 @@ En la pestaña Datos Fiscales se presentan las informaciones fiscales y financie
 
 Si la cuenta del usuario es de un plan gratuito, la información estará en blanco, pero podrá ser editada haciendo clic en el botón "Editar".
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta pestaña se presentan las siguientes informaciones del usuario:
 
@@ -30,7 +30,7 @@ En esta pestaña se presentan las siguientes informaciones del usuario:
 * **Estado:** Estado del usuario o de la empresa.
 *   **Ciudad:** Ciudad del usuario o de la empresa.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ En la subpestaña Plan y Consumo se presenta el tipo de plan, el período de fac
 
 Por defecto, al crear una cuenta, la opción de "**Renovación Automática**" estará habilitada automáticamente. Para cancelar esta renovación, basta con desmarcar esta opción.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">Al dejar habilitada la renovación automática, cuando el plan venza, el sistema realizará la renovación del pago de forma automática, utilizando el mismo medio de pago de la compra anterior. Si se deshabilita la opción, se mostrará el botón "Comprar Ahora", para que el usuario realice nuevamente la compra del mismo plan o de otro plan que desee.</mark>
@@ -52,11 +52,11 @@ Por defecto, al crear una cuenta, la opción de "**Renovación Automática**" es
 
 Para cambiar la forma de pago del plan, haga clic en "**Alterar Forma de Pagamento**". Se enviará un enlace al correo electrónico o teléfono del usuario responsable de la cuenta con un enlace para que se realice esta modificación.
 
-<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en "**Detalles del Plan**", se mostrarán los detalles del plan actual del usuario, como el tipo de plan, el período de facturación (mensual o anual), el monto pagado por el plan, la descripción y la cantidad de los elementos a los que el plan otorga acceso, los valores de créditos, los créditos excedentes y la fecha de vencimiento del plan.
 
-<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta pantalla, también es posible visualizar la cantidad de créditos restantes que el usuario aún tiene para el envío de documentos. En "**Uso Acumulado del Plan**", el usuario puede ver la cantidad de envíos de documentos a los que tiene derecho según el plan contratado.
 
@@ -68,17 +68,17 @@ En "**Créditos Restantes de la Suscripción del Plan**", se presentan los créd
 
 Si el usuario ha comprado créditos adicionales a los incluidos en el plan, al hacer clic en "**Fechas de expiración de los créditos extra**" podrá visualizar las fechas en las que los créditos comprados por separado del plan van a expirar.
 
-<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ### Historico de Compras
 
 En la pestaña **Histórico de Compras** se presenta la descripción de los productos ya adquiridos por el usuario, el período de vigencia de cada uno, el número de cuotas en las que se dividió el pago, el valor y el estado de esas cuotas.
 
-<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en "**Detalles del plan**", se presenta la descripción y cantidad detallada de los elementos que componen el plan, los valores de créditos y los valores excedentes (cuando se adquieren), así como la fecha de caducidad de cada uno de los elementos.
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -88,7 +88,7 @@ Al hacer clic en "**Detalles del plan**", se presenta la descripción y cantidad
 
 Por defecto, algunas configuraciones de esta pestaña se completan automáticamente, pero es posible modificarlas haciendo clic en el botón "Editar".
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 Los valores definidos aquí se adoptarán como estándar para la configuración de envío y renovaciones de documentos y procesos de firma realizados por el usuario, pero pueden modificarse en cada documento durante su creación en la pantalla [<mark style="color:blue;">Nuevo Documento > Agregar Documentos y Destinatarios > Configuraciones Avanzadas</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
@@ -102,7 +102,7 @@ Los valores definidos aquí se adoptarán como estándar para la configuración 
 
 **Obligar al firmante a leer los documentos antes de firmar:** Esta configuración obliga a la lectura de los documentos del proceso. Esta opción estará, por defecto, desmarcada.
 
-<figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (11) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Generar QR Code de acceso del documento en el Registro de Firmas:** Si esta opción está habilitada, en el Registro de Firmas de un documento firmado se presentará un QR Code, a través del cual la persona que accede podrá visualizar el documento firmado.
 

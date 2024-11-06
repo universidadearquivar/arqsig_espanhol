@@ -1,10 +1,10 @@
-# 🔳 Fluxo ideal considerando alguns métodos disponíveis
+# 🔳 Flujo ideal considerando algunos métodos disponibles
 
 Las funciones fundamentales de una API comprenden la obtención, el envío, la modificación y la eliminación de información. Esto ocurre cuando una aplicación cliente o un socio envía una solicitud a la aplicación ArqSign, que a su vez genera una respuesta.
 
 A continuación, mostramos un flujo ideal para la implementación de tres métodos de los disponibles:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (27).png" alt=""><figcaption></figcaption></figure>
 
 **FASE 01:** La aplicación del cliente llama al método [<mark style="color:blue;">**POST/api/v1/processo/enviar-documento-para-assinar**</mark>](metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md) para enviar un documento a ser firmado. Con la respuesta de éxito, la API devolverá el ID del proceso generado y debes guardarlo para usar este ID como parámetro en otros métodos.
 

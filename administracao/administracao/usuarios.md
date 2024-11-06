@@ -8,7 +8,7 @@ La cantidad de usuarios que pueden ser invitados varía según el plan contratad
 
 En los planes de pago, se pueden crear tantos usuarios como sea necesario (ilimitados).
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Después de que el Administrador registre un nuevo usuario, el invitado recibe por correo electrónico una invitación para unirse a la cuenta. Si ya tiene un registro en la plataforma, solo deberá ingresar su contraseña. Si aún no tiene uno, deberá ingresar su nombre y crear una contraseña para realizar el primer acceso.
 
