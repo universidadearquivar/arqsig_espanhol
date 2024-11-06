@@ -3,11 +3,11 @@
 {% hint style="danger" %}
 <mark style="color:red;">¡La URL de la API ArqSIGN será cambiada!</mark>
 
-<mark style="color:red;">La URL</mark> [<mark style="color:blue;">https://api.arqsign.com/</mark>](https://api.arqsign.com/) <mark style="color:red;">estará disponible solo hasta el 31/10/2024. Por lo tanto, es importante que todos los que utilizan la API ArqSign cambien las llamadas a la nueva ruta:</mark> [<mark style="color:blue;">https://api-rest.arqsign.com/</mark>](https://api-rest.arqsign.com/)
+<mark style="color:red;">La URL</mark> [<mark style="color:red;">**https://api.arqsign.com/**</mark>](https://api.arqsign.com/) <mark style="color:red;">**estará disponible solo hasta el 31/10/2024**</mark><mark style="color:red;">. Por lo tanto, es importante que todos los que utilizan la API ArqSign cambien las llamadas a la nueva ruta:</mark> [<mark style="color:blue;">https://api-rest.arqsign.com/</mark>](https://api-rest.arqsign.com/)
 
-<mark style="color:red;">La documentación oficial de la API de ArqSIGN ahora está en la URL:</mark> [<mark style="color:blue;">https://developers.arqsign.com/</mark>](https://developers.arqsign.com/)
+<mark style="color:red;">**La documentación oficial de la API de ArqSIGN ahora está en la URL:**</mark> [<mark style="color:blue;">**https://developers.arqsign.com/**</mark>](https://developers.arqsign.com/)
 
-<mark style="color:red;">En la nueva ruta, será necesario, además de la clave AppKey, enviar también la SubscriptionKey. La SubscriptionKey podrá ser generada por el usuario en la aplicación ArqSIGN.</mark>
+<mark style="color:red;">En la nueva ruta, será necesario, además de la clave AppKey, enviar también la SubscriptionKey. La SubscriptionKey</mark> <mark style="color:red;"></mark><mark style="color:red;">**podrá ser generada por el usuario en la aplicación ArqSIGN.**</mark>
 {% endhint %}
 
 ArqSign cuenta con su propia API de Integración. Esto significa que clientes y socios pueden integrar las funcionalidades de la Plataforma ArqSign a sus soluciones. La API de Integración permite la comunicación con otros aplicativos/softwares de forma automática, es decir, sin el conocimiento o intervención del usuario final.
