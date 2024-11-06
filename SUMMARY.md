@@ -58,7 +58,7 @@
     * [✔️ PATCH/api/v1/processo/{idProcesso}/cancelar-processo](administracao/integracoes/metodos-disponiveis-na-api/patch-api-v1-processo-idprocesso-cancelar-processo.md)
   * [🔳 Flujo ideal considerando algunos métodos disponibles](administracao/integracoes/flujo-ideal-considerando-algunos-metodos-disponibles.md)
   * [🔳 URL de la API ArqSign](administracao/integracoes/url-de-la-api-arqsign.md)
-  * [🔳 Biblioteca para testes Postman](administracao/integracoes/biblioteca-para-testes-postman.md)
+  * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/biblioteca-para-pruebas-en-postman.md)
   * [🔳 Histórico de alterações da API](administracao/integracoes/historico-de-alteracoes-da-api.md)
 
 ## NOVIDADES DO ARQSIGN

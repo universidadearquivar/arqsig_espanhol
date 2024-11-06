@@ -24,6 +24,6 @@ La documentación de la API de integración está dividida en:
 4. [Métodos disponibles de la API](metodos-disponiveis-na-api/)&#x20;
 5. [Flujo ideal considerando algunos métodos disponbles ](flujo-ideal-considerando-algunos-metodos-disponibles.md)
 6. [URL de la API ArqSign ](url-de-la-api-arqsign.md)
-7. [Ejemplos de Requisitos de Métodos](biblioteca-para-testes-postman.md)
+7. [Ejemplos de Requisitos de Métodos](biblioteca-para-pruebas-en-postman.md)
 8. [Histórial de cambios de la API](historico-de-alteracoes-da-api.md)
 
