@@ -24,5 +24,5 @@
 &#x20;     _-> La cuenta debe tener créditos de Envios, SMS y/o WhatsApp, según sea necesario. Si la cuenta no tiene crédito, el sistema devolverá un mensaje de "saldo de créditos de Envios o WhatsApp o SMS insuficientes"._
 
 {% hint style="warning" %}
-<mark style="color:orange;">**La funcionalidad de**</mark> [<mark style="color:blue;">**Directorios**</mark>](../../directorios/documentos/) <mark style="color:orange;">**permitirá al cliente tener varias carpetas organizadoras dentro de la plataforma.**</mark>
+<mark style="color:orange;">**La funcionalidad de**</mark> [<mark style="color:blue;">**Directorios**</mark>](../../diretorios/documentos/) <mark style="color:orange;">**permitirá al cliente tener varias carpetas organizadoras dentro de la plataforma.**</mark>
 {% endhint %}

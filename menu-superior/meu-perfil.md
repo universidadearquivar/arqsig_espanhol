@@ -145,7 +145,7 @@ Para realizar la carga de un certificado, el usuario debe hacer clic en el ícon
 
 ## Pestaña Solicitudes&#x20;
 
-En el menú Solicitudes se presentan todas las solicitudes de transferencia de documentos realizadas por el usuario. Siempre que en los menús [<mark style="color:blue;">Documentos</mark>](../directorios/documentos/)<mark style="color:blue;">,</mark> [<mark style="color:blue;">Bandeja de Entrada</mark>](../caixa-postal/caixa-de-entrada.md) <mark style="color:blue;">y</mark> [<mark style="color:blue;">Enviados</mark>](../caixa-postal/enviados.md) el usuario transfiera la propiedad de un documento de su autoría a otro usuario, esta solicitud se mostrará aquí.
+En el menú Solicitudes se presentan todas las solicitudes de transferencia de documentos realizadas por el usuario. Siempre que en los menús [<mark style="color:blue;">Documentos</mark>](../diretorios/documentos/)<mark style="color:blue;">,</mark> [<mark style="color:blue;">Bandeja de Entrada</mark>](../caixa-postal/caixa-de-entrada.md) <mark style="color:blue;">y</mark> [<mark style="color:blue;">Enviados</mark>](../caixa-postal/enviados.md) el usuario transfiera la propiedad de un documento de su autoría a otro usuario, esta solicitud se mostrará aquí.
 
 También se incluirán las solicitudes de transferencia de propiedad de documentos debido a la [<mark style="color:blue;">desactivación de usuarios</mark>](../administracao/administracao/usuarios.md#acoes-da-tela-usuarios) de la cuenta.
 

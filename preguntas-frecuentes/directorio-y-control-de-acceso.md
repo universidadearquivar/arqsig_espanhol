@@ -6,8 +6,8 @@
 
 Para organizar los documentos, puedes acceder a uno de los tutoriales a continuación:&#x20;
 
-* [<mark style="color:blue;">Estructura de directorios para clientes que aún no han firmado documentos</mark>](../directorios/documentos/configuracion-de-directorios-para-clientes-que-aun-no-han-firmado-documentos.md).
-* [<mark style="color:blue;">Estructura de directorios para clientes que ya han firmado documentos.</mark>](../directorios/documentos/configuracion-de-directorios-para-clientes-que-ya-han-firmado-documentos.md)
+* [<mark style="color:blue;">Estructura de directorios para clientes que aún no han firmado documentos</mark>](../diretorios/documentos/configuracion-de-directorios-para-clientes-que-aun-no-han-firmado-documentos.md).
+* [<mark style="color:blue;">Estructura de directorios para clientes que ya han firmado documentos.</mark>](../diretorios/documentos/configuracion-de-directorios-para-clientes-que-ya-han-firmado-documentos.md)
 
 O seguir el paso a paso descrito a continuación:
 
@@ -15,9 +15,9 @@ O seguir el paso a paso descrito a continuación:
 
 1\. Revisa los permisos de los usuarios dejando solo tu usuario como Administrador Global, lo que evitará que otros usuarios accedan a todas las carpetas y documentos. Para esto, accede al menú [<mark style="color:blue;">Administración > Usuarios</mark>](../administracao/administracao/usuarios.md).
 
-2\. Crea la estructura de directorios en el menú [<mark style="color:blue;">Documentos</mark>](../directorios/documentos/).
+2\. Crea la estructura de directorios en el menú [<mark style="color:blue;">Documentos</mark>](../diretorios/documentos/).
 
-3.Si ya tienes documentos en la carpeta raíz, muévalos a las carpetas correspondientes en el menú[ <mark style="color:blue;">Documentos</mark>](../directorios/documentos/).
+3.Si ya tienes documentos en la carpeta raíz, muévalos a las carpetas correspondientes en el menú[ <mark style="color:blue;">Documentos</mark>](../diretorios/documentos/).
 
 **Cómo definir Permisos de acceso a los Directorios:**
 
@@ -29,9 +29,9 @@ b) Comercial – Vendedores (Perfil de Directorios – Colaborador)
 
 c) Comercial – Otras funciones con función de lectura (Perfil de Directorios – Lector)&#x20;
 
-2\. Inserta los grupos creados en la carpeta raíz y habilita permiso de lectura para todos a través del menú [<mark style="color:blue;">Documentos > Acciones</mark>](../directorios/documentos/#acoes-individuais-subdiretorios).
+2\. Inserta los grupos creados en la carpeta raíz y habilita permiso de lectura para todos a través del menú [<mark style="color:blue;">Documentos > Acciones</mark>](../diretorios/documentos/#acoes-individuais-subdiretorios).
 
-3\. Ajusta los permisos de las carpetas sectoriales en el menú [<mark style="color:blue;">Documentos</mark>](../directorios/documentos/) y selecciona la carpeta [<mark style="color:blue;">Acciones > Editar permisos</mark>](../directorios/documentos/#acoes-individuais-subdiretorios).
+3\. Ajusta los permisos de las carpetas sectoriales en el menú [<mark style="color:blue;">Documentos</mark>](../diretorios/documentos/) y selecciona la carpeta [<mark style="color:blue;">Acciones > Editar permisos</mark>](../diretorios/documentos/#acoes-individuais-subdiretorios).
 
 4\. Crea o edita usuarios y ajusta permisos de acceso según la tabla a continuación. Haz clic en la imagen para ampliar.&#x20;
 

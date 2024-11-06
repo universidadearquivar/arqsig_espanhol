@@ -40,7 +40,7 @@ Cuando este campo esté deseleccionado, ArqSign mostrará los archivos desagrupa
 
 En el campo **“Nombre del Proceso de Firma”,** es posible editar el nombre del proceso que abarca los archivos agrupados; modifíquelo según sea necesario.
 
-En el campo “Carpeta del Documento”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../directorios/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
+En el campo “Carpeta del Documento”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../diretorios/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
 
 <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 

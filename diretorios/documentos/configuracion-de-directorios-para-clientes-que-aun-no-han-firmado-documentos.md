@@ -110,7 +110,7 @@ Este mantenimiento puede realizarse en la edición del usuario o en la edición 
 
 ***
 
-## Regras Gerais de Directorios
+## Reglas Generales de Directorios
 
 <details>
 
