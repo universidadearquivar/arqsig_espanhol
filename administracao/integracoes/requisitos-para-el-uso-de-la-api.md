@@ -2,7 +2,7 @@
 
 1.  [<mark style="color:blue;">Acceda a su cuenta</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/KJq1WMrQrw0YrNo4VonS/) o cree una[ <mark style="color:blue;">cuenta de prueba gratuita</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/KJq1WMrQrw0YrNo4VonS/) en la Plataforma ArqSign. Después de autenticado, haga clic en el [<mark style="color:blue;">menú Integraciones y acceda a su API AppKey</mark>](./#api-key-chave-de-acesso), ID de usuario e ID de carpeta.
 
-    <figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 2. Para realizar pruebas, utilice la herramienta Postman y para la autorización use el tipo AppKey.
 
 <figure><img src="../../.gitbook/assets/api01.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>

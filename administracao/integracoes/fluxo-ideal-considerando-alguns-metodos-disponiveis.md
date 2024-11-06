@@ -4,7 +4,7 @@ Las funciones fundamentales de una API comprenden la obtención, el envío, la m
 
 A continuación, mostramos un flujo ideal para la implementación de tres métodos de los disponibles:
 
-<figure><img src="../../.gitbook/assets/api03.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 **FASE 01:** La aplicación del cliente llama al método [<mark style="color:blue;">**POST/api/v1/processo/enviar-documento-para-assinar**</mark>](metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md) para enviar un documento a ser firmado. Con la respuesta de éxito, la API devolverá el ID del proceso generado y debes guardarlo para usar este ID como parámetro en otros métodos.
 
