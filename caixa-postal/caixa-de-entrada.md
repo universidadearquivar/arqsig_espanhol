@@ -56,7 +56,9 @@ Disponible solo si el documento aún no ha sido firmado por el signatario y es s
 
 &#x20;Aquí es posible visualizar el historial del proceso de firma y sus documentos. Seleccione el botón de eventos para ver detalladamente los datos. En esta pantalla también es posible descargar los archivos originales del proceso.
 
-Con el botón de eventos ubicado a la derecha, se pueden observar los datos del proceso en la pantalla.![](<../.gitbook/assets/image (592).png>)
+Con el botón de eventos ubicado a la derecha, se pueden observar los datos del proceso en la pantalla.
+
+<figure><img src="../.gitbook/assets/image (592).png" alt=""><figcaption></figcaption></figure>
 
 Con el botón de eventos ubicado a la izquierda, es posible visualizar los ID y Hash de los documentos, en el caso de un **proceso con más de un documento no agrupado.**
 
@@ -66,7 +68,7 @@ Con el botón de eventos ubicado a la izquierda, es posible visualizar los ID y 
 
 Esta opción solo se mostrará si el usuario tiene acceso a la cuenta en la que está almacenado el documento. Al hacer clic en esta opción, podrá cambiar la carpeta del directorio donde se almacena el documento.
 
-<figure><img src="../.gitbook/assets/image (594).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (594).png" alt="" width="487"><figcaption></figcaption></figure>
 
 #### **Alterar Proprietario**
 
@@ -78,7 +80,7 @@ Esta opción solo se mostrará si el usuario, además de ser signatario, tambié
 <mark style="color:orange;">**El Administrador Global que no sea el remitente del documento podrá cambiar la propiedad de documentos completados que estén listados en la funcionalidad Directorios o cuando inactiva a un usuario que tiene documentos a su nombre.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (596).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (596).png" alt="" width="466"><figcaption></figcaption></figure>
 
 #### Descargar Archivo
 
@@ -146,13 +148,13 @@ Cuando se realiza el compartimiento de más documentos del proceso, se presentan
 
 Esta opción solo se mostrará si el usuario, además de ser signatario, también es el remitente del documento. Se utiliza para cambiar o incluir un plazo de renovación del documento establecido anteriormente en el menú [<mark style="color:blue;">Nuevo Documento > Agregar Documentos</mark>](../menu-superior/novo-documento.md#a.-adicionar-documentos).
 
-<figure><img src="../.gitbook/assets/image (608).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (608).png" alt="" width="443"><figcaption></figcaption></figure>
 
 #### **R**echazar Firma
 
 Disponible solo si el documento aún no ha sido firmado por el signatario y es su turno de firmar de acuerdo con el orden establecido por el remitente, si lo hay. Se utiliza cuando, por algún motivo, el signatario no desea firmar el documento. En este caso, debe ingresar una justificación para la negativa y hacer clic en "Rechazar Firma".
 
-<figure><img src="../.gitbook/assets/image (609).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (609).png" alt="" width="516"><figcaption></figcaption></figure>
 
 #### **Reenviar**
 
@@ -166,11 +168,11 @@ Esta opción solo se mostrará si el usuario, además de ser signatario, tambié
 
 Cuando el proceso contiene solo un documento, el sistema permite cambiar el nombre del proceso:
 
-<figure><img src="../.gitbook/assets/image (611).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (611).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Cuando el proceso contiene más de un documento, el sistema permite cambiar el nombre del proceso y el nombre de los documentos del proceso.
 
-<figure><img src="../.gitbook/assets/image (612).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (612).png" alt="" width="476"><figcaption></figcaption></figure>
 
 El campo “**Renombrar documentos del proceso**” se muestra solo si el usuario que ha iniciado sesión es el remitente del proceso y el proceso contiene más de un documento/archivo.
 
@@ -194,7 +196,7 @@ Es posible seleccionar más de un documento marcando las casillas junto al nombr
 
 Al hacer clic en este ícono, será posible cambiar la carpeta donde están almacenados los documentos seleccionados. Esta acción solo se podrá ejecutar en documentos en los que el usuario, además de ser signatario, sea el remitente del documento.
 
-<figure><img src="../.gitbook/assets/image (615).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (615).png" alt="" width="470"><figcaption></figcaption></figure>
 
 #### **Reenviar**
 
