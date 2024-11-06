@@ -12,11 +12,11 @@ En la Plataforma ArqSign, al configurar un flujo de firmas, puedes determinar qu
 
 **c) Firma con Certificado Digital Personal Todos los Tipos** (ArqSign produce firmas electrónicas y digitales a través de otros certificados).&#x20;
 
-Para determinar el tipo de firma, sigue los siguientes pasos::&#x20;
+Para determinar el tipo de firma, sigue los siguientes pasos:
 
 1. Después de subir el documento y realizar las configuraciones necesarias, ve a la configuración de los destinatarios;
 2. Al configurar un destinatario, en el campo "Tipo de firma", elige una de las opciones según la descripción anterior;
-3. ¡Listo! Ahora solo configura los demás destinatarios y la posición de firma en el documento y envía..
+3. ¡Listo! Ahora solo configura los demás destinatarios y la posición de firma en el documento y envía.
 
 Para saber cómo firmar un documento con Certificado Digital – ICP-Brasil, [<mark style="color:blue;">haz clic aquí</mark>](https://arquivar.gitbook.io/manual-arqsign/perguntas-frequentes/certificado-digital).&#x20;
 
@@ -34,7 +34,7 @@ En la Plataforma ArqSign, el remitente de documentos puede determinar el tipo de
 
 **c) Firma con Certificado Digital Personal Todos los Tipos** (ArqSign produce firmas electrónicas y digitales a través de otros certificados).&#x20;
 
-Si recibiste un documento para firmar a través de la Plataforma ArqSign y necesitas firmar con Certificado Digital por primera vez, sigue los siguientes pasos::&#x20;
+Si recibiste un documento para firmar a través de la Plataforma ArqSign y necesitas firmar con Certificado Digital por primera vez, sigue los siguientes pasos:
 
 * Abre el documento, léelo y si lo aceptas, haz clic en Firmar;
 * Ejecuta la firma en el formato de tu preferencia y haz clic en Avanzar;
@@ -73,11 +73,11 @@ El paso a paso para agregar la extensión a tu navegador y el módulo de escrito
 3. Si esto sucede, debe hacer clic en el ícono de bloqueo de ventanas emergentes, al lado de la URL de la página.
 4. Al hacer clic en el ícono, se debe permitir ventanas emergentes para la página de ArqSign.
 5. Después de desbloquear las ventanas emergentes, se debe hacer clic en el enlace disponible nuevamente. Al hacer clic en el enlace, se ejecutarán dos acciones al mismo tiempo: la primera es la descarga del instalador del Módulo de Escritorio. Se debe esperar a que la descarga se complete y seguir los pasos del Tutorial de Instalación del Módulo de Escritorio. La segunda es la apertura de una pestaña de Microsoft Store con el complemento de ArqSign.
-6. Al hacer clic en el botón "Obtener", se abrirá una notificación para confirmar la adición de la extensión en el navegador..&#x20;
+6. Al hacer clic en el botón "Obtener", se abrirá una notificación para confirmar la adición de la extensión en el navegador.
 7. Al hacer clic en "Agregar extensión", aparecerá una notificación informando que la extensión ha sido añadida al navegador. Después de esto, se puede cerrar la pestaña de Microsoft Store.
 8. Después de agregar el complemento en el navegador, si el Módulo de Escritorio aún no ha sido instalado, la aplicación seguirá indicando un enlace para su descarga.&#x20;
 9. Con ambas instalaciones completadas, la ventana modal se actualizará, listando los certificados guardados en la computadora del usuario.
-10. En Windows, al hacer clic en el botón "Finalizar", se puede solicitar el permiso para que el complemento acceda a los certificados; en este punto, se debe hacer clic en "Permitir" para habilitar el uso de los certificados digitales..
+10. En Windows, al hacer clic en el botón "Finalizar", se puede solicitar el permiso para que el complemento acceda a los certificados; en este punto, se debe hacer clic en "Permitir" para habilitar el uso de los certificados digitales.
 
 Si la extensión y el módulo de escritorio ya han sido instalados, esta acción no se requerirá nuevamente.&#x20;
 
@@ -93,8 +93,8 @@ Cuando un firmante de un documento que requiere un certificado digital, ya sea I
 
 1. Haga clic en el enlace indicado para abrir la tienda en el navegador.
 2. La extensión ArqSign Certificado Digital se mostrará.da;&#x20;
-3. Haga clic en “Usar en Chrome”.e”;
-4. Al hacer clic en el botón Usar en Chrome, aparecerá una notificación para confirmar la adición de la extensión en el navegador. Haga clic en agregar extensión.;
+3. Haga clic en “Usar en Chrome”;
+4. Al hacer clic en el botón Usar en Chrome, aparecerá una notificación para confirmar la adición de la extensión en el navegador. Haga clic en agregar extensión;
 5. Al hacer clic en Agregar extensión, aparecerá una notificación informando que la extensión se ha agregado al navegador. Después de esto, se puede cerrar la pestaña de Chrome Web Store.
 6. Tras la adición del complemento en el navegador, si el Módulo Desktop aún no ha sido instalado, la aplicación mostrará un enlace para descargarlo.
 7. Si el Módulo Desktop no ha sido instalado aún, aparecerá un pop-up con una opción para instalar o actualizar el Módulo Desktop en su computadora.
@@ -166,7 +166,7 @@ No. Para firmar documentos entre entidades privadas, como por ejemplo documentos
 
 <summary>¿El certificado digital es lo mismo que la firma digital?</summary>
 
-No, son cosas distintas, aunque están interconectadas..&#x20;
+No, son cosas distintas, aunque están interconectadas.&#x20;
 
 Mientras que el certificado digital es el equivalente al documento de identidad CPF o CNPJ, la firma digital es el equivalente a tu firma física con reconocimiento en notaría.&#x20;
 

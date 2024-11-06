@@ -31,7 +31,7 @@ Un documento digital firmado por ArqSign adquiere validez jurídica, por lo que 
 
 <summary>¿Es seguro firmar un documento electrónicamente??</summary>
 
-Todo dependerá de la plataforma elegida para realizar la firma. Con ArqSign, herramienta de firma electrónica desarrollada por Arquivar, la conformidad con la legislación está garantizada a través de la seguridad del proceso utilizado por ArqSign y la tecnología empleada. ArqSign aplica un certificado digital para la firma de cada firmante, verifica que cada firmante no haya modificado el documento, registra los datos de cada firmante en el documento y documenta que cada firmante aceptó firmar electrónicamente..
+Todo dependerá de la plataforma elegida para realizar la firma. Con ArqSign, herramienta de firma electrónica desarrollada por Arquivar, la conformidad con la legislación está garantizada a través de la seguridad del proceso utilizado por ArqSign y la tecnología empleada. ArqSign aplica un certificado digital para la firma de cada firmante, verifica que cada firmante no haya modificado el documento, registra los datos de cada firmante en el documento y documenta que cada firmante aceptó firmar electrónicamente.
 
 </details>
 
