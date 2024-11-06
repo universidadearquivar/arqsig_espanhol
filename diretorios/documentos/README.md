@@ -17,7 +17,7 @@ La carpeta raíz se crea automáticamente en el momento de la creación de la cu
 El acceso a la carpeta raíz del directorio se concede a usuarios que han sido designados como administradores globales en el menú [<mark style="color:blue;">Administración > Usuarios</mark>](../../administracao/administracao/usuarios.md). El acceso a otros usuarios con perfil de remitente de documentos debe hacerse a través de un grupo, es decir, es necesario crear un [<mark style="color:blue;">Grupo de Usuarios</mark>](../../administracao/administracao/grupo-de-usuarios.md) y otorgar acceso al grupo. Para ello, en la columna "Acciones", haga clic en "Editar Permisos".
 
 {% hint style="info" %}
-<mark style="color:blue;">ADMINISTRADOR GLOBAL X REMITENTE DE DOCUMENTOS</mark>
+<mark style="color:blue;">**ADMINISTRADOR GLOBAL X REMITENTE DE DOCUMENTOS**</mark>
 
 <mark style="color:blue;">El</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**administrador global**</mark><mark style="color:blue;">, además de tener todos los permisos de un administrador de directorio, tiene acceso a todas las funcionalidades de la plataforma, incluida la gestión de usuarios. Él es quien define quiénes serán los administradores de directorio de la cuenta. Generalmente, el administrador global es el propietario de la cuenta y aquellos usuarios que él designe podrán tener acceso total.</mark>
 
