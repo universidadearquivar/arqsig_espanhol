@@ -43,7 +43,7 @@ Columna Renovación: Esta columna muestra la fecha y hora en que el documento de
 Esta acción estará disponible si el documento ha alcanzado la fecha y hora programadas para su renovación en el campo “Agendar renovación \_\_\_ meses después de la conclusión de las firmas” marcado en la pantalla [<mark style="color:blue;">Nuevo Documento > Agregar Documentos y Destinatarios > Agregar Documentos</mark>](../menu-superior/novo-documento.md#a.-adicionar-documentos). Al hacer clic en este botón, el usuario será dirigido a la pantalla “Agregar documentos y destinatarios” con la información de los destinatarios completada con la misma información del flujo anterior, para que realice nuevamente la configuración y el envío del nuevo documento a los destinatarios.
 
 {% hint style="warning" %}
-<mark style="color:red;">**Incluso después de renovar el documento y enviarlo a los destinatarios, el documento será listado en la pantalla de Renovaciones hasta que todos los firmantes completen la firma.**</mark>&#x20;
+<mark style="color:orange;">**Incluso después de renovar el documento y enviarlo a los destinatarios, el documento será listado en la pantalla de Renovaciones hasta que todos los firmantes completen la firma.**</mark>&#x20;
 {% endhint %}
 
 #### **Alterar Carpeta**
