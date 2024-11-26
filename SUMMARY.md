@@ -1,6 +1,6 @@
 # Table of contents
 
-* [💻 Visión General de la Plataforma 2.3.0](README.md)
+* [💻 Visión General de la Plataforma 2.5.0](README.md)
 * [❔ Preguntas Frecuentes](preguntas-frecuentes/README.md)
   * [🟪 ArqSign y Clínica nas Nuvens](preguntas-frecuentes/arqsign-y-clinica-nas-nuvens.md)
   * [🟪 Firma digital y electrónica](preguntas-frecuentes/firma-digital-y-electronica.md)
