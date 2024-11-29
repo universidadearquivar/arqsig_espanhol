@@ -6,7 +6,7 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros devolvere
 
 ## Solicitud
 
-<figure><img src="../../../.gitbook/assets/api09.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api09.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detalles del Header y Parámetros
 
@@ -18,7 +18,7 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros devolvere
 
 ## Retorno
 
-<figure><img src="../../../.gitbook/assets/api10.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api10.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Retorno
 
@@ -44,7 +44,7 @@ Si hay datos de la firma, significa que el firmante ha firmado.
 Entonces, **la presencia de datos = Firmado**
 {% endhint %}
 
-**Ref. 02 - Código 400:** _Mensaje de ítem obligatorio**:**_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no se hayan enviado en la llamada a la API.
+**Ref. 02 - Código 400:** _Mensaje de ítem obligatori&#x6F;**:**_ Este mensaje se mostrará en singular o plural cuando uno o más ítems obligatorios no se hayan enviado en la llamada a la API.
 
 **Ref. 03 - Código 400:** _Mensaje de formato incorrecto:_ Este mensaje se mostrará en singular o plural cuando uno o más ítems se hayan enviado con formato incorrecto.
 

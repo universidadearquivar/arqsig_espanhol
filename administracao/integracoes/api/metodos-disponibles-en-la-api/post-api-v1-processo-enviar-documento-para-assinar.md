@@ -5,7 +5,7 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 {% hint style="danger" %}
 <mark style="color:red;">Este método tiene una versión actualizada disponible para su uso.</mark>
 
-<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](../metodos-disponiveis-na-api/post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">.</mark>
+<mark style="color:red;">Si va a utilizar el método por primera vez, lo ideal es comenzar utilizando la versión más reciente, disponible en</mark> [<mark style="color:red;">**POST/api/v2/processo/enviar-documento-para-assinar**</mark>](post-api-v2-processo-enviar-documento-para-assinar.md)<mark style="color:red;">.</mark>
 
 <mark style="color:red;">Para aquellos que ya utilizan el método en la versión 1, la funcionalidad permanece igual, aunque esta versión no contará con nuevas funcionalidades. Dependerá del cliente evaluar el uso y decidir si mantiene la utilización de la versión 1 o migra a la versión 2.</mark>
 
@@ -223,29 +223,29 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 }
 ```
 
-<figure><img src="../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/POST.png" alt=""><figcaption></figcaption></figure>
 
 ### Detallamiento del Header y Body
 
 **General:** Los parámetros no obligatorios que se enumeran a continuación deben estar en el JSON, y si no son necesarios para el documento, enviarlos con el valor null al lado:
 
-&#x20;    \-> Ref. 03 “ConfiguracoesAvancadas”
+&#x20;    -> Ref. 03 “ConfiguracoesAvancadas”
 
-&#x20;    \-> Ref. 05 “RenovacoesMeses”
+&#x20;    -> Ref. 05 “RenovacoesMeses”
 
-&#x20;    \-> Ref. 08 “MensagemPadrão”
+&#x20;    -> Ref. 08 “MensagemPadrão”
 
-&#x20;    \-> Ref. 10.08 “Seguranca”
+&#x20;    -> Ref. 10.08 “Seguranca”
 
-&#x20;    \-> Ref. 10.09 “mensagemPersonalizada”
+&#x20;    -> Ref. 10.09 “mensagemPersonalizada”
 
-&#x20;    \-> Ref. 10.10 “destinatariosEntradaDto”
+&#x20;    -> Ref. 10.10 “destinatariosEntradaDto”
 
-&#x20;    \-> Ref. 10.11 “Anexos”
+&#x20;    -> Ref. 10.11 “Anexos”
 
-&#x20;    \-> Ref. 10.12 “definirPosicaoAssinaturaAutomatica”
+&#x20;    -> Ref. 10.12 “definirPosicaoAssinaturaAutomatica”
 
-&#x20;    \-> Ref. 10.13 “definirPosicaoAssinaturaManual”
+&#x20;    -> Ref. 10.13 “definirPosicaoAssinaturaManual”
 
 **Ref. 01:** “AppKey” es la clave de autorización para autenticar en la API. Esta clave debe ser válida y estar vinculada a una cuenta activa de ArqSIGN.a.
 
@@ -281,25 +281,25 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.03:** “idTipoAção” – en este campo debe definirse lo que el destinatario deberá ejecutar en el documento.
 
-&#x20;    \-> 1 = Firmar en línea.
+&#x20;    -> 1 = Firmar en línea.
 
-&#x20;    \-> 2 = Recibir una copia.
+&#x20;    -> 2 = Recibir una copia.
 
 **Ref. 10.04:** “idTipoAssinatura” – en este campo debe definirse el tipo de firma del destinatario. Cuando “idTipoAção” = 1 (Firmar en línea), enviar el código de 1 a 4. Cuando “idTipoAção” = 2 (Recibir una copia), enviar el código 5.
 
-&#x20;     \-> 1 = Firma Electrónica.
+&#x20;     -> 1 = Firma Electrónica.
 
-&#x20;     \-> 2 = Certificado Digital – ICP Brasil.
+&#x20;     -> 2 = Certificado Digital – ICP Brasil.
 
-&#x20;     \-> 4 = Certificado Digital – Otros.
+&#x20;     -> 4 = Certificado Digital – Otros.
 
-&#x20;     \-> 5 = Sin Firma.
+&#x20;     -> 5 = Sin Firma.
 
 **Ref. 10.05:** “idFormaEnvio” – en este campo debe enviarse cómo el destinatario deberá recibir el documento.
 
-&#x20;    \-> 1 = Correo Electrónico
+&#x20;    -> 1 = Correo Electrónico
 
-&#x20;    \-> 2 = WhatsApp
+&#x20;    -> 2 = WhatsApp
 
 **Ref. 10.06:** “email” - si “idFormaEnvio” es 1 (correo electrónico), en este campo debe enviarse el correo electrónico al que el destinatario recibirá el documento.
 
@@ -309,13 +309,13 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.08.01:** “idMeioEnvio” - en este campo debe informarse cómo debe enviarse el código de seguridad al destinatario. Las opciones son:
 
-&#x20;    \-> 1 = SMS **(Sólo para teléfonos de Brasil)**
+&#x20;    -> 1 = SMS **(Sólo para teléfonos de Brasil)**
 
-&#x20;    \-> 2 = WhatsApp
+&#x20;    -> 2 = WhatsApp
 
-&#x20;    \-> 3 = Correo Electrónico
+&#x20;    -> 3 = Correo Electrónico
 
-&#x20;    \-> 4 = No enviar (Esta opción debe elegirse cuando quien está enviando el documento al destinatario informará el código de seguridad de otra forma, sin usar los medios de notificación de la plataforma ArqSIGN).
+&#x20;    -> 4 = No enviar (Esta opción debe elegirse cuando quien está enviando el documento al destinatario informará el código de seguridad de otra forma, sin usar los medios de notificación de la plataforma ArqSIGN).
 
 **Ref. 10.08.02:** “codigoSeguranca” - en este campo debe informarse el código de seguridad para el destinatario en cuestión.
 
@@ -343,13 +343,13 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.10.05:** “idInfComplTipoDocumentoFirmantePF” - en este campo se debe informar el tipo de documento que debe proporcionar como PF. Las opciones son:
 
-&#x20;    \-> 1 = CPF
+&#x20;    -> 1 = CPF
 
-&#x20;    \-> 2 = CNH
+&#x20;    -> 2 = CNH
 
-&#x20;    \-> 3 = RG
+&#x20;    -> 3 = RG
 
-&#x20;    \-> 4 = Otro
+&#x20;    -> 4 = Otro
 
 **Ref.10.10.06:** “infComplDocumentoNombrePF” - si el campo “idInfComplTipoDocumentoFirmantePF” está en el valor 4 = Otro, es necesario enviar en este campo un nombre que identificará esta opción “Otro” para el firmante en el momento de la firma.
 
@@ -359,9 +359,9 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.10.09:** idInfComplTipoDocumentoFirmantePJ” - en este campo se debe informar el tipo de documento que se proporcionará como PJ. Las opciones son:
 
-&#x20;    \-> 4 = Otro
+&#x20;    -> 4 = Otro
 
-&#x20;    \-> 5 = CNPJ
+&#x20;    -> 5 = CNPJ
 
 **Ref.10.10.10:** “infComplDocumentoNombrePJ” - cuando el campo “idInfComplTipoDocumentoFirmantePJ” está en el valor 4 = Otro, es necesario enviar en este campo un nombre que identificará esta opción “Otro” para el firmante en el momento de la firma.
 
@@ -416,7 +416,7 @@ El objetivo de este método es permitir que el usuario envíe un documento para 
 
 **Ref. 10.13.02.05:** "PosicaoY": envíe la posición en milímetros desde el borde superior de la página hasta el borde superior de la caja de firma.La figura a continuación ilustra las medidas necesarias que deben identificarse en su modelo de documento: Altura, Anchura, Posición X y Posición Y.
 
-<figure><img src="../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para saber cómo tomar estas medidas, mira el video a continuación:
 
@@ -432,7 +432,7 @@ Ref. 11.02: "nombreConExtensión" - envíe el nombre del archivo con su extensi�
 
 ## Retorno <a href="#toc112750306" id="toc112750306"></a>
 
-<figure><img src="../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api06.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detalle del Retorno
 
@@ -466,19 +466,11 @@ En la **v1**, era necesario informar en el parámetro “**idFormaEnvio**” cu�
 
 <mark style="color:red;">**V1**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (454).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (455).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 
 
@@ -488,19 +480,11 @@ el nombre del parámetro cambió.
 
 <mark style="color:red;">**V1**</mark>&#x20;
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (456).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (457).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 ### Definición de la posición de firma manual
 
@@ -508,19 +492,11 @@ En la **V2**, se deben configurar los datos de posición de la firma manual para
 
 <mark style="color:red;">**V1**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (458).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (459).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 ### Tipo de Firma
 
@@ -530,19 +506,11 @@ En la **V2**, este parámetro se convierte en una propiedad independiente (no es
 
 <mark style="color:red;">**V1**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (460).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (461).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 ### Datos complementarios&#x20;
 
@@ -550,19 +518,11 @@ En la **V1**, los datos complementarios de Persona Física y Jurídica se inform
 
 <mark style="color:red;">**V1**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (462).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (463).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 ### Documento por proceso
 
@@ -572,19 +532,11 @@ En la **V2** es posible enviar varios documentos en un único proceso.
 
 <mark style="color:red;">**V1**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (464).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (465).png" alt=""><figcaption><p>Haga clic en la imagen para ampliarla.</p></figcaption></figure></div>
 
 ### Retorno de la solicitud
 
@@ -596,8 +548,4 @@ Se devuelve solo el ID del Proceso.
 
 <mark style="color:green;">**V2**</mark>
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (466).png" alt=""><figcaption></figcaption></figure></div>

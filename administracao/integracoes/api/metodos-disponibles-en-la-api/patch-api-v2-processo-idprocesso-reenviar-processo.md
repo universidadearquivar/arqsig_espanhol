@@ -10,11 +10,7 @@ Cuando el campo requerido esté como “No” = Información opcional
 
 Cuando el campo requerido esté como “Tal vez” = En algunos casos será requerido. Para conocer estos casos, consulte la descripción del tema, de acuerdo con el número de referencia de la línea en la tabla.
 
-<div align="left">
-
-<figure><img src="../../../.gitbook/assets/image (440).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
-
-</div>
+<div align="left"><figure><img src="../../../../.gitbook/assets/image (440).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure></div>
 
 ## Ejemplo Body Request
 

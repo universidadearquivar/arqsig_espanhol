@@ -8,7 +8,7 @@ description: >-
 
 ## Solicitud
 
-<figure><img src="../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/image (762).png" alt=""><figcaption></figcaption></figure>
 
 ## Autenticaciones y Validaciones
 
@@ -72,7 +72,7 @@ El sistema debe devolver los datos del proceso, datos de los firmantes, archivo 
 * Datos de los firmantes
 * Documentos del proceso con su respectivo registro de firma.
 
-<figure><img src="../../../.gitbook/assets/GET v2 (1).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/GET v2 (1).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Datos del proceso
 

@@ -25,19 +25,19 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros devolvere
 
 ## Requisición
 
-<figure><img src="../../../.gitbook/assets/api07.png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api07.png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Header y Parámetros
 
 **Ref. 01:** "AppKey" es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSIGN activa.
 
-Ref. 02: “idProcesso” - Para obtener los datos del proceso, debe enviarse como parámetro el ID del Proceso de firma en la plataforma ArqSIGN. Este ID es devuelto por la API como respuesta de éxito, después de la llamada al método: [**POST​/api​/v1​/processo​/enviar-documento-para-assinar**](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md).
+Ref. 02: “idProcesso” - Para obtener los datos del proceso, debe enviarse como parámetro el ID del Proceso de firma en la plataforma ArqSIGN. Este ID es devuelto por la API como respuesta de éxito, después de la llamada al método: [**POST​/api​/v1​/processo​/enviar-documento-para-assinar**](post-api-v1-processo-enviar-documento-para-assinar.md).
 
 ***
 
 ## Retorno​
 
-<figure><img src="../../../.gitbook/assets/api08.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api08.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detallamiento de la Respuesta
 

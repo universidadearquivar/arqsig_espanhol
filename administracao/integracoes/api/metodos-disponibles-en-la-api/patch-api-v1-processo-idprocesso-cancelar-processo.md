@@ -6,13 +6,13 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros cancelare
 
 ## Requisición
 
-<figure><img src="../../../.gitbook/assets/api15.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api15.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ***
 
 ## Retorno
 
-<figure><img src="../../../.gitbook/assets/api16.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api16.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Retorno
 

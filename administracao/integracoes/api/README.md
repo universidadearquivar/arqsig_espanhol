@@ -2,7 +2,7 @@
 
 En el menú API, el cliente tiene acceso a las claves necesarias para la gestión y control de las solicitudes realizadas a través de la API de integración.
 
-<figure><img src="../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (752).png" alt=""><figcaption></figcaption></figure>
 
 ### **AppKey**
 
@@ -26,7 +26,7 @@ Una vez que la clave es generada, debe incluirse en el HEADER de las solicitudes
 
 Al hacer clic en "Generar Par de Claves", se muestra un mensaje en la pantalla de validación de la acción.
 
-<figure><img src="../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (753).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="danger" %}
 <mark style="color:red;">Si después de regenerar las claves, el usuario no las actualiza en los parámetros de búsqueda de la integración ya existente, las llamadas a la API de ArqSign dejarán de funcionar.</mark>
@@ -34,19 +34,19 @@ Al hacer clic en "Generar Par de Claves", se muestra un mensaje en la pantalla d
 
 Para **regenerar el par de claves, utilice** el botón "**Generar Par de Claves**". Para **regenerar solo una de las claves, utilice** el ícono de "**Regenerar Clave**" considerando la clave 1 o la 2.
 
-<figure><img src="../../.gitbook/assets/image (754).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (754).png" alt=""><figcaption></figcaption></figure>
 
 ### Cómo pasar la AppKey y la SubscriptionKey
 
 Considerando la ruta: [https://api-rest.arqsign.com/](https://api-rest.arqsign.com/), es necesario enviar en los “Headers”, además de la “AppKey”, la “SubscriptionKey”.
 
-<figure><img src="../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (199).png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ***
 
 ### Servicios de Integración ArqSign
 
-<figure><img src="../../.gitbook/assets/image (755).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (755).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="color:blue;">**api.arqsign.com**</mark>](https://api.arqsign.com/index.html) con los métodos disponibles hasta el momento.
 
@@ -54,15 +54,15 @@ Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="co
 
 ### Documenta**ción** API
 
-<figure><img src="../../.gitbook/assets/image (756).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (756).png" alt=""><figcaption></figcaption></figure>
 
-Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="color:blue;">**de detalle de la API**</mark>](./).
+Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="color:blue;">**de detalle de la API**</mark>](../).
 
 ***
 
 ### D**escargar lista de IDs de usuarios**
 
-<figure><img src="../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (757).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todos los usuarios activos en la cuenta y su respectivo ID.
 
@@ -70,6 +70,6 @@ Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la 
 
 ### Descargar lista de IDs de carpetas
 
-<figure><img src="../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todas las carpetas no eliminadas de la cuenta y su respectivo ID.

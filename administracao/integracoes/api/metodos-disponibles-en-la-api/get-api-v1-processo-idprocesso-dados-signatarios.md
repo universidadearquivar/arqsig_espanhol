@@ -6,21 +6,21 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros devolvere
 
 ## Requisición
 
-<figure><img src="../../../.gitbook/assets/api11.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api11.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Header y Parameters
 
 **Ref. 01:** “AppKey” es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSign activa.
 
-**Ref. 02:** “idProcesso” - Para obtener el estado del proceso, debe enviarse como parámetro el ID del proceso de firma en la plataforma ArqSign. Este ID la API devuelve como respuesta de éxito, tras la llamada al método: [<mark style="color:blue;">**POST​/api​/v1​/processo​/enviar-documento-para-assinar**</mark>](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md).
+**Ref. 02:** “idProcesso” - Para obtener el estado del proceso, debe enviarse como parámetro el ID del proceso de firma en la plataforma ArqSign. Este ID la API devuelve como respuesta de éxito, tras la llamada al método: [<mark style="color:blue;">**POST​/api​/v1​/processo​/enviar-documento-para-assinar**</mark>](post-api-v1-processo-enviar-documento-para-assinar.md).
 
-Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) y [Excluidos](../../../caixa-postal/excluidos.md).
+Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../../caixa-postal/enviados.md) y [Excluidos](../../../../caixa-postal/excluidos.md).
 
 ***
 
 ## Retorno
 
-<figure><img src="../../../.gitbook/assets/api12.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api12.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Retorno
 

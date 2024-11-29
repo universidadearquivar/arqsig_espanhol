@@ -25,4 +25,4 @@ Para utilizarlos, realiza la importación de la biblioteca en Postman:
 <mark style="color:red;">Después de identificar el modelo que mejor se adapta a las necesidades de su empresa, verifique y modifique las variables de entorno del JSON considerando los datos específicos de su organización, o añada los datos necesarios.</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (450).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/image (450).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>

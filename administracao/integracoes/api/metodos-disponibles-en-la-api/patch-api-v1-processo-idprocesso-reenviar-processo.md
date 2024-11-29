@@ -10,29 +10,29 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros reenviamo
 
 ## Requisición
 
-<figure><img src="../../../.gitbook/assets/api13.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api13.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
 
 **General**: Los parámetros no obligatorios que se enumeran a continuación deben estar presentes en el JSON, y si no son necesarios para el documento, se deben enviar con el valor null delante:
 
-&#x20;    \-> Ref. 03: “Destinatarios” - Si no se informan los destinatarios, el servicio reenvía el proceso a todos los destinatarios participantes del proceso con acción de firmar en línea y que estén pendientes de firmas en el orden actual.
+&#x20;    -> Ref. 03: “Destinatarios” - Si no se informan los destinatarios, el servicio reenvía el proceso a todos los destinatarios participantes del proceso con acción de firmar en línea y que estén pendientes de firmas en el orden actual.
 
-&#x20;    \-> Ref. 03.02 “idFormaEnvioProcesso” - se puede cambiar la forma de entrega del documento, pero no es obligatorio.
+&#x20;    -> Ref. 03.02 “idFormaEnvioProcesso” - se puede cambiar la forma de entrega del documento, pero no es obligatorio.
 
-&#x20;    \-> Ref. 03.03 “nome”
+&#x20;    -> Ref. 03.03 “nome”
 
-&#x20;    \-> Ref. 03.06 “idMeioEnvioCodigoSeguranca” - se puede cambiar la forma de entrega tanto del código de seguridad, pero no es obligatorio.
+&#x20;    -> Ref. 03.06 “idMeioEnvioCodigoSeguranca” - se puede cambiar la forma de entrega tanto del código de seguridad, pero no es obligatorio.
 
 {% hint style="danger" %}
 <mark style="color:red;">**No se permite insertar un código de seguridad para destinatarios que no tienen esta configuración. Solo se permite cambiar la forma de entrega del código de seguridad para los destinatarios que ya tienen esta configuración.**</mark>
 {% endhint %}
 
-&#x20;    \-> Ref. 03.09 “permitirReenviarCodigo”
+&#x20;    -> Ref. 03.09 “permitirReenviarCodigo”
 
 ### Detallamiento del Header, Parameters y Body
 
 **Ref. 01:** “AppKey” es la clave de autorización para autenticarse en la API. Esta clave debe ser válida y estar vinculada a una cuenta ArqSign activa.
 
-**Ref. 02:** “idProcesso” - Para reenviar el proceso, debe enviarse como parámetro el Id del Proceso de firma en la plataforma ArqSign. Este ID lo devuelve la API como retorno de éxito, tras la llamada al método: [POST​/api​/v1​/processo​/enviar-documento-para-assinar](../metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md). Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../caixa-postal/enviados.md) y [Excluidos](../../../caixa-postal/excluidos.md).
+**Ref. 02:** “idProcesso” - Para reenviar el proceso, debe enviarse como parámetro el Id del Proceso de firma en la plataforma ArqSign. Este ID lo devuelve la API como retorno de éxito, tras la llamada al método: [POST​/api​/v1​/processo​/enviar-documento-para-assinar](post-api-v1-processo-enviar-documento-para-assinar.md). Otra forma de obtener el ID del proceso es a través de la plataforma ArqSign, en la opción “Histórico” del documento disponible en las bandejas de [Entrada](../../../../caixa-postal/caixa-de-entrada.md), [Enviados](../../../../caixa-postal/enviados.md) y [Excluidos](../../../../caixa-postal/excluidos.md).
 
 **Ref. 03:** “Destinatarios” - en esta parte del JSON deben definirse los destinatarios a quienes se reenviará el documento, pudiendo ser modificados o no.
 
@@ -50,7 +50,7 @@ En este método, el usuario nos enviará el ID del Proceso, y nosotros reenviamo
 
 ## Retorno
 
-<figure><img src="../../../.gitbook/assets/api14.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
+<figure><img src="../../../../.gitbook/assets/api14.png" alt=""><figcaption><p>Clique na imagem para ampliar.</p></figcaption></figure>
 
 ### Detallamiento del Retorno
 

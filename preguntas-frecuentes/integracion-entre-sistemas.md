@@ -20,17 +20,17 @@ La API de integración de la plataforma ArqSign está diseñada para que otros s
 
 Los métodos disponibles son:
 
-[<mark style="color:blue;">**POST**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Enviar documento para firmar</mark>](../administracao/integracoes/metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md)
+[<mark style="color:blue;">**POST**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Enviar documento para firmar</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/post-api-v1-processo-enviar-documento-para-assinar.md)
 
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento del estado del documento enviado para firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/get-api-v1-processo-idprocesso.md)
+[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento del estado del documento enviado para firma</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/get-api-v1-processo-idprocesso.md)
 
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Retorno del documento y registros después de la conclusión de la firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/get-api-v1-processo-idprocesso-status-do-processo.md)
+[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Retorno del documento y registros después de la conclusión de la firma</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/get-api-v1-processo-idprocesso-status-do-processo.md)
 
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento de los datos de los signatarios que tienen acción de firmar electrónicamente en un proceso de firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/get-api-v1-processo-idprocesso-dados-signatarios.md)
+[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento de los datos de los signatarios que tienen acción de firmar electrónicamente en un proceso de firma</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/get-api-v1-processo-idprocesso-dados-signatarios.md)
 
-[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Reenvío de documento para firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/patch-api-v1-processo-idprocesso-reenviar-processo.md)
+[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Reenvío de documento para firma</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/patch-api-v1-processo-idprocesso-reenviar-processo.md)
 
-[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Cancelación del envío de documento para firma</mark>](../administracao/integracoes/metodos-disponiveis-na-api/patch-api-v1-processo-idprocesso-cancelar-processo.md)
+[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Cancelación del envío de documento para firma</mark>](../administracao/integracoes/api/metodos-disponibles-en-la-api/patch-api-v1-processo-idprocesso-cancelar-processo.md)
 
 </details>
 
