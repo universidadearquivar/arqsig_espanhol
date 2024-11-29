@@ -87,7 +87,7 @@ Si el firmante tiene Certificados Digitales guardados en la plataforma ArqSign, 
 
 <details>
 
-<summary>¿<strong>Cómo agregar la extensión ArqSign Certificado Digital en el navegador Chrome</strong>?</summary>
+<summary>¿Cómo agregar la extensión ArqSign Certificado Digital en el navegador Chrome?</summary>
 
 Cuando un firmante de un documento que requiere un certificado digital, ya sea ICP-Brasil u otro, aplique su representación visual y haga clic en el botón Avanzar, aparecerá un mensaje informando que para firmar el documento con el Certificado Digital instalado en la computadora es necesario agregar la extensión en su navegador y luego instalar el módulo de escritorio. El proceso es simple. Solo debe hacer clic en el enlace mostrado y seguir los pasos a continuación para realizar estas configuraciones:&#x20;
 
