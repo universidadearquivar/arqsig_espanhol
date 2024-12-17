@@ -59,7 +59,7 @@
     * [🔳 URL de la API ArqSign](administracao/integracoes/api/url-de-la-api-arqsign.md)
     * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/api/biblioteca-para-pruebas-en-postman.md)
   * [🟪 Webhook](administracao/integracoes/webhook.md)
-  * [Page](administracao/integracoes/page.md)
+  * [Flujo de Integración Ideal](administracao/integracoes/flujo-de-integracion-ideal.md)
 
 ## NOVIDADES DO ARQSIGN
 
