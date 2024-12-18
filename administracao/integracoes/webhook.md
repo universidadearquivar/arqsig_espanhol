@@ -20,7 +20,7 @@ De acuerdo con la configuración de Webhook realizada, el cliente recibe los dat
 
 Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook de la cuenta del usuario que ha iniciado sesión, ordenadas alfabéticamente por la columna "Nombre".
 
-<figure><img src="../../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Agregar:** Utilice para incluir una nueva configuración. Al hacer clic en el ícono "Agregar", la aplicación verifica el estado de la cuenta y la cantidad de configuraciones que tiene.
 
@@ -44,7 +44,7 @@ Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook
 
 **Estado:** permite filtrar por el estado del webhook. El sistema lista las opciones "**Activo**", "**Inactivo**" e "**Inactivo por fallas**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Columna Id**: Muestra el Id del Webhook en el sistema.
 
