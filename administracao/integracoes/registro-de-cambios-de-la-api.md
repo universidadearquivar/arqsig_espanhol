@@ -18,11 +18,12 @@ El [flujo de integración ideal](page.md) se ha actualizado de acuerdo con los n
 
 <summary>2.4.0 - 13/11/2024</summary>
 
-La API para recuperar datos de procesos ha sido ajustada:\
-**GET/api/v2/processo/{idProcesso}**\
-Este servicio permite a los clientes, a través de la API, recuperar un proceso con sus respectivos datos, signatarios y documentos del proceso.
+**La API para recuperar datos de procesos ha sido ajustada.**
 
-Nuevos métodos también fueron habilitados:
+* **GET/api/v2/processo/{idProcesso}**
+  * Este servicio permite a los clientes, a través de la API, recuperar un proceso con sus respectivos datos, signatarios y documentos del proceso.
+
+**Nuevos métodos también fueron habilitados:**
 
 * **POST/api/v1/processo/{idProcesso}/buscar-anexos-signatarios**\
   Permite recuperar los anexos de los signatarios especificando uno o más dentro del proceso.
