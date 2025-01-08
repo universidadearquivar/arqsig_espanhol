@@ -50,6 +50,7 @@
       * [🗃️ 1. Proceso](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/README.md)
         * [1.1.POST/api/v2/processo/enviar-documento-para-assinar](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.post-api-v2-processo-enviar-documento-para-assinar.md)
         * [1.2.GET/api/v2/processo/{idProcesso}](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.2.get-api-v2-processo-idprocesso.md)
+        * [1.3.PATCH/api/v2/processo/{idProcesso}/reenviar-processo](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.3.patch-api-v2-processo-idprocesso-reenviar-processo.md)
     * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/api/biblioteca-para-pruebas-en-postman.md)
   * [🟪 Webhook](administracao/integracoes/webhook.md)
   * [Flujo de Integración Ideal](administracao/integracoes/page.md)
