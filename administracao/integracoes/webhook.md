@@ -73,13 +73,13 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
-<figure><img src="../../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Datos Generales
 
 Los datos generales del webhook deben ser informados en esta área:
 
-<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Estado**: Se muestran en la lista las opciones "Activo" e "Inactivo", siendo por defecto la opción "Activo".
 

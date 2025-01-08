@@ -8,11 +8,11 @@ En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y
 
 Para crear un grupo, haga clic en el ícono “Nuevo”.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Ingrese el nombre del grupo. A la izquierda se mostrarán todos los usuarios que no forman parte del grupo. Es posible buscar un usuario utilizando la barra de búsqueda. Para agregar uno o más miembros al grupo, seleccione los usuarios deseados y haga clic en el ícono “Agregar” o “Agregar Todos”.
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Solo se listarán usuarios con estado “Activo” y que no sean administradores (ya que, con este perfil, el usuario no necesita estar incluido en un grupo para acceder a las carpetas del directorio).**</mark>

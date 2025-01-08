@@ -12,7 +12,7 @@ En la pestaña Datos Fiscales se presentan las informaciones fiscales y financie
 
 Si la cuenta del usuario es de un plan gratuito, la información estará en blanco, pero podrá ser editada haciendo clic en el botón "Editar".
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta pestaña se presentan las siguientes informaciones del usuario:
 
@@ -30,7 +30,7 @@ En esta pestaña se presentan las siguientes informaciones del usuario:
 * **Estado:** Estado del usuario o de la empresa.
 *   **Ciudad:** Ciudad del usuario o de la empresa.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
