@@ -54,6 +54,7 @@
         * [1.4.GET/api/v1/processo/{idProcesso}/status-do-processo](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.4.get-api-v1-processo-idprocesso-status-do-processo.md)
         * [1.5.GET/api/v1/processo/{idprocesso}/dados-signatarios](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.5.get-api-v1-processo-idprocesso-dados-signatarios.md)
         * [1.6.PATCH/api/v1/processo/{idProcesso}/cancelar-processo](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.6.patch-api-v1-processo-idprocesso-cancelar-processo.md)
+        * [1.7.POST/api/v1/processo/{idProcesso}/buscar-anexos-signatarios](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.7.post-api-v1-processo-idprocesso-buscar-anexos-signatarios.md)
     * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/api/biblioteca-para-pruebas-en-postman.md)
   * [🟪 Webhook](administracao/integracoes/webhook.md)
   * [Flujo de Integración Ideal](administracao/integracoes/page.md)
