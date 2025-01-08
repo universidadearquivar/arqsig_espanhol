@@ -24,7 +24,7 @@ En el Panel de Firmas de Adobe Reader es posible verificar:&#x20;
 2. Un certificado digital que identifica cada acción de firma (en el ejemplo a continuación, tenemos 2 firmantes).&#x20;
 3. A Arquivar finalizando el flujo de firma y bloqueando el archivo para imposibilitar cambios.&#x20;
 
-![](<../.gitbook/assets/image (1) (1).png>)
+![](<../.gitbook/assets/image (1) (1) (1).png>)
 
 ![](<../.gitbook/assets/image (335).png>)
 
