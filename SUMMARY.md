@@ -58,6 +58,8 @@
         * [✔️ 1.8.GET/api/v1/processo/{idArquivoProcesso}/registro-assinaturas](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.8.get-api-v1-processo-idarquivoprocesso-registro-assinaturas.md)
       * [🗃️ 2. Directorios](administracao/integracoes/api/metodos-disponibles-en-la-api/2.-directorios/README.md)
         * [✔️ 2.1.POST/api/v1/diretorio/buscar-pastas](administracao/integracoes/api/metodos-disponibles-en-la-api/2.-directorios/2.1.post-api-v1-diretorio-buscar-pastas.md)
+      * [🗃️ 3. Usuarios](administracao/integracoes/api/metodos-disponibles-en-la-api/3.-usuarios/README.md)
+        * [✔️ 3.1.POST/api/v1/usuarios/buscar-usuarios](administracao/integracoes/api/metodos-disponibles-en-la-api/3.-usuarios/3.1.post-api-v1-usuarios-buscar-usuarios.md)
     * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/api/biblioteca-para-pruebas-en-postman.md)
   * [🟪 Webhook](administracao/integracoes/webhook.md)
   * [Flujo de Integración Ideal](administracao/integracoes/page.md)
