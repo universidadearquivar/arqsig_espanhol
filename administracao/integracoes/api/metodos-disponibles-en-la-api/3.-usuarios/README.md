@@ -8,4 +8,4 @@ description: >-
 
 
 
-<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>3.1. <mark style="color:purple;"><strong>POST/api/v1/usuarios/buscar-usuarios</strong></mark></td><td></td></tr></tbody></table>
+<table data-view="cards"><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td></td><td>3.1. <a href="3.1.post-api-v1-usuarios-buscar-usuarios.md"><mark style="color:purple;"><strong>POST/api/v1/usuarios/buscar-usuarios</strong></mark></a></td><td></td></tr></tbody></table>

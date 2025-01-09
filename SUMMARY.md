@@ -68,6 +68,7 @@
         * [✔️ 5.1.PATCH/api/v1/confwebhook/{idConfWebHook}/alterar-status](administracao/integracoes/api/metodos-disponibles-en-la-api/5.-webhook/5.1.patch-api-v1-confwebhook-idconfwebhook-alterar-status.md)
         * [✔️ 5.2.POST/api/v1/confwebhook](administracao/integracoes/api/metodos-disponibles-en-la-api/5.-webhook/5.2.post-api-v1-confwebhook.md)
         * [✔️ 5.3.GET api/v1/confwebhook](administracao/integracoes/api/metodos-disponibles-en-la-api/5.-webhook/5.3.get-api-v1-confwebhook.md)
+    * [🔳 URL de la API ArqSign](administracao/integracoes/api/url-de-la-api-arqsign.md)
     * [🔳 Biblioteca para pruebas en Postman](administracao/integracoes/api/biblioteca-para-pruebas-en-postman.md)
   * [🟪 Webhook](administracao/integracoes/webhook.md)
   * [Flujo de Integración Ideal](administracao/integracoes/page.md)
