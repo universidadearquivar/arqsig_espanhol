@@ -20,7 +20,7 @@ De acuerdo con la configuración de Webhook realizada, el cliente recibe los dat
 
 Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook de la cuenta del usuario que ha iniciado sesión, ordenadas alfabéticamente por la columna "Nombre".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Agregar:** Utilice para incluir una nueva configuración. Al hacer clic en el ícono "Agregar", la aplicación verifica el estado de la cuenta y la cantidad de configuraciones que tiene.
 
@@ -44,7 +44,7 @@ Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook
 
 **Estado:** permite filtrar por el estado del webhook. El sistema lista las opciones "**Activo**", "**Inactivo**" e "**Inactivo por fallas**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Columna Id**: Muestra el Id del Webhook en el sistema.
 
@@ -73,13 +73,13 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Datos Generales
 
 Los datos generales del webhook deben ser informados en esta área:
 
-<figure><img src="../../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Estado**: Se muestran en la lista las opciones "Activo" e "Inactivo", siendo por defecto la opción "Activo".
 
@@ -101,7 +101,7 @@ Los datos generales del webhook deben ser informados en esta área:
 
 En esta área se deben definir los requisitos previos para la ejecución del webhook.
 
-<figure><img src="../../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Agregar Grupos y Usuarios
 

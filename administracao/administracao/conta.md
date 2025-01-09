@@ -2,7 +2,7 @@
 
 En el menú Cuenta se encuentran las informaciones sobre la cuenta del usuario.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -12,7 +12,7 @@ En la pestaña Datos Fiscales se presentan las informaciones fiscales y financie
 
 Si la cuenta del usuario es de un plan gratuito, la información estará en blanco, pero podrá ser editada haciendo clic en el botón "Editar".
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 En esta pestaña se presentan las siguientes informaciones del usuario:
 
@@ -30,7 +30,7 @@ En esta pestaña se presentan las siguientes informaciones del usuario:
 * **Estado:** Estado del usuario o de la empresa.
 *   **Ciudad:** Ciudad del usuario o de la empresa.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -44,7 +44,7 @@ En la subpestaña Plan y Consumo se presenta el tipo de plan, el período de fac
 
 Por defecto, al crear una cuenta, la opción de "**Renovación Automática**" estará habilitada automáticamente. Para cancelar esta renovación, basta con desmarcar esta opción.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">Al dejar habilitada la renovación automática, cuando el plan venza, el sistema realizará la renovación del pago de forma automática, utilizando el mismo medio de pago de la compra anterior. Si se deshabilita la opción, se mostrará el botón "Comprar Ahora", para que el usuario realice nuevamente la compra del mismo plan o de otro plan que desee.</mark>
