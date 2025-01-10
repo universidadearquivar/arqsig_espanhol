@@ -1,4 +1,4 @@
-# 💻 Visión General de la Plataforma 2.3.0
+# 💻 Visión General de la Plataforma 2.6.0
 
 ## Características de la plataforma
 
@@ -53,11 +53,11 @@ El sitio de ArqSign ([https://arquivar.com.br/arqsign/](https://arquivar.com.br/
 
 Para solicitar soporte o atención, en el menú inferior de la página, haga clic en “Apoyo”.
 
-<figure><img src=".gitbook/assets/image (467).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_6 (1).png" alt=""><figcaption></figcaption></figure>
 
 El usuario será dirigido a la Central de Ayuda de la plataforma, donde podrá buscar entre los contenidos publicados la solución a su duda o solicitar contacto con el equipo de atención.
 
-<figure><img src=".gitbook/assets/image (468).png" alt=""><figcaption></figcaption></figure>
+<figure><img src=".gitbook/assets/Screenshot_7 (2).png" alt=""><figcaption></figcaption></figure>
 
 El contacto con el equipo de atención podrá hacerse a través de WhatsApp, chat, correo electrónico (faleconosco@arqsign.com) o teléfono (4003-8839).
 
@@ -173,7 +173,7 @@ Se le ofrecerá al usuario la [<mark style="color:blue;">creación de una cuenta
 
 Si el usuario olvida su contraseña, simplemente debe hacer clic en “Olvidé mi contraseña”.
 
-<figure><img src=".gitbook/assets/image (472).png" alt="" width="375"><figcaption></figcaption></figure>
+<div data-full-width="true"><figure><img src=".gitbook/assets/image (472).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 En la pantalla de recuperación de contraseña, el usuario deberá proporcionar el mismo correo electrónico utilizado para acceder a la plataforma y hacer clic en “Recuperar”.
 
