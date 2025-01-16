@@ -69,8 +69,8 @@ Estos criterios están descritos en el artículo 10, § 2º de la referida MP y 
 
 <details>
 
-<summary></summary>
+<summary>¿Es posible imprimir un documento firmado electrónicamente a través de ArqSign?</summary>
 
-
+Sí, es posible. Solo debe descargar el documento firmado y el Registro de firmas para imprimirlos. Un punto importante: la verificación de la validez jurídica de este documento solo puede realizarse de forma digital, ya que la firma se realizó digitalmente. Si configuró su cuenta para generar el Registro de firmas con código QR, puede acceder al documento digital a través de la lectura del código QR que estará en el Registro de firmas y realizar la validación jurídica del documento mediante Adobe Reader o el Portal ITI, como se indica en el pie de página del Registro de firmas.
 
 </details>
