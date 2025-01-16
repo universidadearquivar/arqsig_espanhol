@@ -16,7 +16,9 @@ En la pestaña Mis Datos se presentan la información de registro del usuario. E
 
 <figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
 
-**Correo electrónico:** El correo electrónico que se muestra en este campo es el mismo utilizado al momento del registro de la cuenta del usuario en la plataforma y no se puede modificar.
+**Correo electrónico**: El correo electrónico mostrado en este campo es el mismo utilizado al momento del registro de la cuenta del usuario en la plataforma y no puede ser modificado.
+
+Si desea utilizar otro correo como "Remitente de documentos", cree otro [**usuario** ](../administracao/administracao/usuarios.md)para este correo. En la Plataforma ArqSign, los usuarios son ilimitados.
 
 **Nombre completo:** Presenta el nombre completo del usuario. El nombre registrado en este campo aparece como el remitente de documentos de este usuario en los correos electrónicos y mensajes de WhatsApp.
 

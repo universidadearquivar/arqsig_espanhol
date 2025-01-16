@@ -66,3 +66,11 @@ Estos criterios están descritos en el artículo 10, § 2º de la referida MP y 
 * Aceptación para la firma electrónica de todas las partes.
 
 </details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
