@@ -20,7 +20,9 @@ De acuerdo con la configuración de Webhook realizada, el cliente recibe los dat
 
 Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook de la cuenta del usuario que ha iniciado sesión, ordenadas alfabéticamente por la columna "Nombre".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/Screenshot_13.png" alt=""><figcaption></figcaption></figure>
+
+**Documentación del Webhook:** Haga clic para acceder a los detalles de la configuración y uso del Webhook.
 
 **Agregar:** Utilice para incluir una nueva configuración. Al hacer clic en el ícono "Agregar", la aplicación verifica el estado de la cuenta y la cantidad de configuraciones que tiene.
 
