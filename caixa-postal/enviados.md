@@ -68,13 +68,25 @@ En este caso, es posible reenviar el documento solo a aquellos firmantes que aú
 
 
 
-En el ícono "Editar", es posible realizar la edición de la información del destinatario, así como la información definida para la validación del documento en las [<mark style="color:blue;">configuraciones del destinatario</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
+En el ícono "Editar", es posible realizar la edición de la información del destinatario, así como la información definida para la validación del documento en las [<mark style="color:blue;">**configuraciones del destinatario**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
 <figure><img src="../.gitbook/assets/image (628).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">Los datos de validación del documento solo podrán ser editados en esta pantalla si fueron configurados previamente. La "Edición" no permite la inclusión de datos para validación.</mark>
 {% endhint %}
+
+{% hint style="warning" %}
+<mark style="color:orange;">**Los procesos de firma enviados a través de ArqGED-ArqFlow solo podrán ser reenviados mediante una nueva acción en ArqGED-ArqFlow.**</mark>
+
+<mark style="color:orange;">**De esta manera, en la columna Acciones, no habrá la opción "Reenviar".**</mark>
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (806).png" alt=""><figcaption></figcaption></figure>
+
+Tampoco habrá la opción "Reenviar" al abrir el proceso en la plataforma ArqSign.
+
+<figure><img src="../.gitbook/assets/Screenshot_7 (1).jpg" alt=""><figcaption></figcaption></figure>
 
 #### **Alterar** Carpeta
 
@@ -150,11 +162,11 @@ Esta opción solo se mostrará si el usuario, además de firmante, también es e
 
 Cuando el proceso tiene solo un documento, el sistema permite cambiar el nombre del proceso:
 
-<figure><img src="../.gitbook/assets/image (640).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
 
 Cuando el proceso tiene más de un documento, el sistema permite cambiar el nombre del proceso y el nombre de los documentos del proceso.
 
-<figure><img src="../.gitbook/assets/image (641).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (809).png" alt=""><figcaption></figcaption></figure>
 
 El campo "**Renombrar documentos del proceso**" se muestra solo si el usuario conectado es el remitente del proceso y el proceso tiene más de un documento/archivo.
 
@@ -236,6 +248,12 @@ Al hacer clic en este ícono, será posible reenviar los documentos seleccionado
 
 <figure><img src="../.gitbook/assets/image (650).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+<mark style="color:orange;">**Para la acción de reenvío en lote, el sistema no habilita el ícono de reenviar si al menos un proceso seleccionado está marcado como "Enviado vía ArqFlow".**</mark>
+{% endhint %}
+
+<figure><img src="../.gitbook/assets/image (810).png" alt=""><figcaption></figcaption></figure>
+
 #### **Cancelar Envío**
 
 Al hacer clic en este ícono, será posible cancelar el envío de los documentos seleccionados, interrumpiendo los procesos de firma. Solo se podrá ejecutar esta acción en documentos que no tengan el estado “Concluido”.
@@ -249,3 +267,11 @@ Al hacer clic en este ícono, será posible cancelar el envío de los documentos
 Al hacer clic en este ícono, será posible eliminar los documentos seleccionados. Solo se podrá ejecutar esta acción en documentos con el estado “Concluido” o “Cancelado”.
 
 <figure><img src="../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
+
+#### **Falhas na entrega de emails**
+
+Cuando haya una falla en el envío del proceso, el sistema señalará el proceso con la falla de envío.
+
+Cuando haya una falla en el envío del código de seguridad para algún destinatario del proceso, el sistema señalará al destinatario con la falla de envío del código de seguridad.
+
+<figure><img src="../.gitbook/assets/image (811).png" alt=""><figcaption></figcaption></figure>

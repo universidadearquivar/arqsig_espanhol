@@ -70,6 +70,14 @@ Si el usuario ha comprado créditos adicionales a los incluidos en el plan, al h
 
 <figure><img src="../../.gitbook/assets/image (7) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+<mark style="color:orange;">**Cuando el plan de la firma de la cuenta sea ArqGED, ArqSign no mostrará:**</mark>
+
+* <mark style="color:orange;">**Los campos “Renovación Automática”, "Cambiar forma de pago" y el botón "Comprar Créditos".**</mark>
+
+<mark style="color:orange;">**La facturación de estas cuentas se realizará a través de ArqGED, de acuerdo con el servicio establecido en el contrato.**</mark>
+{% endhint %}
+
 ### Historico de Compras
 
 En la pestaña **Histórico de Compras** se presenta la descripción de los productos ya adquiridos por el usuario, el período de vigencia de cada uno, el número de cuotas en las que se dividió el pago, el valor y el estado de esas cuotas.
