@@ -27,7 +27,7 @@ Ideal para profesionales que necesitan un flujo continuo de firmas digitales.
 ✔ Almacenamiento y usuarios ilimitados.\
 ✔ API de integración para automatizar procesos.
 
-💰 Inversión: R$ 160,00 al contado o hasta 12x de R$ 13,33 sin intereses con tarjeta de crédito.
+💰 Inversión: R$ 238,00 al contado o hasta 12x de R$ 19,90 sin intereses con tarjeta de crédito.
 
 📜 Facturación y Factura:
 
@@ -35,7 +35,7 @@ Ideal para profesionales que necesitan un flujo continuo de firmas digitales.
 * Factura emitida mensualmente, después del cobro.
 
 📌 Opcionales:\
-➕ Envío adicional: R$ 0,85 por envío.\
+➕ Envío adicional: R$ 1,00 por envío.\
 ➕ Autenticación por SMS: R$ 0,25 por autenticación.\
 ➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
 ➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
@@ -49,7 +49,7 @@ Perfecto para empresas que buscan más eficiencia y automatización en los proce
 ✔ Almacenamiento y usuarios ilimitados.\
 ✔ API de integración para optimizar flujos de trabajo.
 
-💰 Inversión: R$ 355,00 al contado o hasta 12x de R$ 29,58 sin intereses con tarjeta de crédito.
+💰 Inversión: R$ 478,00 al contado o hasta 12x de R$ 39,90 sin intereses con tarjeta de crédito.
 
 📜 Facturación y Factura:
 
@@ -57,7 +57,7 @@ Perfecto para empresas que buscan más eficiencia y automatización en los proce
 * Factura emitida mensualmente, después del cobro.
 
 📌 Opcionales:\
-➕ Envío adicional: R$ 0,85 por envío.\
+➕ Envío adicional: R$ 0,80 por envío.\
 ➕ Autenticación por SMS: R$ 0,25 por autenticación.\
 ➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
 ➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
@@ -72,7 +72,7 @@ Para empresas que requieren un volumen ilimitado de firmas digitales.
 ✔ API de integración para máxima productividad.
 
 💰 Inversión:\
-R$ 730,00 al contado o hasta 12x de R$ 60,83 sin intereses con tarjeta de crédito.
+R$ 838,80 al contado o hasta 12x de R$ 69,90 sin intereses con tarjeta de crédito.
 
 📜 Facturación y Factura:
 
@@ -94,7 +94,7 @@ R$ 730,00 al contado o hasta 12x de R$ 60,83 sin intereses con tarjeta de crédi
 
 Para profesionales que necesitan un plan accesible y flexible.
 
-💰 Inversión: R$ 16,90/mes
+💰 Inversión: R$ 29,90/mes
 
 📜 Cobranza y Factura:
 
@@ -102,7 +102,7 @@ Para profesionales que necesitan un plan accesible y flexible.
 * Factura emitida mensualmente, después del cobro.
 
 📌 Opcionales:\
-➕ Envío adicional: R$ 0,85 por envío.\
+➕ Envío adicional: R$ 1,50por envío.\
 ➕ Autenticación por SMS: R$ 0,25 por autenticación.\
 ➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
 ➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
@@ -111,7 +111,7 @@ Para profesionales que necesitan un plan accesible y flexible.
 
 Para empresas que necesitan más envíos y flexibilidad mensual.
 
-💰 Inversión: R$ 36,90/mes
+💰 Inversión: R$ 59,90/mes
 
 📜 Cobranza y Factura:
 
@@ -119,7 +119,7 @@ Para empresas que necesitan más envíos y flexibilidad mensual.
 * Factura emitida mensualmente, después del cobro.
 
 📌 Opcionales:\
-➕ Envío adicional: R$ 0,85 por envío.\
+➕ Envío adicional: R$ 1,20 por envío.\
 ➕ Autenticación por SMS: R$ 0,25 por autenticación.\
 ➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
 ➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
@@ -128,7 +128,7 @@ Para empresas que necesitan más envíos y flexibilidad mensual.
 
 Para empresas que desean total libertad de envíos.
 
-💰 Inversión: R$ 75,90/mes
+💰 Inversión: R$ 89,90/mes
 
 📜 Cobranza y Factura:
 
