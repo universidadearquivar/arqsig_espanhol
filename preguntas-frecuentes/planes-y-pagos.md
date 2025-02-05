@@ -1,6 +1,186 @@
 # 🟪 Planes y pagos
 
+<details>
 
+<summary>Plan ArqSign - Elige la Mejor Opción para Ti</summary>
+
+Todos los planes ofrecen:
+
+✅ Almacenamiento y usuarios ilimitados
+
+✅ Acceso a todas las funcionalidades de la plataforma
+
+✅ API de integración
+
+</details>
+
+<details>
+
+<summary>Planes Anuales - Ahorro y Más Beneficios</summary>
+
+✅ <mark style="color:purple;">**Plan Profesional Anual – 240 envíos**</mark>
+
+Ideal para profesionales que necesitan un flujo continuo de firmas digitales.
+
+🔹 ¿Qué incluye?\
+✔ 240 envíos (flujos) por correo electrónico a lo largo de 12 meses.\
+✔ Almacenamiento y usuarios ilimitados.\
+✔ API de integración para automatizar procesos.
+
+💰 Inversión: R$ 160,00 al contado o hasta 12x de R$ 13,33 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobro anual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Envío adicional: R$ 0,85 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+✅ <mark style="color:purple;">**Plan Empresarial Anual – 600 envíos**</mark>
+
+Perfecto para empresas que buscan más eficiencia y automatización en los procesos de firma.
+
+🔹 ¿Qué incluye?\
+✔ 600 envíos (flujos) por correo electrónico a lo largo de 12 meses.\
+✔ Almacenamiento y usuarios ilimitados.\
+✔ API de integración para optimizar flujos de trabajo.
+
+💰 Inversión: R$ 355,00 al contado o hasta 12x de R$ 29,58 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobro anual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Envío adicional: R$ 0,85 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+✅ <mark style="color:purple;">**Plan Corporativo Anual – Envíos Ilimitados**</mark>
+
+Para empresas que requieren un volumen ilimitado de firmas digitales.
+
+🔹 ¿Qué incluye?\
+✔ Envíos ilimitados por correo electrónico.\
+✔ Almacenamiento y usuarios ilimitados.\
+✔ API de integración para máxima productividad.
+
+💰 Inversión:\
+R$ 730,00 al contado o hasta 12x de R$ 60,83 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobro anual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+</details>
+
+<details>
+
+<summary>Planes Mensuales - Flexibilidad para tu negocio</summary>
+
+✅ <mark style="color:purple;">**Plan Profesional Mensual – 20 envíos**</mark>
+
+Para profesionales que necesitan un plan accesible y flexible.
+
+💰 Inversión: R$ 16,90/mes
+
+📜 Cobranza y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Envío adicional: R$ 0,85 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+✅ <mark style="color:purple;">**Plan Empresarial Mensual – 50 envíos**</mark>
+
+Para empresas que necesitan más envíos y flexibilidad mensual.
+
+💰 Inversión: R$ 36,90/mes
+
+📜 Cobranza y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Envío adicional: R$ 0,85 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+✅ <mark style="color:purple;">**Plan Corporativo Mensual – Envíos Ilimitados**</mark>
+
+Para empresas que desean total libertad de envíos.
+
+💰 Inversión: R$ 75,90/mes
+
+📜 Cobranza y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida mensualmente, después del cobro.
+
+📌 Opcionales:\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+</details>
+
+<details>
+
+<summary>Planes - ¿Cómo se contabiliza el Consumo?</summary>
+
+<mark style="color:purple;">**Sobre el envío de documentos para firmas**</mark>
+
+En ArqSign, los planes funcionan en base a los ENVÍOS, que son como sobres digitales. Con solo 1 ENVÍO, puedes configurar hasta 25 documentos (con un total de hasta 100 MB) e incluir a todos los firmantes que necesites—todo esto pagando solo 1 ENVÍO.
+
+#### <mark style="color:purple;">¿Cómo funciona el consumo al enviar documentos?</mark>
+
+Puedes enviar documentos para firma por correo electrónico o WhatsApp.
+
+✅ **Envío por correo electrónico:**
+
+Cuando envías un documento para firma por correo electrónico, ¡ArqSign se encarga de todo! El sistema lo envía directamente al firmante y, una vez que firma, la plataforma reenvía automáticamente el documento finalizado a todos los involucrados.
+
+➡️ Consumo: 1 ENVÍO
+
+✅ **Envío por WhatsApp:**
+
+El envío por WhatsApp funciona de manera diferente porque cuenta con nuestra integración directa con WhatsApp Business, garantizando mayor seguridad y trazabilidad. Cuando un documento se envía para firma por WhatsApp:
+
+1️ - ArqSign lo envía al WhatsApp Business integrado.\
+2️ - WhatsApp Business lo reenvía directamente al número del firmante.\
+3️ - Después de la firma, el documento finalizado se envía automáticamente a los involucrados—por correo electrónico para quienes firmaron por correo y por WhatsApp para quienes firmaron por WhatsApp.
+
+➡️ Consumo: 1 ENVÍO + 2 CRÉDITOS DE WHATSAPP
+
+#### ¿Por qué hay un costo adicional en WhatsApp?
+
+El cobro de los CRÉDITOS DE WHATSAPP se debe a nuestra integración oficial con WhatsApp Business, que garantiza que el enlace de firma se envíe directamente al firmante, sin riesgo de interceptación o uso indebido. Esto significa:
+
+🔹 Mayor seguridad: Solo el destinatario real puede acceder y firmar.\
+🔹 Rastro de auditoría confiable: El proceso es 100 % rastreable y auditable.\
+🔹 Agilidad y practicidad: Tu cliente recibe el documento directamente en WhatsApp, lo que aumenta la tasa de respuesta y reduce el tiempo de firma.
+
+Al utilizar WhatsApp en ArqSign, ofreces una experiencia más segura y eficiente para tus firmantes, aumentando la confiabilidad y agilidad del proceso de firma.
+
+</details>
 
 <details>
 
