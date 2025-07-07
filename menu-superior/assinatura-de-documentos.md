@@ -58,6 +58,8 @@ Después de iniciar sesión en su cuenta, el usuario debe hacer clic en el menú
 
 ## Firmando un documento
 
+{% embed url="https://app.supademo.com/demo/cmcti9pz419u29st8ymq0cmp4" %}
+
 ### Etapa 1 - Accediendo al documento&#x20;
 
 Si el remitente ha definido un código de seguridad para abrir el documento, se solicitará que el firmante ingrese el código, que debe haber sido recibido anteriormente por correo electrónico, WhatsApp, SMS o por el propio remitente. Si no posee el código, el usuario debe hacer clic en “No Recibí el Código”.
