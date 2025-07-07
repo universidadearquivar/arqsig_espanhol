@@ -4,7 +4,7 @@
 
 <summary>¿Cómo puedo probar la API de integración ArqSign?</summary>
 
-Para probar la API de integración ArqSign, puedes crear una cuenta de prueba gratuita en nuestro sitio y probar a través de la herramienta Postman (no uses Swagger).
+Para probar la API de integración ArqSign, puedes crear una [cuenta de prueba gratuita](https://arquivar.com.br/arqsign-conta-teste-gratis/) en nuestro sitio y probar a través de la herramienta Postman (no uses Swagger).
 
 En tu cuenta de prueba gratuita, tendrás acceso al Menú “Integraciones” donde obtendrás la información necesaria para la prueba.
 
@@ -18,19 +18,7 @@ Ahora solo sigue las instrucciones de la documentación disponible haciendo [<ma
 
 La API de integración de la plataforma ArqSign está diseñada para que otros softwares construyan su integración a nuestra solución de firma.
 
-Los métodos disponibles son:
-
-[<mark style="color:blue;">**POST**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Enviar documento para firmar</mark>](broken-reference)
-
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento del estado del documento enviado para firma</mark>](broken-reference)
-
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Retorno del documento y registros después de la conclusión de la firma</mark>](broken-reference)
-
-[<mark style="color:blue;">**GET**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Seguimiento de los datos de los signatarios que tienen acción de firmar electrónicamente en un proceso de firma</mark>](broken-reference)
-
-[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Reenvío de documento para firma</mark>](broken-reference)
-
-[<mark style="color:blue;">**PATCH**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">– Cancelación del envío de documento para firma</mark>](broken-reference)
+Haga [clic aquí](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api) y consulte todos los métodos disponibles.
 
 </details>
 
