@@ -23,7 +23,7 @@ Si el archivo contiene una firma válida, se presenta el siguiente mensaje: “D
 
 <summary>Al firmar electrónicamente, ¿no necesito firmar físicamente?</summary>
 
-Un documento digital firmado por ArqSign adquiere validez jurídica, por lo que no es necesario generar una copia física para insertar firmas.
+Al firmar electrónicamente con ArqSign, no es necesario imprimir el documento para recolectar firmas físicas. La firma digital garantiza validez jurídica al archivo digital, eliminando la necesidad de copias en papel.
 
 </details>
 
@@ -31,7 +31,7 @@ Un documento digital firmado por ArqSign adquiere validez jurídica, por lo que 
 
 <summary>¿Es seguro firmar un documento electrónicamente??</summary>
 
-Todo dependerá de la plataforma elegida para realizar la firma. Con ArqSign, herramienta de firma electrónica desarrollada por Arquivar, la conformidad con la legislación está garantizada a través de la seguridad del proceso utilizado por ArqSign y la tecnología empleada. ArqSign aplica un certificado digital para la firma de cada firmante, verifica que cada firmante no haya modificado el documento, registra los datos de cada firmante en el documento y documenta que cada firmante aceptó firmar electrónicamente.
+Todo dependerá de la plataforma elegida para realizar la firma. Con ArqSign, la herramienta de firma electrónica desarrollada por Arquivar, la conformidad con la legislación está garantizada gracias a la seguridad en los procesos, la tecnología empleada y las mejores prácticas de seguridad presentes en el mercado nacional e internacional. Conoce más sobre la seguridad del proceso y la tecnología de la Plataforma ArqSign accediendo a: [https://arquivar.com.br/arqsign-validade-juridica/](https://arquivar.com.br/arqsign-validade-juridica/)
 
 </details>
 
