@@ -52,7 +52,7 @@ Si recibiste un documento para firmar a través de la Plataforma ArqSign y neces
 
     1\) Agregar la extensión ArqSign a tu navegador;
 
-    2\) Instalar el módulo de escritorio.
+    2\) Instalar el módulo de escritorio;
 * Introduce la contraseña del Certificado Digital y haz clic en Avanzar.&#x20;
 
 El paso a paso para agregar la extensión a tu navegador y el módulo de escritorio puede ser accedido a continuación:
