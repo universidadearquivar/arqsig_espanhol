@@ -144,6 +144,198 @@ Para empresas que desean total libertad de envíos.
 
 <details>
 
+<summary>Planes con paquetes de WhatsApp: Anuales – Ahorro y Más Beneficios</summary>
+
+**💼&#x20;**<mark style="color:purple;">**Plan Profesional Anual – 240 Procesos + 240 firmas por WhatsApp**</mark>                                            Ideal para profesionales que necesitan un flujo continuo de firmas digitales.
+
+🔹¿Qué incluye?
+
+✔ 240 procesos de firma por correo electrónico o WhatsApp durante 12 meses.
+
+✔ Almacenamiento y usuarios ilimitados.
+
+✔ API de integración para automatizar procesos.
+
+🔹Detalle del plan:                                                                                                                                           Plan anual con 240 procesos y 480 créditos de WhatsApp que permiten 240 firmas por WhatsApp.
+
+Para cada firma por WhatsApp se requieren 2 créditos: Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰**Inversión:** R$ 526,80 al contado o hasta 12x de R$ 43,90 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobrança anual via cartão de crédito.
+* Nota fiscal emitida por parcela, após a cobrança.
+
+📌 Opcionales
+
+➕ Proceso adicional: R$ 1,00 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+**🏢&#x20;**<mark style="color:purple;">**Plan Empresarial Anual – 600 procesos + 600 firmas por WhatsApp**</mark>                            Perfecto para empresas que buscan más eficiencia y automatización en los procesos de firma.
+
+🔹¿Qué incluye?
+
+✔ 600 procesos de firma por correo electrónico o WhatsApp durante 12 meses.
+
+✔ Almacenamiento y usuarios ilimitados.
+
+✔ API de integración para optimizar flujos de trabajo.
+
+Detalle del plan:
+
+Plan anual con 600 procesos y 1200 créditos de WhatsApp que permiten 600 firmas por WhatsApp.
+
+Para cada firma por WhatsApp se requieren **2 créditos**:️ Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰 **Inversión:** R$ 1.198,80 al contado o hasta 12x de R$ 99,90 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobro anual mediante tarjeta de crédito.
+* Factura emitida por cada cuota, después del cobro.
+
+📌 Opcionales:
+
+➕Proceso adicional: R$ 0,80 por envío.                                                                       ➕Autenticación por SMS: R$ 0,25 por autenticación.                                                     ➕Autenticación por WhatsApp: R$ 0,60 por autenticación.                                                     ➕Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+**🏢**<mark style="color:purple;">**Plan Corporativo Anual – Procesos ilimitados + 1200 firmas por WhatsApp**</mark>                     Para empresas que necesitan un volumen ilimitado de firmas digitales.
+
+🔹¿Qué incluye?                                                                                                                                         &#x20;
+
+✔Procesos de firma **ilimitados** por correo electrónico y 1200 firmas por WhatsApp.
+
+✔Almacenamiento y usuarios ilimitados.
+
+✔API de integración para máxima productividad.
+
+Detalle del plan:
+
+Plan anual con procesos ilimitados y 2400 créditos de WhatsApp que permiten 1200 firmas por WhatsApp.
+
+Para cada firma por WhatsApp se requieren 2 créditos: Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰 **Inversión:** R$ 2.278,80 al contado o hasta 12x de R$ 189,90 sin intereses con tarjeta de crédito.
+
+📜 Facturación y Factura:
+
+* Cobro anual mediante tarjeta de crédito.
+* Factura emitida por cada cuota, después del cobro.
+
+📌Opcionales:
+
+➕Autenticación por SMS: R$ 0,25 por autenticación.                                                          ➕Autenticación por WhatsApp: R$ 0,60 por autenticación.                                                  ➕Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+</details>
+
+<details>
+
+<summary>Planes con paquetes de WhatsApp: Mensuales – Flexibilidad para tu Negocio</summary>
+
+**👨‍💼**<mark style="color:purple;">**Plan Profesional Mensual – 20 procesos + 20 firmas por WhatsApp**</mark>                                      Para profesionales que necesitan un plan accesible y flexible.
+
+🔹¿Qué incluye?
+
+✔20 procesos de firma con envío por correo electrónico o WhatsApp al mes.
+
+✔Almacenamiento y usuarios ilimitados.
+
+✔API de integración para optimizar flujos de trabajo.
+
+Detalle del plan:
+
+Plan mensual con 20 procesos por correo y 40 créditos de WhatsApp que permiten 20 firmas por WhatsApp. Para cada firma por WhatsApp se requieren 2 créditos de mensajes de WhatsApp: Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰 Inversión: R$ 53,90/mes
+
+📜 Cobro y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida por cada cuota, después del cobro.
+
+📌Opcionales:
+
+➕ Proceso adicional: R$ 1,50 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+**🏢&#x20;**<mark style="color:purple;">**Plan Empresarial Mensual – 50 procesos + 50 firmas por WhatsApp**</mark>                                  Para empresas que necesitan más envíos y flexibilidad mensual.
+
+🔹¿Qué incluye?
+
+✔ 50 procesos de firma con envío por correo electrónico o WhatsApp al mes.
+
+✔Almacenamiento y usuarios ilimitados.
+
+✔API de integración para optimizar flujos de trabajo.
+
+Detalle del plan:
+
+Plan mensual con 50 procesos por correo y 100 créditos de WhatsApp que permiten 50 firmas por WhatsApp.
+
+Para cada firma por WhatsApp se requieren 2 créditos de mensajes de WhatsApp: Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰 **Inversión:** R$ 119,90/mes
+
+📜 Cobro y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida por cada cuota, después del cobro.
+
+📌Opcionales:
+
+➕ Proceso adicional: R$ 1,20 por envío.\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+**🏢**<mark style="color:purple;">**Plan Corporativo Mensual – Procesos ilimitados + 100 firmas por WhatsApp**</mark>                   Para empresas que desean total libertad de envíos.
+
+🔹¿Qué incluye?
+
+✔Procesos de firma con envío por correo electrónico **ilimitados** y 100 firmas por WhatsApp al mes..
+
+✔Almacenamiento y usuarios ilimitados.
+
+✔API de integración para optimizar flujos de trabajo.
+
+Detalle del plan:
+
+Plan mensual con procesos ilimitados por correo y 200 créditos de WhatsApp que permiten 100 firmas por WhatsApp.
+
+Para cada firma por WhatsApp se requieren 2 créditos de mensajes de WhatsApp: Uno para enviar el documento para firma e uno para enviar el documento firmado al finalizar el proceso.
+
+Los créditos de WhatsApp no utilizados hasta el final del período expiran.
+
+💰 **Inversión:** R$ 209,90/mes
+
+📜Cobro y Factura:
+
+* Cobro mensual con tarjeta de crédito.
+* Factura emitida por cada cuota, después del cobro.
+
+📌**Opcionales:**\
+➕ Autenticación por SMS: R$ 0,25 por autenticación.\
+➕ Autenticación por WhatsApp: R$ 0,60 por autenticación.\
+➕ Envío de mensaje por WhatsApp: R$ 0,60 por mensaje.
+
+</details>
+
+<details>
+
 <summary>Planes - ¿Cómo se contabiliza el Consumo?</summary>
 
 <mark style="color:purple;">**Sobre el envío de documentos para firmas**</mark>
@@ -152,33 +344,45 @@ En ArqSign, los planes funcionan en base a los ENVÍOS, que son como sobres digi
 
 #### <mark style="color:purple;">¿Cómo funciona el consumo al enviar documentos?</mark>
 
-Puedes enviar documentos para firma por correo electrónico o WhatsApp.
+Puedes enviar procesos para firma por correo electrónico o por WhatsApp.
 
-✅ **Envío por correo electrónico:**
+✅ **Procesos con envío por correo electrónico:**
 
-Cuando envías un documento para firma por correo electrónico, ¡ArqSign se encarga de todo! El sistema lo envía directamente al firmante y, una vez que firma, la plataforma reenvía automáticamente el documento finalizado a todos los involucrados.
+Cuando envías un proceso para firma por correo electrónico, ¡ArqSign se encarga de todo!\
+El sistema lo envía directamente al firmante y, tan pronto como firma, la plataforma reenvía automáticamente el documento finalizado a todos los involucrados.
 
-➡️ Consumo: 1 ENVÍO
+➡️ **Consumo:** 1 CRÉDITO DE ENVÍO DEL PLAN
 
-✅ **Envío por WhatsApp:**
+✅ **Procesos con envío por WhatsApp:**
 
-El envío por WhatsApp funciona de manera diferente porque cuenta con nuestra integración directa con WhatsApp Business, garantizando mayor seguridad y trazabilidad. Cuando un documento se envía para firma por WhatsApp:
+El proceso con envío por WhatsApp funciona de manera diferente porque contamos con integración directa con WhatsApp Business, lo que garantiza más seguridad y trazabilidad.\
+Cuando se envía un documento para firma por WhatsApp:
 
-1️ - ArqSign lo envía al WhatsApp Business integrado.\
-2️ - WhatsApp Business lo reenvía directamente al número del firmante.\
-3️ - Después de la firma, el documento finalizado se envía automáticamente a los involucrados—por correo electrónico para quienes firmaron por correo y por WhatsApp para quienes firmaron por WhatsApp.
+1️ - ArqSign lo envía al WhatsApp Business integrado.
 
-➡️ Consumo: 1 ENVÍO + 2 CRÉDITOS DE WHATSAPP
+2️ - WhatsApp Business lo reenvía directamente al número del firmante.
 
-#### ¿Por qué hay un costo adicional en WhatsApp?
+3️ - Después de la firma, el documento finalizado se envía automáticamente a todos los involucrados: Por correo a quienes firmaron por e-mail e por WhatsApp a quienes firmaron por WhatsApp.
 
-El cobro de los CRÉDITOS DE WHATSAPP se debe a nuestra integración oficial con WhatsApp Business, que garantiza que el enlace de firma se envíe directamente al firmante, sin riesgo de interceptación o uso indebido. Esto significa:
+➡️ **Consumo:** 1 CRÉDITO DE ENVÍO DEL PLAN + 2 CRÉDITOS DE WHATSAPP
 
-🔹 Mayor seguridad: Solo el destinatario real puede acceder y firmar.\
-🔹 Rastro de auditoría confiable: El proceso es 100 % rastreable y auditable.\
-🔹 Agilidad y practicidad: Tu cliente recibe el documento directamente en WhatsApp, lo que aumenta la tasa de respuesta y reduce el tiempo de firma.
+**¿Por qué el envío de un documento para firma vía WhatsApp consume un crédito de envío del plan ArqSign?**
 
-Al utilizar WhatsApp en ArqSign, ofreces una experiencia más segura y eficiente para tus firmantes, aumentando la confiabilidad y agilidad del proceso de firma.
+El envío de un documento para firma por WhatsApp consume un crédito de envío porque ArqSign se encarga de todo el proceso, no solo de entregar un enlace. Esto incluye: Configuración del flujo de firma, Generación de enlaces seguros, Automatización de mensajes, Seguimiento de entrega y estado del documento, Ejecución de las firmas, Almacenamiento seguro, Y otras funcionalidades clave.
+
+WhatsApp es solo el canal de entrega del enlace, mientras que toda la infraestructura de seguridad y gestión es responsabilidad de ArqSign. Por eso, este servicio se cuenta como un envío dentro del plan contratado.
+
+**¿Por qué hay un costo adicional en WhatsApp?**
+
+La cobranza de los CRÉDITOS DE WHATSAPP se debe a nuestra integración oficial con WhatsApp Business, que garantiza que el enlace de firma se envíe directamente al firmante, sin riesgo de interceptación o uso indebido. Esto significa:
+
+🔹 Mayor seguridad: Solo el destinatario correcto puede acceder y firmar.
+
+🔹 Auditoría confiable: El proceso es 100% rastreable y auditable.
+
+🔹 Agilidad y practicidad: Tu cliente recibe el documento directamente en WhatsApp, lo que mejora la tasa de respuesta y reduce el tiempo de firma.
+
+Al utilizar WhatsApp con ArqSign, ofreces una experiencia más segura y eficiente a tus firmantes, aumentando la confiabilidad y agilidad del proceso de firma.
 
 </details>
 
@@ -210,7 +414,7 @@ Al contratar un plan ArqSign, tendrás acceso a un número de envíos según cad
 
 **Para el envío de flujos a través de WhatsApp**, es necesario que la cuenta tenga la disponibilidad de envíos y créditos para WhatsApp, ya que en este caso, se hace mediante una integración con WhatsApp Oficial. Para contratar créditos de WhatsApp, ve al menú "[<mark style="color:blue;">Comprar créditos</mark>](../menu-superior/comprar-creditos.md)". El costo es de R$0,45 por envío de mensaje. En el envío de un flujo se utilizan 2 mensajes por signatario (uno para el envío del documento para firma y otro para el envío del documento firmado al final del proceso).
 
-**Para el envío de flujos por correo electrónico**, solo es necesario que la cuenta tenga la disponibilidad de envíos, ya que la propia plataforma ArqSign realiza el envío del flujo.
+Para el envío de Procesos por correo electrónico, es necesario que la cuenta tenga únicamente disponibilidad de **Procesos**, ya que la Plataforma ArqSign es la que ejecuta directamente el envío del flujo.
 
 </details>
 
