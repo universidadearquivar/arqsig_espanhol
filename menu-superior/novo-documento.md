@@ -12,13 +12,15 @@ Se pueden incluir más de un archivo en el mismo proceso de firma. En este caso,
 
 <figure><img src="../.gitbook/assets/image (124).png" alt=""><figcaption></figcaption></figure>
 
-Cuando este campo esté **marcado**, ArqSign mostrará los archivos agrupados en el área de listado, donde se permite alterar el orden de los documentos, haciendo clic y arrastrándolos a la posición deseada. En este caso, no se permite cambiar el nombre de cada uno de los archivos, solo el nombre del proceso.
+Se pueden incluir varios archivos en un mismo proceso de firma. En ese caso, estará disponible la opción **“Agrupar los archivos en un solo documento”**, la cual se puede marcar o desmarcar según se desee.
+
+Cuando esta opción está **marcada**, ArqSign muestra los archivos agrupados en el área de listado, donde es posible cambiar el orden de los documentos haciendo clic y arrastrándolos a la posición deseada. En este caso, no es posible cambiar el nombre de cada archivo individualmente, solo se puede modificar el nombre del proceso.
 
 <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption></figcaption></figure>
 
 Para eliminar un archivo, haga clic en el ícono de la papelera disponible para cada uno de los archivos en la pantalla.
 
-Cuando este campo esté deseleccionado, ArqSign mostrará los archivos desagrupados en el área de listado, permitiendo que se alteren tanto el orden como el nombre de los archivos.
+Cuando este campo esté **deseleccionado**, ArqSign mostrará los **archivos desagrupados** en el área de listado, permitiendo que se alteren tanto el orden como el nombre de los archivos.
 
 <figure><img src="../.gitbook/assets/image (115).png" alt=""><figcaption></figcaption></figure>
 
@@ -33,14 +35,26 @@ Cuando este campo esté deseleccionado, ArqSign mostrará los archivos desagrupa
 
 <mark style="color:orange;">**Hoja de cálculo: .csv, .xls, .xlsx**</mark>
 
-<mark style="color:orange;">**Cada archivo puede tener hasta 35 MB o hasta 2000 páginas, no pudiendo superar 100 MB en total.**</mark>
+<mark style="color:orange;">**Se pueden enviar hasta 25 archivos por proceso, considerando las siguientes condiciones:**</mark>
+
+> <mark style="color:orange;">**Cada archivo puede tener hasta 35 MB o un máximo de 2000 páginas, el tamaño total del proceso no puede superar los 100 MB.**</mark>
+>
+> <mark style="color:orange;">**Ejemplos:**</mark>
+>
+> > * <mark style="color:orange;">**Si un usuario agrega dos archivos de 35 MB y un archivo de 30 MB, habrá alcanzado el límite máximo de peso permitido y no podrá agregar más documentos.**</mark>
+> > * <mark style="color:orange;">**Si un usuario agrega 25 archivos de 2 MB, aunque haya utilizado solo la mitad del límite de peso, habrá alcanzado el límite de cantidad de archivos y no podrá agregar más documentos.**</mark>
 {% endhint %}
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption></figcaption></figure>
 
 En el campo **“Nombre del Proceso de Firma”,** es posible editar el nombre del proceso que abarca los archivos agrupados; modifíquelo según sea necesario.
 
-En el campo “Carpeta del Documento”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../diretorios/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
+{% hint style="info" %}
+Al editar el nombre, no se pueden utilizar caracteres especiales **(@ : \* " < > | / ? \\)**.\
+Si se utiliza alguno de estos caracteres, la plataforma no podrá continuar con el proceso.
+{% endhint %}
+
+En el campo “**Carpeta del Documento**”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../diretorios/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
 
 <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
@@ -55,7 +69,7 @@ Las configuraciones avanzadas son ajustes relativos al documento. Se pueden ajus
 * **Tiempo para la expiración del documento después del envío:** En este campo, el usuario debe indicar el plazo (en días) de expiración del documento, es decir, el límite para que los destinatarios lo firmen.
 
 {% hint style="warning" %}
-<mark style="color:orange;">Si este campo no se modifica, se completará con el valor predeterminado. El valor predeterminado del sistema es de 120 días, pero este valor puede ser cambiado en el menú</mark> <mark style="color:orange;"></mark><mark style="color:orange;">**Administración > Cuenta > Configuraciones**</mark><mark style="color:orange;">.</mark>
+<mark style="color:orange;">Si este campo no se modifica, se completará con el valor predeterminado. El valor predeterminado del sistema es de 120 días, pero este valor puede ser cambiado en el menú</mark> [<mark style="color:orange;">**Administración > Cuenta > Configuraciones**</mark><mark style="color:orange;">.</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/conta#pestana-configuraciones)
 {% endhint %}
 
 * **Aviso antes de la expiración:** En este campo se debe indicar el plazo (en días) en el que el sistema deberá enviar a los destinatarios que aún no han firmado un aviso sobre la expiración del documento.
@@ -88,7 +102,9 @@ Es posible agregar un destinatario guardado a partir de la lista de contactos, h
 
 <figure><img src="../.gitbook/assets/image (131).png" alt=""><figcaption></figcaption></figure>
 
-Al hacer clic en este botón, se muestra la lista. Para agregar los destinatarios deseados, seleccione los que desee marcando la casilla junto al nombre y haga clic en “Agregar Destinatarios”.
+Al hacer clic en este botón, se muestra la lista. Para agregar los destinatarios deseados, selecciónalos marcando la casilla _checkbox_ junto al nombre y haz clic en “Agregar destinatarios”.
+
+Utilizando la barra de búsqueda, es posible filtrar los destinatarios por nombre, correo electrónico o WhatsApp.
 
 <figure><img src="../.gitbook/assets/image (132).png" alt="" width="365"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
@@ -126,7 +142,7 @@ Los roles del firmante presentados aquí se crean previamente en el menú [<mark
 
 **Tipo de Firma:** Seleccione si el destinatario deberá utilizar firma electrónica o un certificado digital para firmar el documento.
 
-<figure><img src="../.gitbook/assets/image (140).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (140).png" alt="" width="563"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">**FIRMA ELECTRÓNICA VS FIRMA DIGITAL (ICP Brasil y Otros ICP)**</mark>
@@ -176,7 +192,7 @@ Los elementos **Código de Seguridad** y **Mensaje Privado** son expandibles y, 
 
 Para insertar otros destinatarios, haga clic en el botón “Agregar Nuevo Destinatario”. Si desea incluirse a sí mismo como destinatario, haga clic en **“Añadirme como destinatario”**. Los campos de nombre y correo electrónico se completarán automáticamente con la información registrada en su perfil de usuario, y el campo “Enviar por” se llenará con la opción “Correo electrónico”.
 
-<figure><img src="../.gitbook/assets/image (149).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (149).png" alt="" width="563"><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
 ### C. Mensaje Predeterminado
 
@@ -204,11 +220,9 @@ Cuando el proceso tiene uno o más documentos agrupados, el sistema muestra el n
 
 <figure><img src="../.gitbook/assets/image (152).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
 
-**Proceso con más de un documento no agrupado**
+#### **Proceso con más de un documento no agrupado**
 
 Cuando el proceso tiene uno o más documentos no agrupados, el sistema muestra:
-
-
 
 * En la parte superior de la pantalla, el **nombre del documento** que se está exhibiendo;
 * En la esquina izquierda de la pantalla, **la lista de documentos del proceso** ordenados según la configuración de orden definida en la [<mark style="color:blue;">Etapa 01</mark>](novo-documento.md#etapa-1-adicionar-documentos-e-destinatarios), indicando si el documento está siendo visualizado o no. Al hacer clic en el documento, el sistema lo mostrará en la pantalla.
@@ -231,12 +245,13 @@ Al incluir la configuración de la representación visual, la aplicación muestr
 
 Si en la [<mark style="color:blue;">Etapa 1</mark>](novo-documento.md#b.-destinatarios) se ha definido que el destinatario firmará como persona física y jurídica, se mostrarán dos cuadros con el nombre del destinatario en el mismo color. Los cuadros de cada uno de los destinatarios se mostrarán en colores diferentes para señalar visualmente dónde cada uno deberá firmar.
 
-**Modal de representación visual de firma para proceso con un documento o más documentos agrupados**\
+#### **Modal de representación visual de firma para proceso con un documento o más documentos agrupados**
+
 Cuando el proceso tiene un documento o más documentos agrupados, el sistema lista las representaciones de los destinatarios, según el tipo de persona (PF y/o PJ), mostrando una barra de desplazamiento en la modal.
 
 <figure><img src="../.gitbook/assets/image (155).png" alt=""><figcaption></figcaption></figure>
 
-**Modal de representación visual de firma para procesos con más de un documento no agrupados**
+#### **Modal de representación visual de firma para procesos con más de un documento no agrupados**
 
 Cuando el proceso tiene **más de un documento**, el sistema muestra un **"carrusel"**, permitiendo la navegación entre los documentos y los firmantes.
 
@@ -256,7 +271,7 @@ En la esquina superior derecha de la pantalla, se muestra el campo "**Configurac
 
 <figure><img src="../.gitbook/assets/image (490).png" alt=""><figcaption></figcaption></figure>
 
-Si no hay un orden de firmas configurado en la Etapa 1, el ítem "Configuraciones para" muestra la lista de los firmantes ordenados alfabéticamente. Si ya hay un orden de firmas configurado, la lista de los firmantes estará agrupada por orden de firmas y ordenada alfabéticamente.
+Si no hay un orden de firmas configurado en la [Etapa 1](https://manual.arquivar.com/manual-arqsign-or-espanhol/menu-superior/novo-documento), el ítem "**Configuraciones para**" muestra la lista de los firmantes ordenados alfabéticamente. Si ya hay un orden de firmas configurado, la lista de los firmantes estará agrupada por orden de firmas y ordenada alfabéticamente.
 
 <figure><img src="../.gitbook/assets/image (491).png" alt="" width="286"><figcaption></figcaption></figure>
 
@@ -302,13 +317,13 @@ Dependiendo del tipo de firma definido para el destinatario en la [<mark style="
 
 Si la firma es como Persona Física, es posible exigir al destinatario datos como nombre y documento, marcando la opción “Nombre de la Persona Física” como llenado obligatorio y seleccionando uno de los documentos de la lista “Documento de la Persona Física”.
 
-<figure><img src="../.gitbook/assets/image (498).png" alt="" width="225"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (498).png" alt="" width="337"><figcaption></figcaption></figure>
 
 Para exigir un documento, seleccione la opción deseada entre CPF, CNH, C.I. u otros.
 
-<figure><img src="../.gitbook/assets/image (499).png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (499).png" alt="" width="384"><figcaption></figcaption></figure>
 
-ADespués de seleccionar el tipo de documento que se exigirá al destinatario en la firma, informe el número del documento. En el momento de la firma, el destinatario deberá informar exactamente el número definido en este momento si se seleccionó la opción **"Llenado Obligatorio"**. Al seleccionar la opción **"Usar el valor informado en el campo para validar el CPF completado por el firmante durante la firma"**, automáticamente el campo será de llenado obligatorio y será validado por la plataforma para continuar con la firma.
+A Después de seleccionar el tipo de documento que se exigirá al destinatario en la firma, informe el número del documento. En el momento de la firma, el destinatario deberá informar exactamente el número definido en este momento si se seleccionó la opción **"Llenado Obligatorio"**. Al seleccionar la opción **"Usar el valor informado en el campo para validar el CPF completado por el firmante durante la firma"**, automáticamente el campo será de llenado obligatorio y será validado por la plataforma para continuar con la firma.
 
 En el momento de la firma, si el destinatario utiliza un número diferente al informado por el remitente en la configuración, se mostrará el siguiente error en la pantalla:
 
@@ -355,3 +370,150 @@ Es posible solicitar más de un anexo haciendo clic en el ícono **“Añadir”
 Al hacer clic en “Descartar”, el flujo será excluido. Al hacer clic en “Concluir Más Tarde”, el flujo se guardará en la carpeta de Borradores. Para editar el documento o los destinatarios, haga clic en “Volver a la Etapa Anterior”. Finalizada la configuración de la Etapa 2, haga clic en “Enviar” para enviar el documento para la firma de los destinatarios.
 
 <figure><img src="../.gitbook/assets/image (506).png" alt=""><figcaption><p>Haga clic en la imagen para ampliar.</p></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo consultar si un documento electrónico o digital tiene validez jurídica?</summary>
+
+Para verificar si un documento electrónico o digital tiene validez jurídica conforme a los requisitos del ITI, solo debe seguir los siguientes pasos:
+
+1. Acceda al sitio: [https://validar.iti.gov.br/](https://validar.iti.gov.br/);
+2. Haga clic en "Elegir Archivo" y cargue el archivo que desea validar;
+3. Acepte los términos de uso y la política de privacidad del Portal Validar ITI;
+4. Haga clic en Validar.
+
+Si el archivo no contiene ninguna firma aplicada o contiene una firma no reconocida o dañada, se presentará el siguiente mensaje: "Usted ha enviado un documento sin firma reconocible o con firma dañada".
+
+Si el archivo contiene una firma válida, se presentará el siguiente mensaje:\
+"Documento con firmas válidas". Se mostrará un informe con el detalle de cada firma y su validez.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar un mensaje privado?</summary>
+
+* Haga clic en 'Nuevo Proceso'.
+* Seleccione el documento que desea enviar e ingrese los datos del signatario como nombre, correo electrónico, etc.
+* Debajo de esta información habrá un símbolo de 'mensaje'![](https://manual.arquivar.com/manual-arqsign/~gitbook/image?url=https%3A%2F%2Fcdn.arquivar.com.br%2Fwp-content%2Fuploads%2F2023%2F04%2Fcarta.jpg\&width=300\&dpr=4\&quality=100\&sign=6b31a14a\&sv=2)donde, al hacer clic, se abrirá una pestaña de mensaje privado.
+* En la pestaña de mensaje privado es posible ingresar el asunto y el mensaje que desea enviar solo al signatario seleccionado. Los demás signatarios recibirán el mensaje estándar.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar el token de seguridad?</summary>
+
+* Haga clic en 'Nuevo Proceso'.
+* Seleccione el documento que desea enviar e ingrese los datos del signatario como nombre, correo electrónico, etc.
+* Debajo de esta información habrá un símbolo de un 'candado'![](https://manual.arquivar.com/manual-arqsign/~gitbook/image?url=https%3A%2F%2Fcdn.arquivar.com.br%2Fwp-content%2Fuploads%2F2023%2F04%2Fcadeado.jpg\&width=300\&dpr=4\&quality=100\&sign=d37854\&sv=2), donde al hacer clic se abrirá una pestaña de seguridad.
+* En la pestaña de seguridad es posible generar el código 'Automáticamente o Manualmente' e informar el medio por el cual desea enviar el token: correo electrónico, SMS, Whatsapp o ningún medio.
+* Después de estas configuraciones, el token de seguridad será enviado a través del medio seleccionado cuando el signatario haga clic para acceder al documento o, si no seleccionó ningún medio, podrá informar directamente al signatario.
+
+</details>
+
+<details>
+
+<summary>¿Cómo solicitar anexos y selfie?</summary>
+
+Haga clic en 'Nuevo Proceso'.
+
+Seleccione el documento que desea enviar, configure los destinatarios y avance.
+
+Configure el campo de firma del destinatario.
+
+En la esquina derecha, si lo desea, solicite la información complementaria como Nombre y Documento y, si es necesario, habilite el llenado obligatorio.
+
+Si desea solicitar Anexos como imagen de documentos o selfie, habilite la opción para solicitar que el signatario adjunte un documento.
+
+Informe el documento que desea que el signatario adjunte y si desea que el anexo sea obligatorio para la conclusión del proceso de firma.
+
+También puede configurar el permiso para que todos los signatarios accedan al anexo o no.
+
+Cuando el destinatario reciba el documento para firmar, deberá proceder de la siguiente manera:
+
+Firmar el documento y completar los datos solicitados;
+
+Hacer clic en la solicitud de Selfie;
+
+Acceder a la cámara del celular o computadora;
+
+Tomarse la foto según lo solicitado;
+
+Elegir la foto como anexo;
+
+Concluir la firma.
+
+</details>
+
+<details>
+
+<summary>¿Cómo insertar un destinatario en copia o como observador en un Proceso?</summary>
+
+En la Plataforma ArqSign es posible colocar a una persona en copia o como observador en un Proceso. De esta forma, al finalizar el proceso de firma, esa persona o personas recibirán el documento firmado.\
+Para realizar esta configuración proceda de la siguiente manera:
+
+1. Haga clic en "Nuevo Proceso";
+2. Cargue el documento a firmar y realice las configuraciones correspondientes para el Proceso;
+3. En "Destinatarios" configure el campo "Este destinatario irá" como "Recibir una copia";
+4. Continúe con las demás configuraciones.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar un Proceso para ser firmado con certificado digital (firma digital) o sin certificado digital (firma electrónica)?</summary>
+
+En la Plataforma ArqSign, al configurar un Proceso de firmas puede determinar qué tipo de firma debe ser ejecutada por destinatario eligiendo entre:
+
+**a) Firma electrónica** (ArqSign produce firmas electrónicas avanzadas con validez jurídica conforme a la MP 2.200-2 del 24/08/2001 y la Ley 14.063 del 23/11/2020);
+
+**b) Firma con certificado digital tipo ICP-Brasil** (ArqSign produce firmas digitales calificadas conforme a la MP 2.200-2 del 24/08/2001 y la Ley 14.063 del 23/11/2020);
+
+**c) Firma con certificado digital personal de todos los tipos** (ArqSign produce firmas electrónicas y digitales mediante otros certificados).
+
+Para determinar el tipo de firma siga el siguiente paso a paso:
+
+Después de cargar el documento y realizar las configuraciones necesarias para el Proceso, continúe con la configuración de los destinatarios;
+
+Al configurar un destinatario, en el campo "Tipo de firma" elija una de las opciones según la descripción arriba;
+
+¡Listo! Ahora solo configure los demás destinatarios, la posición de la firma en el documento y envíe.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar la firma para Persona Natural/CPF o Persona Jurídica/CNPJ?</summary>
+
+En la plataforma ArqSign, puede elegir si el Proceso será firmado por una Persona Natural o Jurídica.
+
+Para ello, el remitente debe elegir el tipo de firma durante el proceso de configuración del flujo según lo siguiente:
+
+1. Cargue el documento y realice las configuraciones necesarias;
+2. Inserte al destinatario;
+3. En el campo "Este destinatario irá:" marque las opciones de cómo actuará el destinatario:
+
+* Firmar Online como Persona Natural
+* Firmar Online como Persona Jurídica
+* Recibir una copia
+
+Un destinatario puede firmar durante el mismo proceso como Persona Natural y Jurídica.
+
+Al finalizar la configuración de los destinatarios, haga clic en Avanzar.
+
+Si va a posicionar las firmas, deberá colocar la firma de Persona Natural y Jurídica para el destinatario que configuró para firmar con estos dos tipos de firma.
+
+Si elige la opción de posicionamiento automático de firmas, la propia plataforma posicionará todas las firmas automáticamente.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar un orden / secuencia para las firmas?</summary>
+
+
+
+</details>
