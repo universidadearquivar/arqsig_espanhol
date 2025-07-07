@@ -514,6 +514,114 @@ Si elige la opción de posicionamiento automático de firmas, la propia platafor
 
 <summary>¿Cómo configurar un orden / secuencia para las firmas?</summary>
 
+La plataforma ArqSign permite insertar una secuencia para la firma de Procesos.
 
+Para acceder a esta funcionalidad, habilite la opción "Firmar en el orden siguiente" durante la configuración de los destinatarios.
+
+Inserte a los destinatarios en el orden en que desea las firmas.
+
+Observe que aparece un campo llamado "Orden" y que las personas deberán firmar el Proceso según ese orden, siendo que el siguiente correo solo llegará después de que el anterior haya realizado la firma.
+
+Si desea que dos personas reciban el correo simultáneamente, utilice el mismo número para ellas.
+
+<img src="../.gitbook/assets/gif-1.gif" alt="" data-size="original">
+
+</details>
+
+<details>
+
+<summary>¿Cómo editar un documento después del envío del Proceso?</summary>
+
+Por seguridad, no es posible editar un documento después del envío.
+
+</details>
+
+<details>
+
+<summary>¿Cómo agendar una renovación, vencimiento de Proceso o control de reajuste?</summary>
+
+Puede realizar este agendamiento durante la creación o después de la conclusión de un Proceso de firma. Vea el paso a paso a continuación:
+
+**Durante la creación de un Proceso:**
+
+1. Haga clic en Nuevo Proceso;
+2. Seleccione la casilla Agendar renovación;
+3. Defina el plazo en meses después de la finalización de las firmas;
+4. Finalice la creación del Proceso.
+
+**Después de la conclusión de un Proceso:**
+
+1. Haga clic en Enviados;
+2. Seleccione Proceso concluido;
+3. Haga clic en Historial;
+4. Haga clic en Cambiar Renovación;
+5. Defina el plazo en meses después de la finalización de las firmas;
+6. Haga clic en Cambiar.
+
+Cuando llegue la fecha definida para el vencimiento del Proceso (para renovación o reajuste), la plataforma ArqSign enviará un correo electrónico al propietario del Proceso informando que el documento está listo para renovación, reajuste, etc.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=v1DGlnU4rLs\&feature=youtu.be) y vea el video con el paso a paso.
+
+</details>
+
+<details>
+
+<summary>¿Qué tipos de archivo (extensiones) están permitidos?</summary>
+
+Manualmente puede cargar las siguientes extensiones: .doc; .docx; .xlsx; .xls; .pptx; .ppt; .pdf; .png; .jpeg; .jpg.
+
+A través de la API de integración puede enviar archivos en formato PDF.
+
+</details>
+
+<details>
+
+<summary>¿Cuál es el límite de tamaño para documentos?</summary>
+
+Seleccione y cargue archivos de hasta 35 MB.
+
+Puede enviar más de un archivo a la vez siempre que el tamaño total de la suma de los archivos no supere los 100 MB o 25 archivos. Al enviar más de un archivo, puede agruparlos en un solo archivo o no.
+
+</details>
+
+<details>
+
+<summary>¿Cómo enviar un Proceso para firma?</summary>
+
+Acceda a la plataforma ArqSign y haga clic en el botón "Nuevo Proceso".
+
+Seleccione y cargue archivos de hasta 35 MB.
+
+Puede enviar más de un archivo a la vez siempre que el tamaño total de la suma de los archivos no supere los 25 documentos y 100 MB. Se pueden incluir varios archivos en el mismo proceso de firma. En este caso, la opción "Agrupar los archivos en un único documento" estará disponible y podrá ser marcada o desmarcada.
+
+Cuando este campo está marcado, ArqSign muestra los archivos agrupados en el área de listado, donde se permite cambiar el orden de los documentos, haciendo clic y arrastrándolos a la posición deseada. En este caso no está permitido cambiar el nombre de cada uno de los archivos, solo el nombre del proceso.
+
+Para eliminar un archivo, haga clic en el icono de papelera disponible para cada archivo en la pantalla.
+
+Cuando este campo está desmarcado, ArqSign muestra los archivos desagrupados en el área de listado, permitiendo cambiar tanto el orden como el nombre de los archivos.
+
+En el campo "Nombre del Proceso de Firma", es posible editar el nombre del proceso que agrupa los archivos; modifíquelo según sea necesario.
+
+En el campo "Carpeta del Proceso", seleccione la carpeta en la cual se alojará el Proceso. Las carpetas en las que se pueden almacenar los Procesos deben ser creadas en el menú Procesos > Carpetas. Por defecto se crea una carpeta con el nombre del usuario y debe ser seleccionada si no existe ninguna otra.
+
+Por último, para agendar la renovación de los Procesos que están siendo registrados de forma automática, seleccione la casilla del campo "Agendar renovación meses después de la conclusión de las firmas", informando la cantidad de meses en que desea ser notificado sobre la renovación del proceso. Tan pronto como se concluyan las firmas del primer envío, el sistema comenzará a contar el plazo determinado y cuando se alcance el período de renovación, el responsable por los Procesos (remitente) recibirá una notificación informando que los Procesos están listos para ser renovados.
+
+Configure los destinatarios, defina el tipo de envío, por correo electrónico o WhatsApp, configure las firmas (una por signatario) y haga clic en enviar.
+
+En caso de que usted mismo sea un signatario, podrá firmar el Proceso después del envío a través de la Bandeja de entrada de su cuenta. Solo debe hacer clic en firmar y seguir el paso a paso de la pregunta "¿Cómo firmar un Proceso?" [Haga clic aquí](https://www.youtube.com/watch?v=nEuvJHxZnto\&feature=youtu.be) y vea el paso a paso.
+
+</details>
+
+<details>
+
+<summary>¿Dónde se almacenan los datos y documentos ingresados en la Plataforma ArqSign?</summary>
+
+Los datos y documentos se almacenan en el centro de datos Microsoft Azure, líder mundial en establecer requisitos de privacidad y seguridad.
+
+Microsoft Azure cumple con una amplia variedad de normas de cumplimiento internacionales y específicas del sector, como el GDPR (Reglamento General de Protección de Datos), la ISO 27001, HIPAA, FedRAMP, SOC 1 y SOC 2, así como normas específicas de ciertos países, incluyendo IRAP de Australia, G-Cloud del Reino Unido y MTCS de Singapur. Auditorías rigurosas de terceros, como las realizadas por el British Standards Institute, confirman la adhesión de Azure a los estrictos controles de seguridad exigidos por estas normas.
+
+Microsoft ha aprovechado su experiencia en la creación de protecciones de software empresarial y en la operación de algunos de los mayores servicios en línea del mundo para desarrollar tecnologías y prácticas de seguridad robustas. Estas ayudan a garantizar que la infraestructura de Azure sea resistente a ataques, protegen el acceso del usuario al entorno de Azure y ayudan a mantener seguros los datos del cliente mediante comunicaciones cifradas y la gestión de amenazas y prácticas de mitigación, incluidos tests de penetración regulares.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=yKNeahEQY8g) y vea el video explicativo.
 
 </details>
