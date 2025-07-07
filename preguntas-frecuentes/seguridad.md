@@ -1,10 +1,10 @@
 # 🟪 Seguridad
 
-Arquivar tiene más de treinta y un años de experiencia en la prestación de servicios de gestión de documentos, procesos e información, cumpliendo con la legislación brasileña y con las normas del Consejo Nacional de Archivos (CONARQ).
+Arquivar cuenta con más de treinta y un años de experiencia en la prestación de servicios de gestión de documentos, procesos e información, en conformidad con la legislación brasileña y con las normas del Consejo Nacional de Archivos (CONARQ).
 
 Nuestras soluciones atienden a más de 2.500 clientes y 20.000 usuarios.
 
-A partir de este know-how, Arquivar desarrolló ArqSign, una plataforma que permite la firma electrónica y digital de documentos, en total conformidad con la legislación brasileña, por lo que tiene 100% de validez jurídica.
+A partir de ese know-how, Arquivar desarrolló ArqSign: una plataforma que permite la firma electrónica y digital de documentos, así como la gestión completa de los procesos de firma y documentos, en total conformidad con la legislación brasileña, y por lo tanto, con 100% de validez jurídica.
 
 <details>
 
@@ -40,8 +40,8 @@ Utilizamos criptografía en las comunicaciones y en los procesos de operación, 
 
 Para datos en reposo, nuestro servidor en Azure ofrece una amplia gama de recursos de cifrado, incluyendo AES-256.
 
-* **Protección de redes:** infraestructura necesaria para conectar máquinas virtuales de manera segura entre sí y para conectar centros de datos locales con las VMs de Azure. Azure bloquea el tráfico no autorizado hacia los centros de datos de Microsoft o dentro de ellos, utilizando diversas tecnologías. La Red Virtual de Azure se extiende a su red local hacia la nube a través de una VPN de sitio a sitio.
-* **Gestión de amenazas:** Microsoft Antimalware para servicios en la nube y máquinas virtuales. Microsoft también emplea detección de intrusiones, prevención de ataques DDoS (ataques de denegación de servicio distribuido), pruebas de penetración regulares y herramientas de análisis de datos y aprendizaje automático para ayudar a mitigar las amenazas contra la plataforma Azure.
+* Protección de redes: infraestructura necesaria para conectar máquinas virtuales de manera segura entre sí y para conectar centros de datos locales con las VMs de Azure. Azure bloquea el tráfico no autorizado hacia los centros de datos de Microsoft o dentro de ellos, utilizando diversas tecnologías. La Red Virtual de Azure se extiende a su red local hacia la nube a través de una VPN de sitio a sitio.
+* Gestión de amenazas: Microsoft Antimalware para servicios en la nube y máquinas virtuales. Microsoft también emplea detección de intrusiones, prevención de ataques DDoS (ataques de denegación de servicio distribuido), pruebas de penetración regulares y herramientas de análisis de datos y aprendizaje automático para ayudar a mitigar las amenazas contra la plataforma Azure.
 
 </details>
 
@@ -63,9 +63,9 @@ Microsoft ha aprovechado su experiencia en la creación de protecciones de softw
 
 <summary>¿Cuál es la base de normas que sirve de referencia para el proceso de firma de la Plataforma ArqSign?</summary>
 
-La plataforma ArqSign se basa en los [<mark style="color:blue;">**REQUISITOS DE LAS POLÍTICAS DE FIRMA DIGITAL EN ICP-BRASIL**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">del ITI (Instituto Nacional de Tecnología de la Información).</mark> ](https://chrome-extension/efaidnbmnnnibpcajpcglclefindmkaj/https://www.gov.br/iti/pt-br/central-de-conteudo/doc-icp-15-03-requisitos-minimos-para-politicas-de-assinatura-pdf)
+La plataforma ArqSign se basa en los [<mark style="color:blue;">REQUISITOS DE LAS POLÍTICAS DE FIRMA DIGITAL EN ICP-BRASIL del ITI (Instituto Nacional de Tecnología de la Información).</mark> ](https://chrome-extension/efaidnbmnnnibpcajpcglclefindmkaj/https://www.gov.br/iti/pt-br/central-de-conteudo/doc-icp-15-03-requisitos-minimos-para-politicas-de-assinatura-pdf)
 
-Este documento establece los requisitos que deben ser obligatoriamente observados por las entidades creadoras de Políticas de Firma Digital en el ámbito de la Infraestructura de Claves Públicas Brasileña (ICP-Brasil), en conformidad con la estructura propuesta por los estándares **ETSI TR 102 272** y **ETSI TR 102.038**.
+Este documento establece los requisitos que deben ser obligatoriamente observados por las entidades creadoras de Políticas de Firma Digital en el ámbito de la Infraestructura de Claves Públicas Brasileña (ICP-Brasil), en conformidad con la estructura propuesta por los estándares ETSI TR 102 272 y ETSI TR 102.038.
 
 </details>
 
