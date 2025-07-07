@@ -1,23 +1,5 @@
 # 🟪 Como Usar
 
-Localizar un documento en la Plataforma ArqSign es súper práctico, solo sigue las instrucciones a continuación:
-
-Primero, encuentra la Caja donde se encuentra el documento. Todas las cajas (Bandeja de entrada, Enviados, Borradores, Eliminados, Renovaciones) tienen la funcionalidad de búsqueda, que aparece como “Filtrar”.
-
-Haz clic en el campo “Filtrar”.
-
-Se mostrarán las opciones de búsqueda. &#x20;
-
-Ingresa la información de búsqueda en los campos deseados, como el nombre del firmante, estado, carpeta del documento o fecha de finalización.
-
-Haz clic en “Filtrar”.
-
-Todos los documentos que coincidan con la información ingresada en los filtros se mostrarán.&#x20;
-
-Para cancelar el filtro, simplemente haz clic en la “X” que aparece en la esquina derecha del campo “Filtrar”.
-
-¿Ves lo fácil que es? Ahora puedes localizar tus documentos en la Plataforma ArqSign de manera rápida y eficiente. ¡Descubre lo fácil y práctico que es utilizar ArqSign para firmar tus documentos! Con solo unos clics puedes completar con éxito una tarea que antes era demorada y a menudo burocrática.
-
 <details>
 
 <summary>Conoce la plataforma ArqSign</summary>
@@ -28,19 +10,19 @@ Accede a la plataforma de Firma y configura tu Firma Electrónica.
 
 En el lado izquierdo de la pantalla tenemos todos los menús disponibles, separados por grupos: Buzón, Directorios y Administración. Es importante destacar que estos menús se presentarán según el nivel de permiso de cada usuario. Haz clic en la imagen para ampliar.
 
-![](<../.gitbook/assets/image (158).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (812).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **BUZÓN:** En este grupo se concentran los menús referentes al proceso de tramitación de los documentos. Haz clic en la imagen para ampliar.
 
-![](<../.gitbook/assets/image (159).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (813).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
-**DIRECTORIOS:** En este grupo tenemos el menú Documentos. Se considera un repositorio de almacenamiento de los documentos tramitados por la plataforma, es decir, aquí se encuentran todos los documentos con el proceso de firma concluido. Haz clic en la imagen para ampliar.
+**PROCESOS:** En este grupo tenemos el menú **Carpetas**. Es un repositorio de almacenamiento de los procesos tramitados por la plataforma. El resto permanece igual.
 
-![](<../.gitbook/assets/image (160).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (814).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **ADMINISTRACIÓN:** En este grupo tenemos las configuraciones de cuenta, usuarios y grupo de usuarios.
 
-![](<../.gitbook/assets/image (161).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (815).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 </details>
 
@@ -107,13 +89,13 @@ Si has recibido un documento para firmar, haz clic en el enlace de acceso al doc
 2. Después de iniciar sesión, haz clic en tu nombre en la esquina superior derecha.
 3. Haga clic en “Mi Perfil”.
 
-![](<../.gitbook/assets/image (171).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (816).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Pestaña "Mis Datos"**
 
 1\. Asegúrate de que todos tus datos estén actualizados. Si deseas modificar algo, haz clic en "Editar" para habilitar los campos de edición.
 
-![](<../.gitbook/assets/image (172).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (817).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Pestaña "Mis Contactos"**
 
@@ -123,11 +105,25 @@ En esta pestaña puede mantener una lista con los contactos más utilizados en l
 
 2\. Haciendo clic en el ícono “+” se puede añadir contactos. Al hacer clic en esta opción, se habilita una pantalla destinada al registro de un nuevo contacto para incluir en la lista. Una vez introducidos los datos del contacto, haga clic en “Guardar” o “Guardar y Cerrar”.
 
-![](<../.gitbook/assets/image (173).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (818).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Íconos – Pestaña “Mis Contactos”**
 
-![](<../.gitbook/assets/image (174).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (819).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Importación – Pestaña "Mis Contactos"**
+
+Además de la opción de agregar nuevos contactos manualmente, el sistema también permite la importación de datos mediante un archivo en formato CSV.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (820).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+1. Al hacer clic en el ícono de importación, selecciona **“Descargar planilla modelo”** para descargar un archivo CSV en blanco.
+2. Este es el modelo que debe utilizarse para la importación.
+3. Completa el archivo según las siguientes indicaciones:
+
+* **Campo "Compartido":** Completa con **1** para indicar "Sí" o con **0** para indicar "No". Cualquier otro valor será considerado como "0".
+* **Campo "Teléfono":** Debe ingresarse en formato internacional, con **DDI + DDD + número**. Ejemplo: **553198766871**.
+* **Campos "Correo electrónico" y "Teléfono" completados:** Si ambos campos están completados, el contacto será importado **dos veces**. Para importar solo una vez, completa **solo uno** de los campos.
 
 **Pestaña "Estilo de Firma"**
 
@@ -135,7 +131,7 @@ En esta pestaña puede mantener una lista con los contactos más utilizados en l
 
 2\. Pase por las tres opciones disponibles. Después de finalizar, haga clic en “Guardar”.
 
-![](<../.gitbook/assets/image (774).png>)
+<div align="left"><figure><img src="../.gitbook/assets/image (821).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Pestaña “Certificado Digital”**
 
@@ -288,8 +284,8 @@ Para más detalles, [<mark style="color:blue;">haz clic aqu</mark>](https://www.
 
 Si tienes un documento impreso que fue firmado a través de la plataforma ArqSign y necesitas verificar su validez, existen algunos elementos de seguridad que puedes revisar de la siguiente manera:
 
-1. Localiza en las páginas del documento firmado a través de la Plataforma ArqSign una marca de agua con el "ID del documento" en la esquina superior izquierda;
-2. Confirma que el "ID del documento" es el mismo en todas las páginas y en el Registro de Firmas.
+1. Localiza en las páginas del documento firmado a través de la Plataforma ArqSign una marca de agua con el "**ID del documento**" en la esquina superior izquierda;
+2. Confirma que el "**ID del documento**" es el mismo en todas las páginas y en el Registro de Firmas.
 3. Cada vez que un documento es firmado a través de la Plataforma ArqSign, se genera un archivo llamado "Registro de Firmas". El "Registro de Firmas" contiene:
 
 a) La identificación del documento al que pertenece, es decir, el "**ID del documento**";
@@ -965,25 +961,31 @@ Un signatario es una persona física o jurídica que participa en el proceso de 
 
 <summary>¿Qué hacer cuando un signatario informa que no recibió el WhatsApp con el enlace para la firma?</summary>
 
-Cuando uno de los signatarios informa que no recibió el WhatsApp con el enlace para la firma, verifica los siguientes puntos antes de reenviar o abrir un ticket:
+Cuando uno de los firmantes informa que no recibió el mensaje de **WhatsApp** con el enlace para la firma, verifica los siguientes puntos antes de reenviar o abrir un ticket de soporte:
 
-1. Asegúrate de que ingresaste correctamente el número de WhatsApp;
-2. Si el número que ingresaste es incorrecto, puedes corregirlo y enviar nuevamente a través del Menú Enviados > Reenviar;
-3. Pide al signatario que verifique si tiene acceso a internet móvil o Wi-Fi;
-4. Pide al cliente que abra WhatsApp y verifique si recibió un nuevo mensaje, ya que podría ser solo un problema de configuración de recepción de notificaciones;
-5. Si el problema no se resuelve con ninguna de las opciones anteriores, es posible que el mensaje enviado haya sido bloqueado por WhatsApp porque el signatario no tiene la aplicación actualizada. Para actualizar la aplicación, el signatario debe acceder a la tienda de aplicaciones y hacer clic en Actualizar ([<mark style="color:blue;">https://faq.whatsapp.com/5481509731946576/?helpref=search\&query=mensage</mark>](https://faq.whatsapp.com/5481509731946576/?helpref=search\&cms\_platform=android\&query=mensagem%20n%C3%A3%C2%A3o%20recebida\&search\_session\_id=cb86af1005f8183efe4a18d785336191\&sr=2)<mark style="color:blue;">m</mark>);
-6. Si aún así no se realizó la actualización, puedes enviar el enlace de actualización de Servicios de WhatsApp al signatario para que lo actualice: Enlace: [https://wa.me/tos/20210210](https://wa.me/tos/20210210). El signatario debe abrir el enlace en WhatsApp y aceptar los términos.
-7. Después de que el signatario actualice la aplicación y/o los Términos de Servicio de WhatsApp, reenvía el flujo a través de la Plataforma ArqSign haciendo clic en Enviados -> Reenviar.
-8. Si aun así el signatario no recibe el mensaje de WhatsApp, contáctanos y proporciona la siguiente información para que podamos analizar lo que pudo haber sucedido.
+1. Verifica si escribiste correctamente el número de WhatsApp;
 
-Información necesaria:
+a. Si el número ingresado está incorrecto, puedes corregirlo y reenviar el proceso a través del menú **Enviados > Reenviar**;
+
+2. Pide al firmante que confirme si tiene acceso a **internet móvil o Wi-Fi**;
+3. Solicita al cliente que abra WhatsApp y verifique si no recibió un nuevo mensaje, ya que podría tratarse simplemente de un problema con la configuración de **notificaciones**;
+4. Si el problema no se resuelve con ninguna de las opciones anteriores, es posible que el mensaje haya sido **bloqueado por el propio WhatsApp** porque el firmante no tiene la aplicación actualizada.\
+   Para actualizar la aplicación, el firmante debe acceder a la tienda de aplicaciones y hacer clic en **Actualizar**:\
+   ([https://faq.whatsapp.com/5481509731946576/?helpref=search\&query=mensagem…](https://faq.whatsapp.com/5481509731946576/?helpref=search\&cms_platform=web\&query=mensagem%20n%C3%A3%C2%A3o%20recebida\&search_session_id=cb86af1005f8183efe4a18d785336191\&sr=2));
+5. Si aún así la aplicación no se actualiza, puedes enviar el enlace de actualización de los **Términos de Servicio de WhatsApp** para que el firmante los acepte:\
+   **Enlace:** [https://wa.me/tos/20210210](https://wa.me/tos/20210210)\
+   El firmante debe abrir el enlace en WhatsApp y aceptar los términos.
+6. Después de que el firmante haya actualizado la aplicación y/o los Términos de Servicio de WhatsApp, **realiza el reenvío del proceso** a través de la Plataforma ArqSign haciendo clic en **Enviados > Reenviar**.
+7. Si, aun así, el firmante no recibe el mensaje de WhatsApp, **contáctanos** y proporciona la siguiente información para que podamos analizar qué pudo haber ocurrido:
+
+**Información necesaria:**
 
 * Nombre
 * Empresa
-* WhatsApp
-* Nombre del documento enviado
-* Fecha de envío
-* Signatario
+* Número de WhatsApp
+* Nombre del proceso enviado
+* Fecha del envío
+* Firmante
 
 </details>
 
@@ -1043,7 +1045,7 @@ Por seguridad, no es posible editar un documento después del envío.
 
 Para que un cliente firme un documento en la tablet de un establecimiento, siga estos pasos:&#x20;
 
-1. Cree un correo electrónico genérico que se usará para el envío de los documentos a ser firmados en la tablet, por ejemplo: `firmadorelectronicodeDocumentos@nombredeestablecimiento.com.bo`;
+1. Cree un correo electrónico genérico que se usará para el envío de los documentos a ser firmados en la tablet, por ejemplo: firmadorelectronicodeDocumentos@nombredeestablecimiento.com.bo;
 2. Cree un usuario con el correo electrónico anterior;
 3. Inicie sesión en la plataforma ArqSign con este usuario;
 4. Envíe el documento para la firma del cliente y solicite las siguientes autenticaciones:
@@ -1117,7 +1119,7 @@ Haz clic en "Guardar".
 
 Siempre que firmes un documento, los estilos guardados se mostrarán para que elijas uno.
 
-[<mark style="color:blue;">Haz clic aquí</mark>](https://www.youtube.com/watch?v=5PogsaN\_qmk) para ver el video con el paso a paso.
+[<mark style="color:blue;">Haz clic aquí</mark>](https://www.youtube.com/watch?v=5PogsaN_qmk) para ver el video con el paso a paso.
 
 </details>
 
@@ -1379,5 +1381,67 @@ Por último, para programar la renovación de los documentos que se están regis
 Configura los destinatarios, define el tipo de envío, ya sea por e-mail o WhatsApp, configura las firmas (una por signatario) y haz clic en enviar.
 
 Si tú mismo eres un signatario, puedes firmar el documento después del envío a través de la Bandeja de entrada de tu cuenta. Simplemente haz clic en firmar y sigue el paso a paso de la pregunta “¿Cómo firmar un documento?”[ <mark style="color:blue;">Haz clic aquí</mark> ](https://www.youtube.com/watch?v=nEuvJHxZnto)y mira el paso a paso.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cambiar el correo electrónico/usuario responsable por los envíos en la plataforma ArqSign?</summary>
+
+Si deseas cambiar el correo electrónico del usuario que realiza los envíos, será necesario **registrar un nuevo usuario con el correo deseado**. Sigue los pasos a continuación:
+
+**1) Registrar un nuevo usuario**
+
+Sigue las instrucciones detalladas en este enlace: [Cómo registrar un usuario >](https://manual.arquivar.com/manual-arqsign-or-espanhol/preguntas-frecuentes/como-usar)
+
+**2) Transferir los Procesos del usuario antiguo (opcional)**
+
+Si necesitas transferir los procesos del usuario con el correo anterior al nuevo, sigue este procedimiento:
+
+1. Inicia sesión con un usuario que tenga perfil de **Administrador Global**.
+2. Accede a: **Administración > Usuarios**.
+3. Encuentra al usuario actual que deseas reemplazar.
+4. En la columna **ACCIONES**, haz clic en la flecha hacia abajo y selecciona **Inactivar**.
+5. En la ventana de confirmación, elige una de las siguientes opciones:
+
+* **Transferir:** Los procesos del usuario antiguo serán transferidos al nuevo usuario.
+* **Inactivar sin transferir:** El usuario será inactivado, pero sus procesos permanecerán en la cuenta.
+* **Cancelar:** Cancela la acción sin realizar ningún cambio.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (822).png" alt="" width="250"><figcaption></figcaption></figure></div>
+
+Si **no tienes integración con el socio Clínica nas Nuvens**, el proceso termina aquí. De lo contrario, continúa con las siguientes instrucciones.
+
+**3) Actualizar el ID de usuario en la integración con Clínica nas Nuvens**
+
+Si tu cuenta está integrada con **Clínica nas Nuvens**, será necesario actualizar el ID del usuario. Sigue estos pasos:
+
+* Accede al menú **Integraciones > API > Descargar IDs de Usuarios**.
+* Descarga la planilla y copia el **ID del nuevo usuario**.
+* En **Clínica nas Nuvens**, ve a **Configuraciones > Mi Empresa > Integraciones > Firma Digital**.
+* En el campo **ID de usuario**, reemplaza el ID antiguo por el nuevo ID copiado.
+* Haz clic en **GUARDAR**.
+
+Ahora, el nuevo usuario/correo electrónico está configurado para **enviar y recibir mensajes a través de Clínica nas Nuvens**.
+
+</details>
+
+<details>
+
+<summary>¿Cómo transferir procesos de un usuario a otro?</summary>
+
+Si necesitas transferir los procesos de un usuario a otro, sigue estos pasos:
+
+1. Inicia sesión con un usuario que tenga perfil de **Administrador Global**.
+2. Accede a: **Administración > Usuarios**.
+3. Encuentra al usuario propietario de los procesos que deseas transferir.
+4. En la columna **ACCIONES**, haz clic en la flecha hacia abajo y selecciona **Inactivar**.
+5. En la ventana de confirmación, elige una de las siguientes opciones:
+
+* **Transferir:** Los procesos del usuario antiguo serán transferidos al nuevo usuario.
+* **Inactivar sin transferir:** El usuario será inactivado, pero sus procesos permanecerán en la cuenta.
+* **Cancelar:** Cancela la acción sin realizar ningún cambio.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (823).png" alt="" width="250"><figcaption></figcaption></figure></div>
 
 </details>
