@@ -276,6 +276,12 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 {% endtab %}
 {% endtabs %}
 
+***
+
+<mark style="color:blue;">**Habiendo instalado la extensión y el módulo del certificado, el usuario podrá continuar con el proceso de firma.**</mark>
+
+### Firmando con Certificado Digital
+
 Si se ha definido que el usuario debe firmar utilizando un certificado digital (ICP Brasil y otros), se mostrará una lista con todos los certificados instalados en la máquina del usuario y en la cuenta de la plataforma ArqSign.
 
 <figure><img src="../.gitbook/assets/image (536).png" alt=""><figcaption></figcaption></figure>
@@ -288,9 +294,19 @@ Deberá seleccionar el método con el cual realizará la firma y, si es necesari
 <mark style="color:orange;">**Los certificados alojados en la cuenta de la plataforma ArqSign del usuario que se presenten aquí deben haber sido previamente importados en la pantalla**</mark> [<mark style="color:blue;">**Mi Perfil > Pestaña**</mark>](meu-perfil.md) <mark style="color:orange;">**Certificado Digital. Si el usuario tiene el certificado digital alojado en ArqSign, se le ofrecerá la opción de autenticarse en la plataforma para utilizar el certificado que posee.**</mark>
 {% endhint %}
 
-Para finalizar el proceso de firma, el firmante debe hacer clic en "Concluir". Será dirigido a la pantalla de inicio de sesión. Si ya tiene una cuenta activa en la plataforma de firma, puede ingresar sus credenciales para acceder. Si no tiene una cuenta registrada en la plataforma, se mostrará un mensaje sugiriendo que se cree una cuenta de prueba gratuita.
+Para finalizar el proceso de firma, el firmante debe hacer clic en "Concluir". Será dirigido a la pantalla de inicio de sesión.&#x20;
 
-<figure><img src="../.gitbook/assets/image (544).png" alt=""><figcaption></figcaption></figure>
+Si ya tiene una cuenta activa en la plataforma de firma, puede ingresar sus credenciales para acceder. Si no tiene una cuenta registrada en la plataforma, se mostrará un mensaje sugiriendo que se cree una cuenta de prueba gratuita.
+
+<figure><img src="../.gitbook/assets/image (824).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Si ya tiene una cuenta activa en la plataforma de firma, pero no **ha iniciado sesión**, podrá hacer clic en la opción "acceder a mi cuenta" y podrá ingresar sus credenciales para acceder. 
+
+<figure><img src="../.gitbook/assets/image (825).png" alt="" width="375"><figcaption></figcaption></figure>
+
+Si el signatario **no tiene una cuenta registrada** en la plataforma, se mostrará un mensaje sugiriendo que cree una [cuenta de prueba gratuita](https://manual.arquivar.com/manual-arqsign-or-espanhol/#sitio-web-de-la-plataforma-arqsign), o que obtenga más información, donde el usuario será dirigido a la página de más información en el sitio de ArqSign.
+
+<figure><img src="../.gitbook/assets/image (826).png" alt="" width="375"><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**La creación de la cuenta de prueba gratuita no es obligatoria.**</mark>
@@ -311,3 +327,13 @@ Si el remitente ha definido que se debe generar un Código QR en el Registro de 
 <figure><img src="../.gitbook/assets/image (548).png" alt=""><figcaption></figcaption></figure>
 
 ***
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
