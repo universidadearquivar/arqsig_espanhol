@@ -27,7 +27,7 @@ Debes obtener esta información en los siguientes lugares:
 
 e.
 
-<p align="center"> <img src="../.gitbook/assets/image.png" alt=""></p>
+<p align="center"> <img src="../.gitbook/assets/image (10).png" alt=""></p>
 
 7. En tu cuenta de **Clínica nas Nuvens**, accede al menú **Configuraciones > Mi Empresa > Integraciones > Firma Digital**, ingresa la información solicitada y haz clic en **Guardar**.
 8. ¡Listo! ¡Las soluciones ya están conectadas! Ahora solo tienes que enviar los documentos para firma y, una vez completados, estarán disponibles en ambos sistemas — **ArqSign y Clínica nas Nuvens** — además de ser enviados a tu cliente o paciente.

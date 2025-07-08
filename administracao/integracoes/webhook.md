@@ -46,7 +46,7 @@ Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook
 
 **Estado:** permite filtrar por el estado del webhook. El sistema lista las opciones "**Activo**", "**Inactivo**" e "**Inactivo por fallas**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Columna Id**: Muestra el Id del Webhook en el sistema.
 
@@ -75,13 +75,13 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Datos Generales
 
 Los datos generales del webhook deben ser informados en esta área:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Estado**: Se muestran en la lista las opciones "Activo" e "Inactivo", siendo por defecto la opción "Activo".
 
@@ -103,7 +103,7 @@ Los datos generales del webhook deben ser informados en esta área:
 
 En esta área se deben definir los requisitos previos para la ejecución del webhook.
 
-<figure><img src="../../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Agregar Grupos y Usuarios
 
@@ -113,17 +113,17 @@ Esta opción se utiliza para configurar uno o más grupos y/o usuarios como par�
 <mark style="color:red;">Si uno de los grupos listados ha sido excluido posteriormente, se mostrará en rojo. Si uno de los usuarios listados ha sido inactivado, bloqueado o ha dejado de ser administrador global posteriormente, también se mostrará en rojo.</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
 Del lado derecho de la pantalla se presentan los "Grupos" y los "Usuarios" disponibles para selección. Del lado izquierdo de la pantalla se muestran los "Grupos" y los "Usuarios" ya seleccionados.
 
-<figure><img src="../../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 Utilice los botones disponibles, haga clic sobre el nombre del grupo o del usuario que desea mover y luego haga clic en los botones para "Agregar", para enviar uno por uno, o "Agregar todos" para enviar la lista completa. Lo mismo debe hacerse para "Eliminar" elementos de la lista.
 
 Una vez completada la selección de usuarios y grupos, haga clic en "Seleccionar" para regresar a la pantalla anterior.
 
-<figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (7) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 <mark style="color:green;">Las configuraciones realizadas se mostrarán en el campo</mark> <mark style="color:green;"></mark><mark style="color:green;">**"El proceso haya sido enviado por algún usuario del grupo o usuario seleccionado en este campo"**</mark><mark style="color:green;">, que se verifica para la</mark> <mark style="color:green;"></mark><mark style="color:green;">**"Ejecución del webhook"**</mark><mark style="color:green;">.</mark>
@@ -133,7 +133,7 @@ Una vez completada la selección de usuarios y grupos, haga clic en "Seleccionar
 
 Esta opción se utiliza para configurar una o más carpetas como parámetro de ejecución del webhook. Es decir, el webhook solo se ejecutará si el proceso fue creado en alguna carpeta incluida en este campo. En este campo se mostrarán las carpetas seleccionadas en el modal "Carpetas". Este es un campo opcional.
 
-<figure><img src="../../.gitbook/assets/image (8).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (8) (1).png" alt=""><figcaption></figcaption></figure>
 
 Seleccione en el árbol la carpeta en la que desea limitar la ejecución del webhook. En el campo "Carpetas seleccionadas" se enumerarán todas las carpetas marcadas. Haga clic en "Seleccionar" para finalizar la configuración.
 
@@ -141,11 +141,11 @@ Seleccione en el árbol la carpeta en la que desea limitar la ejecución del web
 <mark style="color:red;">Si alguna de las carpetas enumeradas ha sido eliminada posteriormente, se mostrará en rojo.</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (9).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (9) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lea atentamente el mensaje de validación del proceso y haga clic para continuar.
 
-<figure><img src="../../.gitbook/assets/image (10).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (10) (1).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="success" %}
 <mark style="color:green;">Las definiciones realizadas se presentarán en el campo</mark> <mark style="color:green;"></mark><mark style="color:green;">**"El proceso haya sido creado en una de las carpetas seleccionadas en este campo",**</mark> <mark style="color:green;"></mark><mark style="color:green;">que se verifica para la</mark> <mark style="color:green;"></mark><mark style="color:green;">**"Ejecución del webhook".**</mark>

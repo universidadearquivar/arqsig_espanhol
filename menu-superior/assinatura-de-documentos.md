@@ -1,11 +1,5 @@
 # ✍️ Firma de Documentos
 
-{% hint style="danger" %}
-<mark style="color:red;">Debido a un cambio de tecnología utilizado en la última actualización de la plataforma, todos los clientes deberán</mark> <mark style="color:red;"></mark><mark style="color:red;">**actualizar manualmente**</mark> <mark style="color:red;"></mark><mark style="color:red;">el instalador del</mark> <mark style="color:red;"></mark><mark style="color:red;">**AppNative**</mark> <mark style="color:red;"></mark><mark style="color:red;">(descargar e instalar), ya que no será posible realizar una actualización automática.</mark>
-
-<mark style="color:red;">En el momento de la firma, si el proceso de actualización no ha sido realizado, la plataforma mostrará un mensaje para orientar al usuario sobre la actualización.</mark>
-{% endhint %}
-
 El proceso de firma electrónica de documentos puede realizarse de tres maneras:
 
 {% tabs %}
@@ -60,7 +54,7 @@ Después de iniciar sesión en su cuenta, el usuario debe hacer clic en el menú
 
 {% embed url="https://app.supademo.com/demo/cmcti9pz419u29st8ymq0cmp4" %}
 
-### Etapa 1 - Accediendo al documento&#x20;
+## Etapa 1 - Accediendo al documento&#x20;
 
 Si el remitente ha definido un código de seguridad para abrir el documento, se solicitará que el firmante ingrese el código, que debe haber sido recibido anteriormente por correo electrónico, WhatsApp, SMS o por el propio remitente. Si no posee el código, el usuario debe hacer clic en “No Recibí el Código”.
 
@@ -152,15 +146,7 @@ Para continuar con la firma, el firmante debe hacer clic en “Firmar”.&#x20;
 
 <figure><img src="../.gitbook/assets/image (526).png" alt=""><figcaption></figcaption></figure>
 
-### AppNative
-
-Debido a un cambio en la tecnología utilizada en la última actualización de la plataforma, todos los clientes deberán **actualizar manualmente** el instalador de **AppNative** (descargar e instalar), ya que no será posible realizar la actualización de forma automática.
-
-En el momento de la firma, si el proceso de actualización no se ha realizado, la plataforma deberá descargar el archivo de instalación y presentar un mensaje para orientar al usuario en el proceso de instalación.
-
-<figure><img src="../.gitbook/assets/image (528).png" alt=""><figcaption></figcaption></figure>
-
-### Etapa 2 - Datos del signatario y Anexos
+## Etapa 2 - Datos del signatario y Anexos
 
 En el siguiente paso, si hay una configuración previa que solicite al signatario proporcionar datos complementarios, deberá ingresarlos.
 
@@ -170,7 +156,7 @@ Si también se le ha solicitado al signatario adjuntar archivos, en el campo "An
 
 ***
 
-### Etapa 3 - Estilo de Firma
+## Etapa 3 - Estilo de Firma
 
 El Estilo de Firma es la representación visual de la firma del usuario. Para completar la firma de un documento, el usuario deberá elegir cómo firmará, considerando las configuraciones realizadas por el destinatario en [<mark style="color:blue;">Nuevo Documento</mark>](novo-documento.md#b.-destinatarios). En este momento, el destinatario deberá informar qué representación visual debe ser utilizada por el firmante: "Estándar, Dibujo o Imagen", o solo "Estándar (Texto)", o solo "Dibujo", o solo "Imagen".
 
@@ -193,7 +179,7 @@ Para finalizar, el firmante debe hacer clic en "Concluir". Si se le ha solicitad
 
 ***
 
-### Etapa 4 - Firmando electrónicamente o con certificado digital
+## Etapa 4 - Firmando electrónicamente o con certificado digital
 
 {% hint style="info" %}
 <mark style="color:blue;">**FIRMA ELECTRÓNICA X FIRMA DIGITAL (ICP Brasil e ICP Otros)**</mark>
@@ -211,7 +197,7 @@ Para finalizar, el firmante debe hacer clic en "Concluir". Si se le ha solicitad
 
 Después de definir el Estilo de Firma, se solicitará la firma del usuario, que puede ser:
 
-#### A. Firma Electrónica
+### A. Firma Electrónica
 
 En la firma electrónica, el usuario informa sus datos de persona física o jurídica y la propia Arqivar certifica la autenticidad y veracidad de la información presentada.
 
@@ -219,7 +205,76 @@ Si el usuario está utilizando una firma electrónica, será necesario que compl
 
 <figure><img src="../.gitbook/assets/image (535).png" alt=""><figcaption></figcaption></figure>
 
-#### B. Firma Digital – ICP Brasil y Otros
+### B. Firma Digital – ICP Brasil y Otros
+
+### Instalación de los plugins necesarios para el uso de los certificados digitales
+
+Para el uso de la firma digital será necesario, antes del primer uso, la instalación de la extensión “ArqSign Certificado Digital” (disponible en las tiendas de extensiones de los navegadores) y del Módulo Nativo de Arquivar (disponibilizado durante el proceso).
+
+<img src="../.gitbook/assets/assinatura01.png" alt="" data-size="original">
+
+1. Al hacer clic en “Instalar Ahora”, se abrirá la ventana con el enlace para descargar la extensión “ArqSign Certificado Digital”.
+
+![](<../.gitbook/assets/image (538).png>)
+
+2. Instale la extensión de acuerdo con el navegador que esté utilizando.
+
+![](<../.gitbook/assets/image (540).png>)![](../.gitbook/assets/image.png)
+
+3. Después de concluir la primera instalación, regrese a la plataforma ArqSign y continúe con la instalación del plugin Módulo Nativo de Arquivar haciendo clic en “Haga clic aquí para descargar...”.
+
+![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1).png>)
+
+4. Después de concluir la segunda instalación, regrese a la plataforma ArqSign. Se mostrará un mensaje de finalización de las instalaciones.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="269"><figcaption></figcaption></figure></div>
+
+***
+
+{% hint style="warning" %}
+<mark style="color:orange;">**AppNative**</mark>
+
+### <mark style="color:orange;">Debido a un cambio de tecnología utilizado en la última actualización de la plataforma, todos los clientes deberán actualizar manualmente el instalador de AppNative (descargar e instalar), ya que no será posible realizar la actualización de forma automática.</mark>
+
+<mark style="color:orange;">En el momento de la firma, si el proceso de actualización no ha sido realizado, la plataforma deberá descargar el archivo de instalación y presentar un mensaje para orientar al usuario en el proceso de instalación.</mark>
+
+<img src="../.gitbook/assets/image (528).png" alt="" data-size="original">
+{% endhint %}
+
+### Instalación de la Extensión en diferentes navegadores de internet
+
+{% tabs %}
+{% tab title="Google Chrome" %}
+1. Para instalar la extensión "ArqSign Certificado Digital" en Google Chrome debe hacer clic en los tres puntos en la esquina superior izquierda de la pantalla.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="323"><figcaption></figcaption></figure>
+
+2. A continuación, haga clic en "Extensiones" y luego en "Acceder a Chrome Web Store".
+
+<figure><img src="../.gitbook/assets/image (5).png" alt="" width="188"><figcaption></figcaption></figure>
+
+3. Busque "ArqSign Certificado Digital".
+
+<figure><img src="../.gitbook/assets/image (6).png" alt="" width="270"><figcaption></figcaption></figure>
+
+4.  Haga clic en el resultado de la búsqueda.
+
+    <figure><img src="../.gitbook/assets/image (7).png" alt="" width="375"><figcaption></figcaption></figure>
+5. Haga clic en "Usar en Chrome".
+
+<figure><img src="../.gitbook/assets/image (8).png" alt="" width="375"><figcaption></figcaption></figure>
+
+6. Haga clic en "Agregar extensión".
+
+<figure><img src="../.gitbook/assets/image (9).png" alt="" width="375"><figcaption></figcaption></figure>
+
+7. Listo! Extensión agregada con éxito, solo necesitará hacer esto la primera vez que firme con certificado digital; en las próximas ocasiones, la extensión ya permanecerá instalada en su navegador.
+{% endtab %}
+
+{% tab title="Second Tab" %}
+
+{% endtab %}
+{% endtabs %}
 
 Si se ha definido que el usuario debe firmar utilizando un certificado digital (ICP Brasil y otros), se mostrará una lista con todos los certificados instalados en la máquina del usuario y en la cuenta de la plataforma ArqSign.
 
@@ -232,32 +287,6 @@ Deberá seleccionar el método con el cual realizará la firma y, si es necesari
 {% hint style="warning" %}
 <mark style="color:orange;">**Los certificados alojados en la cuenta de la plataforma ArqSign del usuario que se presenten aquí deben haber sido previamente importados en la pantalla**</mark> [<mark style="color:blue;">**Mi Perfil > Pestaña**</mark>](meu-perfil.md) <mark style="color:orange;">**Certificado Digital. Si el usuario tiene el certificado digital alojado en ArqSign, se le ofrecerá la opción de autenticarse en la plataforma para utilizar el certificado que posee.**</mark>
 {% endhint %}
-
-<details>
-
-<summary>Instalación de los complementos necesarios para la utilización de los certificados digitales.</summary>
-
-Si aún no lo ha hecho, al firmar un documento por primera vez utilizando un certificado digital, se le solicitará al usuario que instale los complementos "ArqSign Certificado Digital" (disponible haciendo[ <mark style="color:blue;">clic aquí</mark>](https://chromewebstore.google.com/detail/arqsign-certificado-digit/fjdnpmenmpfadeojgkhgiogiclmcjgbp?hl=pt-br)) y AppNative - Módulo Desktop (disponible durante el proceso).
-
-<img src="../.gitbook/assets/assinatura01.png" alt="" data-size="original">
-
-1\. Al hacer clic en "Instalar Ahora", se abrirá una ventana con el enlace para descargar el complemento "ArqSign Certificado Digital".
-
-![](<../.gitbook/assets/image (538).png>)
-
-2\. Realiza la instalación de la extensión de acuerdo con el navegador que estés utilizando.&#x20;
-
-![](<../.gitbook/assets/image (540).png>)![](<../.gitbook/assets/image (541).png>)
-
-3\. Después de completar la primera instalación, regrese a la plataforma ArqSign y continúe con la instalación de la aplicación AppNative haciendo clic en "Haga clic aquí para descargar...".&#x20;
-
-![](<../.gitbook/assets/image (542).png>)
-
-4\.  Después de completar la segunda instalación, regrese a la plataforma ArqSign. Se mostrará un mensaje confirmando la finalización de las instalaciones.
-
-![](<../.gitbook/assets/image (543).png>)
-
-</details>
 
 Para finalizar el proceso de firma, el firmante debe hacer clic en "Concluir". Será dirigido a la pantalla de inicio de sesión. Si ya tiene una cuenta activa en la plataforma de firma, puede ingresar sus credenciales para acceder. Si no tiene una cuenta registrada en la plataforma, se mostrará un mensaje sugiriendo que se cree una cuenta de prueba gratuita.
 
