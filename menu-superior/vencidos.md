@@ -1,8 +1,6 @@
 # ⏱️ Vencidos
 
-En el menú Vencidos se presentan todos los documentos enviados por el usuario para firma, pero que no fueron completados dentro del plazo estipulado en el campo “**Tiempo para expiración del documento después del envío**”, en la pantalla&#x20;
-
-[<mark style="color:blue;">Nuevo Documento > Agregar Documentos y Destinatarios > Configuraciones Avanzadas.</mark>](novo-documento.md#configuracoes-avancadas)
+En el menú Vencidos se presentan todos los procesos enviados por el usuario para firma, pero que no fueron concluidos dentro del plazo estipulado en el campo “Tiempo para expiración del documento después del envío”, en la pantalla [Configuraciones Avanzadas](https://manual.arquivar.com/manual-arqsign-or-espanhol/menu-superior/novo-documento#configuraciones-avanzadas).
 
 <figure><img src="../.gitbook/assets/image (86).png" alt=""><figcaption></figcaption></figure>
 
@@ -14,13 +12,13 @@ En el menú Vencidos se presentan todos los documentos enviados por el usuario p
 
 **Columna Nombre del Documento:** En esta columna se muestran el nombre del documento y el nombre del firmante. Si hay más de un firmante, se mostrará el nombre del primero y la cantidad de otras personas que deben firmar. Todos los documentos listados exhibirán el mensaje "Vencido antes de la conclusión de las firmas".
 
-<figure><img src="../.gitbook/assets/image (88).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (88).png" alt="" width="375"><figcaption></figcaption></figure>
 
 **Columna Responsable:** En esta columna se presentan el nombre y el correo electrónico de quien envió el documento (remitente). En la pantalla de Vencidos, siempre se mostrará el nombre del propio usuario.
 
 **Columna Estado:** Los documentos listados en la pantalla de Vencidos siempre tendrán el estado “Aguardando” (ningún participante ha firmado el documento hasta el momento) o “En proceso” (uno o más participantes ya han firmado el documento, pero aún faltan firmas). Al pasar el ratón sobre el estado, se muestran informaciones sobre qué firmantes aún tienen la firma pendiente y cuáles ya la han concluido, además de los datos de esos firmantes.
 
-<figure><img src="../.gitbook/assets/image (89).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (89).png" alt="" width="339"><figcaption></figcaption></figure>
 
 **Columna Tamaño:** En esta columna se muestra el tamaño del archivo del documento.
 
@@ -34,7 +32,7 @@ En el menú Vencidos se presentan todos los documentos enviados por el usuario p
 
 **Barra de Filtro:** Es posible localizar uno o más documentos utilizando los filtros disponibles para la búsqueda. La búsqueda se puede realizar por el nombre del documento, el nombre de los signatarios, el estado, la carpeta en la que está almacenado el documento o la fecha de vencimiento del documento.
 
-<figure><img src="../.gitbook/assets/image (90).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (90).png" alt="" width="276"><figcaption></figcaption></figure>
 
 ***
 
@@ -62,7 +60,7 @@ Al hacer clic en esta opción, podrá cambiar el propietario del documento. Al e
 <mark style="color:orange;">**Solo se pueden seleccionar como nuevos propietarios a usuarios registrados en la misma cuenta que el responsable.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt="" width="479"><figcaption></figcaption></figure>
 
 #### Descargar Archivo
 
@@ -70,11 +68,11 @@ Al hacer clic en esta opción, podrá cambiar el propietario del documento. Al e
 
 La carpeta .zip se nombra con el nombre del proceso y el archivo de registro de firmas se nombra como **NombreDocumento\_Registro** de firma.
 
-<figure><img src="../.gitbook/assets/image (95).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (95).png" alt="" width="385"><figcaption></figcaption></figure>
 
 Cuando el proceso **contenga más de un documento**, el sistema muestra un modal con los documentos del proceso para que el usuario seleccione cuáles documentos desea descargar. En el caso de un intercambio, solo deben listarse los documentos que han sido compartidos.
 
-<figure><img src="../.gitbook/assets/image (96).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (96).png" alt="" width="375"><figcaption></figcaption></figure>
 
 El Registro de Firmas muestra toda la información sobre las firmas electrónicas y digitales realizadas durante el proceso, como el nombre de los firmantes, la fecha y hora de la firma, la ubicación, la IP desde donde se realizó, los datos de los certificados digitales utilizados, etc.
 
@@ -106,7 +104,7 @@ Con el botón de eventos ubicado a la izquierda, es posible visualizar los ID y 
 
 Es posible seleccionar más de un documento marcando las casillas de verificación al lado del nombre del archivo y ejecutar acciones en lote.
 
-<figure><img src="../.gitbook/assets/vencidos06.png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/vencidos06.png" alt="" width="563"><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
 
 #### **Alterar Proprietario**
 
@@ -116,7 +114,7 @@ Al hacer clic en esta opción, será posible cambiar el propietario del document
 <mark style="color:orange;">**Solo pueden ser seleccionados como nuevos propietarios usuarios registrados en la misma cuenta del responsable.**</mark>&#x20;
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (103).png" alt="" width="479"><figcaption></figcaption></figure>
 
 #### **Cancelar Envío**
 
