@@ -219,15 +219,15 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 2. Instale la extensión de acuerdo con el navegador que esté utilizando.
 
-![](<../.gitbook/assets/image (540).png>)![](../.gitbook/assets/image.png)
+![](<../.gitbook/assets/image (540).png>)![](<../.gitbook/assets/image (3).png>)
 
 3. Después de concluir la primera instalación, regrese a la plataforma ArqSign y continúe con la instalación del plugin Módulo Nativo de Arquivar haciendo clic en “Haga clic aquí para descargar...”.
 
-![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1).png>)
+![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1) (1).png>)
 
 4. Después de concluir la segunda instalación, regrese a la plataforma ArqSign. Se mostrará un mensaje de finalización de las instalaciones.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (3).png" alt="" width="269"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="269"><figcaption></figcaption></figure></div>
 
 ***
 
@@ -271,7 +271,25 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 7. Listo! Extensión agregada con éxito, solo necesitará hacer esto la primera vez que firme con certificado digital; en las próximas ocasiones, la extensión ya permanecerá instalada en su navegador.
 {% endtab %}
 
-{% tab title="Second Tab" %}
+{% tab title="Mozilla Firefox" %}
+1. Para instalar la extensión "ArqSign Certificado Digital" en Mozilla Firefox, debe hacer clic en el ícono de pieza de rompecabezas en la esquina superior izquierda de la pantalla.
+
+<figure><img src="../.gitbook/assets/image.png" alt="" width="186"><figcaption></figcaption></figure>
+
+2. Buscar "ArqSign Certificado Digital".
+
+<figure><img src="../.gitbook/assets/image (1).png" alt="" width="188"><figcaption></figcaption></figure>
+
+3. Hacer clic en el resultado de la búsqueda.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
+
+4. Hacer clic en "Agregar a Firefox".
+
+
+{% endtab %}
+
+{% tab title="Untitled" %}
 
 {% endtab %}
 {% endtabs %}
