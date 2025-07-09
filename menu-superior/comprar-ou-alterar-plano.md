@@ -460,3 +460,104 @@ Puede ser solicitado de las siguientes formas:
 Si necesita cambiarlo antes, comuníquese con faleconosco@arqsign.com.
 
 </details>
+
+<details>
+
+<summary>¿Cómo cambiar mi plan mensual?</summary>
+
+Cinco días antes del vencimiento de la renovación de su plan mensual, usted podrá cambiarlo. Para ello, haga clic en el botón "Cambiar plan" o "Comprar ahora", elija el plan con el que desea continuar y realice el pago normalmente.
+
+</details>
+
+<details>
+
+<summary>¿Cómo reactivo mi cuenta después del vencimiento del plan?</summary>
+
+Para reactivar un plan con la renovación vencida, el cliente deberá hacer clic en el botón Cambiar plan o Comprar ahora, elegir el plan con el que desea continuar y realizar el pago normalmente.
+
+</details>
+
+<details>
+
+<summary>¿Qué pasa si no renuevo mi plan?</summary>
+
+Después del vencimiento del plan, si no se renueva, el cliente tiene 10 días más para utilizar los créditos restantes y/o créditos adicionales.
+
+Cuando el cliente reactive el plan, los créditos correspondientes a envíos adicionales dentro de la validez de 6 meses estarán activos además de los créditos del plan elegido para la reactivación.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cancelar un plan mensual?</summary>
+
+Solo debe ir al menú [Administración > Cuenta > Facturación y Uso](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/conta#pestana-de-facturacion-y-uso) y desactivar la opción Renovación automática.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cancelar un plan anual durante la vigencia?</summary>
+
+Comuníquese con faleconosco@arqsign.com.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cancelar la renovación automática de un plan mensual o anual?</summary>
+
+Solo debe ir al menú Administración > Cuenta > Facturación y Uso y desactivar la opción Renovación automática.
+
+</details>
+
+<details>
+
+<summary>¿Existe fidelidad para los planes?</summary>
+
+No. Todos los planes pueden ser cancelados o renovados según la necesidad del cliente.
+
+</details>
+
+<details>
+
+<summary>¿Cuáles son las formas de pago?</summary>
+
+Para planes mensuales: tarjeta de crédito; para planes anuales: tarjeta de crédito en hasta 12 cuotas o boleto con pago único.
+
+</details>
+
+<details>
+
+<summary>¿Cuál es la diferencia entre los planes?</summary>
+
+Todos los planes tienen las mismas funcionalidades, la única diferencia está en el número de Procesos de cada paquete y la disponibilidad entre planes anuales y mensuales.
+
+</details>
+
+<details>
+
+<summary>¿Los planes pueden pagarse en cuotas?</summary>
+
+Trabajamos con planes anuales y mensuales. En la modalidad anual, todos los planes pueden pagarse en hasta 12 cuotas sin intereses con tarjeta de crédito.
+
+</details>
+
+<details>
+
+<summary>¿Al final del período de prueba, pierdo el acceso a los documentos firmados en la plataforma?</summary>
+
+No. Al final del período de prueba, usted mantiene el acceso a los Procesos con todos los documentos firmados a través de la plataforma y para hacer nuevos envíos solo debe contratar uno de los planes ArqSign.
+
+</details>
+
+<details>
+
+<summary>¿Cómo funciona la prueba gratis en ArqSign?</summary>
+
+En ArqSign entendemos que para mayor seguridad y confiabilidad en el producto, es de suma importancia realizar pruebas antes de la compra.\
+Ofrecemos una evaluación gratuita durante 30 días con 10 envíos para que los clientes se familiaricen con la plataforma.
+
+[Haga clic aquí ](https://www.youtube.com/watch?v=7X9ISarg45o\&feature=youtu.be)y vea el video explicativo.
+
+</details>
