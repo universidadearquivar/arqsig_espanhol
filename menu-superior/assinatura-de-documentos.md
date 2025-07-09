@@ -223,7 +223,7 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 3. Después de concluir la primera instalación, regrese a la plataforma ArqSign y continúe con la instalación del plugin Módulo Nativo de Arquivar haciendo clic en “Haga clic aquí para descargar...”.
 
-![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1) (1) (1).png>)
+![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1) (1) (1) (1).png>)
 
 4. Después de concluir la segunda instalación, regrese a la plataforma ArqSign. Se mostrará un mensaje de finalización de las instalaciones.
 
@@ -278,19 +278,19 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 2. Buscar "ArqSign Certificado Digital".
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Hacer clic en el resultado de la búsqueda.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 4. Hacer clic en "Agregar a Firefox".
 
-<figure><img src="../.gitbook/assets/image.png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="375"><figcaption></figcaption></figure>
 
 5. Hacer clic en "Agregar".
 
-<figure><img src="../.gitbook/assets/image (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 6. ¡Listo! Extensión añadida con éxito. Solo necesitará hacer esto la primera vez que firme con certificado digital; en las próximas ocasiones, la extensión ya permanecerá instalada en su navegador.
 {% endtab %}
@@ -298,7 +298,7 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 {% tab title="Microsoft Edge" %}
 1. Para instalar la extensión "ArqSign Certificado Digital" en Microsoft Edge, debe hacer clic en los tres puntitos en la esquina superior izquierda de la pantalla.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt="" width="256"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="256"><figcaption></figcaption></figure>
 
 2. Luego, haga clic en "Extensiones".
 
@@ -366,7 +366,7 @@ Si el signatario **no tiene una cuenta registrada** en la plataforma, se mostrar
 
 Una vez finalizado el proceso de firma, el destinatario recibe la notificación de conclusión de las firmas, por correo electrónico o WhatsApp, donde la plataforma envía la(s) copia(s) del(os) Documento(s) firmado(s) y el respectivo Registro de Firmas a los destinatarios, considerando las configuraciones de la cuenta (enlace o archivo). Cuando haya más de un archivo en el proceso, la plataforma envía un archivo zip con todos los documentos y su respectivo registro de firma.
 
-<figure><img src="../.gitbook/assets/image (545).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (545).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (547).png" alt=""><figcaption></figcaption></figure>
 
@@ -766,8 +766,370 @@ Para configurar un Proceso solicitando la firma con un documento extranjero, sig
 
 <details>
 
-<summary></summary>
+<summary>¿Cómo instalar el módulo de escritorio?</summary>
 
+1\) Al ejecutar la instalación del Módulo de Escritorio, Microsoft Defender SmartScreen inicialmente bloquea la instalación del módulo, ya que no es una aplicación presente en Microsoft Store. Para continuar con la instalación, debe hacer clic en "Más información".
 
+2\) Después de hacer clic en "Más información", debe hacer clic en el botón "Ejecutar de todas formas".
+
+3\) Luego, debe seguir el proceso de instalación y hacer clic en el botón "Finalizar" al terminar la instalación, y el Módulo de Escritorio ya estará activo en la computadora.
+
+</details>
+
+<details>
+
+<summary>¿Cómo firmar un documento en la Plataforma ArqSign cuando la solicitud de firma es enviada por WhatsApp?</summary>
+
+Si un Proceso fue enviado para su firma por la Plataforma ArqSign a través de WhatsApp, recibirá un mensaje con el nombre del remitente, que puede abrir en la aplicación de su celular o en WhatsApp Web.
+
+Si es la primera vez que interactúa con el remitente por WhatsApp, vaya al final del mensaje y agréguelo a sus contactos para habilitar todos los enlaces del mensaje.
+
+Haga clic en el enlace presente en el mensaje y tendrá acceso al documento para su lectura.
+
+Después de leerlo, simplemente haga clic en **Firmar**. Complete los datos si se le solicita. Adjunte documentos si se le solicita. Aplique su representación visual y haga clic en **Finalizar**.
+
+Si no tiene una cuenta en ArqSign, se le invitará a crear una para almacenar ese y otros Procesos firmados a través de la plataforma, además de poder probarla gratis por 15 días.
+
+Cuando todos los destinatarios firmen, todos recibirán un correo electrónico o mensaje de WhatsApp con el documento firmado por todas las partes.
+
+Además, todos los destinatarios que tengan una cuenta ArqSign gratuita o paga recibirán una copia en la bandeja de entrada de la aplicación y podrán gestionar ese Proceso en la plataforma.
+
+</details>
+
+<details>
+
+<summary>¿Cómo firmar un Proceso en la Plataforma ArqSign cuando la solicitud de firma es enviada por correo electrónico?</summary>
+
+Al recibir un Proceso por correo electrónico solicitando su firma, este contendrá el nombre del remitente y en el asunto aparecerá el nombre del Proceso a firmar. Si no encuentra el correo en su bandeja de entrada, verifique en la carpeta de Spam o Promociones.
+
+Abra el correo. (Recordando que la plataforma puede ser accedida desde cualquier dispositivo: computadora, tablet o celular)\
+Haga clic en "Firmar Documento" y tendrá acceso al documento para su lectura.
+
+Después de leerlo, simplemente haga clic en Firmar. Complete los datos si se le solicita. Adjunte documentos si se le solicita. Aplique su representación visual y haga clic en Finalizar.
+
+Si no tiene una cuenta en ArqSign, se le invitará a crear una cuenta para almacenar este y otros Procesos firmados a través de la plataforma, además de poder probarla gratis por 15 días.
+
+Cuando todos los destinatarios firmen, todos recibirán un correo electrónico o mensaje de WhatsApp con el documento firmado por todas las partes.
+
+Además, todos los destinatarios que tengan una cuenta ArqSign gratuita o de pago recibirán una copia en la bandeja de entrada de la aplicación y podrán gestionar ese Proceso en la plataforma.
+
+</details>
+
+<details>
+
+<summary>¿Cómo rechazar la firma de un Proceso?</summary>
+
+1. Abra el archivo que recibió para firma;
+2. En la esquina superior derecha, haga clic en **Firmar** o en **Opciones**;
+3. Haga clic en **Rechazar firma**;
+4. Indique el motivo del rechazo — esta información estará disponible para el remitente al abrir el archivo y también será enviada mediante una notificación por correo electrónico;
+5. Haga clic en **Rechazar firma**;
+6. El remitente recibirá la notificación por correo electrónico o podrá acceder a ella al abrir el Proceso y hacer clic sobre su nombre;
+7. El flujo se cancela automáticamente cuando hay una negativa de firma;
+8. Analice el motivo del rechazo, realice las modificaciones necesarias en el documento y cree un nuevo flujo para firma.
+
+</details>
+
+<details>
+
+<summary>¿Qué es un signatario?</summary>
+
+Signatario es una persona natural o jurídica que participa en el proceso de firma (firma un documento). El signatario no necesita tener una cuenta en la Plataforma ArqSign para firmar.
+
+</details>
+
+<details>
+
+<summary>¿Qué hacer cuando un signatario informa que no recibió el WhatsApp con el enlace para la firma?</summary>
+
+Cuando uno de los signatarios informa que no recibió el mensaje de WhatsApp con el enlace para la firma, verifique los siguientes ítems antes de reenviar o abrir un ticket de soporte:
+
+1. Verifique si digitó correctamente el número de WhatsApp;\
+   a. En caso de que el número digitado esté incorrecto, puede corregirlo y reenviar el Proceso a través del menú Enviados > Reenviar;
+2. Pídale al signatario que verifique si tiene acceso a internet móvil o Wi-Fi;
+3. Pídale al signatario que entre a WhatsApp y verifique si no recibió un nuevo mensaje, ya que podría tratarse simplemente de un problema de configuración de notificaciones;
+4. Si el problema no se resuelve con las opciones anteriores, puede ser que el mensaje haya sido bloqueado por el propio WhatsApp porque el signatario no tiene la aplicación actualizada. Para actualizar la aplicación, el signatario debe acceder a la tienda de aplicaciones y hacer clic en Actualizar\
+   ([https://faq.whatsapp.com/5481509731946576/?helpref=search\&query=mensagem](https://faq.whatsapp.com/5481509731946576/?helpref=search\&query=mensagem)... 기);
+5. Si aún así no se ha actualizado, puede enviarle el enlace de actualización de los Términos de Servicio de WhatsApp al signatario para que los acepte:\
+   Link: [https://wa.me/tos/20210210](https://wa.me/tos/20210210)\
+   El signatario debe abrir el enlace en WhatsApp y aceptar los términos.
+6. Después de que el signatario haya actualizado la aplicación y/o los Términos de Servicio de WhatsApp, reenvíe el Proceso desde la Plataforma ArqSign haciendo clic en Enviados → Reenviar.
+7. Si aun así el signatario no recibe el mensaje por WhatsApp, comuníquese con nosotros y proporcione la siguiente información para que podamos analizar lo que pudo haber ocurrido.
+
+Información requerida:
+
+* Nombre
+* Empresa
+* WhatsApp
+* Nombre del Proceso enviado
+* Fecha del envío
+* Signatario
+
+</details>
+
+<details>
+
+<summary>¿Qué hacer cuando un signatario informa que no recibió el correo electrónico con el enlace para la firma?</summary>
+
+Cuando uno de los signatarios informa que no recibió el correo con el enlace para la firma, verifique los siguientes puntos antes de reenviar o abrir un ticket de soporte:
+
+1. Revise si ingresó correctamente la dirección de correo electrónico;
+2. Verifique si el cliente tiene acceso a internet;
+3. Si envió el enlace a una cuenta de correo gratuita, solicite al signatario que revise la carpeta de **SPAM**, **Correo no deseado** o **Promociones**, ya que estos servidores pueden clasificar erróneamente nuestros correos y enviarlos a estas carpetas;
+4. Si envió el enlace a una persona o empresa que tenga antivirus o firewall instalado en la máquina o servidor, pídale que verifique si el correo **con el enlace fue bloqueado por el sistema de seguridad**;
+5. Si realizó todas estas verificaciones y no encontró ningún problema, intente reenviar el Proceso a través de la Plataforma ArqSign y verifique nuevamente en las carpetas mencionadas anteriormente;
+6. Si aun así el signatario no recibe el correo, comuníquese con nosotros y proporcione la siguiente información para que podamos analizar lo que pudo haber ocurrido.
+
+Información necesaria:
+
+* Nombre
+* Empresa
+* Correo electrónico
+* Nombre del Proceso enviado
+* Fecha del envío
+* Signatario
+
+</details>
+
+<details>
+
+<summary>¿Cómo solicitar una firma en tablet?</summary>
+
+Para que un cliente firme un Proceso en la tablet de un establecimiento, siga los siguientes pasos:
+
+1. Cree un correo electrónico genérico que será utilizado para el envío de los Procesos a ser firmados en la tablet, por ejemplo:\
+   firmadorelectronicodedocumentos@nombredelempresa.com.br
+2. Cree un usuario en la plataforma ArqSign utilizando el correo anterior;
+3. Inicie sesión en la plataforma ArqSign con ese usuario;
+4. Envíe el Proceso para la firma del cliente y solicite las siguientes autenticaciones:
+   * Nombre
+   * Documento
+   * Adjuntar foto con documento
+5. Habilite la captura de geolocalización en la tablet del establecimiento.
+
+Al firmar el Proceso, la persona deberá ingresar su nombre, número de documento y tomarse una selfie con el documento (si es posible, mostrando el cartel del establecimiento).
+
+Las siguientes informaciones serán insertadas/adjuntadas al Proceso:
+
+Autenticaciones:
+
+* Nombre
+* Documento
+* Selfie con documento
+* Geolocalización (establecimiento)
+
+</details>
+
+<details>
+
+<summary>¿Por qué en ArqSign la hoja con el Registro de Firmas no aparece al final del documento?</summary>
+
+El acto de insertar una página modificable (que va cambiando con cada firma) al final del archivo que está siendo firmado por las partes, se considera una alteración del documento, lo que va completamente en contra del proceso que garantiza la integridad y viola las normas técnicas de firma con certificado digital.
+
+Por lo tanto, el proceso seguro de ArqSign no permite la inserción de una página al final del archivo firmado, ya que eso corrompería los certificados que fueron insertados durante el proceso de firma de cada signatario.
+
+</details>
+
+<details>
+
+<summary>¿Cómo hago para insertar rúbrica en todas las páginas del documento?</summary>
+
+No es necesario insertar rúbrica al firmar digitalmente con ArqSign. La firma digital aplica una capa de seguridad a todo el documento, garantizando su integridad, autenticidad y aceptación total sin necesidad de rúbricas en cada página.
+
+No rubricar las páginas de un documento firmado electrónicamente es incluso una recomendación del Instituto Nacional de Tecnología de la Información (ITI), el órgano del gobierno que regula la firma electrónica en Brasil. Más información en:\
+[validar.iti.gov.br/guia.html](https://validar.iti.gov.br/guia.html)
+
+</details>
+
+<details>
+
+<summary>¿Cuál es el límite de personas para firmar?</summary>
+
+No hay límite de signatarios o personas para firmar.
+
+</details>
+
+<details>
+
+<summary>¿Este tipo de servicio ya está homologado por la LGPD?</summary>
+
+El objetivo de ArqSign es proteger los derechos de sus clientes, asegurando la total seguridad de sus datos. Toda la información recolectada o procesada por ArqSign sigue estrictamente las disposiciones legales de la Ley General de Protección de Datos (LGPD).
+
+</details>
+
+<details>
+
+<summary>¿Cómo queda un documento firmado mediante la Plataforma ArqSign?</summary>
+
+En el Panel de Firmas de Adobe Reader es posible verificar:
+
+1. A Arquivar como certificadora del proceso de firma, al inicio de la cadena de firmas;
+2. Un certificado digital que identifica cada acción de firma (en el ejemplo abajo hay 2 signatarios);
+3. A Arquivar finalizando el flujo de firma y bloqueando el archivo para impedir modificaciones.
+
+<div align="left"><figure><img src="../.gitbook/assets/image.png" alt="" width="188"><figcaption></figcaption></figure></div>
+
+<div align="left"><figure><img src="../.gitbook/assets/image (1).png" alt="" width="293"><figcaption></figcaption></figure></div>
+
+</details>
+
+<details>
+
+<summary>¿Cuál es el tipo de cifrado utilizado en la Plataforma ArqSign?</summary>
+
+Para garantizar la seguridad de los datos que se transmiten entre el Cliente y el Servidor, los datos se cifran mediante un certificado SSL con SHA256.
+
+Utilizamos cifrado en las comunicaciones y protocolos de operación estándar de la industria para el transporte de datos entre los dispositivos del usuario y los centros de datos de Microsoft Azure, así como dentro de los propios centros de datos.
+
+Para datos en reposo, nuestro servidor en Azure ofrece una amplia gama de recursos de cifrado, incluyendo AES-256.
+
+Protección de redes: infraestructura necesaria para conectar máquinas virtuales de forma segura entre sí y para conectar centros de datos locales con las máquinas virtuales de Azure. Azure bloquea el tráfico no autorizado hacia y dentro de los centros de datos de Microsoft utilizando diversas tecnologías. La Red Virtual de Azure se extiende a su red local hacia la nube mediante VPN sitio a sitio.
+
+Gestión de amenazas: Microsoft Antimalware para servicios en la nube y máquinas virtuales. Microsoft también emplea detección de intrusiones, prevención de ataques DDoS (ataque de denegación de servicio distribuido), pruebas de penetración regulares y herramientas de análisis de datos y aprendizaje automático para ayudar a mitigar las amenazas contra la plataforma Azure.
+
+</details>
+
+<details>
+
+<summary>¿Cuál es la base normativa de referencia para el proceso de firma en la Plataforma ArqSign?</summary>
+
+La plataforma ArqSign está basada en los [REQUISITOS DE LAS POLÍTICAS DE FIRMA DIGITAL EN ICP-BRASIL del ITI (Instituto Nacional de Tecnología de la Información).](https://www.gov.br/iti/pt-br/central-de-conteudo/doc-icp-15-03-requisitos-minimos-para-politicas-de-assinatura-pdf)
+
+Este documento establece los requisitos que deben ser obligatoriamente observados por las entidades creadoras de Políticas de Firma Digital en el ámbito de la Infraestructura de Claves Públicas Brasileña (ICP-Brasil), conforme a la estructura propuesta por los estándares ETSI TR 102 272 \[1] y ETSI TR 102.038 \[2].
+
+</details>
+
+<details>
+
+<summary>¿Cuál es la diferencia entre la firma ArqSign y la firma de otras plataformas del mercado?</summary>
+
+ArqSign garantiza que el archivo firmado por todos los participantes del flujo sea siempre el mismo mediante su proceso exclusivo de firma.
+
+Siempre que un signatario firma un documento sin su propio Certificado Digital, ArqSign aplica un Certificado Digital de la plataforma, capturando el Hash (identificación única) del archivo, verifica la integridad del archivo y adjunta al Certificado la identificación del signatario.
+
+Cuando el usuario ya posee un Certificado Digital y desea utilizarlo para firmar a través de ArqSign, usamos este certificado para verificar la integridad y para identificarlo como signatario en el proceso.
+
+Aplicar un certificado digital al proceso para cada acto de firma es el único medio posible de asegurar el nivel de seguridad de la firma avanzada o cualificada descritas en la Ley nº 14.063, de 23 de septiembre de 2020.
+
+</details>
+
+<details>
+
+<summary>¿Cuáles son los ítems de autenticación disponibles en la plataforma?</summary>
+
+ArqSign garantiza una amplia variedad de tecnologías de autenticación, entre las cuales se encuentran:
+
+* Certificados digitales ICP-Brasil o de estándar internacional;
+* Nombre(s) del (los) signatario(s);
+* Documentos de identificación del signatario (CI, RUC u otro);
+* Dirección(es) de correo electrónico;
+* Dirección(es) IP del (de los) signatario(s);
+* Captura de geolocalización del signatario (si está habilitado en el dispositivo);
+* Término de aceptación para la firma electrónica;
+* Código de acceso;
+* Cuenta ArqSign;
+* Representación visual de la firma;
+* Fecha y hora de la firma;
+* Historial de movimientos (es decir, quién envió, visualizó, firmó, etc.);
+* Historial de autenticación;
+* Estado de finalización.
+
+</details>
+
+<details>
+
+<summary>¿Qué legislación regula la firma electrónica en Brasil?</summary>
+
+La medida provisional MP 2.200-2 de 2001 es la primera y principal ley brasileña que regula la firma electrónica.
+
+Esta base legal está presente en el artículo 10 y requiere el cumplimiento de 3 requisitos para la validez jurídica de la firma electrónica, según el siguiente detalle:
+
+1. Primer requisito de la MP 2.200-2 para la validez jurídica de la firma electrónica: Comprobación de la autoría de las firmas. En el proceso de la plataforma ArqSign, todos los datos recolectados acerca de cada persona que firma el documento se registran en las propiedades del archivo, comprobando la autoría de cada firma.
+2. Segundo requisito de la MP 2.200-2 para la validez jurídica de la firma electrónica: Comprobación de la integridad del documento. La Plataforma ArqSign es la única en el mercado que aplica un certificado digital para la firma de cada persona, incluso si esta no tiene certificado digital. Este proceso permite comprobar la integridad del documento entre las firmas y al final del proceso.
+
+</details>
+
+<details>
+
+<summary>¿Este tipo de servicio ya está homologado por la LGPD?</summary>
+
+El objetivo de ArqSign es proteger los derechos de sus clientes, asegurando la total seguridad de sus datos. Toda la información recolectada o procesada por ArqSign cumple estrictamente con las disposiciones legales de la Ley General de Protección de Datos (LGPD).
+
+</details>
+
+<details>
+
+<summary>¿Es necesario autenticar un documento firmado electrónicamente?</summary>
+
+No es necesario. Basta con verificar si el documento es válido.
+
+Puede comprobar la validez jurídica de un documento firmado electrónicamente a través del Instituto Nacional de Tecnología de la Información o mediante Adobe.
+
+Para ello, siga el paso a paso descrito en el enlace: [https://arquivar.com.br/arqsign-validacao-iti-e-adobe/](https://arquivar.com.br/arqsign-validacao-iti-e-adobe/).
+
+</details>
+
+<details>
+
+<summary>¿Qué es el Registro de Firmas?</summary>
+
+El registro de firmas es un documento generado automáticamente por la Plataforma ArqSign.\
+Permite verificar los puntos de autenticación utilizados para firmar un documento, tales como información personal de los firmantes involucrados, IP de la máquina, geolocalización y fecha y hora de la firma.
+
+</details>
+
+<details>
+
+<summary>¿Cómo verificar la validez jurídica de un documento firmado electrónicamente?</summary>
+
+Puedes verificar la validez jurídica de un documento firmado electrónicamente a través del Instituto Nacional de Tecnología de la Información o mediante Adobe.
+
+Para ello, sigue el paso a paso descrito en el enlace: [https://arquivar.com.br/arqsign-validacao-iti-e-adobe](https://arquivar.com.br/arqsign-validacao-iti-e-adobe).
+
+</details>
+
+<details>
+
+<summary>¿La firma electrónica tiene validez jurídica?</summary>
+
+La Medida Provisional nº 2.200-2/2001 creó la Infraestructura de Claves Públicas Brasileña (ICP-Brasil) y determinó los criterios para garantizar la validez jurídica.
+
+Estos criterios están descritos en el artículo 10, § 2º de dicha MP y son:
+
+* Garantía de integridad del documento;
+* Garantía de autoría de la firma;
+* Aceptación de la firma electrónica por todas las partes.
+
+</details>
+
+<details>
+
+<summary>¿Si el Certificado Digital utilizado para firmar un documento ha expirado, eso afecta la validez de los documentos que firmé anteriormente con ese certificado?</summary>
+
+No, siempre que las firmas hayan sido generadas durante el período de vigencia del certificado digital. La tecnología de la plataforma ArqSIGN no permite la firma de un documento utilizando certificados vencidos. La aplicación realiza una validación automática para garantizar que el certificado digital ICP-Brasil esté vigente en el momento de la firma.
+
+</details>
+
+<details>
+
+<summary>¿Es posible imprimir un documento firmado electrónicamente a través de ArqSign?</summary>
+
+Sí. Es posible. Basta con descargar el documento firmado y el Registro de Firmas e imprimirlos.
+
+Un punto de atención: la verificación de la validez jurídica de este documento solo puede realizarse de forma digital, ya que la firma se realizó digitalmente.
+
+Si configuraste tu cuenta para generar el Registro de Firmas con código QR, puedes acceder al documento digital mediante la lectura del código QR que estará en el Registro de Firmas y realizar la validación jurídica del documento a través de Adobe Reader o del Portal ITI, como se indica en el pie del Registro de Firmas.
+
+</details>
+
+<details>
+
+<summary>¿Cuál es el estándar de firma digital utilizado por ArqSign?</summary>
+
+ArqSign utiliza el estándar PAdES (PDF Advanced Electronic Signatures), o "Firmas Electrónicas Avanzadas en PDF", desarrollado por el ETSI (Instituto Europeo de Normas de Telecomunicaciones). Ampliamente reconocido, incluso por la ICP-Brasil, el PAdES garantiza la validez jurídica de firmas electrónicas en documentos PDF.
+
+Este estándar abierto permite la creación y validación de firmas de forma estandarizada, siendo compatible con varios softwares sin depender de herramientas específicas. Una característica diferenciadora del PAdES es la inclusión de elementos visuales, como imágenes y datos del usuario, acercando la firma electrónica a una firma manuscrita.
+
+Recomendado exclusivamente para archivos PDF, el PAdES simplifica la firma, el intercambio y la visualización de documentos. Sin embargo, puede no ser ideal para sistemas personalizados.
 
 </details>
