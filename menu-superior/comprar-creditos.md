@@ -23,3 +23,22 @@ El usuario puede adquirir créditos adicionales para el envío de documentos por
 <figure><img src="../.gitbook/assets/image (583).png" alt=""><figcaption></figcaption></figure>
 
 3\. Después de completar la compra, si la cuenta es compartida con otros usuarios, todos los usuarios con perfil de administrador global de la cuenta recibirán una notificación por correo electrónico sobre la adquisición de los créditos adicionales.
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo comprar créditos de envíos vía correo electrónico, WhatsApp o SMS?</summary>
+
+1. Haga clic en Comprar Créditos;
+
+2) Ajuste la cantidad de créditos que desea adquirir para cada ítem disponible en su plan (Envíos vía correo electrónico, WhatsApp o SMS);
+
+3. Haga clic en continuar;
+
+4) Ingrese o confirme los datos de pago;
+
+5. Haga clic en Finalizar compra.\
+   Es necesario realizar compras de al menos R$10,00 reales y los créditos adquiridos tienen una validez de 06 meses.
+
+</details>
