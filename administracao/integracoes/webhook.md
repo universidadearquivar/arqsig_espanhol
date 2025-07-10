@@ -46,7 +46,7 @@ Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook
 
 **Estado:** permite filtrar por el estado del webhook. El sistema lista las opciones "**Activo**", "**Inactivo**" e "**Inactivo por fallas**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Columna Id**: Muestra el Id del Webhook en el sistema.
 
@@ -75,7 +75,7 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Datos Generales
 
