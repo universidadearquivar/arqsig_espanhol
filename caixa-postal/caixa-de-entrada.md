@@ -26,7 +26,7 @@ Al hacer clic en un documento, se abrirá la pantalla de visualización del docu
 
 **Columna Estado:** Los posibles estados para un documento son: "Esperando" (ningún participante ha firmado el documento hasta el momento), "En proceso" (uno o más participantes ya han firmado el documento, pero aún faltan firmas), y "Concluido" (todos los participantes ya han firmado el documento). Al pasar el mouse sobre el estado, se muestran informaciones sobre qué signatarios aún tienen pendiente la firma y quiénes ya la han completado, además de los datos de estos signatarios.
 
-<figure><img src="../.gitbook/assets/image (588).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (588).png" alt="" width="304"><figcaption></figcaption></figure>
 
 **Columna Tamaño:** En esta columna se muestra el tamaño del archivo del documento.
 
@@ -46,7 +46,7 @@ Al hacer clic en un documento, se abrirá la pantalla de visualización del docu
 
 ## Acciones individuales - Caja de Entrada
 
-<figure><img src="../.gitbook/assets/image (591).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (591).png" alt="" width="173"><figcaption></figcaption></figure>
 
 #### **Firmar**
 
@@ -80,7 +80,7 @@ Esta opción solo se mostrará si el usuario, además de ser signatario, tambié
 <mark style="color:orange;">**El Administrador Global que no sea el remitente del documento podrá cambiar la propiedad de documentos completados que estén listados en la funcionalidad Directorios o cuando inactiva a un usuario que tiene documentos a su nombre.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (596).png" alt="" width="466"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (596).png" alt="" width="311"><figcaption></figcaption></figure>
 
 #### Descargar Archivo
 
@@ -88,7 +88,7 @@ Cuando el proceso contiene un documento o es un compartimiento de solo un docume
 
 La carpeta zip se nombra con el nombre del proceso y el archivo de registro de firma se nombra como NombreDocumento\_Registro de firma.
 
-<figure><img src="../.gitbook/assets/image (597).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (597).png" alt="" width="444"><figcaption></figcaption></figure>
 
 Cuando el proceso **contiene más de un documento**, el sistema muestra un modal con los documentos del proceso para que el usuario seleccione cuáles documentos desea descargar. Si se trata de un compartimiento, solo se deben listar los documentos que han sido compartidos.
 
@@ -110,11 +110,11 @@ Esta opción permite que el usuario cree un enlace de acceso a uno o más docume
 
 Cuando el proceso contiene más de un documento no agrupado y no tiene compartimiento de documentos, el sistema abre un modal para que el usuario seleccione los documentos del proceso que desea compartir.
 
-<figure><img src="../.gitbook/assets/image (601).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (601).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Cuando el proceso con más de un documento tiene compartimiento de documentos, el sistema abre un modal con los enlaces ya compartidos.
 
-<figure><img src="../.gitbook/assets/image (602).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (602).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Al expandir las acciones del enlace de compartimiento, es posible **visualizar** nuevamente la pantalla de compartimiento o **excluir** el compartimiento realizado.
 
@@ -168,11 +168,11 @@ Esta opción solo se mostrará si el usuario, además de ser signatario, tambié
 
 Cuando el proceso contiene solo un documento, el sistema permite cambiar el nombre del proceso:
 
-<figure><img src="../.gitbook/assets/image (611).png" alt="" width="563"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (611).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Cuando el proceso contiene más de un documento, el sistema permite cambiar el nombre del proceso y el nombre de los documentos del proceso.
 
-<figure><img src="../.gitbook/assets/image (612).png" alt="" width="476"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (612).png" alt="" width="317"><figcaption></figcaption></figure>
 
 El campo “**Renombrar documentos del proceso**” se muestra solo si el usuario que ha iniciado sesión es el remitente del proceso y el proceso contiene más de un documento/archivo.
 
@@ -182,7 +182,7 @@ El usuario tiene la posibilidad de mover los documentos, cambiando su orden. Al 
 
 **Excluir:** Se utiliza para eliminar el archivo, que irá a la caja de [<mark style="color:blue;">Eliminados</mark>](excluidos.md).
 
-<figure><img src="../.gitbook/assets/image (613).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (613).png" alt="" width="380"><figcaption></figcaption></figure>
 
 ***
 
@@ -190,7 +190,7 @@ El usuario tiene la posibilidad de mover los documentos, cambiando su orden. Al 
 
 Es posible seleccionar más de un documento marcando las casillas junto al nombre del archivo y ejecutar acciones en lote. Las acciones en lote solo podrán ser ejecutadas en documentos en los que el usuario, además de ser signatario, sea el remitente del documento.
 
-<figure><img src="../.gitbook/assets/image (614).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (614).png" alt="" width="243"><figcaption></figcaption></figure>
 
 #### **Mover  Proceso (s)**
 
@@ -202,16 +202,26 @@ Al hacer clic en este ícono, será posible cambiar la carpeta donde están alma
 
 Al hacer clic en este ícono, será posible reenviar los documentos seleccionados a los destinatarios que aún no han firmado. Esta acción solo se podrá ejecutar en documentos en los que el usuario, además de ser signatario, sea el remitente del documento y que no tengan el estado “Concluido”.
 
-<figure><img src="../.gitbook/assets/image (616).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (616).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Cancelar Envío**
 
 Al hacer clic en este ícono, será posible cancelar el envío de los documentos seleccionados, interrumpiendo los procesos de firma. Esta acción solo se podrá ejecutar en documentos en los que el usuario, además de ser signatario, sea el remitente del documento y que no tengan el estado “Concluido”.
 
-<figure><img src="../.gitbook/assets/image (617).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (617).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Excluir**
 
 Al hacer clic en este ícono, será posible eliminar los documentos seleccionados. Esta acción solo se podrá ejecutar en documentos en los que el usuario, además de ser signatario, sea el remitente del documento y que tengan el estado “Concluido”.
 
-<figure><img src="../.gitbook/assets/image (618).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (618).png" alt="" width="389"><figcaption></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary></summary>
+
+
+
+</details>
