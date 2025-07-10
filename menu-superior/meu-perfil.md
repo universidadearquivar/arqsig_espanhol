@@ -321,8 +321,142 @@ Para editar un contacto, elija la opción "Editar", realice la edición y haga c
 
 <details>
 
-<summary></summary>
+<summary>¿Cómo configurar tu perfil?</summary>
 
+1. Accede a la plataforma de firma electrónica y configura tu firma electrónica.
+2. Después de iniciar sesión, haz clic en tu nombre en la esquina superior derecha.
+3. Haz clic en “Mi Perfil”.
 
+<div align="left"><figure><img src="../.gitbook/assets/image (833).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Pestaña "Mis Datos"**
+
+1. Asegúrate de que todos tus datos estén actualizados. Si deseas modificar algo, haz clic en "Editar" para habilitar los campos de edición.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (834).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Pestaña "Mis Contactos"**
+
+En esta pestaña puedes mantener una lista con los contactos más utilizados en la plataforma.
+
+1. En esta pestaña es posible “Guardar los destinatarios de un documento enviado para firma en mi lista de contactos”.
+2. Haciendo clic en el ícono “+” se puede añadir contactos. Al hacer clic en esta opción, se habilita una pantalla destinada al registro de un nuevo contacto para incluir en la lista. Una vez introducidos los datos del contacto, haz clic en “Guardar” o “Guardar y Cerrar”.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (835).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Íconos – Pestaña “Mis Contactos”,**
+
+<div align="left"><figure><img src="../.gitbook/assets/image (836).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Importación – Pestaña "Mis Contactos"**
+
+Además de la opción de agregar nuevos contactos manualmente, el sistema también permite la importación de datos mediante un archivo en formato CSV.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (837).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+1. Al hacer clic en el ícono de importación, selecciona “Descargar planilla modelo” para descargar un archivo CSV en blanco.
+
+2) Este es el modelo que debe utilizarse para la importación.
+
+3. Completa el archivo según las siguientes indicaciones:
+
+* **Campo "Compartido"**: Completa con **1** para indicar "Sí" o con **0** para indicar "No". Cualquier otro valor será considerado como "0".
+* **Campo "Teléfono"**: Debe ingresarse en formato internacional, con **DDI + DDD + número**. Ejemplo: 553198766871.
+* **Campos "Correo electrónico" y "Teléfono" completados**: Si ambos campos están completados, el contacto será importado dos veces. Para importar solo una vez, completa solo uno de los campos.
+
+**Pestaña "Estilo de Firma"**
+
+1. En esta pestaña registra las firmas que utilizarás en los procesos de firma de documentos. Haz clic en “Editar” para habilitar los campos.
+
+2) Pasa por las tres opciones disponibles. Después de finalizar, haz clic en “Guardar”.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (838).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Pestaña “Certificado Digital”**
+
+1. En esta pestaña es posible cargar certificados digitales en la nube, almacenándolos en la Plataforma ArqSign. Estos certificados almacenados serán listados cuando el usuario con sesión iniciada firme un documento con el tipo de firma Certificado Digital (ICP).
+
+<div align="left"><figure><img src="../.gitbook/assets/image (839).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+**Pestaña “Solicitudes”**
+
+1. En la pestaña Solicitudes, el usuario puede consultar las solicitudes de transferencia de propietario del documento. Por ejemplo, si en la bandeja de entrada el usuario cambia el propietario del documento, la acción quedará registrada en la pestaña “Solicitudes”.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (840).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+</details>
+
+<details>
+
+<summary>¿Cómo cambiar el Nombre del Remitente/Usuario?</summary>
+
+Después de que un usuario es creado, él mismo puede modificar los siguientes datos de su perfil:
+
+<div align="left"><figure><img src="../.gitbook/assets/image (841).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Esta modificación se reflejará en las notificaciones de solicitud de firma que el usuario envía.
+
+<div align="left"><figure><img src="../.gitbook/assets/image (842).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Pasos para realizar el cambio:
+
+1. Acceda al menú con su nombre de usuario actual en la esquina superior derecha de la plataforma;
+2. Haga clic en “Mi Perfil”;
+3. En la pestaña “Mis datos”, haga clic en “Editar”;
+4. Ingrese el nombre deseado en el campo "Nombre completo" – El nombre ingresado en este campo se mostrará como remitente en el envío de los documentos. La plataforma utilizará solo el primer y el último nombre. Si es necesario mostrar el nombre completo como remitente del correo electrónico, conecte los nombres utilizando un guion bajo (\_);
+5. Haga clic en “Guardar”.
+
+</details>
+
+<details>
+
+<summary>¿Cómo consultar el progreso de las solicitudes de transferencia de Procesos?</summary>
+
+Para consultar el progreso de las solicitudes de transferencia de Procesos, siga estos pasos:
+
+1. Acceda al Menú "Mi perfil" → "Solicitudes";
+2. La Plataforma lista las solicitudes de transferencia de Procesos del usuario conectado, ordenadas por fecha de solicitud en orden descendente (la más reciente en la parte superior);
+3. A través del botón de "Acciones" podrá visualizar solicitudes con estado "Solicitado" o "Error", así como "Cancelar" y "Editar" la solicitud de transferencia de Procesos.
+
+</details>
+
+<details>
+
+<summary>¿Cómo configurar la representación visual de su firma?</summary>
+
+En la esquina superior derecha, haga clic sobre su foto o el espacio para la foto;
+
+Haga clic en Mi perfil;
+
+Haga clic en Estilo de firma;
+
+Haga clic en Editar;
+
+Configure la representación visual de su firma con los siguientes estilos:
+
+* **Predeterminado** – Escritura de su firma;
+* **Dibujo** – Dibujo de su firma;
+* **Imagen** – Carga de una imagen con su firma.
+
+Haga clic en Guardar.
+
+Siempre que vaya a firmar un Proceso, los estilos guardados se mostrarán para que elija.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=5PogsaN_qmk\&feature=youtu.be) y vea el video con el paso a paso.
+
+</details>
+
+<details>
+
+<summary>¿Cómo importar/subir mi Certificado ICP-Brasil Tipo A1 a la plataforma?</summary>
+
+1. Acceda a su cuenta en la Plataforma ArqSign.
+2. Haga clic en el Menú Perfil ubicado en la esquina superior derecha de la Plataforma.
+3. Haga clic en la pestaña Certificado digital.
+4. Haga clic en el botón **+**
+5. Elija el archivo del Certificado ICP-Brasil tipo A1 con extensión **.P12** o **.PFX**.
+6. Ingrese un nombre de identificación para el Certificado.
+7. Ingrese la contraseña del Certificado.
+8. Cuando vaya a firmar un documento con un Certificado ICP-Brasil, solo debe elegir ese certificado e ingresar su contraseña.
 
 </details>
