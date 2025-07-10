@@ -1,8 +1,10 @@
 # 👤 Mi Perfil
 
+{% embed url="https://app.supademo.com/demo/cmcxgg3sy0h9vc4kj92q5x9cz" %}
+
 En el menú Mi Perfil se presentan la información del usuario autenticado. &#x20;
 
-<figure><img src="../.gitbook/assets/image (82).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (82).png" alt="" width="393"><figcaption></figcaption></figure>
 
 ***
 
@@ -14,7 +16,7 @@ En la pestaña Mis Datos se presentan la información de registro del usuario. E
 
 **Foto de perfil:** Para insertar o editar la foto de perfil, haga clic en la imagen y seleccione la opción "Subir Nueva Imagen". Elija la foto deseada y haga clic en "Guardar". Para eliminar la foto de perfil, simplemente haga clic en la foto y seleccione la opción "Eliminar Imagen Actual".
 
-<figure><img src="../.gitbook/assets/image (84).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (84).png" alt="" width="215"><figcaption></figcaption></figure>
 
 **Correo electrónico**: El correo electrónico mostrado en este campo es el mismo utilizado al momento del registro de la cuenta del usuario en la plataforma y no puede ser modificado.
 
@@ -53,7 +55,7 @@ En la pestaña Mis Contactos, el usuario puede registrar información de destina
 
 <figure><img src="../.gitbook/assets/image (63).png" alt=""><figcaption></figcaption></figure>
 
-**Ícono Agregar Contacto:** Para agregar un nuevo contacto, haga clic en el ícono "Agregar Contacto" e informe el nombre y correo electrónico o número de WhatsApp del contacto. Al seleccionar la opción "Compartir con todos los usuarios de la cuenta", el contacto registrado se guardará en la lista de contactos de todos los usuarios que forman parte de la cuenta. Para concluir, haga clic en "Guardar".![](<../.gitbook/assets/image (64).png>)
+**Ícono Agregar Contacto:** Para agregar un nuevo contacto, haga clic en el ícono "Agregar Contacto" e informe el nombre y correo electrónico o número de WhatsApp del contacto. Al seleccionar la opción "Compartir con todos los usuarios de la cuenta", el contacto registrado se guardará en la lista de contactos de todos los usuarios que forman parte de la cuenta. Para concluir, haga clic en "Guardar".
 
 <figure><img src="../.gitbook/assets/image (66).png" alt=""><figcaption></figcaption></figure>
 
@@ -67,7 +69,45 @@ En la pestaña Mis Contactos, el usuario puede registrar información de destina
 
 **Barra de Búsqueda:** Es posible localizar un contacto específico utilizando los filtros de correo electrónico o WhatsApp para la búsqueda.
 
-<figure><img src="../.gitbook/assets/image (67).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+#### Importación de Contactos
+
+Además de la opción de añadir nuevos contactos manualmente, el sistema también permite la importación de datos mediante un archivo en formato CSV. Para ello:
+
+* Acceda a **Mi perfil** en el menú superior.
+* Haga clic en la pestaña **Mis contactos**.
+* Haga clic en el ícono de **importación** que aparece junto a la lista de contactos.
+
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
+
+Se abrirá una ventana para realizar la carga del archivo CSV.
+
+<figure><img src="../.gitbook/assets/image (2).png" alt="" width="410"><figcaption></figcaption></figure>
+
+#### Hoja modelo
+
+Haga clic en **Descargar hoja modelo** para descargar un archivo CSV en blanco.\
+Este es el modelo que debe utilizarse para la importación.
+
+Complete el archivo según las siguientes instrucciones:
+
+* **Campo "Compartido":** Complete con **1** para indicar "Sí" o **0** para indicar "No". Cualquier valor diferente será considerado como "0".
+* **Campo "Teléfono":** Debe ser informado en el formato internacional, con **DDI + DDD + número**. Ejemplo: 553198766871.
+* **Campos "Correo electrónico" y "Teléfono" completados:** Si ambos campos están llenos, el contacto será importado dos veces. Para importar solo una vez, complete solo uno de los campos.
+
+<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+
+#### Importación y registros
+
+Si el archivo contiene errores en algún campo, solo se importarán los registros válidos. Se generará un **LOG de fallos** (según se indica en verde a continuación) que podrá ser descargado para corregir el archivo e intentar una nueva importación.
+
+<figure><img src="../.gitbook/assets/image (4).png" alt="" width="410"><figcaption></figcaption></figure>
+
+Los registros que ya existan en la lista no serán duplicados.
+
+La importación puede tardar algunos segundos o minutos, dependiendo del tamaño del archivo.\
+El usuario puede cerrar la pantalla y consultar los datos posteriormente.
 
 ***
 
@@ -83,15 +123,19 @@ En la pestaña Mensaje Predeterminado, el usuario podrá crear varios mensajes e
 
 Complete los campos presentados en la pantalla, prestando atención al límite de caracteres permitidos en cada uno de ellos. Haga clic en Guardar.
 
-<figure><img src="../.gitbook/assets/image (70).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (70).png" alt="" width="344"><figcaption></figcaption></figure>
 
 El mensaje predeterminado creado se mostrará al firmante según la imagen; observe el área destacada, donde se encuentra el texto previamente registrado en la plataforma.
 
 <figure><img src="../.gitbook/assets/image (71).png" alt=""><figcaption></figcaption></figure>
 
-Cuando el destinatario no defina un mensaje predeterminado de su lista, la plataforma deberá considerar el estándar del sistema. Observe en el área destacada la información del documento recibido, considerando los nombres de los archivos adjuntos al proceso.
+Cuando el destinatario no defina un mensaje predeterminado de su lista, la plataforma deberá considerar el mensaje predeterminado del sistema. Observe en el área destacada la información del proceso recibido considerando el nombre de los archivos adjuntos al proceso.
 
 Repita el proceso hasta agregar todos los mensajes que desea mantener como predeterminados.
+
+En caso de mensajes enviados a través de WhatsApp, el mensaje predeterminado tendrá un formato diferente, y se mostrará de la siguiente manera:
+
+<figure><img src="../.gitbook/assets/image (5).png" alt="" width="281"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">La lista de mensajes predeterminados no puede ser compartida entre usuarios, es decir, cada usuario podrá visualizar y/o seleccionar solo los mensajes creados por él.</mark>
@@ -172,6 +216,113 @@ Cantidad: Cantidad de documentos que se transferirán al nuevo responsable.
 **Acciones:** Si el estado de la solicitud es "Finalizado" o "En proceso", no será posible ejecutar ninguna acción en relación a ella. Si el estado aún es "Solicitado", se podrán realizar dos acciones respecto a la solicitud:
 
 * **Cancelar:** Cancela la transferencia de propiedad.
-*   **Editar:** Modifica el usuario definido como el nuevo propietario del documento.
+* **Editar:** Modifica el usuario definido como el nuevo propietario del documento.
 
-    <figure><img src="../.gitbook/assets/image (81).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (81).png" alt="" width="563"><figcaption></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo guardar contactos en la plataforma ArqSign?</summary>
+
+Usted puede guardar contactos en la Plataforma ArqSign de dos formas.
+
+_Primera forma:_
+
+Al registrar un destinatario, mantenga marcada la casilla "Guardar este destinatario en mi lista de contactos".
+
+_Segunda forma:_
+
+1. Acceda al menú "Mi Perfil"
+2. Acceda a la opción "Mis contactos"
+3. Para agregar un contacto, haga clic en el botón +, ingrese los datos, elija si desea compartir el contacto con todos los usuarios de la cuenta y haga clic en Guardar.
+4. Para que todos los contactos a los que usted envíe un Proceso para firma a partir de ahora se guarden automáticamente, habilite el botón "Guardar los destinatarios de un Proceso enviado para firma en mi lista de contactos".
+
+El Nombre y el Correo/WhatsApp del(os) destinatario(s) será(n) guardado(s) como contacto(s) del usuario en la cuenta. Los contactos estarán vinculados a la cuenta en la que el usuario está conectado. Es decir, cuando este usuario inicie sesión en otra cuenta, los contactos serán diferentes.
+
+_Reglas:_
+
+No se permite registrar un contacto con el mismo Correo electrónico de un contacto ya registrado que:
+
+\_ Sea contacto del usuario conectado a la cuenta en cuestión.
+
+\_ Esté relacionado con otros usuarios activos de la cuenta conectada y esté siendo compartido en la cuenta.
+
+Solo se permite registrar contactos del tipo correo electrónico con un correo válido.
+
+No se permite registrar un contacto con el mismo Teléfono de un contacto ya registrado que:
+
+\_ Sea contacto del usuario conectado a la cuenta en cuestión.
+
+\_ Esté relacionado con otros usuarios activos de la cuenta conectada y esté siendo compartido en la cuenta.
+
+Solo se permite registrar contactos de WhatsApp con un número de teléfono válido.
+
+El campo "Compartir con todos los usuarios de la cuenta." es de llenado opcional para que el usuario informe si el contacto que está creando será compartido o no con otros usuarios de la cuenta.
+
+Para entender mejor, [haga clic aquí](https://www.youtube.com/watch?v=b73Cu1HCaWA) y vea el video explicativo.
+
+</details>
+
+<details>
+
+<summary>¿Cómo compartir un contacto guardado en la plataforma ArqSign con otros usuarios de la cuenta?</summary>
+
+En el Menú "Mi perfil", opción "Mis contactos", seleccione el contacto.
+
+El sistema muestra los datos del registro en modo de visualización y los respectivos botones de acción según el permiso del usuario en cuestión.
+
+Las opciones de acción que pueden mostrarse son:
+
+\_ Para contactos del usuario conectado en la cuenta actual: Nuevo, Editar y Cancelar.
+
+\_ Para contactos compartidos por otros usuarios activos en la cuenta actual: Nuevo y Cancelar.
+
+Para compartir un contacto, elija la opción "Editar", marque la opción de compartir y haga clic en Guardar.
+
+</details>
+
+<details>
+
+<summary>¿Cómo eliminar un contacto guardado en la plataforma ArqSign?</summary>
+
+En el Menú "Mi perfil", opción "Mis contactos", seleccione el contacto.
+
+El sistema muestra los datos del registro en modo de visualización y los respectivos botones de acción según el permiso del usuario en cuestión.
+
+Las opciones de acción que pueden mostrarse son:
+
+\_ Para contactos del usuario conectado en la cuenta actual: Nuevo, Editar y Cancelar.
+
+\_ Para contactos compartidos por otros usuarios activos en la cuenta actual: Nuevo y Cancelar.
+
+Para eliminar un contacto, elija la opción "Eliminar" y confirme la eliminación.
+
+</details>
+
+<details>
+
+<summary>¿Cómo editar un contacto guardado en la plataforma ArqSign?</summary>
+
+En el Menú "Mi perfil", opción "Mis contactos", seleccione el contacto.
+
+El sistema muestra los datos del registro en modo de visualización y los respectivos botones de acción según el permiso del usuario en cuestión.
+
+Las opciones de acción que pueden mostrarse son:
+
+\_ Para contactos del usuario conectado en la cuenta actual: Nuevo, Editar y Cancelar.
+
+\_ Para contactos compartidos por otros usuarios activos en la cuenta actual: Nuevo y Cancelar.
+
+Para editar un contacto, elija la opción "Editar", realice la edición y haga clic en Guardar.
+
+</details>
+
+<details>
+
+<summary></summary>
+
+
+
+</details>

@@ -46,7 +46,7 @@ Al hacer clic en Webhook, se presenta el GRID con las configuraciones de Webhook
 
 **Estado:** permite filtrar por el estado del webhook. El sistema lista las opciones "**Activo**", "**Inactivo**" e "**Inactivo por fallas**".
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Columna Id**: Muestra el Id del Webhook en el sistema.
 
@@ -75,13 +75,13 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Datos Generales
 
 Los datos generales del webhook deben ser informados en esta área:
 
-<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 **Estado**: Se muestran en la lista las opciones "Activo" e "Inactivo", siendo por defecto la opción "Activo".
 
@@ -103,7 +103,7 @@ Los datos generales del webhook deben ser informados en esta área:
 
 En esta área se deben definir los requisitos previos para la ejecución del webhook.
 
-<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ## Agregar Grupos y Usuarios
 
@@ -113,11 +113,11 @@ Esta opción se utiliza para configurar uno o más grupos y/o usuarios como par�
 <mark style="color:red;">Si uno de los grupos listados ha sido excluido posteriormente, se mostrará en rojo. Si uno de los usuarios listados ha sido inactivado, bloqueado o ha dejado de ser administrador global posteriormente, también se mostrará en rojo.</mark>
 {% endhint %}
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Del lado derecho de la pantalla se presentan los "Grupos" y los "Usuarios" disponibles para selección. Del lado izquierdo de la pantalla se muestran los "Grupos" y los "Usuarios" ya seleccionados.
 
-<figure><img src="../../.gitbook/assets/image (6) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (6) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Utilice los botones disponibles, haga clic sobre el nombre del grupo o del usuario que desea mover y luego haga clic en los botones para "Agregar", para enviar uno por uno, o "Agregar todos" para enviar la lista completa. Lo mismo debe hacerse para "Eliminar" elementos de la lista.
 
