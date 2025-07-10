@@ -220,8 +220,114 @@ Al hacer clic en este ícono, será posible eliminar los documentos seleccionado
 
 <details>
 
-<summary></summary>
+<summary>¿Cómo verificar la validez de un documento impreso firmado en la plataforma ArqSign mediante el QRCode?</summary>
 
+Si tienes un documento impreso que fue firmado a través de la plataforma ArqSign y necesitas verificar su validez, existen algunos elementos de seguridad que puedes revisar según se indica a continuación:
 
+1. Localiza en las páginas del documento firmado mediante la Plataforma ArqSign una marca de agua con el **"ID del documento"** en la esquina superior izquierda.
+2. Confirma que el **"ID del documento"** sea el mismo en todas las páginas y en el **Registro de Firmas**.
+3. Cada vez que un documento es firmado en la Plataforma ArqSign, se genera un archivo llamado **"Registro de Firmas"**, que contiene:
+
+a) La identificación del documento al que pertenece, es decir, el **"ID del documento"**
+
+b) El **Hash** del documento (prueba de integridad del archivo)
+
+c) Información sobre el remitente, fecha de creación y envío
+
+d) Estado del proceso, tamaño, cantidad de páginas y firmas
+
+e) **QRCode** que da acceso al documento en la Plataforma ArqSign
+
+f) Enlace que da acceso al documento en la Plataforma ArqSign
+
+g) Detalle de todas las firmas, incluyendo:
+
+&#x20;   I. Nombre
+
+&#x20;   II. Correo electrónico
+
+&#x20;   III. Documento
+
+&#x20;   IV. Nivel de seguridad
+
+&#x20;   V. Certificado ICP-Brasil utilizado
+
+&#x20;   VI. Fecha y hora
+
+&#x20;   VII. IP del dispositivo
+
+&#x20;   VIII. Geolocalización
+
+h) **Ruta de auditoría** recorrida por cada participante del flujo de firma, detallada mediante los eventos:
+
+&#x20;   I. Lectura: por qué firmante, fecha, hora, IP y geolocalización
+
+&#x20;   II. Firma en línea: por qué firmante, fecha, hora, IP y geolocalización
+
+4. Si deseas verificar la **validez jurídica** del documento en el Portal ITI o en Adobe, accede al documento a través del **QRCode**.
+
+\*Al acceder al documento en la Plataforma ArqSign mediante el QRCode o el enlace, podrás:
+
+* Descargar el documento y el **Registro de Firmas;**
+* Visualizar el historial (**ruta de auditoría**);
+* Ver el **Término de aceptación** para firma electrónica;
+* Verificar los **detalles de las firmas.**
+
+</details>
+
+<details>
+
+<summary>¿Cómo buscar un Proceso en la plataforma ArqSign?</summary>
+
+Localizar un Proceso en la Plataforma ArqSign es muy práctico, solo sigue las instrucciones a continuación:
+
+Primero, localiza la **Bandeja** donde se encuentra el proceso. Todas las bandejas (Bandeja de entrada, Enviados, Borradores, Eliminados, Renovaciones) tienen la funcionalidad de búsqueda, que aparece como **"Filtrar"**.
+
+Haz clic en el campo **"Filtrar"**.
+
+Se mostrarán las opciones de búsqueda.
+
+Ingresa la información de búsqueda en los campos deseados, como el **nombre del firmante**, **estado**, **carpeta del Proceso** o **fecha de finalización**.
+
+Haz clic en **"Filtrar"**.
+
+Todos los Procesos que coincidan con la información ingresada en los filtros serán mostrados.
+
+Para cancelar el filtro, simplemente haz clic en la **"X"** que aparece en la esquina derecha del campo **"Filtrar"**.
+
+¿Viste qué fácil? ¡Ahora puedes localizar tus Procesos en la Plataforma ArqSign de forma rápida y eficiente!
+
+</details>
+
+<details>
+
+<summary>¿Cómo acceder a los anexos de un Proceso?</summary>
+
+1. Localiza el Proceso del cual deseas visualizar el anexo.
+2. Haz doble clic sobre el Proceso.
+3. En la parte derecha, junto a los firmantes del Proceso, es posible descargar el anexo.
+
+</details>
+
+<details>
+
+<summary>¿Cómo consultar el motivo de rechazo para la firma de un Proceso?</summary>
+
+Puedes verificar el motivo de rechazo de la firma de un Proceso a través de la notificación enviada al remitente y también al abrir el documento.
+
+Para acceder al motivo de rechazo al abrir el documento, sigue estos pasos:
+
+1. Abre el archivo con el flujo de firma **"**&#x72;echazado". Estará con el estado "Cancelado";
+2. Haz clic sobre el firmante y verifica el motivo del rechazo.
+
+</details>
+
+<details>
+
+<summary>¿Mi documento firmado se guarda o necesito descargarlo?</summary>
+
+Si tienes una cuenta en ArqSign, tu archivo quedará guardado en la plataforma, con seguridad y trazabilidad. Siempre que necesites consultar el documento, podrás descargarlo, compartirlo externamente, entre muchas otras posibilidades que ArqSign ofrece para tu negocio.
+
+Si no tienes una cuenta en ArqSign, no te preocupes. Cuando se completan todas las firmas, una copia del archivo firmado se envía a todos los destinatarios.
 
 </details>
