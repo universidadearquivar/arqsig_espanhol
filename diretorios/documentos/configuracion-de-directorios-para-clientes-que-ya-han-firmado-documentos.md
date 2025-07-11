@@ -18,13 +18,13 @@ Para ello, accede a la pantalla [<mark style="color:blue;">Administración > Usu
 
 ### ETAPA 2 – Creación de carpetas sectoriales
 
-1\. Identifica los sectores que usarán la Plataforma ArqSign para el envío de documentos para firma, y de acuerdo con estos sectores, crea una carpeta para cada uno. Para ello, en la pantalla [<mark style="color:blue;">Documentos</mark>](./), accede a la <mark style="color:blue;">carpeta raíz</mark> y haz clic en el ícono "Incluir carpeta".
+1\. Identifica los sectores que usarán la Plataforma ArqSign para el envío de documentos para firma, y de acuerdo con estos sectores, crea una carpeta para cada uno. Para ello, en la pantalla [Carpetas](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos), accede a la <mark style="color:blue;">carpeta raíz</mark> y haz clic en el ícono "Incluir carpeta".
 
 <figure><img src="../../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
-2.  Ingresa el nombre del sector y haz clic en Guardar.
+2. Ingresa el nombre del sector y haz clic en Guardar.
 
-    <figure><img src="../../.gitbook/assets/image (13) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (13) (1).png" alt="" width="524"><figcaption></figcaption></figure>
 
 3\. Repite el proceso hasta concluir la creación de todas las carpetas necesarias.
 
@@ -44,7 +44,7 @@ Acceda a la [<mark style="color:blue;">carpeta raíz de Directorios</mark>](./#p
 
 Seleccione en la lista la carpeta a la cual desea mover los documentos seleccionados y haga clic en “Mover”.
 
-<figure><img src="../../.gitbook/assets/image (16) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (16) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Repita el proceso con todos los documentos sueltos que aún estén en la carpeta raíz. Lo ideal es que todos los documentos se almacenen en alguna de las carpetas creadas, evitando la permanencia de documentos sueltos en la carpeta raíz.
 
@@ -62,9 +62,9 @@ Cree grupos de usuarios separándolos por sectores, funciones o combinando ambos
 * <mark style="color:blue;">Comercial - Otras funciones con lectura</mark>
 {% endhint %}
 
-***
-
 <figure><img src="../../.gitbook/assets/image (18) (1).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ### ETAPA 5 - Inserción de los grupos creados en la carpeta raíz
 
@@ -118,7 +118,7 @@ Los permisos de las carpetas sectoriales deben ajustarse para que el acceso sea 
 
 Solo el Administrador Global de la cuenta tendrá acceso al menú de directorios, y por este motivo es tan importante asegurarse de que solo personas sin restricciones de acceso estén con este perfil. A continuación, se muestran las diferencias entre los permisos otorgados a cada perfil:
 
-<figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Todos los usuarios deben estar asociados a un grupo de permisos. De esta manera, la plataforma obligará al usuario a guardar el documento en una carpeta sectorial, evitando que los documentos se almacenen en la carpeta raíz.**</mark>

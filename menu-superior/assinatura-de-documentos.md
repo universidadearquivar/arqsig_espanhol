@@ -223,7 +223,7 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 3. Después de concluir la primera instalación, regrese a la plataforma ArqSign y continúe con la instalación del plugin Módulo Nativo de Arquivar haciendo clic en “Haga clic aquí para descargar...”.
 
-![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png>)
+![](<../.gitbook/assets/image (542).png>)![](<../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1).png>)
 
 4. Después de concluir la segunda instalación, regrese a la plataforma ArqSign. Se mostrará un mensaje de finalización de las instalaciones.
 
@@ -278,7 +278,7 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 2. Buscar "ArqSign Certificado Digital".
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1).png" alt="" width="188"><figcaption></figcaption></figure>
 
 3. Hacer clic en el resultado de la búsqueda.
 
@@ -290,7 +290,7 @@ Para el uso de la firma digital será necesario, antes del primer uso, la instal
 
 5. Hacer clic en "Agregar".
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 6. ¡Listo! Extensión añadida con éxito. Solo necesitará hacer esto la primera vez que firme con certificado digital; en las próximas ocasiones, la extensión ya permanecerá instalada en su navegador.
 {% endtab %}
@@ -969,7 +969,7 @@ En el Panel de Firmas de Adobe Reader es posible verificar:
 
 <div align="left"><figure><img src="../.gitbook/assets/image (6).png" alt="" width="188"><figcaption></figcaption></figure></div>
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="293"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="293"><figcaption></figcaption></figure></div>
 
 </details>
 
