@@ -1,6 +1,6 @@
-# 📁 Documentos
+# 📁 Carpetas
 
-En el menú Documentos se almacenan todos los documentos de la cuenta del usuario que ya han sido concluidos, es decir, que han sido enviados por el usuario o por alguno de los miembros que forman parte de la cuenta y ya han sido firmados por todos los signatarios involucrados en el proceso de firma. En este menú es posible gestionar el almacenamiento de estos documentos.&#x20;
+En el menú Carpetas se almacenan todos los documentos de la cuenta del usuario que ya han sido concluidos, es decir, que han sido enviados por el usuario o por alguno de los miembros que forman parte de la cuenta y ya han sido firmados por todos los signatarios involucrados en el proceso de firma. En este menú es posible gestionar el almacenamiento de estos documentos.&#x20;
 
 Al hacer clic en el menú, se muestra la carpeta raíz del directorio, en la cual se hospedarán todos los documentos de la cuenta. &#x20;
 
@@ -32,15 +32,15 @@ En la pantalla "Editar Permisos", haga clic en el ícono "Incluir".
 
 <figure><img src="../../.gitbook/assets/image (685).png" alt=""><figcaption></figcaption></figure>
 
-En el campo "Grupo", seleccione el grupo al que se le concederá el acceso y habilite el permiso de lectura para todos en el menú [<mark style="color:blue;">Documentos > Acciones > Editar permisos</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
+En el campo "Grupo", seleccione el grupo al que se le concederá el acceso y habilite el permiso de lectura para todos en el menú [Carpetas <mark style="color:blue;">> Acciones > Editar permisos</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos#acciones-individuales-subdirectorios).
 
 En el campo "Perfil", seleccione el perfil que designa el permiso de acceso del usuario o grupo a los Directorios. Los perfiles de directorio pueden ser:
 
 * **Administrador de Documentos y Carpetas**: Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos, eliminar o incluir nuevas carpetas, además de poder cambiar permisos de acceso.
 * **Colaborador de Documentos**: Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos en la carpeta a la que tiene este perfil.
-*   **Lector de Documentos**: Un usuario o grupo de usuarios con este perfil de directorios solo puede consultar y descargar el contenido de la carpeta y documentos.
+* **Lector de Documentos**: Un usuario o grupo de usuarios con este perfil de directorios solo puede consultar y descargar el contenido de la carpeta y documentos.
 
-    <figure><img src="../../.gitbook/assets/image (686).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (686).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -104,8 +104,98 @@ Es posible seleccionar más de un documento marcando las casillas al lado del no
 
 **Alterar Propietario:** Esta opción solo estará disponible para documentos sueltos y si el usuario es el remitente del documento. Al hacer clic en esta opción, será posible asignar un nuevo propietario al documento. Para ello, seleccione al nuevo usuario propietario y haga clic en "Cambiar". &#x20;
 
-**Barra de Búsqueda:** Es posible realizar la búsqueda por el nombre del documento o carpeta utilizando la barra de búsqueda superior.
+**Barra de Búsqueda**
 
-<figure><img src="../../.gitbook/assets/image (694).png" alt=""><figcaption></figcaption></figure>
+La Barra de Búsqueda permite que usted busque documentos o carpetas de forma práctica y rápida, utilizando diferentes criterios. Es posible buscar por el nombre del documento o carpeta, nombre, teléfono y correo electrónico del destinatario, nombre y correo electrónico del responsable, además de la fecha y período de envío y finalización. La búsqueda puede realizarse utilizando los campos en la parte superior.
 
-&#x20;
+<figure><img src="../../.gitbook/assets/image (845).png" alt=""><figcaption></figcaption></figure>
+
+> **Campos de texto (nombre, correo electrónico y teléfono):**\
+> Estos campos son campos de texto estándar. Para realizar una búsqueda, basta con escribir el dato deseado. Puede completar más de un campo para realizar una búsqueda combinada, si es necesario.
+>
+> **Campos de fecha:**\
+> Los campos de fecha tienen un funcionamiento específico. Presentan períodos predefinidos (según la imagen a continuación), pero también ofrecen la opción de buscar por un período personalizado.
+
+<figure><img src="../../.gitbook/assets/image (846).png" alt=""><figcaption></figcaption></figure>
+
+> **Uso del período personalizado**
+>
+> Al seleccionar la opción "Personalizado", aparecerá una nueva opción debajo con un ícono de calendario.
+>
+> ![](<../../.gitbook/assets/image (847).png>)
+>
+> Al hacer clic en el ícono, el usuario puede elegir el período deseado, arrastrando el mouse entre los días del mes seleccionado. También es posible cambiar la búsqueda a un año específico.
+
+<figure><img src="../../.gitbook/assets/image (848).png" alt=""><figcaption></figcaption></figure>
+
+Después de seleccionar el período deseado, haga clic en "Filtrar" para visualizar los resultados de la búsqueda.
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Un usuario puede ver los Procesos de otro usuario?</summary>
+
+Los usuarios con el perfil Remitente de Procesos solo visualizan los Procesos que han creado.
+
+Para que este perfil de usuario pueda tener acceso compartido a los Procesos de otros usuarios, debe utilizarse la funcionalidad de directorios.
+
+Si desea conocer la funcionalidad de Carpetas, [haga clic aquí](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos#carpeta-raiz-de-directorios).
+
+</details>
+
+<details>
+
+<summary>¿Es posible organizar los documentos firmados en cofres en ArqSign?</summary>
+
+Para organizar los documentos puede acceder a uno de los siguientes tutoriales:
+
+* [Estructura de directorios para clientes que aún no han firmado documentos](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos/configuracion-de-directorios-para-clientes-que-aun-no-han-firmado-documentos)
+* [Estructura de directorios para clientes que ya han firmado documentos](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos/configuracion-de-directorios-para-clientes-que-ya-han-firmado-documentos)
+
+o seguir el paso a paso descrito a continuación:
+
+**Cómo Crear Estructura de Directorios:**
+
+1. Revise los permisos de los usuarios dejando solo su usuario como Administrador Global, lo que evitará que otros usuarios accedan a todas las carpetas y documentos. Para ello, acceda al menú [Administración > Usuarios.](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/usuarios)
+2. Cree la estructura de directorios en el menú [Procesos/Carpetas.](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos)
+3. Si ya tiene documentos en la carpeta raíz, muévalos a las carpetas correspondientes en el menú [Procesos](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos).
+
+**Cómo definir Permisos de acceso a los Directorios:**
+
+1. Para facilitar, cree grupos de usuarios (ejemplo: por sectores o funciones) en el menú [Administración > Grupo de Usuarios](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/grupo-de-usuarios), como en el siguiente ejemplo:
+
+a) Comercial - Gerencia (Perfil de Directorios - Administrador)
+
+b) Comercial - Vendedores (Perfil de Directorios - Colaborador)
+
+c) Comercial - Otras funciones con función de lectura (Perfil de Directorios - Lector)
+
+2. Inserte los grupos creados en la carpeta raíz y habilite el permiso de lectura para todos mediante el menú [Procesos > Acciones](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos#acciones-individuales-subdirectorios).
+3. Ajuste los permisos de las carpetas sectoriales en el menú [Procesos](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos#carpeta-raiz-de-directorios) y seleccione la carpeta [Acciones > Editar permisos](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos#acciones-individuales-subdirectorios);
+
+4) Cree o edite usuarios y ajuste los permisos de acceso según la tabla a continuación. Haga clic en la imagen para ampliarla.
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (849).png" alt="" width="375"><figcaption></figcaption></figure></div>
+
+Permisos para Directorios:
+
+Solo el Administrador Global de la cuenta tendrá acceso al menú de directorios y por este motivo es tan importante asegurarse de que solo personas sin restricciones de acceso tengan este perfil. A continuación, algunas de las acciones permitidas al Administrador Global en el menú Directorios:
+
+1. **Perfil de usuarios** – Perfil definido durante la creación del usuario y que determina las acciones del usuario en la plataforma. Actualmente hay dos opciones: Remitente de Documentos y Administrador Global.
+
+a) Remitente de Documentos – Usuario sin permiso de acceso a las funcionalidades de gestión de la plataforma.
+
+b) Administrador Global – Usuarios con permiso de acceso a todas las funcionalidades de la plataforma.
+
+2. **Perfil de Directorios** – Perfil que determina el permiso de acceso del usuario o grupo a los Directorios. Los perfiles de directorio pueden ser: Administrador, Colaborador y Lector.
+
+a) Administrador – Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos, eliminar o incluir nuevas carpetas, además de poder cambiar permisos de acceso.
+
+b) Colaborador – Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos en la carpeta en la que tiene este perfil.
+
+c) **Lector** – Un usuario o grupo de usuarios con este perfil de directorios solo puede consultar y descargar el contenido de la carpeta y documentos.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=FHTsOb1LLSo) y vea el video explicativo.
+
+</details>
