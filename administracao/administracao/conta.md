@@ -17,20 +17,22 @@ Si la cuenta del usuario es de un plan gratuito, la información estará en blan
 En esta pestaña se presentan las siguientes informaciones del usuario:
 
 * **Nombre de la cuenta:** Nombre creado para la cuenta en el momento del registro en la plataforma. Puede ser, por ejemplo, el nombre del usuario o de la empresa propietaria de la cuenta.
-* **Segmento:** Segmento profesional en el que el usuario o empresa opera.
-* **Cantidad de Empleados:** Cantidad de empleados que tiene la empresa en la que el usuario trabaja.
-* **Tipo de Inscripción:** Tipo de inscripción de la cuenta que puede ser CPF, CNPJ u otros.
-* **Número de Inscripción:** Número de inscripción de la cuenta que debe ser completado de acuerdo con la opción elegida en el campo "Tipo de Inscripción".
-* **Idioma predeterminado para nuevos usuarios:** Idioma en el que se presentará la plataforma a los nuevos usuarios asociados a la cuenta, que puede ser Portugués, Inglés o Español.&#x20;
-* **Dirección:** Dirección residencial o comercial del usuario o de la empresa.
+* **Segmento:** Segmento profesional en el que el usuario o empresa actúa.
+* **Cantidad de Empleados:** Cantidad de empleados que tiene la empresa en la que actúa el usuario.
+* **Tipo de Registro:** Tipo de registro de la cuenta, que puede ser CPF, CNPJ u otros.
+* **Número de registro:** Número de registro de la cuenta que debe completarse de acuerdo con la opción elegida en el campo "Tipo de Registro".
+* **Idioma predeterminado para nuevos usuarios:** Idioma en que se presentará la plataforma para los nuevos usuarios asociados a la cuenta, que puede ser Portugués, Inglés o Español.
+* **Nombre de la aplicación:** Este dato se mostrará en el historial de las firmas de los documentos que se envíen a través de nuestra [API de Integración que tengan el parámetro “retornarLinkProcesso = 1”](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.post-api-v2-processo-enviar-documento-para-assinar). Este campo no altera ningún parámetro para envíos de Procesos a través de la plataforma.
+* **Dirección:** Dirección residencial o comercial del usuario o empresa.
 * **Número:** Número de la residencia o inmueble comercial.
 * **Complemento:** Complemento de la dirección.
-* **Código Postal:** Código postal de la dirección residencial o comercial del usuario o de la empresa.
-* **País:** País del usuario o de la empresa.
-* **Estado:** Estado del usuario o de la empresa.
-*   **Ciudad:** Ciudad del usuario o de la empresa.
+* **Barrio:** Barrio del usuario o empresa.
+* **Código Postal:** Código postal de la dirección residencial o comercial del usuario o empresa.
+* **País:** País del usuario o empresa.
+* **Estado:** Estado del usuario o empresa.
+* **Ciudad:** Ciudad del usuario o empresa.
 
-    <figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 ***
 
@@ -80,7 +82,7 @@ Si el usuario ha comprado créditos adicionales a los incluidos en el plan, al h
 
 ### Historico de Compras
 
-En la pestaña **Histórico de Compras** se presenta la descripción de los productos ya adquiridos por el usuario, el período de vigencia de cada uno, el número de cuotas en las que se dividió el pago, el valor y el estado de esas cuotas.
+En la pestaña Histórico de Compras se presenta la descripción de los productos ya adquiridos por el usuario, el período de vigencia de cada uno, el número de cuotas en las que se dividió el pago, el valor y el estado de esas cuotas.
 
 <figure><img src="../../.gitbook/assets/image (8) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
@@ -92,7 +94,7 @@ Al hacer clic en "**Detalles del plan**", se presenta la descripción y cantidad
 
 ## **Pestaña Configuraciones**
 
-### Documentos
+### Procesos
 
 Por defecto, algunas configuraciones de esta pestaña se completan automáticamente, pero es posible modificarlas haciendo clic en el botón "Editar".
 
@@ -156,7 +158,7 @@ Para crear un nuevo rol, haz clic en el ícono “Agregar” e ingresa un nombre
 
 <figure><img src="../../.gitbook/assets/image (718).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/image (720).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (720).png" alt="" width="409"><figcaption></figcaption></figure>
 
 Para cambiar el rol predeterminado, haz clic en “Eliminar Predeterminado” o “Establecer como Predeterminado”, según sea necesario.
 
@@ -214,7 +216,7 @@ También podrá cambiar la formateación y los colores del texto utilizando la b
 
 Al hacer clic en "Visualizar", se muestra el Término de la forma en que será presentado a los signatarios. El usuario podrá imprimir el texto haciendo clic en "Imprimir".
 
-<figure><img src="../../.gitbook/assets/image (732).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (732).png" alt="" width="362"><figcaption></figcaption></figure>
 
 ### Histórico de Aceite
 
@@ -226,8 +228,132 @@ En esta pestaña se presentan todos los Aceptes al Término de Firma Electrónic
 * **Versión del Término:** Esta columna muestra la versión del Término de Firma Electrónica aceptada por el usuario. Cada vez que el Término es editado o sustituido, el sistema le asigna una nueva versión.
 * **IP:** Esta columna presenta la IP de la máquina utilizada por el signatario en el momento del acepto del Término de Firma Electrónica.
 * **Geolocalización:** Esta columna presenta la geolocalización de la máquina del signatario en el momento en que realizó el acepto al Término de Firma Electrónica.
-*   **Visualizar Término:** Al hacer clic en este botón, se muestra la versión del término que fue aceptada por el signatario.
+* **Visualizar Término:** Al hacer clic en este botón, se muestra la versión del término que fue aceptada por el signatario.
 
-    <figure><img src="../../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
 
-    <figure><img src="../../.gitbook/assets/image (734).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (734).png" alt="" width="454"><figcaption></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo personalizar la plataforma ArqSign con los colores y logotipo del cliente?</summary>
+
+En la plataforma ArqSign, las notificaciones (correos electrónicos y mensajes de WhatsApp) para los remitentes y destinatarios pueden tener los siguientes diseños:
+
+1. Diseño Predeterminado de la Plataforma ArqSign o
+2. Diseño con sus colores y logotipo.
+
+Los ítems disponibles para personalización son:
+
+* Encabezado
+* Color del texto superior
+* Color del botón del correo electrónico o mensaje de WhatsApp
+
+Para personalizar las notificaciones de la Plataforma ArqSign, el Administrador de la cuenta debe acceder a: Administración > Cuenta > Configuraciones > Otros y seguir los siguientes pasos:
+
+1. En la esquina inferior derecha haga clic en editar;
+2. En "Notificaciones Personalizadas", cambie a Activado;
+3. En "Notificaciones por Correo Electrónico", realice los siguientes pasos:
+   * inserte una imagen para el encabezado de los mensajes con las dimensiones indicadas en el campo;
+   * elija el color destacado para el texto del correo electrónico.
+4. En "Notificaciones por WhatsApp", realice el siguiente paso:
+   * inserte una imagen para el encabezado de los mensajes con las dimensiones indicadas en el campo.
+5. Si desea visualizar las notificaciones con los cambios que realizó, haga clic en "Visualizar Notificación";
+6. Cuando todos los ajustes estén correctos, haga clic en "Guardar".
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (851).png" alt="" width="125"><figcaption></figcaption></figure></div>
+
+Notificación predeterminada:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (852).png" alt="" width="348"><figcaption></figcaption></figure></div>
+
+Ejemplo de notificación personalizada simulación:
+
+<div align="left"><figure><img src="../../.gitbook/assets/image (853).png" alt="" width="188"><figcaption></figcaption></figure></div>
+
+</details>
+
+<details>
+
+<summary>¿Cómo cambiar la tarjeta de crédito para facturación y compras en la plataforma ArqSign?</summary>
+
+Puede cambiar su tarjeta de crédito para facturación y compras en la Plataforma ArqSign siguiendo los siguientes pasos:
+
+1. Vaya al menú "Administración";
+2. Haga clic en "Cuenta";
+3. Haga clic en "Facturación y Uso";
+4. Haga clic en "Cambiar la forma de pago".
+
+</details>
+
+<details>
+
+<summary>¿Cómo personalizar las configuraciones para Proceso de Firma, Disponibilidad del enlace para documento firmado, recordatorios y notificaciones de la plataforma?</summary>
+
+Puede personalizar las configuraciones predeterminadas y, si lo necesita, ajustar recordatorios y notificaciones durante la creación de sus Procesos.
+
+Para personalizar las configuraciones predeterminadas siga el paso a paso:
+
+1. Acceda al menú Administración > Cuenta > Configuraciones;
+2. Haga clic en Editar;
+3. Realice los ajustes según su necesidad;
+4. Haga clic en Guardar.
+
+**Entienda en detalle cada uno de los ítems personalizables:**
+
+* Configuraciones sobre el Proceso de firma.
+
+- Tiempo predeterminado en días para la expiración del Proceso a partir de la fecha de envío.
+- Tiempo predeterminado en días para aviso antes de la expiración.
+- Habilitar, deshabilitar y definir periodicidad de recordatorios para firma a los firmantes pendientes.
+
+* Configuraciones de disponibilidad del enlace para el documento firmado.
+
+- Configure el tiempo predeterminado para la expiración del enlace de acceso al documento después de la firma.
+- Habilite o deshabilite la opción de adjuntar archivo menor de 20 MB al correo electrónico enviado al finalizar las firmas.
+
+* Configuraciones sobre recordatorios para vencimiento, renovación, reajuste:
+
+- Configure la recurrencia de recordatorios para vencimiento, renovación, reajuste de documentos y Procesos.
+
+* En Otros, configure notificaciones relacionadas con la cuenta:
+
+- Notificación para porcentaje de uso de los ítems de la cuenta.
+- Notificación para recordatorio de vencimiento de la suscripción.
+
+</details>
+
+<details>
+
+<summary>¿Cómo habilitar y deshabilitar la renovación automática del plan?</summary>
+
+Durante la vigencia del plan, el cliente puede habilitar o deshabilitar la renovación automática del mismo. Para ello, acceda a:\
+[Administración > Cuenta > Facturación y Uso > Renovación Automática.](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/conta#pestana-de-facturacion-y-uso)
+
+</details>
+
+<details>
+
+<summary>¿Cómo verificar el plan, vencimiento, renovación automática y consumo?</summary>
+
+Acceda al menú [Administración > Cuenta > Facturación y Uso.](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/conta#pestana-de-facturacion-y-uso)
+
+Consulte el plan contratado, el período del plan, la fecha de suscripción, la fecha de vencimiento, la renovación automática, los ítems consumidos y disponibles, el período de renovación y el Historial de compras.
+
+</details>
+
+<details>
+
+<summary>¿Cómo personalizar el Término de Aceptación para firma electrónica?</summary>
+
+La funcionalidad Término de Aceptación para firma electrónica formaliza y registra el historial de aceptación de los firmantes para firmar en formato electrónico, lo cual es un requisito legal previo para la validez jurídica de la firma. Puede utilizar nuestra sugerencia de Término de Aceptación o personalizar el suyo. Para personalizar, siga los siguientes pasos:
+
+1. Haga clic en [Administración > Cuenta > Término de Aceptación](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/administracao/conta#pestana-termino-de-aceptacion);
+2. Haga clic en editar y personalice su término;
+3. Haga clic en publicar.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=MBJB6RW7y7E\&feature=youtu.be) y vea el paso a paso.
+
+</details>
