@@ -79,7 +79,7 @@ Además de la opción de añadir nuevos contactos manualmente, el sistema tambi�
 * Haga clic en la pestaña **Mis contactos**.
 * Haga clic en el ícono de **importación** que aparece junto a la lista de contactos.
 
-<figure><img src="../.gitbook/assets/image (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Se abrirá una ventana para realizar la carga del archivo CSV.
 

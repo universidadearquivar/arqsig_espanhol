@@ -6,6 +6,8 @@ En la caja Enviados se presentan todos los documentos enviados por el usuario a 
 
 <figure><img src="../.gitbook/assets/image (619).png" alt=""><figcaption></figcaption></figure>
 
+{% embed url="https://app.supademo.com/demo/cmcyraln11nj7c4kjet0nzlu1" %}
+
 Al hacer clic en un documento, se abrirá la pantalla de visualización del documento, que muestra el documento enviado, su estado y fecha de vencimiento. En la esquina derecha de la pantalla se presentan las informaciones de los firmantes, como datos personales, rol de firmante y estado de la firma.
 
 <figure><img src="../.gitbook/assets/image (620).png" alt=""><figcaption></figcaption></figure>
@@ -70,7 +72,7 @@ En este caso, es posible reenviar el documento solo a aquellos firmantes que aú
 
 En el ícono "Editar", es posible realizar la edición de la información del destinatario, así como la información definida para la validación del documento en las [<mark style="color:blue;">**configuraciones del destinatario**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
-<figure><img src="../.gitbook/assets/image (628).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (628).png" alt="" width="545"><figcaption></figcaption></figure>
 
 {% hint style="info" %}
 <mark style="color:blue;">Los datos de validación del documento solo podrán ser editados en esta pantalla si fueron configurados previamente. La "Edición" no permite la inclusión de datos para validación.</mark>
@@ -92,7 +94,7 @@ Tampoco habrá la opción "Reenviar" al abrir el proceso en la plataforma ArqSig
 
 Esta opción solo se mostrará si el usuario tiene acceso a la carpeta en la que está almacenado el documento. Al hacer clic en esta opción, podrá cambiar la carpeta del directorio donde se almacena el documento.
 
-<figure><img src="../.gitbook/assets/image (629).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (629).png" alt="" width="439"><figcaption></figcaption></figure>
 
 #### **Alterar Proprietario**
 
@@ -118,9 +120,9 @@ Cuando el proceso **tenga más de un documento**, el sistema mostrará un modal 
 
 El Registro de Firmas muestra toda la información sobre las firmas electrónicas y digitales realizadas durante el proceso, como el nombre de los signatarios, la fecha y hora de la firma, la ubicación, la IP desde la que se realizó, los datos de los certificados digitales utilizados, entre otros.
 
-<figure><img src="../.gitbook/assets/image (633).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (633).png" alt="" width="449"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (634).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (634).png" alt="" width="447"><figcaption></figcaption></figure>
 
 #### **Cancelar**
 
@@ -154,7 +156,7 @@ Se mostrará este botón cuando la información de contacto (correo electrónico
 
 Utilizado para eliminar el flujo. Los flujos eliminados irán a la caja de [<mark style="color:blue;">Eliminados</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
-<figure><img src="../.gitbook/assets/image (639).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (639).png" alt="" width="264"><figcaption></figcaption></figure>
 
 #### **R**enombrar
 
@@ -162,11 +164,11 @@ Esta opción solo se mostrará si el usuario, además de firmante, también es e
 
 Cuando el proceso tiene solo un documento, el sistema permite cambiar el nombre del proceso:
 
-<figure><img src="../.gitbook/assets/image (808).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (808).png" alt="" width="375"><figcaption></figcaption></figure>
 
 Cuando el proceso tiene más de un documento, el sistema permite cambiar el nombre del proceso y el nombre de los documentos del proceso.
 
-<figure><img src="../.gitbook/assets/image (809).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (809).png" alt="" width="374"><figcaption></figcaption></figure>
 
 El campo "**Renombrar documentos del proceso**" se muestra solo si el usuario conectado es el remitente del proceso y el proceso tiene más de un documento/archivo.
 
@@ -180,11 +182,11 @@ Esta opción permite que el usuario cree un enlace de acceso a uno o más docume
 
 Cuando el proceso con más de un documento no agrupado no tiene compartición de documentos, el sistema abre el modal para que el usuario seleccione los documentos del proceso que desea compartir.
 
-<figure><img src="../.gitbook/assets/image (642).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (642).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Cuando el proceso con más de un documento tiene compartición de documentos, el sistema abre el modal con los enlaces ya compartidos.
 
-<figure><img src="../.gitbook/assets/image (643).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (643).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Al expandir las acciones del enlace de compartición, es posible **visualizar** nuevamente la pantalla de compartición o **eliminar** la compartición realizada.
 
@@ -226,7 +228,7 @@ Quando realizado o compartilhamento de mais documentos do processo, é apresenta
 
 Al hacer clic en este ícono, será posible cambiar la carpeta donde se almacenan los documentos seleccionados. No se podrá ejecutar esta acción en documentos con el estado "Esperando".   &#x20;
 
-<figure><img src="../.gitbook/assets/image (629).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (629).png" alt="" width="439"><figcaption></figcaption></figure>
 
 #### **Alterar Proprietario**
 
@@ -260,13 +262,13 @@ Al hacer clic en este ícono, será posible cancelar el envío de los documentos
 
 <figure><img src="../.gitbook/assets/image (651).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (652).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image.png" alt="" width="328"><figcaption></figcaption></figure>
 
 #### **E**liminar
 
 Al hacer clic en este ícono, será posible eliminar los documentos seleccionados. Solo se podrá ejecutar esta acción en documentos con el estado “Concluido” o “Cancelado”.
 
-<figure><img src="../.gitbook/assets/image (653).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (653).png" alt="" width="263"><figcaption></figcaption></figure>
 
 #### **Falhas na entrega de emails**
 
@@ -275,3 +277,123 @@ Cuando haya una falla en el envío del proceso, el sistema señalará el proceso
 Cuando haya una falla en el envío del código de seguridad para algún destinatario del proceso, el sistema señalará al destinatario con la falla de envío del código de seguridad.
 
 <figure><img src="../.gitbook/assets/image (811).png" alt=""><figcaption></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo compartir un Proceso firmado en la Plataforma ArqSign?</summary>
+
+* Inicia sesión en tu cuenta ArqSign a través del enlace: [https://app.arqsign.com/auth/login](https://app.arqsign.com/auth/login)
+* Haz clic en **'Enviados'**;
+* Localiza el Proceso que deseas compartir;
+* Esta opción permite que el usuario cree un enlace de acceso a uno o más documentos del proceso, el cual puede ser compartido con personas que no sean participantes del proceso de firma. Este enlace puede tener una vigencia determinada o indefinida, y el usuario puede definir si desea permitir que las personas que accedan también visualicen los anexos enviados por los firmantes.
+
+- Cuando el Proceso tiene más de un documento **no agrupado** y **no tiene compartición activa**, el sistema abrirá una ventana para que el usuario seleccione qué documentos desea compartir.
+- Cuando el Proceso tiene más de un documento **ya compartido**, el sistema mostrará la ventana con los enlaces que ya fueron generados.
+- Al expandir las acciones del enlace compartido, es posible visualizar nuevamente la pantalla de compartición o eliminar el enlace generado.
+- Al compartir los documentos del proceso, el usuario también tiene la posibilidad de enviarlos por correo electrónico haciendo clic en el botón **"Enviar enlace por correo"**.\
+  Agrega en el campo correspondiente todos los correos electrónicos que deben recibir la documentación compartida.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cambiar el propietario de un Proceso?</summary>
+
+Si eres el remitente de un Proceso con estado "Pendiente", "En proceso" o "Completado", puedes cambiar el propietario a otro usuario activo de la cuenta. De esta forma, las notificaciones automáticas del flujo pasarán a ser enviadas al nuevo propietario.
+
+Para realizar este cambio, sigue uno de los siguientes métodos:
+
+#### Opción 1:&#x20;
+
+1. Localiza el flujo en el menú Enviados;
+2. Haz clic en el menú desplegable ubicado en la esquina derecha;
+3. Haz clic en Cambiar propietario;
+4. Ingresa el nuevo propietario y guarda.
+
+Si se transfiere solo un Proceso, el cambio se realiza de inmediato.
+
+Si se transfieren dos o más Procesos, el sistema requiere 24 horas para completar la solicitud.
+
+#### **Opción 2:**&#x20;
+
+1. Al inactivar un usuario que posee Procesos en su cuenta, puedes transferirlos a otro usuario responsable;
+2. Al hacer clic en 'Inactivar', aparecerá un cuadro de confirmación;
+3. En ese cuadro, confirma que deseas transferir los Procesos;
+4. Selecciona el nuevo propietario;
+5. Elige los Procesos que deseas transferir por estado: 'Todos' o 'En firma o con renovación programada';
+6. Haz clic en 'Cambiar';
+7. El usuario será inactivado y los Procesos serán transferidos en un plazo de 24 horas;
+8. Si el usuario no tiene Procesos en la cuenta, este procedimiento no es necesario;
+9. La transferencia de Procesos solo puede hacerse a un usuario activo.
+10. Para verificar el progreso de las solicitudes de transferencia, accede a:\
+    "Mi perfil" → "Solicitudes".
+
+Si deseas transferir la propiedad de los Procesos de un usuario que ya fue inactivado, consulta el paso a paso en: "¿Cómo inactivar un usuario y cambiar la propiedad de sus Procesos?"
+
+</details>
+
+<details>
+
+<summary>¿Cómo verificar la versionado de los Procesos guardados en la plataforma?</summary>
+
+Con cada renovación de Procesos a través de la herramienta de renovación de la Plataforma ArqSign, se realiza un vínculo de los nuevos Procesos con los anteriores.\
+Para acceder a este recurso siga los siguientes pasos:
+
+1. Menú "Enviados".
+2. Ubique el Proceso que desea consultar.
+3. En el botón "Historial", haga clic en el desplegable.
+4. Elija la opción "Versionado".
+
+Analice la información.
+
+</details>
+
+<details>
+
+<summary>¿Cómo cancelar procesos enviados?</summary>
+
+La cancelación de un Proceso o flujo puede realizarse mientras aún no se haya concluido. Para ello, siga el siguiente paso a paso:
+
+1. Acceda al menú de Enviados;
+2. Ubique el Proceso que desea cancelar;
+3. Haga clic en Historial;
+4. Haga clic en Cancelar;
+5. Confirme la cancelación haciendo clic en Sí.
+
+</details>
+
+<details>
+
+<summary>¿Cómo editar, corregir o cambiar el correo electrónico del firmante?</summary>
+
+1. Acceda a la bandeja de enviados;
+2. Ubique el Proceso cuyo correo electrónico del firmante desea editar, corregir o cambiar;
+3. Haga clic en el botón de Reenviar;
+4. Haga clic en Editar;
+5. Realice la modificación necesaria;
+6. Haga clic en Reenviar.
+
+Cuando la fecha límite para la firma del Proceso haya vencido, el reenvío se realiza para todos los firmantes pendientes de firma en el orden actual.
+
+Si la fecha límite para la firma del Proceso no ha vencido, el usuario podrá editarlo y reenviarlo a uno o más firmantes pendientes de firma en el orden actual.
+
+[Haga clic aquí](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/) y vea el video con el paso a paso.
+
+</details>
+
+<details>
+
+<summary>¿Cómo reenviar un Proceso?</summary>
+
+1. Acceda a la bandeja de enviados;
+2. Ubique el Proceso que desea reenviar;
+3. Haga clic en el botón de Reenviar;
+4. Haga clic nuevamente en el botón Reenviar.
+
+Un nuevo envío se realizará únicamente para los firmantes que aún no hayan firmado el Proceso.
+
+[Haga clic aquí](https://www.youtube.com/watch?v=K11hU-ZOWnk\&feature=youtu.be) y vea el video con el paso a paso.
+
+</details>
