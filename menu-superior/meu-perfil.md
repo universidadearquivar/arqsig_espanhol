@@ -69,7 +69,7 @@ En la pestaña Mis Contactos, el usuario puede registrar información de destina
 
 **Barra de Búsqueda:** Es posible localizar un contacto específico utilizando los filtros de correo electrónico o WhatsApp para la búsqueda.
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Importación de Contactos
 
@@ -79,11 +79,11 @@ Además de la opción de añadir nuevos contactos manualmente, el sistema tambi�
 * Haga clic en la pestaña **Mis contactos**.
 * Haga clic en el ícono de **importación** que aparece junto a la lista de contactos.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Se abrirá una ventana para realizar la carga del archivo CSV.
 
-<figure><img src="../.gitbook/assets/image (2) (1).png" alt="" width="410"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1).png" alt="" width="410"><figcaption></figcaption></figure>
 
 #### Hoja modelo
 
@@ -96,7 +96,7 @@ Complete el archivo según las siguientes instrucciones:
 * **Campo "Teléfono":** Debe ser informado en el formato internacional, con **DDI + DDD + número**. Ejemplo: 553198766871.
 * **Campos "Correo electrónico" y "Teléfono" completados:** Si ambos campos están llenos, el contacto será importado dos veces. Para importar solo una vez, complete solo uno de los campos.
 
-<figure><img src="../.gitbook/assets/image (3).png" alt="" width="375"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt="" width="375"><figcaption></figcaption></figure>
 
 #### Importación y registros
 

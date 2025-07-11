@@ -118,7 +118,7 @@ Los permisos de las carpetas sectoriales deben ajustarse para que el acceso sea 
 
 Solo el Administrador Global de la cuenta tendrá acceso al menú de directorios, y por este motivo es tan importante asegurarse de que solo personas sin restricciones de acceso estén con este perfil. A continuación, se muestran las diferencias entre los permisos otorgados a cada perfil:
 
-<figure><img src="../../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Todos los usuarios deben estar asociados a un grupo de permisos. De esta manera, la plataforma obligará al usuario a guardar el documento en una carpeta sectorial, evitando que los documentos se almacenen en la carpeta raíz.**</mark>
