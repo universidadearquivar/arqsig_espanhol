@@ -50,7 +50,7 @@ Al hacer clic en esta opción, el usuario es dirigido a la pantalla de registro 
 
 Al hacer clic en esta opción, el usuario podrá cambiar la carpeta del directorio donde está almacenado el documento.
 
-<figure><img src="../.gitbook/assets/image (60).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (60).png" alt="" width="352"><figcaption></figcaption></figure>
 
 #### Descargar Archivo
 
@@ -66,13 +66,13 @@ Cuando el proceso **tiene más de un documento**, el sistema muestra un modal co
 
 Al realizar la descarga a través del Menú > Borradores, por defecto de la plataforma, se genera el Registro de Firmas que muestra toda la información sobre las firmas electrónicas y digitales, como el nombre de los firmantes, la fecha y hora de la firma, la ubicación, la IP desde donde se realizó, los datos de los certificados digitales utilizados, etc. Sin embargo, aparece sin los datos de firma, ya que el envío del documento para firma no se ha efectivado.
 
-<figure><img src="../.gitbook/assets/image (53).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (53).png" alt="" width="563"><figcaption></figcaption></figure>
 
 #### **Eliminar**
 
 Utilizado para eliminar el archivo, que irá a la [<mark style="color:blue;">carpeta de Eliminados</mark>](excluidos.md).&#x20;
 
-<figure><img src="../.gitbook/assets/image (54).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (54).png" alt="" width="264"><figcaption></figcaption></figure>
 
 #### **R**enombrar
 
@@ -80,11 +80,11 @@ Esta opción solo se mostrará si el usuario, además de ser firmante, también 
 
 Cuando el proceso tiene solo un documento, el sistema permite cambiar el nombre del proceso:
 
-<figure><img src="../.gitbook/assets/image (656).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (656).png" alt="" width="378"><figcaption></figcaption></figure>
 
 Cuando el proceso tiene más de un documento, el sistema permite cambiar el nombre del proceso y el nombre de los documentos del proceso.
 
-<figure><img src="../.gitbook/assets/image (657).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (657).png" alt="" width="380"><figcaption></figcaption></figure>
 
 El campo "**Renombrar documentos del proceso**" se muestra solo si el usuario que ha iniciado sesión es el remitente del proceso y el proceso tiene más de un documento o archivo.
 
@@ -114,4 +114,4 @@ Después de seleccionar el documento y hacer clic en este ícono, el usuario ten
 
 Al hacer clic en este ícono, será posible eliminar los documentos seleccionados.&#x20;
 
-<figure><img src="../.gitbook/assets/image (658).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (658).png" alt="" width="265"><figcaption></figcaption></figure>
