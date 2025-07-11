@@ -48,9 +48,7 @@ Después de que el Administrador registre un nuevo usuario, el invitado recibe p
 
 Las acciones de la pantalla de Usuarios pueden accederse a través de los botones superiores, de la columna de acciones a la derecha o haciendo clic en cualquier información del usuario en la cuadrícula de la pantalla principal.
 
-<figure><img src="../../.gitbook/assets/image (742).png" alt=""><figcaption></figcaption></figure>
-
-<figure><img src="../../.gitbook/assets/image (743).png" alt=""><figcaption></figcaption></figure>
+<div align="left"><figure><img src="../../.gitbook/assets/image (742).png" alt="" width="375"><figcaption></figcaption></figure> <figure><img src="../../.gitbook/assets/image (854).png" alt="" width="319"><figcaption></figcaption></figure></div>
 
 **Nuevo:** Para invitar a un nuevo usuario a unirse a la cuenta, haz clic en “Nuevo”. Por defecto, el usuario tendrá el estado “Pendiente” hasta que acepte la invitación para unirse a la cuenta.&#x20;
 
