@@ -1,5 +1,7 @@
 # 🗓️ Renovaciones
 
+{% embed url="https://app.supademo.com/demo/cmcyvechx1rhxc4kjksctqn54" %}
+
 En el menú Renovaciones se presentan todos los documentos que fueron registrados y enviados para firma con la opción "Programar renovación \_\_\_ meses después de la conclusión de las firmas" marcada, en la pantalla [<mark style="color:blue;">Nuevo Documento > Agregar Documentos y Destinatarios > Agregar Documentos.</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/) Solo se pueden mostrar en esta pantalla documentos con el estado "Concluido".
 
 <figure><img src="../.gitbook/assets/image (659).png" alt=""><figcaption><p>Haz clic en la imagen para ampliar.</p></figcaption></figure>
@@ -50,7 +52,7 @@ Esta acción estará disponible si el documento ha alcanzado la fecha y hora pro
 
 Al hacer clic en esta opción, podrá cambiar la carpeta del directorio donde está almacenado el documento.
 
-<figure><img src="../.gitbook/assets/image (664).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (664).png" alt="" width="440"><figcaption></figcaption></figure>
 
 #### **Alterar** Renovación
 
@@ -90,13 +92,13 @@ La carpeta zip se nombra con el nombre del proceso y el archivo de registro de f
 
 Cuando el proceso **tiene más de un documento**, el sistema muestra un modal con los documentos del proceso para que el usuario seleccione cuáles documentos desea descargar. En caso de ser un compartimiento, solo se deben listar los documentos que han sido compartidos.
 
-<figure><img src="../.gitbook/assets/image (670).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (670).png" alt="" width="455"><figcaption></figcaption></figure>
 
 El Registro de Firmas muestra toda la información sobre las firmas electrónicas y digitales realizadas durante el proceso, como el nombre de los firmantes, la fecha y hora de la firma, la ubicación, la IP desde donde se realizó, los datos de los certificados digitales utilizados, etc.
 
-<figure><img src="../.gitbook/assets/image (672).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (672).png" alt="" width="478"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (673).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (673).png" alt="" width="479"><figcaption></figcaption></figure>
 
 #### **Compartir**
 
@@ -104,7 +106,7 @@ Esta opción permite que el usuario cree un enlace de acceso a uno o más docume
 
 Cuando el proceso tiene más de un documento no agrupado y no hay un compartimiento de documentos, el sistema abre una ventana modal para que el usuario seleccione los documentos del proceso que desea compartir.
 
-<figure><img src="../.gitbook/assets/image (674).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (674).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Cuando el proceso con más de un documento tiene compartimiento de documentos, el sistema abre una ventana modal con los enlaces ya compartidos.
 
@@ -138,7 +140,7 @@ Cuando se realiza el compartimiento de más documentos del proceso, se presenta 
 
 <figure><img src="../.gitbook/assets/image (649).png" alt=""><figcaption></figcaption></figure>
 
-Excluir: Utilizado para excluir el archivo, que irá a la [<mark style="color:blue;">caja de Eliminados</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).&#x20;
+**Excluir:** Utilizado para excluir el archivo, que irá a la [<mark style="color:blue;">caja de Eliminados</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).&#x20;
 
 <figure><img src="../.gitbook/assets/image (30).png" alt=""><figcaption></figcaption></figure>
 
@@ -176,7 +178,7 @@ Es posible seleccionar más de un documento marcando las casillas de verificaci�
 
 Al hacer clic en este ícono, será posible cambiar la carpeta donde están almacenados los documentos seleccionados.
 
-<figure><img src="../.gitbook/assets/image (34).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (34).png" alt="" width="438"><figcaption></figcaption></figure>
 
 #### **Alterar Proprietario**
 
@@ -186,10 +188,45 @@ Al hacer clic en este ícono, será posible cambiar la propiedad de los document
 <mark style="color:orange;">**Solo pueden ser seleccionados como nuevos propietarios los usuarios registrados en la misma cuenta que el responsable.**</mark>
 {% endhint %}
 
-<figure><img src="../.gitbook/assets/image (35).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (35).png" alt="" width="380"><figcaption></figcaption></figure>
 
 #### **Excluir**
 
 Al hacer clic en este ícono, será posible eliminar los documentos seleccionados. Solo se podrá ejecutar esta acción en documentos con el estado "Concluido" o "Cancelado".
 
 <figure><img src="../.gitbook/assets/image (36).png" alt=""><figcaption></figcaption></figure>
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo activar el flujo de renovación automática de Procesos?</summary>
+
+Si ha programado la renovación de un Proceso, al cumplirse el plazo para la renovación, puede activar la renovación automática para que se cree un nuevo Proceso con las mismas configuraciones de firmantes que el original.
+
+1. Haga clic en Renovaciones;
+2. Seleccione Proceso concluido;
+3. Haga clic en Renovar - La Plataforma genera automáticamente un nuevo Proceso con todos los firmantes del Proceso original;
+4. Suba el archivo para la renovación. El nuevo archivo queda vinculado al(los) archivo(s) anterior(es), creando un versionado de Procesos.
+5. Revise los firmantes.
+6. Configure las representaciones visuales;
+7. Envíe ¡y listo!
+
+</details>
+
+<details>
+
+<summary>¿Cómo modificar la renovación, vencimiento de Procesos o control de reajuste?</summary>
+
+Después de la finalización de un Proceso:
+
+1. Haga clic en Enviados;
+2. Seleccione Proceso concluido;
+3. Haga clic en Historial;
+4. Haga clic en Cambiar Renovación;
+5. Defina el nuevo plazo en meses después de la finalización de las firmas;
+6. Haga clic en Cambiar.
+
+Cuando llegue la fecha definida para el vencimiento del Proceso, renovación o reajuste, la plataforma ArqSign enviará un correo electrónico al propietario del Proceso informando que está listo para renovación, reajuste, etc.
+
+</details>
