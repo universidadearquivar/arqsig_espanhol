@@ -6,9 +6,9 @@ En el menú Eliminados se muestran todos los documentos eliminados por el usuari
 <mark style="color:orange;">**No es posible visualizar el documento en la pantalla Eliminados. Para ver el archivo, es necesario restaurar el documento y acceder a él en su buzón de origen, que puede ser la**</mark> [<mark style="color:blue;">**Caja de Entrada**</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/) <mark style="color:orange;">**o la**</mark>[ <mark style="color:blue;">**caja Expedidos**</mark>](enviados.md)<mark style="color:orange;">**.**</mark>
 {% endhint %}
 
-***
-
 <figure><img src="../.gitbook/assets/image (37).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## Columnas de la pantalla principal - Excluídos
 
@@ -35,6 +35,8 @@ En el menú Eliminados se muestran todos los documentos eliminados por el usuari
 **Barra de filtro**: Permite localizar uno o más documentos utilizando los filtros disponibles para búsqueda. En la pantalla Excluidos, la búsqueda se puede realizar por el nombre del documento, el nombre del responsable, los nombres de los firmantes, el estado del documento, la carpeta donde está almacenado el documento o la fecha de eliminación del documento.
 
 <figure><img src="../.gitbook/assets/image (40).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## Acciones individuales - Excluídos
 
@@ -68,15 +70,17 @@ Cuando el proceso **tiene más de un documento**, el sistema muestra un modal co
 
 El Registro de Firmas muestra toda la información sobre las firmas electrónicas y digitales realizadas durante el proceso, como el nombre de los firmantes, la fecha y hora de la firma, la ubicación, la dirección IP desde donde se realizó, los datos de los certificados digitales utilizados, etc.
 
-<figure><img src="../.gitbook/assets/image (47).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (47).png" alt="" width="477"><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (48).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (48).png" alt="" width="480"><figcaption></figcaption></figure>
 
 #### **Histórico**
 
 Aquí es posible visualizar el historial del proceso de firma y sus documentos. Seleccione el botón de eventos para ver los datos en detalle. En esta pantalla también es posible descargar los archivos originales del proceso.&#x20;
 
 Con el botón de eventos posicionado a la derecha, observamos los datos del proceso en la pantalla.
+
+<figure><img src="../.gitbook/assets/image (843).png" alt=""><figcaption></figcaption></figure>
 
 Com o botão de eventos posicionado para a esquerda, é possível visualizar os Id's e Hash's dos documentos, no caso de um **processo com mais de um documento não agrupados**.
 
