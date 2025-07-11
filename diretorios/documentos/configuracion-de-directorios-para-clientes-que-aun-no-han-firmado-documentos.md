@@ -4,7 +4,7 @@
 
 ### ETAPA 1 - Estructuración de directorios
 
-1\. Identifique qué sectores utilizarán la Plataforma ArqSign para el envío de documentos para firma y, de acuerdo con estos sectores, cree una carpeta para cada uno. Para ello, en la pantalla [<mark style="color:blue;">Documentos</mark>](./), acceda a la carpeta raíz y haga clic en el ícono "Incluir Carpeta".
+1\. Identifique qué sectores utilizarán la Plataforma ArqSign para el envío de documentos para firma y, de acuerdo con estos sectores, cree una carpeta para cada uno. Para ello, en la pantalla [Carpetas](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos), acceda a la carpeta raíz y haga clic en el ícono "Incluir Carpeta".
 
 <figure><img src="../../.gitbook/assets/image (695).png" alt=""><figcaption></figcaption></figure>
 
@@ -76,9 +76,9 @@ Los permisos de las carpetas sectoriales deben ajustarse para que el acceso se r
 
 * **Administrador de Documentos y Carpetas:** Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos, excluir o incluir nuevas carpetas, además de poder cambiar permisos de acceso.
 * **Colaborador de Documentos:** Un usuario o grupo de usuarios con este perfil de directorios puede consultar y descargar contenido, incluir, mover, compartir y renombrar documentos en la carpeta a la que tiene este perfil.&#x20;
-*   **Lector de Documentos:** Un usuario o grupo de usuarios con este perfil de directorios puede únicamente consultar y descargar el contenido de la carpeta y documentos.
+* **Lector de Documentos:** Un usuario o grupo de usuarios con este perfil de directorios puede únicamente consultar y descargar el contenido de la carpeta y documentos.
 
-    <figure><img src="../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (707).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Este proceso debe repetirse para todas las demás carpetas sectoriales y subcarpetas que puedan ser creadas dentro de las carpetas de los sectores.**</mark>
@@ -86,11 +86,11 @@ Los permisos de las carpetas sectoriales deben ajustarse para que el acceso se r
 
 ***
 
-## Permisos para Directorios
+## Permisos para Carpetas
 
 Solo el Administrador Global de la cuenta tendrá acceso al menú de directorios, y por esta razón es tan importante asegurarse de que solo personas sin restricciones de acceso tengan este perfil. A continuación, se presentan las diferencias entre los permisos concedidos a cada perfil:
 
-<figure><img src="../../.gitbook/assets/image (708).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (850).png" alt=""><figcaption></figcaption></figure>
 
 {% hint style="warning" %}
 <mark style="color:orange;">**Todos los usuarios deben estar asociados a un grupo de permisos. De esta manera, la plataforma obligará al usuario a guardar el documento en una carpeta sectorial, evitando que los documentos se almacenen en la carpeta raíz.**</mark>
