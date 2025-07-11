@@ -24,13 +24,15 @@ El acceso a la carpeta raíz del directorio se concede a usuarios que han sido d
 <mark style="color:blue;">El</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**remitente de documentos**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">es un usuario sin permiso de acceso a las funcionalidades de gestión de la plataforma.</mark>
 {% endhint %}
 
-En el campo "Grupo", seleccione el grupo al que se le concederá el acceso y habilite el permiso de lectura para todos en el menú [<mark style="color:blue;">Documentos > Acciones > Editar permisos</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
-
 <figure><img src="../../.gitbook/assets/image (683).png" alt=""><figcaption></figcaption></figure>
+
+{% embed url="https://app.supademo.com/demo/cmcywg3gs1sb8c4kje2ttm00m" %}
 
 En la pantalla "Editar Permisos", haga clic en el ícono "Incluir".
 
 <figure><img src="../../.gitbook/assets/image (685).png" alt=""><figcaption></figcaption></figure>
+
+En el campo "Grupo", seleccione el grupo al que se le concederá el acceso y habilite el permiso de lectura para todos en el menú [<mark style="color:blue;">Documentos > Acciones > Editar permisos</mark>](https://app.gitbook.com/o/Ai1YjbPQxIuvTaVzoZ4H/s/zDlPVk00J5AKVvFiB3dg/).
 
 En el campo "Perfil", seleccione el perfil que designa el permiso de acceso del usuario o grupo a los Directorios. Los perfiles de directorio pueden ser:
 
@@ -60,6 +62,12 @@ Al hacer clic en la carpeta raíz, se muestran los subdirectorios, es decir, sub
 
 <figure><img src="../../.gitbook/assets/image (688).png" alt=""><figcaption></figcaption></figure>
 
+{% hint style="warning" %}
+<mark style="color:orange;">**En la pestaña Carpetas, los procesos enviados a través de ArqGED-ArqFlow estarán identificados con la marca "Enviado vía ArqFlow".**</mark>
+{% endhint %}
+
+<figure><img src="../../.gitbook/assets/image (844).png" alt="" width="563"><figcaption></figcaption></figure>
+
 ### Acciones individuales - Subdirectorios&#x20;
 
 **Editar Permisos:** Esta opción solo estará disponible para carpetas de documentos. Los permisos de los subdirectorios se heredan de la carpeta raíz de Directorios, por lo que no es posible editarlos. El usuario solo puede alterar la configuración de permisos de la carpeta raíz o retirar la herencia de permisos de esta carpeta.
@@ -74,7 +82,7 @@ Al hacer clic en la carpeta raíz, se muestran los subdirectorios, es decir, sub
 
 **Compartir:** Esta opción solo estará disponible para documentos sueltos. Esta opción permite que el usuario cree un enlace de acceso al documento que puede ser compartido con otras personas que no son participantes del proceso de firma. Este enlace puede tener un plazo de validez determinado o indeterminado, y el usuario puede definir si desea permitir que las personas que accedan también visualicen los anexos enviados por los firmantes.
 
-<figure><img src="../../.gitbook/assets/image (691).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (691).png" alt="" width="563"><figcaption></figcaption></figure>
 
 **Mover:** Esta opción solo estará disponible para documentos sueltos. Al hacer clic en esta opción, será posible cambiar la carpeta donde se almacenan los documentos seleccionados. Seleccione la carpeta a la que se moverán los documentos y haga clic en "Mover".  &#x20;
 
