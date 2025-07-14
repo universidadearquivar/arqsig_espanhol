@@ -177,7 +177,7 @@ Si necesita transferir los Procesos del usuario con el correo antiguo al nuevo, 
    * **Inactivar sin transferir:** El usuario será inactivado, pero sus Procesos permanecerán en la cuenta.
    * **Cancelar:** Interrumpe la acción sin realizar cambios.
 
-<div align="left"><figure><img src="../../.gitbook/assets/image.png" alt="" width="248"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../../.gitbook/assets/image (1).png" alt="" width="248"><figcaption></figcaption></figure></div>
 
 Si **no tiene integración con el socio** **Clínica nas Nuvens**, el proceso termina aquí. En caso contrario, continúe con las instrucciones a continuación.
 
