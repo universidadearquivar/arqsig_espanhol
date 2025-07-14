@@ -109,7 +109,7 @@ En esta pestaña puede mantener una lista con los contactos más utilizados en l
 
 **Íconos – Pestaña “Mis Contactos”**
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Importación – Pestaña "Mis Contactos"**
 
@@ -131,7 +131,7 @@ Además de la opción de agregar nuevos contactos manualmente, el sistema tambi�
 
 2\. Pase por las tres opciones disponibles. Después de finalizar, haga clic en “Guardar”.
 
-<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
+<div align="left"><figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="375"><figcaption></figcaption></figure></div>
 
 **Pestaña “Certificado Digital”**
 

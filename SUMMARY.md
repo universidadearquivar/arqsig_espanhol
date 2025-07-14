@@ -49,6 +49,7 @@
     * [🔳 Métodos disponibles en la API](administracao/integracoes/api/metodos-disponibles-en-la-api/README.md)
       * [🗃️ 1. Proceso](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/README.md)
         * [✔️ 1.1.POST/api/v2/processo/enviar-documento-para-assinar](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.post-api-v2-processo-enviar-documento-para-assinar.md)
+        * [✔️ 1.1.1.POST/api/v3/processo/enviar-documento-para-assinar](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.1.post-api-v3-processo-enviar-documento-para-assinar.md)
         * [✔️ 1.2.GET/api/v2/processo/{idProcesso}](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.2.get-api-v2-processo-idprocesso.md)
         * [✔️ 1.3.PATCH/api/v2/processo/{idProcesso}/reenviar-processo](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.3.patch-api-v2-processo-idprocesso-reenviar-processo.md)
         * [✔️ 1.4.GET/api/v1/processo/{idProcesso}/status-do-processo](administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.4.get-api-v1-processo-idprocesso-status-do-processo.md)
