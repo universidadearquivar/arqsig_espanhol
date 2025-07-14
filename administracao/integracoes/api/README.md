@@ -66,6 +66,10 @@ Al hacer clic en este enlace, la aplicación abrirá la página [<mark style="co
 
 Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todos los usuarios activos en la cuenta y su respectivo ID.
 
+{% hint style="success" %}
+<mark style="color:green;">La búsqueda de los usuarios activos de la cuenta también puede realizarse mediante API. Para más información, acceda al detalle del método:</mark> [<mark style="color:green;">POST /api/v1/usuarios/buscar-usuarios</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/3.-usuarios/3.1.post-api-v1-usuarios-buscar-usuarios)
+{% endhint %}
+
 ***
 
 ### Descargar lista de IDs de carpetas
@@ -73,3 +77,50 @@ Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la 
 <figure><img src="../../../.gitbook/assets/image (758).png" alt=""><figcaption></figcaption></figure>
 
 Al hacer clic en este enlace, la aplicación descargará un archivo .csv con la lista de todas las carpetas no eliminadas de la cuenta y su respectivo ID.
+
+{% hint style="success" %}
+<mark style="color:green;">La búsqueda de las carpetas no eliminadas de la cuenta también puede realizarse mediante API. Para más información, acceda al detalle del método:</mark> [<mark style="color:green;">POST /api/v1/diretorio/buscar-pastas</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/2.-directorios/2.1.post-api-v1-diretorio-buscar-pastas)
+{% endhint %}
+
+## 🗪 Preguntas y Respuestas Frecuentes
+
+<details>
+
+<summary>¿Cómo puedo probar la API de integración de ArqSign?</summary>
+
+Para probar la API de integración de ArqSign, puede crear una [cuenta de prueba gratuita](https://arquivar.com.br/arqsign-conta-teste-gratis/) > en nuestro sitio web y realizar pruebas a través de la herramienta Postman (no utilizar Swagger).
+
+En su cuenta de prueba gratuita, tendrá acceso al menú "Integraciones", donde obtendrá la información necesaria para la prueba.
+
+Ahora solo debe seguir las instrucciones de la documentación disponible haciendo [clic aquí](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes).
+
+</details>
+
+<details>
+
+<summary>¿Qué métodos están disponibles en la API de ArqSign?</summary>
+
+La API de integración de la plataforma ArqSign está lista para que otros softwares construyan su integración con nuestra solución de firma.
+
+Haga [clic aquí](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api) y consulte todos los métodos disponibles.
+
+</details>
+
+<details>
+
+<summary>¿Qué es la API de integración de ArqSign?</summary>
+
+API es la abreviatura de Application Programming Interface, o en español, Interfaz de Programación de Aplicaciones.\
+Es decir, es una forma de comunicación entre sistemas que permite la integración entre ellos.
+
+A través de la integración de sistemas es posible:
+
+* Intercambio de información entre los sistemas integrados;
+* Automatización de acciones entre los sistemas integrados.
+
+Mediante la API de integración de ArqSign es posible integrar fácilmente la Firma Electrónica de ArqSign con las demás soluciones de su empresa.\
+De esta manera, mejora la experiencia del usuario, aumenta la productividad y la seguridad, reduce riesgos operativos y tareas repetitivas, ya que muchos datos ya validados se utilizan en los procesos.
+
+Haga [clic aquí](https://www.youtube.com/watch?v=oSHOBNiawgY\&feature=youtu.be) y vea el video explicativo.
+
+</details>

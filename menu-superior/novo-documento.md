@@ -54,7 +54,7 @@ Al editar el nombre, no se pueden utilizar caracteres especiales **(@ : \* " < >
 Si se utiliza alguno de estos caracteres, la plataforma no podrá continuar con el proceso.
 {% endhint %}
 
-En el campo “**Carpeta del Documento**”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../procesos/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
+En el campo “**Carpeta del Documento**”, seleccione la carpeta en la que se alojará el documento. Las carpetas en las que se podrán almacenar los documentos deben ser creadas en el menú [<mark style="color:blue;">**Directorios > Documentos**</mark>](../diretorios/documentos/). Por defecto, se crea una carpeta con el nombre del usuario, que debe ser seleccionada si no existe ninguna otra.
 
 <figure><img src="../.gitbook/assets/image (117).png" alt=""><figcaption></figcaption></figure>
 
