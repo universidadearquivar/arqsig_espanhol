@@ -166,7 +166,7 @@ Para cambiar el rol predeterminado, haz clic en “Eliminar Predeterminado” o 
 
 Para eliminar un papel, haz clic en el ícono “Eliminar”. También es posible encontrar un tipo de papel utilizando la barra de búsqueda en la pantalla.
 
-<figure><img src="../../.gitbook/assets/image (722).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (722).png" alt="" width="360"><figcaption></figcaption></figure>
 
 ### Notificaciones
 
@@ -190,7 +190,7 @@ Al hacer clic en el ícono "Eliminar imagen", se excluirá el banner.
 
 Al hacer clic en "Ver Notificación", será posible ver cómo se presentará al destinatario el correo electrónico de notificación y la notificación a través de WhatsApp.
 
-<figure><img src="../../.gitbook/assets/image (726).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (726).png" alt="" width="416"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (729).png" alt=""><figcaption></figcaption></figure>
 
@@ -230,7 +230,7 @@ En esta pestaña se presentan todos los Aceptes al Término de Firma Electrónic
 * **Geolocalización:** Esta columna presenta la geolocalización de la máquina del signatario en el momento en que realizó el acepto al Término de Firma Electrónica.
 * **Visualizar Término:** Al hacer clic en este botón, se muestra la versión del término que fue aceptada por el signatario.
 
-<figure><img src="../../.gitbook/assets/image (733).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (733).png" alt="" width="563"><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (734).png" alt="" width="454"><figcaption></figcaption></figure>
 

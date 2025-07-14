@@ -1,6 +1,8 @@
 # 🟪 Grupo de Usuarios
 
-La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de una cuenta para facilitar la definición de quién puede acceder a qué carpetas y subcarpetas en el menú [<mark style="color:blue;">Directorios > Documentos</mark>](../../diretorios/documentos/). Los permisos de acceso para estos directorios se definen para grupos, y cada persona en la cuenta es agregada a uno por los administradores.
+{% embed url="https://app.supademo.com/demo/cmd317pb03eesc4kjmj5m78z1" %}
+
+La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de una cuenta para facilitar la definición de quién puede acceder a qué carpetas y subcarpetas en el menú [Procesos > Carpetas](https://manual.arquivar.com/manual-arqsign-or-espanhol/directorios/documentos). Los permisos de acceso para estos directorios se definen para grupos, y cada persona en la cuenta es agregada a uno por los administradores.
 
 En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y la fecha y hora de creación del grupo.
 
@@ -8,7 +10,7 @@ En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y
 
 Para crear un grupo, haga clic en el ícono “Nuevo”.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="397"><figcaption></figcaption></figure>
 
 Ingrese el nombre del grupo. A la izquierda se mostrarán todos los usuarios que no forman parte del grupo. Es posible buscar un usuario utilizando la barra de búsqueda. Para agregar uno o más miembros al grupo, seleccione los usuarios deseados y haga clic en el ícono “Agregar” o “Agregar Todos”.
 
@@ -24,7 +26,7 @@ Los miembros que forman parte del grupo o que han sido agregados se mostrarán e
 
 Para visualizar los detalles del grupo, haga clic sobre su nombre. Los miembros del grupo se mostrarán en el campo a la derecha, “Usuarios del grupo”. Para editar los miembros o el nombre del grupo, haga clic en “Editar”.
 
-<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (5) (1) (1) (1) (1).png" alt="" width="563"><figcaption></figcaption></figure>
 
 Para eliminar uno o más grupos, seleccione el grupo deseado y haga clic en el ícono “Eliminar”.
 

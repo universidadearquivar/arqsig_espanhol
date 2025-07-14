@@ -1310,7 +1310,7 @@ Los usuarios con el perfil de Remitente de documentos solo pueden ver los docume
 
 Para que este perfil de usuario pueda tener acceso compartido a los documentos de otros usuarios, se debe utilizar la funcionalidad de directorios. &#x20;
 
-Si deseas conocer la funcionalidad de Directorios, [<mark style="color:blue;">haz clic aquí</mark>](../diretorios/documentos/).
+Si deseas conocer la funcionalidad de Directorios, [<mark style="color:blue;">haz clic aquí</mark>](../procesos/documentos/).
 
 </details>
 
