@@ -362,7 +362,7 @@ Las fallas de comunicación elegibles para retransmisión podrán ocurrir de for
 
 <figure><img src="../../.gitbook/assets/image (23).png" alt=""><figcaption></figcaption></figure>
 
-## Inactivación automática del webhook por fallas
+### Inactivación automática del webhook por fallas
 
 Siempre que el webhook reciba del listener (URL del cliente) los códigos de error a continuación, este webhook será desactivado inmediatamente para evitar llamadas innecesarias, recibiendo el estado **"Inactivo por fallas"**.
 
@@ -372,11 +372,25 @@ Los códigos de error son:
 * 403 – Sin permiso de acceso al servidor. El servidor atendió la solicitud, pero se niega a hacerlo.
 * 404 – URL no existe.
 
-Siempre que el webhook reciba otros errores, <mark style="color:red;">**después del 5º día**</mark> de errores consecutivos, el disparador con estas fallas será desactivado, recibiendo el estado **"Inactivo por fallas recurrentes"**.
+Siempre que el webhook reciba otros errores, **después del 5º día** de errores consecutivos, el disparador con estas fallas será desactivado, recibiendo el estado **"Inactivo por fallas recurrentes"**.
 
 Los webhooks desactivados por la aplicación debido a fallas recibirán el estado **"Inactivo por fallas"** y dejarán de enviar mensajes al listener (URL del cliente), pero podrán ser editados y activados nuevamente.
 
-## Registros de fallas
+#### Inactivar
+
+Cuando un gatillo sea inactivado por fallas recurrentes, todos los registros de falla de este gatillo que estén en la cola de ejecución para ser reenviados serán eliminados.
+
+#### Activar
+
+Al reactivar un gatillo que fue inactivado por fallas recurrentes, el sistema incluye nuevamente en la cola de ejecución todos los registros de falla que no alcanzaron los **14 intentos** de reenvío de los datos, ejecutando el reenvío inmediato de los datos del intento actual. Los intentos siguientes, en caso de existir, seguirán el tiempo estándar estipulado.
+
+Además, el sistema muestra el mensaje informando que los registros de eventos con falla del gatillo que fue reactivado fueron reenviados automáticamente.
+
+<figure><img src="../../.gitbook/assets/image (857).png" alt=""><figcaption></figcaption></figure>
+
+***
+
+## Registros de Fallo
 
 En esta pestaña es posible seguir los registros de fallas del webhook.
 
@@ -394,6 +408,10 @@ En todos los casos, si un reenvío tiene éxito, el registro se elimina de la cu
 
 En la columna "Fallo", se presenta el mensaje de la falla ocurrida. Al hacer clic en el ícono, se abre una nueva ventana.
 
-<figure><img src="../../.gitbook/assets/image (26).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (858).png" alt=""><figcaption></figcaption></figure>
 
 En la nueva ventana, además del mensaje de detalle de la falla, se presentan otros datos del proceso.
+
+#### Reenviar
+
+Se permite el reenvío manual de los datos de los registros con falla solamente para gatillos con estado activo. Los registros con falla del gatillo con estado inactivo se listan con el botón "Reenviar" deshabilitado.
