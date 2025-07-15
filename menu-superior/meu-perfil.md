@@ -69,7 +69,7 @@ En la pestaña Mis Contactos, el usuario puede registrar información de destina
 
 **Barra de Búsqueda:** Es posible localizar un contacto específico utilizando los filtros de correo electrónico o WhatsApp para la búsqueda.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### Importación de Contactos
 
@@ -79,11 +79,11 @@ Además de la opción de añadir nuevos contactos manualmente, el sistema tambi�
 * Haga clic en la pestaña **Mis contactos**.
 * Haga clic en el ícono de **importación** que aparece junto a la lista de contactos.
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Se abrirá una ventana para realizar la carga del archivo CSV.
 
-<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1).png" alt="" width="410"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (1) (1) (1) (1) (1).png" alt="" width="410"><figcaption></figcaption></figure>
 
 #### Hoja modelo
 
