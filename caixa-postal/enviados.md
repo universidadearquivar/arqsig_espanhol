@@ -262,7 +262,7 @@ Al hacer clic en este ícono, será posible cancelar el envío de los documentos
 
 <figure><img src="../.gitbook/assets/image (651).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1).png" alt="" width="328"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1) (1) (1) (1) (1) (1).png" alt="" width="328"><figcaption></figcaption></figure>
 
 #### **E**liminar
 

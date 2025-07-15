@@ -6,11 +6,11 @@ La función del "Grupo de Usuarios" es reunir a los usuarios que forman parte de
 
 En la pantalla principal de Grupo de Usuarios, se presenta el nombre del grupo y la fecha y hora de creación del grupo.
 
-<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 Para crear un grupo, haga clic en el ícono “Nuevo”.
 
-<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="397"><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt="" width="397"><figcaption></figcaption></figure>
 
 Ingrese el nombre del grupo. A la izquierda se mostrarán todos los usuarios que no forman parte del grupo. Es posible buscar un usuario utilizando la barra de búsqueda. Para agregar uno o más miembros al grupo, seleccione los usuarios deseados y haga clic en el ícono “Agregar” o “Agregar Todos”.
 
