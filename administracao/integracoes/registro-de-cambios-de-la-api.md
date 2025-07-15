@@ -4,7 +4,167 @@ icon: rectangle-history
 
 # Registro de Cambios de la API
 
+## 2025
+
+<details>
+
+<summary>2.19.0 - 02/07/2025</summary>
+
+**V1**
+
+[<mark style="color:blue;">**API de integración: Método GET api/v1/processo/{idProcesso}/status-do-processo**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.4.get-api-v1-processo-idprocesso-status-do-processo)
+
+Descripción: Buscar estado del proceso de firmas V1.
+
+Objetivo del Método: Este servicio permite a los Clientes, vía API, buscar el estado de un proceso, no excluido lógicamente.
+
+Alteración:
+
+* Retornar también el parámetro idStatus.
+
+**V2**
+
+[<mark style="color:blue;">**API de integración:**</mark> <mark style="color:blue;"></mark><mark style="color:blue;">Método</mark> <mark style="color:blue;"></mark><mark style="color:blue;">**GET api/v2/processo/{idProcesso}?arquivoTipo=1\&retornarRegistroAssinatura=true**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.2.get-api-v2-processo-idprocesso)
+
+Descripción: Buscar informaciones completas del proceso de firmas V2 (metadatos, firmantes y documentos).
+
+Objetivo del Método: Este servicio permite a los Clientes, vía API, buscar un proceso (no excluido) con todos sus datos, incluyendo firmantes y documentos asociados.
+
+Alteraciones:
+
+* Adición del parámetro arquivoTipo (1 = Base64, 2 = enlace de descarga).
+* Adición del parámetro retornarRegistroAssinatura (incluye o no el registro de firma).
+* Expansión del retorno con nuevos campos del proceso, recordatorios, datos completos de firmantes y documentos.
+
+**V3**
+
+[<mark style="color:blue;">**API de integración: Método POST /api/v3/processo/enviar-documento-para-assinar**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.1.post-api-v3-processo-enviar-documento-para-assinar)
+
+Descripción: Enviar proceso y documentos para firma V3.
+
+Objetivo del Método: Este servicio permite a los Clientes, vía API, enviar uno o más documentos para firma, especificando responsables y destinatarios.
+
+Alteración única en relación a la V2:
+
+* Inclusión de la opción **linkDocumento -** si se informa, el documento será referenciado vía enlace del repositorio del cliente y no será enviado en Base64; en caso de no enviarse esta etiqueta, se mantiene el envío en Base64 como en la V2.
+
+</details>
+
+<details>
+
+<summary>2.16.0 - 02/06/2025</summary>
+
+El foco de esta versión está en el retorno de datos de los siguientes endpoints:
+
+[<mark style="color:blue;">**API de integración: Método GET api/v1/processo/{idProcesso}/status-do-processo**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.4.get-api-v1-processo-idprocesso-status-do-processo)
+
+Descripción: Buscar estado del proceso de firmas V1.
+
+Objetivo del Método: Este servicio permite a los Clientes, vía API, buscar el estado de un proceso, no excluido lógicamente.
+
+**Alteración:** Retornar también el parámetro idStatus.
+
+[<mark style="color:blue;">**API de integración: Método GET api/v1/processo/{idProcesso}/dados-signatarios**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.5.get-api-v1-processo-idprocesso-dados-signatarios)
+
+Descripción: Buscar datos de los firmantes V1.
+
+Objetivo del Método: Este servicio permite a los Clientes, vía API, buscar los datos de los firmantes del proceso, no excluido lógicamente, con acción de Assinar Online (tipoAcao = 1).
+
+No debe retornar datos de los firmantes con acción de Receber Cópia (tipoAcao = 2).
+
+**Alteración:** Retornar también los parámetros:
+
+"idStatus"
+
+"dataConclusao"
+
+"dataCancelamento"
+
+"usuarioCancelamento"
+
+"idTipoAcao"
+
+"falhaEnvioCodigoSeguranca"
+
+"dataAssinatura"
+
+"assinaturaRecusada"
+
+"motivoRecusa"
+
+"anexos" \["id", "anexoDocumentoNome"]
+
+
+
+[<mark style="color:blue;">**API de integración: Método GET api/v2/processo/{idProcesso}**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.2.get-api-v2-processo-idprocesso)
+
+Alteración: Retornar también los parámetros:
+
+idStatus
+
+idTipoAcao
+
+idTipoAssinatura
+
+falhaEnvioCodigoSeguranca
+
+linkDocumentoCompartilhado
+
+
+
+[<mark style="color:blue;">**API de integración: Método POST api/v1/conta/buscar-consumo-itens-assinatura**</mark>](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/4.-cuenta/4.2.post-api-v1-conta-buscar-consumo-itens-assinatura)
+
+Descripción: Buscar el uso y consumo de los ítems de la firma de la cuenta V1.
+
+Objetivo del Método: Este servicio permite buscar la cantidad de ítems de envíos (Envios, WhatsApp, SMS) que la cuenta usó en determinado período.
+
+**Alteración:** Ajustado el retorno de este endpoint para no contabilizar ítems de envíos de procesos cancelados en el período consultado.
+
+</details>
+
+<details>
+
+<summary>2.15.0 - 20/05/2025</summary>
+
+Ajuste de la API [enviar proceso para firmar](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.post-api-v2-processo-enviar-documento-para-assinar)
+
+</details>
+
+<details>
+
+<summary>2.8.0 - 30/01/2025</summary>
+
+* Ajuste de la API[ buscar datos de la firma de la cuenta:](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/4.-cuenta/4.3.get-api-v1-conta-dados-assinatura)
+  * Se modificó el servicio de búsqueda de datos de la firma de la cuenta para retornar el idStatus de la cuenta:\
+    1 - Activo, 2 - Inactivo, 3 - Bloqueado, 4 - Pendiente.
+
+- Mejoras en los parámetros de retorno del[ Webhook](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/webhook).
+
+</details>
+
 ## 2024
+
+<details>
+
+<summary>2.6.0 - 18/12/2024</summary>
+
+**Se disponibilizó un nuevo método:**
+
+* [**GET api/v1/confwebhook**](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/5.-webhook/5.3.get-api-v1-confwebhook)
+  * Este servicio permite a los Clientes, vía API, buscar las configuraciones de webhook de la cuenta.
+
+**Se realizó un ajuste en el método de enviar proceso.**
+
+* [**POST /api/v2/processo/enviar-documento-para-assinar**](https://manual.arquivar.com/manual-arqsign-or-espanhol/administracao/integracoes/api/metodos-disponibles-en-la-api/1.-proceso/1.1.post-api-v2-processo-enviar-documento-para-assinar)
+  * Este servicio permite a los Clientes, vía API, enviar un proceso con uno o más documentos para firmar. El Usuario debe informar los datos del proceso, documentos y de los destinatarios participantes del proceso de firma.
+
+Los ajustes fueron:
+
+* Inclusión de parámetro para definir la representación visual de firma para los firmantes.
+* Inclusión de parámetro para definir datos de firmas para llenado automático o validación para los firmantes.
+* Permitir informar un id de carpeta excluida lógicamente.
+
+</details>
 
 <details>
 
