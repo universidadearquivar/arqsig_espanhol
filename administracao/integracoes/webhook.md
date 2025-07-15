@@ -71,13 +71,15 @@ Cuando está habilitado, el sistema lista las acciones, según el estado del web
 * **Eliminar**: solo para configuraciones de webhook con estado Inactivo.
 * **Inactivar**: solo para configuraciones de webhook con estado Activo.
 
+***
+
 ## Configuraciones de Webhook
 
 Al hacer clic en Agregar "+", se presenta la pantalla para la configuración del webhook.
 
 <figure><img src="../../.gitbook/assets/image (2) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Datos Generales
+### Datos Generales
 
 Los datos generales del webhook deben ser informados en esta área:
 
@@ -99,18 +101,20 @@ Los datos generales del webhook deben ser informados en esta área:
 <mark style="color:blue;">Marcar este campo hará que el webhook espere una confirmación de su listener (URL para publicar) después de enviar un mensaje. El webhook registra una transferencia de mensajes exitosa cuando el listener retorna un código de estado HTTP 200. Si esta opción no está marcada y el webhook no recibe un código de estado HTTP 200, la aplicación no considerará esto como una falla.</mark>
 {% endhint %}
 
-## Ejecutar el webhook cuando
+### Ejecutar el webhook cuando
 
 En esta área se deben definir los requisitos previos para la ejecución del webhook.
 
 <figure><img src="../../.gitbook/assets/image (4) (1) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-## Agregar Grupos y Usuarios
+#### Agregar Grupos y Usuarios
 
 Esta opción se utiliza para configurar uno o más grupos y/o usuarios como parámetros de ejecución del webhook. Es decir, el webhook solo se ejecutará si el remitente del proceso es un usuario seleccionado o si forma parte de un grupo configurado en este campo. Este es un campo de llenado opcional.
 
 {% hint style="danger" %}
-<mark style="color:red;">Si uno de los grupos listados ha sido excluido posteriormente, se mostrará en rojo. Si uno de los usuarios listados ha sido inactivado, bloqueado o ha dejado de ser administrador global posteriormente, también se mostrará en rojo.</mark>
+<mark style="color:red;">Si uno de los grupos listados ha sido excluido posteriormente, se mostrará en rojo.</mark>&#x20;
+
+<mark style="color:red;">Si uno de los usuarios listados ha sido inactivado, bloqueado o ha dejado de ser administrador global posteriormente, también se mostrará en rojo.</mark>
 {% endhint %}
 
 <figure><img src="../../.gitbook/assets/image (5) (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
@@ -151,7 +155,7 @@ Lea atentamente el mensaje de validación del proceso y haga clic para continuar
 <mark style="color:green;">Las definiciones realizadas se presentarán en el campo</mark> <mark style="color:green;"></mark><mark style="color:green;">**"El proceso haya sido creado en una de las carpetas seleccionadas en este campo",**</mark> <mark style="color:green;"></mark><mark style="color:green;">que se verifica para la</mark> <mark style="color:green;"></mark><mark style="color:green;">**"Ejecución del webhook".**</mark>
 {% endhint %}
 
-## **Disparadores**
+### **Disparadores**
 
 En esta área, es necesario definir uno o más disparadores de ejecución del webhook. Es decir, aquí se establecen los momentos en los que se ejecutará el webhook, llamando a la URL con los datos en formato JSON, según la configuración de retorno.
 
@@ -169,7 +173,7 @@ Proceso enviado
 6. Proceso reenviado
 7. Proceso firmado/concluido por todos los signatarios
 
-## **Retorno**
+### **Retorno**
 
 En esta área, se definen los datos que se devolverán en el JSON, además de los datos generales.
 
@@ -185,7 +189,7 @@ Los datos posibles son:
 <mark style="color:red;">Los datos generales forman parte del inicio del JSON y siempre serán enviados, incluso si no hay datos marcados para retorno en el JSON.</mark>
 {% endhint %}
 
-## **Json**
+### **Json**
 
 En esta área, el sistema muestra el ejemplo de retorno del JSON.
 
@@ -204,6 +208,8 @@ Los datos de retorno configurados se representan en el campo JSON a medida que s
 El **"Link dos documentos compartilhados"** es el enlace de compartición de los documentos del proceso. Estos enlaces se disponibilizan solamente en la conclusión de procesos que tienen la configuración **"GerarQRCode"**. Concluidas las configuraciones, haz clic en "Salvar". Se habilitarán nuevas pestañas para el avance de las configuraciones.
 
 <figure><img src="../../.gitbook/assets/image (15).png" alt=""><figcaption></figcaption></figure>
+
+***
 
 ## HMAC
 
@@ -235,6 +241,8 @@ Utilizando los íconos disponibles en la pantalla, el usuario podrá:
 
 Valide la acción en la pantalla para continuar.
 
+***
+
 ## Disparador
 
 En esta sección se enumeran los disparadores configurados para el webhook en cuestión, ordenados según el evento de ejecución.
@@ -264,12 +272,12 @@ Al reactivar el disparador que está inactivo por fallas recurrentes, el sistema
 
 **Columna Acciones**: Permite la nueva activación de un disparador desactivado por fallas recurrentes, siempre que no haya ningún otro usuario realizando la edición del disparador en cuestión.
 
-## Ejecución
+### Ejecución
 
 A cada evento en la aplicación, conforme a los disparadores listados a continuación, el sistema ejecuta el webhook, enviando actualizaciones (mensajes de evento) a la URL configurada en tiempo real, es decir, en el momento de la ocurrencia del evento configurado.
 
-1. Proceso enviado: Al enviar un proceso a través de la aplicación ArqSign o API, el sistema ejecuta el webhook con este disparador, enviando los datos, según la configuración de retorno, a la URL configurada.
-2. Proceso con fallo de envío: Cuando hay un fallo en el envío del proceso a algún destinatario y/o fallo en el envío del código de seguridad a algún destinatario.
+1. **Proceso enviado:** Al enviar un proceso a través de la aplicación ArqSign o API, el sistema ejecuta el webhook con este disparador, enviando los datos, según la configuración de retorno, a la URL configurada.
+2. **Proceso con fallo de envío:** Cuando hay un fallo en el envío del proceso a algún destinatario y/o fallo en el envío del código de seguridad a algún destinatario.
 
 {% hint style="danger" %}
 <mark style="color:red;">El retorno del JSON cuando se marca para devolver los datos "Signatários" para este disparador en específico, devolverá solamente los datos del firmante que tuvo el fallo de envío del proceso y/o del código de seguridad.</mark>
@@ -292,11 +300,11 @@ A cada evento en la aplicación, conforme a los disparadores listados a continua
 
 8. Proceso firmado/concluido por todos los firmantes: Así que el proceso es totalmente firmado por todos los firmantes.
 
-## Fallos en la Ejecución
+### Fallos en la Ejecución
 
 Cuando el envío de datos no es exitoso, la información de fallo se registra en el sistema para un posterior intento de envío de forma manual o automatizada. La aplicación considera una entrega exitosa o no conforme a algunos parámetros:
 
-**A. Webhook configurado CON la opción "Esperar Retorno":**
+#### **A. Webhook configurado CON la opción "Esperar Retorno":**
 
 Con esta configuración, el webhook espera, durante un período de 100 segundos, una confirmación de su listener (URL a publicar) después del envío del mensaje.
 
@@ -312,7 +320,7 @@ Las transmisiones con fallas en la entrega son elegibles para nuevos intentos ma
 * 403 – Sin permiso de acceso al servidor. El servidor atendió la solicitud, pero se niega a hacerlo.
 * 404 – URL no existe.
 
-**B. Webhook configurado SIN la opción "Esperar Retorno":**
+#### **B. Webhook configurado SIN la opción "Esperar Retorno":**
 
 Sin esta configuración, el webhook debe esperar, durante un <mark style="color:red;">**período de 100 segundos**</mark>, una confirmación de su listener después del envío del mensaje.
 
@@ -327,7 +335,7 @@ Las transmisiones con fallas en la entrega son elegibles para nuevos intentos ma
 * 403 – Sin permiso de acceso al servidor. El servidor atendió la solicitud, pero se niega a hacerlo.
 * 404 – URL no existe.
 
-## Retransmisión en caso de fallas
+### Retransmisión en caso de fallas
 
 Las fallas de comunicación elegibles para retransmisión podrán ocurrir de forma manual, a solicitud del usuario en la aplicación o de forma automática conforme a la periodicidad a continuación:
 
