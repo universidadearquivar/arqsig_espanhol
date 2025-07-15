@@ -25,7 +25,7 @@ En la respuesta del webhook de monitoreo, se recomienda no incluir ningún dato 
 ### Retorno
 
 * Datos del proceso
-* Signatarios
+* Firmantes
 
 ## **Webhook de Finalización**
 
@@ -34,7 +34,7 @@ El propósito del webhook de finalización es enviar el documento firmado a su s
 ### Retorno
 
 * Datos del proceso
-* Signatarios
+* Firmantes
 * Documentos
   * Archivos del proceso: Enlace para descargar el archivo
   * Enlaces compartidos del documento
@@ -44,7 +44,7 @@ Con los dos Webhooks configurados, puede implementar el siguiente flujo de integ
 
 ## Flujo de Integración
 
-Haga clic en las imágenes para ampliarlas
+_Haga clic en las imágenes para ampliarlas_
 
 <figure><img src="../../.gitbook/assets/image (777).png" alt=""><figcaption></figcaption></figure>
 
@@ -58,7 +58,7 @@ Haga clic en las imágenes para ampliarlas
 
 <figure><img src="../../.gitbook/assets/image (782).png" alt=""><figcaption></figcaption></figure>
 
-### Flujo de Trabajo Detallado
+### Detalle del flujo
 
 1. **Envío de Documentos a los Signatarios**
 
@@ -82,13 +82,13 @@ Después de recibir esta respuesta del Webhook, el cliente puede implementar la 
 > * **URL:** PATCH https://api-rest.arqsign.com/api/v2/processo/{idProcesso}/reenviar-processo
 > * **Documentación:** [https://developers.arqsign.com/api-details#api=api-rest-arqsign\&operation=6734bb1a21b37c983bbe8bbe](https://developers.arqsign.com/api-details#api=api-rest-arqsign\&operation=6734bb1a21b37c983bbe8bbe)
 
-3. **Monitoreo: Firmado por un Signatario**
+3. **Acompañamiento: firmado por algún signatario**
 
 Cuando un signatario firma el documento, la aplicación ArqSIGN activará el Webhook, que llamará al servicio (URL) del cliente según lo configurado.
 
 Con los datos retornados por el Webhook, el cliente puede actualizar su sistema para mantener la información sincronizada.
 
-4. **Monitoreo: Rechazo o Cancelación**
+4. **Acompañamiento: rechazo o cancelación**
 
 El proceso puede ser cancelado de tres maneras:
 
@@ -100,7 +100,7 @@ Cuando ocurre la cancelación, el Webhook llamará al endpoint del cliente como 
 
 En este punto, el cliente puede manejar la respuesta y decidir si reinicia el proceso llamando al método POST para enviar un nuevo documento para firmar (Paso 1).
 
-5. **Monitoreo: Expiración**
+5. **Acompañamiento: Expiración**
 
 Cuando el documento expira, la aplicación ArqSIGN activará el Webhook, que llamará al endpoint del cliente como fue configurado.
 
